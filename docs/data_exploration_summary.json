@@ -1,0 +1,116 @@
+{
+  "total_records": 2000,
+  "total_columns": 22,
+  "attribute_coverage": {
+    "id": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "base_id": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "sources": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "names": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "categories": {
+      "non_null_count": 1984,
+      "null_count": 16,
+      "null_percentage": 0.8
+    },
+    "confidence": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "websites": {
+      "non_null_count": 1712,
+      "null_count": 288,
+      "null_percentage": 14.399999999999999
+    },
+    "socials": {
+      "non_null_count": 1392,
+      "null_count": 608,
+      "null_percentage": 30.4
+    },
+    "emails": {
+      "non_null_count": 0,
+      "null_count": 2000,
+      "null_percentage": 100.0
+    },
+    "phones": {
+      "non_null_count": 1891,
+      "null_count": 109,
+      "null_percentage": 5.45
+    },
+    "brand": {
+      "non_null_count": 704,
+      "null_count": 1296,
+      "null_percentage": 64.8
+    },
+    "addresses": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "base_sources": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "base_names": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "base_categories": {
+      "non_null_count": 1988,
+      "null_count": 12,
+      "null_percentage": 0.6
+    },
+    "base_confidence": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "base_websites": {
+      "non_null_count": 1997,
+      "null_count": 3,
+      "null_percentage": 0.15
+    },
+    "base_socials": {
+      "non_null_count": 1017,
+      "null_count": 983,
+      "null_percentage": 49.15
+    },
+    "base_emails": {
+      "non_null_count": 1000,
+      "null_count": 1000,
+      "null_percentage": 50.0
+    },
+    "base_phones": {
+      "non_null_count": 1996,
+      "null_count": 4,
+      "null_percentage": 0.2
+    },
+    "base_brand": {
+      "non_null_count": 1954,
+      "null_count": 46,
+      "null_percentage": 2.3
+    },
+    "base_addresses": {
+      "non_null_count": 2000,
+      "null_count": 0,
+      "null_percentage": 0.0
+    }
+  }
+}
