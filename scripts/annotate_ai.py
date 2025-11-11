@@ -70,15 +70,15 @@ class AIAnnotator:
                 available_model = models.data[0].id
                 if self.model is None:
                     self.model = available_model
-                    print(f"✓ Connected to LM Studio. Using model: {self.model}")
+                    print(f"[OK] Connected to LM Studio. Using model: {self.model}")
                 else:
-                    print(f"✓ Connected to LM Studio. Model: {self.model}")
+                    print(f"[OK] Connected to LM Studio. Model: {self.model}")
             else:
-                print("⚠ Warning: No models found in LM Studio. Make sure a model is loaded.")
+                print("[WARNING] No models found in LM Studio. Make sure a model is loaded.")
                 if self.model is None:
                     self.model = "unknown"
         except Exception as e:
-            print(f"⚠ Warning: Could not connect to LM Studio: {e}")
+            print(f"[WARNING] Could not connect to LM Studio: {e}")
             print("Make sure LM Studio is running with a model loaded on port 1234")
             if self.model is None:
                 self.model = "unknown"
@@ -176,11 +176,20 @@ Only respond with the JSON object, nothing else."""
                         }
                     ],
                     temperature=0.2,  # Low temperature for consistency
-                    max_tokens=200,
-                    response_format={"type": "json_object"}
+                    max_tokens=200
                 )
                 
                 result_text = response.choices[0].message.content
+                
+                # Strip markdown code blocks if present (for models like Gemma)
+                if result_text.strip().startswith('```'):
+                    # Remove ```json or ``` from start and ``` from end
+                    lines = result_text.strip().split('\n')
+                    if lines[0].startswith('```'):
+                        lines = lines[1:]  # Remove first line
+                    if lines and lines[-1].strip() == '```':
+                        lines = lines[:-1]  # Remove last line
+                    result_text = '\n'.join(lines)
                 
                 # Parse JSON response
                 result = json.loads(result_text)
@@ -304,7 +313,7 @@ Only respond with the JSON object, nothing else."""
         
         # Final save
         self.save_annotations(output_file)
-        print(f"\n✓ Completed!")
+        print(f"\n[OK] Completed!")
         print(f"  Processed: {processed} new records")
         print(f"  Skipped: {skipped} already annotated")
         print(f"  Total annotations: {len(self.annotations)}")

@@ -1,0 +1,1602 @@
+[
+  {
+    "record_index": 0,
+    "id": "08f64a59990a63a0030784450be43ba4",
+    "choice": "u",
+    "notes": "Category is significantly different between versions. Current has 'thai_restaurant' as an alternate, while Base categorizes it as a hair salon. Needs review to determine the most accurate categorization.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 1,
+    "id": "08f3da18ccad52ad03cc06b87820910f",
+    "choice": "c",
+    "notes": "Current version has a more complete website URL (includes specific location). Otherwise, data is very similar across both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 2,
+    "id": "08f4823ad167532903b45bc53a70221e",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone, website, and address. Category is also more specific. Name difference is minor (adding 'México').",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 3,
+    "id": "08f28de8b291171e037d00b748edc418",
+    "choice": "c",
+    "notes": "Current version has HTTPS website, more complete address (includes unit number), and no unnecessary alternate categories.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 4,
+    "id": "08fa90e8d6b065a303084f1af4a32095",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone and website. Address is slightly different but both are valid. Category in current version is more specific and useful.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 5,
+    "id": "08f618c49a7528c003ccdd6a1e4805b9",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The website URL in the current version is more specific and likely leads to a relevant page. The address in the current version also includes 'South Mada Street', which is missing in the base version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 6,
+    "id": "08f2aad39c474c9c03e6e7b74bca7273",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for all attributes. It includes a phone number, website, full address, and relevant category. The base version lacks key information like phone, website, and region/postcode in the address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 7,
+    "id": "08fa810394ce9a0003eabeff0516b3b1",
+    "choice": "c",
+    "notes": "Current version provides a more complete address with postcode and consistent formatting. The current name is also more specific and includes the neighborhood. While both versions have valid phone numbers, the current version uses the preferred international format. Website URLs are subjective, but the current URL appears to be more active and relevant.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 8,
+    "id": "562949960007229",
+    "choice": "b",
+    "notes": "Base version has a more accurate address (510 Birthplace Of Country Music Way is the correct street address). Other attributes are identical.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 9,
+    "id": "08f39608a0b76a6203fb3f420b3f857f",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address in the base version seems incorrect.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 10,
+    "id": "1125899909415294",
+    "choice": "c",
+    "notes": "Both versions have identical name, website, and category. The current version has a slightly more accurate address format (no extra space in freeform). Phone number is different, but both are valid.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 11,
+    "id": "08f1e15b0b2cbc5303c99047c56c8812",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for name, website, and category. Address is nearly identical, and phone number in current version appears more standard.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 12,
+    "id": "08f64a4ba092672503433c3f96046607",
+    "choice": "b",
+    "notes": "Base version has more complete address information (including locality and region) and a more specific category. Both versions have missing phone and website data.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 13,
+    "id": "08f2a1001299846e0365e336fd67ea1f",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate website URL (https://www.childrensplace.com) compared to the Base's location-specific URL. Both versions have identical name, phone number, address, and category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 14,
+    "id": "08f2a10af6490232035733f1aacdac0c",
+    "choice": "c",
+    "notes": "Current version has more complete category information (alternate categories) and address information (includes locality). Phone number format is also standardized in the current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 15,
+    "id": "1125899911666117",
+    "choice": "b",
+    "notes": "Base version has a more accurate category (department store) and uses HTTPS for the website URL.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 16,
+    "id": "08f2aab52140802c0395a9524fcac41d",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including postcode). Both versions have accurate name, phone, and website. Current's category is more specific and relevant to a tax service.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 17,
+    "id": "562949958207347",
+    "choice": "c",
+    "notes": "Current version has a more complete address and website.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 18,
+    "id": "08f4983ca438bc5b033bac5a072fa3cd",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone, website, and address. Category is also more specific. Name difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 19,
+    "id": "08f64a090e19a48203f58e9c92720d04",
+    "choice": "b",
+    "notes": "Base version provides more complete category information (including subcategories) and a longer name that might be more descriptive.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 20,
+    "id": "1125899912289624",
+    "choice": "s",
+    "notes": "All attributes are identical between the current and base versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 21,
+    "id": "08f8c100e5135acc0320b9849219dda3",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for Name, Phone, Address, and Category. Base version's category is inaccurate.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 22,
+    "id": "08f264626394cd4b030ac3f573c76061",
+    "choice": "c",
+    "notes": "Current version has a more accurate address (Richmond Heights), and a category that better reflects an ATM location (atms). Base's category is too broad and the city is incorrect.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 23,
+    "id": "08f2aa650405da4d03ac202ae41b574e",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for name, phone, website, and category. Address is debatable but current aligns better with online presence.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 24,
+    "id": "08f64b018d54d71403e6f180aca04fd1",
+    "choice": "b",
+    "notes": "Base version provides more specific and detailed category information, aligning better with the likely nature of 'Pilatus Apartment'. Current category is too broad.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 25,
+    "id": "08f195b614a70ba603c3acc5ff81ea94",
+    "choice": "c",
+    "notes": "Current version has a more complete address (includes region), and slightly more specific category. Both versions have identical name, phone, and website.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 26,
+    "id": "08f1955b54b2a74c0328fbe52b771e1c",
+    "choice": "c",
+    "notes": "Current version has more accurate and complete address information (including region). Category is also more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 27,
+    "id": "562949955127994",
+    "choice": "c",
+    "notes": "Current version has a website URL, which is valuable for data quality. Both versions have identical address and category information.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 28,
+    "id": "08f44e5a4a781c1e03baeb3101f89e1e",
+    "choice": "c",
+    "notes": "Current version has a more complete address (including postcode) and a slightly better website URL (HTTPS). Both versions have identical names and phone numbers.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 29,
+    "id": "08f1f1a9ab72151e0395f93e968c61b9",
+    "choice": "c",
+    "notes": "Current version has more complete category information and a more standardized website URL.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 30,
+    "id": "08fbe63da4d1c35203c109690c55a1a6",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate address information (correct locality), and a more specific category that aligns better with 'Isuzu UTE' brand.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 31,
+    "id": "1125899912707169",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 32,
+    "id": "08f2986b8089b2cb03220db3aa72c816",
+    "choice": "c",
+    "notes": "Current version has a more complete address and website. The name is also more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 33,
+    "id": "08f2aa419d72b04103961e80be2a5836",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes postal code extension) and a more specific primary category. Both versions have identical names, phone numbers, and websites.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 34,
+    "id": "08fa810056a2b6400390bcc253369382",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone, website, and address. Category in current version is also more specific and relevant to the business name.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 35,
+    "id": "08f4440ca382a59803895546c2d4bd4f",
+    "choice": "c",
+    "notes": "Current version has more accurate and complete category information (hospital, naturopathic_holistic) aligning better with the business name. Website uses HTTPS, address is more complete with state abbreviation. Phone number in current version is formatted with country code.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 36,
+    "id": "08f08ed358889889037e291e52eb62a5",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address is more detailed, the category is more specific and relevant, and the phone number format is standardized.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 37,
+    "id": "08f396cb6912ad000340ccfcbe06ce49",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for name, phone, website, and category. Address is less clear-cut, but Current's '95 Rue Neuve' seems more likely to be the primary address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 38,
+    "id": "08f1ea2d93cc3a9e035b43ef4cb52ad1",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address, category, and phone number in E.164 format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 39,
+    "id": "08f2a1340ea313910338f0d15a4b7f1f",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 40,
+    "id": "08f27418ead55b2203bbea6c6321ba6c",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including postcode) and a more specific primary category ('real_estate_agent'). The name in the current version is also preferred as it's likely the individual's professional name.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 41,
+    "id": "08f4440d8b89c95803ef5bd3cc80eac4",
+    "choice": "c",
+    "notes": "Current version has more consistent and specific categorization (primary: mexican_restaurant) compared to Base's overly verbose category. Both versions have accurate name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 42,
+    "id": "08f60a25956e9c320304addce950be4d",
+    "choice": "b",
+    "notes": "Base version has a more specific category (building_supply_store) and includes an alternate category (retail), providing a more comprehensive understanding of the business type.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 43,
+    "id": "1125899908355011",
+    "choice": "c",
+    "notes": "Both versions have identical address and category information. The current version has a more complete website URL (HTTPS) and a slightly more accurate name (removing 'Apartments' which is implied). Phone numbers are different, but both could be valid.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 44,
+    "id": "08f2ba86ae7436460305560e1acd61d2",
+    "choice": "c",
+    "notes": "Current version has more complete and specific categorization (alternate categories), a more accurate address format, and uses consistent formatting for phone numbers.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 45,
+    "id": "08f2a1345c68e8b3038979f9ceb4b9d6",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. It includes a valid HTTPS website URL, the full postal code, and a more specific primary category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 46,
+    "id": "281474979747202",
+    "choice": "c",
+    "notes": "Current version has a phone number while the base version does not. All other attributes are identical.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 47,
+    "id": "08f2aa87330ca7a903957473b2acce21",
+    "choice": "c",
+    "notes": "Current version has a more complete address (including 4-digit zip code) and a more specific category (pizza_restaurant). Website URL in current version appears to be location-specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 48,
+    "id": "1125899908351517",
+    "choice": "c",
+    "notes": "Both versions have identical name and address. Current version has a more relevant phone number (770-505-3855) compared to Base's 470-644-8140. Website URLs are different but both seem valid, so this is less impactful. Category information is also identical.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 49,
+    "id": "08f441a124c1b405038dbedfa98c0914",
+    "choice": "c",
+    "notes": "Current version has more consistent formatting and a clearer categorization. The website URL in the current version is also more relevant to the business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 50,
+    "id": "08f446ca1d028ae803f05a7a411e1cb6",
+    "choice": "c",
+    "notes": "Current version provides more complete and accurate data across all attributes. It includes a full address, specific category, and consistent formatting for phone and website.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 51,
+    "id": "562949966520897",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 52,
+    "id": "08f2a10aaba5c06303d8a67958549713",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address in the base version appears to be incorrect.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 53,
+    "id": "08f29a4018a454c403d3e547067a3d3b",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes locality and region), and a more comprehensive category set.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 54,
+    "id": "562949955293136",
+    "choice": "b",
+    "notes": "Base version provides a more complete address and website URL, making it more reliable overall.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 55,
+    "id": "08f2e644d0cac26b03e6d1add3a59cb8",
+    "choice": "b",
+    "notes": "Base version has a more complete address (including postcode) and a more specific category. The website in the base version is also likely more relevant as it's the official site.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 56,
+    "id": "08f2a143a2aea428033ac8f069c43517",
+    "choice": "c",
+    "notes": "Current version has more complete data for all attributes (name, phone, website, address, category). Base version lacks phone and website information and has a less specific category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 57,
+    "id": "08fa813b222f2c1e03f7aca38bf90b4e",
+    "choice": "c",
+    "notes": "Current version has a more complete address and category. Phone number format is consistent across both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 58,
+    "id": "08f26010a6db404403e339f85cbc6d43",
+    "choice": "c",
+    "notes": "Current version has more consistent formatting for address and phone. Category in current version is more specific and relevant to automotive repair.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 59,
+    "id": "08f2aa4d98923b4503b1be6672e9cf20",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes postcode extension). Category is also more specific and accurate.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 60,
+    "id": "08f2b8d419708d1c03dc65d72f11cf45",
+    "choice": "c",
+    "notes": "Current version has more complete and specific categorization (event_planning + american_restaurant) compared to Base's broad 'Dining and Drinking > Restaurant > American Restaurant'. Both versions have accurate name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 61,
+    "id": "08f1959b447aaa900389169fac74b366",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address, including postcode. The website URL is also more consistent in the current version. Both versions have valid phone numbers, but the current version uses the international format. The category in the current version aligns better with the business name 'Mirage Health and Wellbeing'.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 62,
+    "id": "08f1fa5290a1bb24032aa1147c2c2434",
+    "choice": "b",
+    "notes": "Base version provides more complete categorization (primary and alternate) and a slightly more standardized address format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 63,
+    "id": "08f186b6ca96aac003075fe4e8c7df44",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address, phone number in international format, and a more specific category. Website uses HTTPS.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 64,
+    "id": "08fbe0899519c116035ccb4f246d7ac9",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across most attributes. The address in the current version is also more concise and likely correct. Base version's category is too broad and lacks specificity.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 65,
+    "id": "08f1ea59834b6122035ebaf7626dd4a6",
+    "choice": "b",
+    "notes": "Base version has more complete address information (including locality and region), while both versions have accurate name, phone, website, and category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 66,
+    "id": "08f2a36c0344bc820337ca0f2e8822f2",
+    "choice": "c",
+    "notes": "Current version has more complete address (includes full postcode) and a more specific category with additional alternates.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 67,
+    "id": "08fc99348c32155c03765d142aeb22eb",
+    "choice": "c",
+    "notes": "Current version has a more accurate and specific category (active_life, gymnastics_center, gym) compared to Base's Health and Medicine which is too broad. Both versions have good name and address information.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 68,
+    "id": "08f618c4c6d826e803b8e71b07951b00",
+    "choice": "s",
+    "notes": "All attributes are identical or have minor variations (website URL has a UTM parameter). No significant differences justify choosing one version over the other.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 69,
+    "id": "08f1f166d246c3290303ee41124b93fa",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for Name, Phone, Address, and Category. Base version lacks phone number and website information.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 70,
+    "id": "08f2f5bd324367920389e650cbf19583",
+    "choice": "c",
+    "notes": "Current version has a more complete address (includes building number) and a primary category. Base version lacks a primary category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 71,
+    "id": "08f26c8390ba49350319b54f0294ec99",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes full postcode) and slightly better formatting for phone number.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 72,
+    "id": "08f3cc5a1476a45403ed1a0c115b1102",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address in the current version is more detailed, and the category in the current version is more specific and relevant.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 73,
+    "id": "08f3966534d9dc000361acdf01425035",
+    "choice": "b",
+    "notes": "Base version provides more complete address information (including locality and region), and its category is more specific and detailed.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 74,
+    "id": "1407374886265533",
+    "choice": "s",
+    "notes": "All attributes are identical between the current and base versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 75,
+    "id": "1970324838691605",
+    "choice": "b",
+    "notes": "Base version has HTTPS website and more complete name (includes 'Hotel'). Both versions have identical phone, address, and category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 76,
+    "id": "08f49a8381a4d0f303240f2cdfbb374f",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone and address. Category in current version is more specific and useful. Name difference is minor (apostrophe). Website missing in both.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 77,
+    "id": "08f29a4714a4879e03bb7589c7e079e7",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes postal code extension) and a more specific primary category. Website uses HTTPS, which is preferred.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 78,
+    "id": "2251799819474731",
+    "choice": "s",
+    "notes": "All attributes are identical between the current and base versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 79,
+    "id": "08f2e610518e82c003d85d6549dfc74b",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate categorization (primary + alternate) compared to Base's broad 'Retail > Fashion Retail > Jewelry Store'. Both versions have strong data for Name, Phone, Website, and Address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 80,
+    "id": "08f26c86642125b4031326f6a64ebbd6",
+    "choice": "c",
+    "notes": "Current version has a more accurate and complete address, phone number in E.164 format, and a primary category that better reflects the business. The website URL in the current version also appears to be more relevant.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 81,
+    "id": "08f26e3036354530039a96a9e4dcc0d4",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate address (including 9-digit postcode) and a more relevant alternate category ('american_restaurant'). Phone number formatting is also preferred in current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 82,
+    "id": "08f1f11618c549ae0318404b974f642c",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate categorization (primary and alternate categories). Website uses HTTPS, while Base uses HTTP. Address in both versions is identical.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 83,
+    "id": "08f4995b9e3aba6c03df20d5c7b3d01a",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone and address. Category is also more specific and relevant.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 84,
+    "id": "08f1f13d06cdb4dd03c2287ba2cf48a4",
+    "choice": "c",
+    "notes": "Current version has more specific and relevant category information (clothing_store, women's_clothing_store, swimwear_store) compared to Base's generic 'Retail > Textiles Store'. Both versions have accurate name and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 85,
+    "id": "08f6d231146cbb8203a6b43c5463e884",
+    "choice": "c",
+    "notes": "Current version has a more complete address and category. Phone number is present in current version but missing in base.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 86,
+    "id": "08fbe184e32632a503fa980d1ab35e1a",
+    "choice": "c",
+    "notes": "Current version has a more accurate and specific category (garbage_collection_service) compared to Base's broad Business & Professional Services categorization. Both versions have valid phone numbers and addresses, but Current's address is slightly more complete with the unit number. Website is missing in Current but present in Base, which might be relevant depending on the business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 87,
+    "id": "08f264622866338c03c99743da67ae23",
+    "choice": "c",
+    "notes": "Current version has more complete category information (alternate categories), and address is slightly more complete (includes 4-digit zip extension). Phone number formatting is preferred in current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 88,
+    "id": "08f2661b2228b3990350416b04e58e61",
+    "choice": "c",
+    "notes": "Current version has more complete address (includes postcode) and a more specific category with additional alternates.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 89,
+    "id": "08fa8186206ab06203b13b1910efb454",
+    "choice": "c",
+    "notes": "Current version has a more complete address and category. The base version's category ('Arts and Entertainment > Night Club') seems inaccurate given the 'community_center' primary category in the current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 90,
+    "id": "08f1e880c6d2a21a03dad9931d6666c6",
+    "choice": "c",
+    "notes": "Current version has more complete data for phone and address. Category in current version is more specific and relevant. Name difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 91,
+    "id": "08f1ed6c9600e9ac0396545f95a4326e",
+    "choice": "c",
+    "notes": "Current version has a more complete address and category information. The phone number in the current version is also likely more accurate as it's in international format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 92,
+    "id": "08f28f012d60e6ad03f99abbc4c48bf1",
+    "choice": "c",
+    "notes": "Current version has a complete address with postcode and more relevant alternate categories.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 93,
+    "id": "08f194ac2641827303a8c9d8d0f63cfb",
+    "choice": "c",
+    "notes": "Current version has a more complete address (includes region), and the website URL is more relevant to the business type. The phone number difference is minor (international vs. local format).",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 94,
+    "id": "08f4995b9d4208a20380224da236338f",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. It provides a phone number, a canonical HTTPS website URL, and a more specific address. The category is also more detailed.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 95,
+    "id": "08f1f9b089cf330d03b9a3ab6ad274ba",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. It provides a full address with region, a specific phone number format, and a more detailed category breakdown.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 96,
+    "id": "1407374883710721",
+    "choice": "c",
+    "notes": "Both versions have identical phone, website, and category information. The current version has a more complete address by including 'Midlothian Tpke' in the freeform field. While the base version lists 'North Chesterfield' as the locality, this is likely an error as the address itself points to Midlothian Turnpike which is within Richmond.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 97,
+    "id": "08f1f83ae545d60603a81502e8f95732",
+    "choice": "c",
+    "notes": "Current version has a more specific and relevant category (furniture_accessory_store) compared to Base's broad 'Business and Professional Services > Factory'. Other attributes are either identical or slightly prefer Current.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 98,
+    "id": "08f1e35418b8115d03d75b4f91514ad7",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including full postcode) and a more specific category. Both versions have valid phone numbers and websites.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 99,
+    "id": "08f44dd545c0313303fc66e60e99f054",
+    "choice": "c",
+    "notes": "Current version has more specific and relevant category information (mortgage_lender). Both versions have accurate name, address, and website. Phone number format difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 100,
+    "id": "08f26eec3634b47603f6d23fb1b12603",
+    "choice": "c",
+    "notes": "Current version has more complete data (website, additional category) and uses preferred formatting (international phone number).",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 101,
+    "id": "2251799819434396",
+    "choice": "c",
+    "notes": "Both versions have identical address and category information. The current version has a more complete name (including 'Group') and a slightly better formatted website URL.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 102,
+    "id": "08f1f0b44e466a0103f39fa87dc0107b",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 103,
+    "id": "08f658e764964a7403a88c11cb4e70e4",
+    "choice": "b",
+    "notes": "Base version provides a more detailed and specific category classification (Dining and Drinking > Restaurant > Asian Restaurant > Noodle Restaurant), which is more informative than the broader 'eat_and_drink' category in the current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 104,
+    "id": "1125899912773417",
+    "choice": "s",
+    "notes": "All attributes are identical between versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 105,
+    "id": "08f4440c1249b85c03b5b634418623f6",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 106,
+    "id": "08f1f22ba441bd8003c9ac92d5a2e082",
+    "choice": "c",
+    "notes": "Current version has more complete data (website and address), accurate formatting for phone number, and a more specific category. The base version lacks website information and has an inaccurate address format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 107,
+    "id": "08f2a9872c50396203af1c0b0e7c8f17",
+    "choice": "c",
+    "notes": "Current version has a website URL and more complete category information (includes 'grocery_store'). Address difference is minor (street number). Phone format in current version is preferred.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 108,
+    "id": "1970324838624365",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 109,
+    "id": "1125899913098456",
+    "choice": "s",
+    "notes": "All attributes are identical between versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 110,
+    "id": "08f271a2d0294804035e0f9b5baa38d6",
+    "choice": "c",
+    "notes": "Current version has more complete address (includes postcode extension) and a more comprehensive category list.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 111,
+    "id": "08f1e82252c1c0ae03c90f2f5d5feef9",
+    "choice": "b",
+    "notes": "Base version provides more complete address information (including locality), and a more specific category. Current version has alternate categories that are less relevant to a bar.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 112,
+    "id": "08f48932e69a12dd03d5671400e23b78",
+    "choice": "c",
+    "notes": "Current version has more specific and relevant category information. Phone number formatting is consistent across both versions but Current's format is preferred. Website URLs are functionally equivalent.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 113,
+    "id": "08fb25919140d504031466d3d5beb5d2",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for phone, website, and address. Category is also more specific and useful.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 114,
+    "id": "08f441ab99d1e40903520592b478eaee",
+    "choice": "c",
+    "notes": "Current version has a more accurate category (restaurant) and provides a complete address with postcode. The website URL in the current version also uses HTTPS.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 115,
+    "id": "08f446cb626c2d00031ae6ee7a950c05",
+    "choice": "s",
+    "notes": "All attributes are identical between the current and base versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 116,
+    "id": "08f1fa59513a595d032fdd2acd350b85",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate category information. Address is also slightly better formatted in current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 117,
+    "id": "08f2ad34495a3453030061ea2bb1add4",
+    "choice": "s",
+    "notes": "All attributes are identical between versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 118,
+    "id": "08f2af60c44941950327df46b0384e4b",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including postal code extension) and a more specific category that aligns better with the business name.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 119,
+    "id": "08f2a92a8c54d533034329dc2c045529",
+    "choice": "b",
+    "notes": "Base version has more complete data (website, address with locality and region), and a more specific category. Current version lacks website and has a less detailed address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 120,
+    "id": "08f1f852314e30580373a86cedf0b53a",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. It provides a more specific category and includes relevant alternate categories. The website URL in the current version is also HTTPS.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 121,
+    "id": "08f1e8079056036d03df90e7738c96c3",
+    "choice": "c",
+    "notes": "Current version has a more complete category and address. Phone number formatting is minor difference.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 122,
+    "id": "08f818584926190503301a10eee5fc4a",
+    "choice": "c",
+    "notes": "Current version has a more complete address (includes postcode) and a more specific category. The name difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 123,
+    "id": "08f194855a68525c032b1c6022501687",
+    "choice": "c",
+    "notes": "Current version has more accurate address (postcode), and consistent region format. Category in current version is also more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 124,
+    "id": "08f2a13d500ec592038947279db72951",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address, including the full postcode. The website URL in the current version is also more specific to the business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 125,
+    "id": "08f1f1253491e08a0355c6b41a4f0509",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The 'alternate' categories in Current are more relevant than Base's broad categorization.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 126,
+    "id": "2251799821514825",
+    "choice": "c",
+    "notes": "Current version has a more complete website URL and a slightly more specific category (pharmacy vs drugstore). Both versions have identical addresses and phone numbers.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 127,
+    "id": "08f2b9bc466424e403ff1e1ca190b31f",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 128,
+    "id": "08f29a4c74384c8003621001ebd68dce",
+    "choice": "c",
+    "notes": "Current version provides more complete and specific data for name, phone, website, and category. Address is similar in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 129,
+    "id": "08f1f1a8da865c3503b4c552c4c8273e",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including street number), a more reliable website URL (HTTPS), and a more specific category (television_service_providers). Phone numbers are functionally equivalent.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 130,
+    "id": "08fb91682e4caa2c03239f9cbc07f2c5",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address in the base version seems incorrect.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 131,
+    "id": "08f65262686f413303c317cc0b4f574a",
+    "choice": "b",
+    "notes": "Base version has more complete address information (locality, region), and a more specific category that aligns better with \"Government Building\". Current category is less precise.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 132,
+    "id": "08f44e540c45806d036445fe6c54049d",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes postcode), and the website URL seems more specific to this location.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 133,
+    "id": "1688849866257450",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 134,
+    "id": "1125899910838791",
+    "choice": "c",
+    "notes": "Current version provides a more specific website URL that points to the exact location. The phone number in the current version is also likely more relevant as it's a local number.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 135,
+    "id": "08f1e8509086834603d4d09f48b6ba33",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate categorization (accommodation) compared to Base's less specific 'Travel and Transportation > Lodging > Cabin'. Both versions have good formatting for other attributes.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 136,
+    "id": "08f1f88b66880d2e0385b0548cd07ca6",
+    "choice": "c",
+    "notes": "Current version has more complete and specific category information. Address in current is also more detailed. Phone number formatting difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 137,
+    "id": "08f1f9b08e92a8ed03863143cbe743b8",
+    "choice": "c",
+    "notes": "Current version has more complete category information and a more accurate address format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 138,
+    "id": "08f44e38ed4518540380d8904cd5b34a",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address. The website URL in the current version is also more relevant to the business type. While the base version provides a detailed category, the current version's categorization is more concise and specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 139,
+    "id": "08fa81eb2e78d11c03804afe6de4128a",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The address is slightly more detailed, the phone number format is preferred, and the category is more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 140,
+    "id": "08f6d35aa62266810393381338e5810f",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including postcode), a more specific category, and a consistent website URL format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 141,
+    "id": "08f29a115e84c2a403e23dd743811ca2",
+    "choice": "c",
+    "notes": "Current version has more complete category information (alternate categories) and includes the suite number in the address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 142,
+    "id": "08f29a19a2971d0003d7cf4ffd837d25",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The website URL in the current version is more relevant to the business type (ATM). Address uses a more specific locality (Los Angeles) which aligns better with the provided freeform address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 143,
+    "id": "08f266daddb24aaa03e644de71b831ee",
+    "choice": "c",
+    "notes": "Current version has more complete information across all attributes: includes a specific category (hospital/urologist), a website URL, and a full address with postcode. Base version lacks a website and has a less specific category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 144,
+    "id": "08f481270588895403e4355b3c793f94",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate address (includes region), and the category is more specific and relevant to a dessert shop.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 145,
+    "id": "562949958305102",
+    "choice": "c",
+    "notes": "Both versions have identical name and address. Current version has a more relevant website URL as it directly points to the Oxford Glen Sachse page. The phone number in the base version seems incorrect.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 146,
+    "id": "08f446b259454ad503533f12dc4d0f9c",
+    "choice": "c",
+    "notes": "Current version has a more relevant website URL for an RV Hookup location. Both versions have identical name, phone number, and address. The current version's category is slightly better as it omits the less relevant 'travel' category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 147,
+    "id": "08f2626c6660c31803d3a11019338da7",
+    "choice": "c",
+    "notes": "Current version has more complete category information and a more accurate address (including apartment number). Phone numbers are functionally equivalent.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 148,
+    "id": "08f1f0204831024203a8625d51944196",
+    "choice": "b",
+    "notes": "Base version has a more complete address with locality and region. Category in Base is also more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 149,
+    "id": "1970324842205440",
+    "choice": "c",
+    "notes": "Current version has a valid phone number while Base version does not. Both versions have the same address and category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 150,
+    "id": "08f41695326f2812035673b147fa47f6",
+    "choice": "b",
+    "notes": "Base version provides more complete address information (including region), and a more specific category classification. Current version lacks phone and website data.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 151,
+    "id": "08f1f19882108743037aa0e2fefe6fdb",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes freeform), and the category is more specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 152,
+    "id": "08f3922211a9429003d34a89765a66c1",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for name, phone, address, and category. Base version lacks website information and has a less specific category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 153,
+    "id": "08f4880d8172067603fa7c012014e336",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for most attributes. Phone number in current version is formatted as international standard, while base version uses a local format. Address in current version is also more concise and likely more accurate.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 154,
+    "id": "08f275922226a40b03fa3c4693070159",
+    "choice": "c",
+    "notes": "Current version has a more complete and accurate category (hair_salon) compared to Base's 'waxing'. Both versions have identical name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 155,
+    "id": "08fbe0e35cad5c710328873748ffebb5",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 156,
+    "id": "1125899908396217",
+    "choice": "c",
+    "notes": "Current version has a more complete address and website. Both versions have the same phone number and category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 157,
+    "id": "08f1fb432c6d432b030f6b6a47ed6ec0",
+    "choice": "c",
+    "notes": "Current version has a more specific and accurate category ('train_station'). Both versions have valid address information. Current version's phone number is likely more reliable as it's in international format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 158,
+    "id": "08f195e2017138a60344368b12283837",
+    "choice": "b",
+    "notes": "Base version has more specific and accurate category information (cement_supplier), while both versions have identical name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 159,
+    "id": "08f1e368a432e2a3036a3229000375cc",
+    "choice": "c",
+    "notes": "Current version has more complete and specific categorization (alternate categories), while both versions have accurate name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 160,
+    "id": "08f1fa5362b859a803ed45df6695e1e3",
+    "choice": "c",
+    "notes": "Current version has more complete category information and a slightly more accurate name (Rossmann is likely the preferred brand name). Phone number formatting difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 161,
+    "id": "08f27594f32db1000333b7abb88b623c",
+    "choice": "c",
+    "notes": "Current version has more complete address (includes postcode extension) and a more specific primary category ('hardware_store'). Both versions have accurate name, phone, and website.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 162,
+    "id": "08f44cc2ed92b4ad037ec09a5c0f7c76",
+    "choice": "c",
+    "notes": "The Current version has a more complete address with the full postal code and is consistent with other data points like the name and website.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 163,
+    "id": "08f2aa859dba3af003731e8ef72ef347",
+    "choice": "c",
+    "notes": "Current version has more complete and specific category information. Phone number format is also preferred in current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 164,
+    "id": "08f1f912a5b8d896032a277714c8a918",
+    "choice": "c",
+    "notes": "Current version has more complete and specific categorization (escape_rooms, arts_and_entertainment, active_life) compared to Base's broad 'Arts and Entertainment > Escape Room'. Both versions have accurate name, phone, website, and address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 165,
+    "id": "08f29a1d69b0b8da034c4f6acaa03eaf",
+    "choice": "c",
+    "notes": "Current version has a more complete address (including postcode) and a more specific category. The phone number formats are equivalent.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 166,
+    "id": "08fa8c241822e42503ab5d13ab28882d",
+    "choice": "b",
+    "notes": "Base version has more complete category information and a more specific locality (Brasília) compared to Taguatinga.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 167,
+    "id": "08f2832b85a12b3203fb6b84f25c83de",
+    "choice": "c",
+    "notes": "Current version has more specific and relevant category information (auto_glass_service). Phone number format is standardized in Current. Address details are mostly consistent, but Base includes an apartment number which may not be accurate for a business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 168,
+    "id": "08f28308106929aa0322048f73b8a6a1",
+    "choice": "c",
+    "notes": "Current version has a more complete address (includes suite number) and a website that appears to be directly related to the doctor's practice.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 169,
+    "id": "08f49824998a425003760394c03c89c5",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. It provides a full address, website, and a more specific category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 170,
+    "id": "08f64b1b0e401063031c58c4f99da9d7",
+    "choice": "c",
+    "notes": "Current version has a more specific and relevant primary category (thai_restaurant) compared to Base's broad categorization. Both versions have limited data, but Current provides more useful information.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 171,
+    "id": "08f2f5b88980dcc003698ae140ea2a9a",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including locality) and a more specific category. Both names are acceptable, but Current's is slightly more formal. Phone numbers are functionally equivalent.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 172,
+    "id": "08f1969045565263037bc7b1b7bf1e37",
+    "choice": "c",
+    "notes": "Current version provides more complete data across all attributes (name, phone, website, address, category). Base version lacks phone and website information, and the address has a different freeform format. While the base version categorizes as 'Business and Professional Services', the current version's categorization aligns better with the business name and potential services offered.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 173,
+    "id": "08f3961561d3094c038780c81f579575",
+    "choice": "b",
+    "notes": "Base version provides more specific category information (Butcher) and a more complete address with region. Name difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 174,
+    "id": "08f2a9611a26bc4103b7d085f67b5173",
+    "choice": "c",
+    "notes": "Current version has more complete address information (including 4-digit zip code) and a more specific primary category that aligns better with the business name.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 175,
+    "id": "08f1f810aca9dd4a0338ca3023b18577",
+    "choice": "c",
+    "notes": "Current version has more specific and detailed category information. Address in base is missing region, while current provides it. Name difference is minor.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 176,
+    "id": "08f19424ccc1e0820363bbececd4900d",
+    "choice": "c",
+    "notes": "Both versions are very similar. The current version has a slightly better website URL as it lacks tracking parameters.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 177,
+    "id": "08f658b4a649caad035bb199a7052b42",
+    "choice": "b",
+    "notes": "Base version provides more complete category information (primary and alternate) compared to Current's limited primary category.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 178,
+    "id": "2251799819721663",
+    "choice": "s",
+    "notes": "All attributes are identical in both versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 179,
+    "id": "08f499da81376a8e035b83643df59654",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data for name, phone, address, and category. Base version lacks website information and its category description is less specific.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 180,
+    "id": "08f1ea559883492c03bf7e33805a4382",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate data across all attributes. The website URL is present in current version while missing in base. Category in current version is also more specific and detailed.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 181,
+    "id": "08f2ab66e31767a003eb6104f50a0ad0",
+    "choice": "c",
+    "notes": "Current version has a more complete address (including postcode) and a slightly more specific category. Both versions have identical names, phone numbers, and websites.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 182,
+    "id": "08f2aaab4d4c0d620325d61d2ce778c7",
+    "choice": "c",
+    "notes": "Current version has a more specific and relevant category (automotive_parts_and_accessories) compared to Base's broad Business and Professional Services. Phone number format in Current is also preferred.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 183,
+    "id": "08f44ae8010ea034037504a8a664bb97",
+    "choice": "c",
+    "notes": "Current version has a more complete address (including postcode), a valid phone number, and a website. The category is also more specific and detailed.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 184,
+    "id": "08f446c25679a70e03572240a924ba2c",
+    "choice": "c",
+    "notes": "Current version provides a more complete address (includes postcode), a more specific website URL, and additional alternate categories.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 185,
+    "id": "08f194ad0131a06b031c2633af407eb2",
+    "choice": "s",
+    "notes": "All attributes are identical between versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 186,
+    "id": "08f26cbd2925b00e030b4221ad033046",
+    "choice": "c",
+    "notes": "Current version has more complete and accurate categorization (primary 'atms' and alternate 'currency_exchange') compared to Base's broad 'Business and Professional Services > Financial Service > Banking and Finance > ATM'. Both versions have strong phone and website data, with Current having a slightly better address due to the full postcode.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 187,
+    "id": "08f424927109622803649838ac7eb6a2",
+    "choice": "b",
+    "notes": "Base version provides more complete information across most attributes: phone number, more detailed category, and a slightly more complete address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 188,
+    "id": "08f441a5a3b7474903f72b79ec32b831",
+    "choice": "c",
+    "notes": "Current version has a more concise and accurate name. Phone number in current version is likely more relevant as it's a toll-free number for ATM inquiries. Website URL in current version is also more specific to Presto! ATMs. Address details are mostly consistent, with slight variations in street names which might be due to different address databases. Category in current version is sufficient and aligns with the nature of the business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 189,
+    "id": "08f2661b7016194a032ee6510609a5e5",
+    "choice": "c",
+    "notes": "Current version has more complete data for all attributes: name (includes common variations), phone, website, and address. Category is also more detailed in the current version.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 190,
+    "id": "1407374890752553",
+    "choice": "s",
+    "notes": "All attributes are identical between the current and base versions.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 191,
+    "id": "08f44137216d105403e8dcb957543e94",
+    "choice": "c",
+    "notes": "Current version has a more accurate and specific category (chocolatier) and includes the full postal code in the address.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 192,
+    "id": "08f8b221a404320d03b459bdb2275ea1",
+    "choice": "c",
+    "notes": "Current version has more complete data (phone, address) and a more specific category. Base lacks phone and website, and its category is less precise.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 193,
+    "id": "08f2b9b36479862e0351baadfa912c6b",
+    "choice": "c",
+    "notes": "Current version has more complete address information (includes postal code extension) and a more specific category ('american_restaurant' vs 'food'). Website URL in current version is also more relevant to the business.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 194,
+    "id": "08f2af62655ad02303c1c002aed33a25",
+    "choice": "c",
+    "notes": "Current version has a more accurate and complete address (including zip code) and a primary category that aligns better with the business name ('education'). The phone number in the current version is also formatted consistently.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 195,
+    "id": "08f39040ce78ab8a034e94b26de55c37",
+    "choice": "c",
+    "notes": "Current version has a more accurate and specific category (automotive_repair) compared to Base's broad and potentially unrelated categories. Both versions have good address and website information. Phone format is consistent across both, but Current uses the preferred international format.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 196,
+    "id": "08fa96e0d31aaa0003dff57d6d7652d6",
+    "choice": "b",
+    "notes": "Base version has a more complete address (includes region) and a clearer category classification. While both versions have valid names and phone numbers, Base's categorization is more specific and structured.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 197,
+    "id": "1125899912398662",
+    "choice": "c",
+    "notes": "Current version provides a more specific primary category ('vocational_and_technical_school') and includes additional relevant alternate categories.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 198,
+    "id": "08f2a104eda56165038129f326d78561",
+    "choice": "c",
+    "notes": "Current version has more complete category information and a more accurate website URL.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  },
+  {
+    "record_index": 199,
+    "id": "08f1e8439298263003d04efb18ab2497",
+    "choice": "c",
+    "notes": "Current version provides more complete and specific information for name, phone, website, and category. Address is slightly less complete in current version but still accurate.",
+    "annotator": "gemma_agent",
+    "model": "google/gemma-2-9b-it"
+  }
+]
