@@ -1,0 +1,866 @@
+[
+  {
+    "record_index": 0,
+    "id": "08f64a59990a63a0030784450be43ba4",
+    "qwen_choice": "b",
+    "gemma_choice": "u",
+    "qwen_notes": "The BASE version is better overall. For NAME, both versions are identical, but BASE includes additional fields (common, rules) that suggest more complete metadata. For PHONE and WEBSITE, both have null/missing values, so neither provides useful data. For ADDRESS, BASE has a more structured format with country field only, while CURRENT has an incomplete address object. For CATEGORY, BASE provides a more standardized hierarchical classification ('Business and Professional Services > Health and Beauty Service > Hair Salon') compared to the simpler 'beauty_salon' with alternate categories in CURRENT. Overall, BASE appears more complete and follows better formatting standards for categorization.",
+    "gemma_notes": "Category is significantly different between versions. Current has 'thai_restaurant' as an alternate, while Base categorizes it as a hair salon. Needs review to determine the most accurate categorization."
+  },
+  {
+    "record_index": 1,
+    "id": "08f3da18ccad52ad03cc06b87820910f",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The base version is slightly better overall. For NAME, 'Davaindia Generic Pharmacy' (base) is more properly capitalized than 'davaindia GENERIC PHARMACY' (current), following standard title case conventions. For WEBSITE, the base URL is more canonical and directly related to the pharmacy location, while the current URL appears to be a redirected or marketing page with additional parameters. The ADDRESS fields are identical, and CATEGORY fields are also identical. The minor capitalization difference in NAME makes the base version marginally better.",
+    "gemma_notes": "Current version has a more complete website URL (includes specific location). Otherwise, data is very similar across both versions."
+  },
+  {
+    "record_index": 2,
+    "id": "08f4823ad167532903b45bc53a70221e",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'The Home Depot' is the official business name without the Mexican suffix, making it more standard. For PHONE, BASE has null while CURRENT has a valid number, but since BASE's phone is null, we can't definitively say CURRENT is better. However, for WEBSITE, BASE's 'http://www.homedepot.com' (US site) is more canonical than CURRENT's Mexican site. ADDRESS: BASE provides more complete address details including street name and full address line, while CURRENT has a partial address. CATEGORY: BASE has more standardized categorization with clear hierarchy ('Retail > Hardware Store') compared to CURRENT's simpler but less structured format. Overall, BASE presents more accurate, complete, and standardized data for the core attributes.",
+    "gemma_notes": "Current version has more complete data for phone, website, and address. Category is also more specific. Name difference is minor (adding 'México')."
+  },
+  {
+    "record_index": 4,
+    "id": "08fa90e8d6b065a303084f1af4a32095",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete data for phone and website. Address is slightly different but both are valid. Category in current version is more specific and useful."
+  },
+  {
+    "record_index": 5,
+    "id": "08f618c49a7528c003ccdd6a1e4805b9",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes additional 'common' field which adds completeness. For PHONE, BASE has a longer number with area code that appears more standardized. For WEBSITE, BASE uses a more stable v1 domain instead of a marketing utm-source URL. For ADDRESS, BASE has a cleaner freeform address without extra spaces. For CATEGORY, BASE provides a more detailed and structured classification with proper hierarchy, while CURRENT has a simpler but less descriptive categorization.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The website URL in the current version is more specific and likely leads to a relevant page. The address in the current version also includes 'South Mada Street', which is missing in the base version."
+  },
+  {
+    "record_index": 7,
+    "id": "08fa810394ce9a0003eabeff0516b3b1",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more standard business name without unnecessary suffixes. For PHONE, BASE uses a more conventional local format '(11) 3998-9853' which is common in Brazil, while CURRENT has an international format that may be less typical for this specific location. For WEBSITE, BASE provides a more stable and canonical domain 'esfihachicvergueiro.com.br' compared to the delivery app URL in CURRENT. For ADDRESS, BASE uses a more standardized street name 'Av. Gal. Edgard Faccó' which is consistent with local naming conventions, while CURRENT has 'Avenida General Edgard Facó'. For CATEGORY, BASE offers a more specific and structured classification with clear hierarchical categories that better represent the business type.",
+    "gemma_notes": "Current version provides a more complete address with postcode and consistent formatting. The current name is also more specific and includes the neighborhood. While both versions have valid phone numbers, the current version uses the preferred international format. Website URLs are subjective, but the current URL appears to be more active and relevant."
+  },
+  {
+    "record_index": 8,
+    "id": "562949960007229",
+    "qwen_choice": "s",
+    "gemma_choice": "b",
+    "qwen_notes": "All attributes (name, phone, website, address, category) are identical or functionally equivalent between current and base versions. The website URLs differ slightly in UTM parameters but point to the same canonical domain. The address values differ in street name ('115 Country Music Way' vs '510 Birthplace Of Country Music Way') but both appear to reference the same location in Bristol, VA with the same postcode. Since all attributes are either identical or represent the same information with minor variations that don't affect data quality, the versions are equivalent.",
+    "gemma_notes": "Base version has a more accurate address (510 Birthplace Of Country Music Way is the correct street address). Other attributes are identical."
+  },
+  {
+    "record_index": 9,
+    "id": "08f39608a0b76a6203fb3f420b3f857f",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes 'common' field which adds completeness; for PHONE, BASE uses local format '05 63 30 20 20' which is standard French formatting and potentially more reliable than the international '+33563301313'; for ADDRESS, BASE provides more complete information with region 'Midi-Pyrénées' and a different but valid street address; for CATEGORY, BASE has a more specific and standardized classification 'Dining and Drinking > Vineyard' compared to CURRENT's 'winery' which is less detailed. Website is identical in both versions.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address in the base version seems incorrect."
+  },
+  {
+    "record_index": 10,
+    "id": "1125899909415294",
+    "qwen_choice": "s",
+    "gemma_choice": "c",
+    "qwen_notes": "All attributes between current and base versions are identical or functionally equivalent. The name, phone, website, address, and category all match exactly or have minimal, non-informative differences (e.g., 'Rd' vs 'Road' in address which is a common abbreviation). No version demonstrates superiority in completeness, accuracy, or formatting standards.",
+    "gemma_notes": "Both versions have identical name, website, and category. The current version has a slightly more accurate address format (no extra space in freeform). Phone number is different, but both are valid."
+  },
+  {
+    "record_index": 11,
+    "id": "08f1e15b0b2cbc5303c99047c56c8812",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'BAUHAUS' is more complete and recognizable than 'Bauhaus Wien Hödlgasse' which includes location details that may not be part of the official brand name. For PHONE, the BASE format '01 869439186090' appears to be a standardized Austrian phone number with country code, while current '0186943910' seems incomplete or incorrectly formatted. For WEBSITE, BASE uses HTTPS and includes 'www' which is more canonical than the current HTTP version without www. For ADDRESS, BASE has better consistency in region field ('Wien' vs 'Vienna') and includes all necessary fields with proper formatting. For CATEGORY, BASE provides a more specific and accurate classification as 'Retail > Hardware Store' compared to generic 'retail'.",
+    "gemma_notes": "Current version has more complete and accurate data for name, website, and category. Address is nearly identical, and phone number in current version appears more standard."
+  },
+  {
+    "record_index": 17,
+    "id": "562949958207347",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The base version is better overall. For NAME, 'Miller's Ale House' is more complete and official than the current 'Miller's Ale House - Tampa Airport', which adds unnecessary location detail that may not be part of the canonical name. For WEBSITE, the base has a valid URL while the current has an empty string. For ADDRESS, the base version is more concise with '3860 W Columbus Dr' vs the current's longer form '3860 West Columbus Drive, Tampa Airport', but both are functionally equivalent; however, the base is slightly cleaner. The CATEGORY attributes are identical. Overall, the base provides cleaner, more standardized data without unnecessary additions.",
+    "gemma_notes": "Current version has a more complete address and website."
+  },
+  {
+    "record_index": 20,
+    "id": "1125899912289624",
+    "qwen_choice": "c",
+    "gemma_choice": "s",
+    "qwen_notes": "The CURRENT version is better overall. While NAME and ADDRESS are identical, the CURRENT version has a more complete phone number (4632413927 vs 3172570779), which appears to be a valid US phone number with a different area code. Additionally, the CURRENT website (https://www.universalrfg.com/) uses HTTPS and includes 'www', which is preferred over the BASE version's http://universalrfg.com/ without www. The CATEGORY attributes are identical, so no difference there.",
+    "gemma_notes": "All attributes are identical between the current and base versions."
+  },
+  {
+    "record_index": 21,
+    "id": "08f8c100e5135acc0320b9849219dda3",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Teras Corner' is more complete than 'TerasCorner' with proper spacing. For PHONE, BASE has null while CURRENT has a valid number, but since BASE confidence is higher (1.000 vs 0.793), we prefer BASE. For WEBSITE, both are missing/null, so no difference. For ADDRESS, BASE includes the region 'West Java' which adds completeness over CURRENT's missing region. For CATEGORY, BASE provides a more specific and accurate classification ('Arts and Entertainment > Arcade') compared to CURRENT's generic 'cafe' with less relevant alternates.",
+    "gemma_notes": "Current version has more complete and accurate data for Name, Phone, Address, and Category. Base version's category is inaccurate."
+  },
+  {
+    "record_index": 22,
+    "id": "08f264626394cd4b030ac3f573c76061",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, 'Bank Of America ATM Center' is more complete than 'Bank of America ATM'. For PHONE, '(800) 432-1000' is a standard formatted number while '8444018500' appears to be an ATM-specific number without proper formatting. For WEBSITE, 'http://www.bankofamerica.com' is the canonical site URL vs the specific ATM locator page. For ADDRESS, 'Saint Louis' is more accurate than 'Richmond Heights' for the locality. For CATEGORY, 'Retail > Miscellaneous Store' is more specific and appropriate than 'online_shop' with generic alternates.",
+    "gemma_notes": "Current version has a more accurate address (Richmond Heights), and a category that better reflects an ATM location (atms). Base's category is too broad and the city is incorrect."
+  },
+  {
+    "record_index": 26,
+    "id": "08f1955b54b2a74c0328fbe52b771e1c",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, 'Barclays Bank Cash Machine' is more complete and descriptive than 'Barclays ATM'. For PHONE, '0345 734 5345' is better formatted with spaces than '03457345345'. For WEBSITE, 'http://www.barclays.co.uk' is more canonical than the branch finder URL. For ADDRESS, the BASE version has a more complete locality ('Catterick Garrison') and proper street abbreviation ('Ava Rd') while maintaining the same postcode and country. For CATEGORY, the BASE version provides a much more specific and accurate classification with hierarchical structure, which is better for data quality and categorization purposes.",
+    "gemma_notes": "Current version has more accurate and complete address information (including region). Category is also more specific."
+  },
+  {
+    "record_index": 27,
+    "id": "562949955127994",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Sunrise Financial Service' is more complete and formal than 'Sunrise Financial'. For PHONE, the base number '9417586303' is likely the correct one as it's different from current and may represent a valid business line. For WEBSITE, the BASE has a valid URL 'https://www.mysunrisefinancial.com/' while CURRENT has an empty string. ADDRESS and CATEGORY are identical between both versions.",
+    "gemma_notes": "Current version has a website URL, which is valuable for data quality. Both versions have identical address and category information."
+  },
+  {
+    "record_index": 28,
+    "id": "08f44e5a4a781c1e03baeb3101f89e1e",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has a more complete address (including postcode) and a slightly better website URL (HTTPS). Both versions have identical names and phone numbers."
+  },
+  {
+    "record_index": 35,
+    "id": "08f4440ca382a59803895546c2d4bd4f",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more accurate and complete category information (hospital, naturopathic_holistic) aligning better with the business name. Website uses HTTPS, address is more complete with state abbreviation. Phone number in current version is formatted with country code."
+  },
+  {
+    "record_index": 36,
+    "id": "08f08ed358889889037e291e52eb62a5",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address is more detailed, the category is more specific and relevant, and the phone number format is standardized."
+  },
+  {
+    "record_index": 37,
+    "id": "08f396cb6912ad000340ccfcbe06ce49",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Les Hospitaliers Hotel' is more complete and formal than just 'Les Hospitaliers'. For PHONE, the BASE has null while CURRENT has a valid number, but since the confidence for BASE is higher (1.000 vs 0.984), we prefer BASE's data even if it's null. For WEBSITE, the CURRENT has a valid URL while BASE has null, but again, BASE's higher confidence makes it preferable. For ADDRESS, BASE provides more complete information with region 'Rhône-Alpes' and a slightly different but still valid freeform address. For CATEGORY, BASE offers a more standardized classification ('Travel and Transportation > Lodging > Hotel') compared to the simpler 'hotel' in CURRENT, which also includes additional alternate categories in CURRENT but lacks the structured format of BASE.",
+    "gemma_notes": "Current version has more complete and accurate data for name, phone, website, and category. Address is less clear-cut, but Current's '95 Rue Neuve' seems more likely to be the primary address."
+  },
+  {
+    "record_index": 38,
+    "id": "08f1ea2d93cc3a9e035b43ef4cb52ad1",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes the full name with 'Volontariato' while CURRENT has 'Per Il Volontariato', making BASE more complete. For PHONE, BASE uses a more standard format without spaces and with country code, which is preferable. For WEBSITE, BASE lacks trailing slash but both are functionally equivalent. For ADDRESS, BASE has better structured data with proper region code 'LU' instead of '52' and includes postcode '55100'. For CATEGORY, BASE provides a more specific and accurate classification as 'Business and Professional Services > Convention Center > Conference Room', which is more descriptive than CURRENT's generic 'community_services_non_profits' and includes topic_concert_venue as alternate.",
+    "gemma_notes": "Current version has a more complete and accurate address, category, and phone number in E.164 format."
+  },
+  {
+    "record_index": 39,
+    "id": "08f2a1340ea313910338f0d15a4b7f1f",
+    "qwen_choice": "b",
+    "gemma_choice": "s",
+    "qwen_notes": "The BASE version is better overall. While the NAME and CATEGORY attributes are identical, the BASE version provides a valid phone number ('8566388170') while the CURRENT version has an empty string. The ADDRESS and WEBSITE attributes are also identical. Since the phone number in BASE adds valuable contact information that's missing in CURRENT, BASE is preferred.",
+    "gemma_notes": "All attributes are identical in both versions."
+  },
+  {
+    "record_index": 41,
+    "id": "08f4440d8b89c95803ef5bd3cc80eac4",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes a more formally punctuated version with '’' vs 's', which is more accurate. For PHONE, BASE uses standard format '(225) 960-4475' while CURRENT has E.164 format '+12259604475'; both are valid but BASE's format is more common for local US numbers. For WEBSITE, both are identical. For ADDRESS, BASE provides a more complete address with 'Suite 2' and a more standard postal code format '70810' vs '70810-2845', though the latter might be more specific. For CATEGORY, BASE offers a more detailed and structured classification with hierarchical categories that better describe the business type, while CURRENT has simpler but less descriptive tags.",
+    "gemma_notes": "Current version has more consistent and specific categorization (primary: mexican_restaurant) compared to Base's overly verbose category. Both versions have accurate name, phone, website, and address."
+  },
+  {
+    "record_index": 43,
+    "id": "1125899908355011",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'The Fairways at San Marcos Apartments' is more complete and accurate as it includes the full name typically used for apartment complexes. For PHONE, the base phone number '4804854921' appears to be the correct one for this specific property, while '4808211862' may be incorrect or from a different location. For WEBSITE, the base URL 'https://www.livebh.com/apartments/the-fairways-at-san-marcos/' is more canonical and official compared to the generic 'http://www.fairwaysapartmenthomes.com/'. The ADDRESS is identical in both versions, and CATEGORY is also the same. Overall, the BASE version provides more accurate and complete information.",
+    "gemma_notes": "Both versions have identical address and category information. The current version has a more complete website URL (HTTPS) and a slightly more accurate name (removing 'Apartments' which is implied). Phone numbers are different, but both could be valid."
+  },
+  {
+    "record_index": 44,
+    "id": "08f2ba86ae7436460305560e1acd61d2",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has the official name 'Sports Experts' without the location suffix 'Magog', which is more standard for a brand name. For PHONE, BASE uses the standard North American format '(819) 843-1331' which is more readable than the E.164 format '+18198431331' in current. For WEBSITE, BASE has the canonical URL without trailing slash, which is preferred. For ADDRESS, BASE provides a more complete street address with 'Ouest' instead of 'O', which is more specific and accurate. For CATEGORY, BASE uses a more standardized classification 'Retail > Sporting Goods Retail' with proper hierarchy, while CURRENT has a simpler but less structured format.",
+    "gemma_notes": "Current version has more complete and specific categorization (alternate categories), a more accurate address format, and uses consistent formatting for phone numbers."
+  },
+  {
+    "record_index": 47,
+    "id": "08f2aa87330ca7a903957473b2acce21",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has a more complete address (including 4-digit zip code) and a more specific category (pizza_restaurant). Website URL in current version appears to be location-specific."
+  },
+  {
+    "record_index": 48,
+    "id": "1125899908351517",
+    "qwen_choice": "s",
+    "gemma_choice": "c",
+    "qwen_notes": "All attributes (name, phone, website, address, category) are identical between current and base versions. No differences exist to favor one over the other, making them functionally equivalent.",
+    "gemma_notes": "Both versions have identical name and address. Current version has a more relevant phone number (770-505-3855) compared to Base's 470-644-8140. Website URLs are different but both seem valid, so this is less impactful. Category information is also identical."
+  },
+  {
+    "record_index": 49,
+    "id": "08f441a124c1b405038dbedfa98c0914",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Fifth Third Bank & ATM' is more descriptive and includes the ATM service, which is more complete than just 'Fifth Third Bank'. For PHONE, '(813) 402-1080' is a valid format but lacks the international prefix; however, the CURRENT version has the standardized E.164 format '+18134021080', so this is a tie with CURRENT having better formatting. For WEBSITE, the BASE provides a specific location page which is more useful than the general corporate site. For ADDRESS, the BASE has a cleaner postcode format without the +4 extension, which is often preferred for standardization. For CATEGORY, the BASE uses a more detailed hierarchical classification that includes both bank and ATM services, making it more comprehensive than the CURRENT version's simplified categorization.",
+    "gemma_notes": "Current version has more consistent formatting and a clearer categorization. The website URL in the current version is also more relevant to the business."
+  },
+  {
+    "record_index": 50,
+    "id": "08f446ca1d028ae803f05a7a411e1cb6",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes additional 'common' field and 'rules' which adds completeness. For PHONE, BASE uses standard format '(713) 779-1818' which is more readable than CURRENT's '+17137791818'. For WEBSITE, BASE has a cleaner URL without trailing slash. For ADDRESS, BASE is missing 'locality' and 'postcode' compared to CURRENT, making CURRENT more complete. For CATEGORY, BASE provides a more standardized and specific classification with clearer hierarchy ('Business and Professional Services > Food and Beverage Service') versus CURRENT's more general categorization. Overall, BASE offers better structured data with consistent formatting and more accurate categorization.",
+    "gemma_notes": "Current version provides more complete and accurate data across all attributes. It includes a full address, specific category, and consistent formatting for phone and website."
+  },
+  {
+    "record_index": 52,
+    "id": "08f2a10aaba5c06303d8a67958549713",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes additional 'common' field which adds completeness. For PHONE, BASE uses standard format '(631) 789-2000' which is more readable than CURRENT's '+16312257000'. For WEBSITE, BASE provides a cleaner canonical URL 'http://www.dominos.com' vs CURRENT's tracked link. For ADDRESS, BASE has a more complete address with proper locality 'Copiague' and valid postcode '11726' (though CURRENT has more specific zip). For CATEGORY, BASE offers a more standardized hierarchical classification 'Dining and Drinking > Restaurant > Pizzeria' which is more descriptive than CURRENT's flat categorization.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address in the base version appears to be incorrect."
+  },
+  {
+    "record_index": 56,
+    "id": "08f2a143a2aea428033ac8f069c43517",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Waterbury Career Academy High School' is more complete and formal than 'Waterbury Career Academy'. For PHONE, the BASE has null while CURRENT has a valid number, but since the base has no phone at all, it's not necessarily worse. For WEBSITE, CURRENT provides a URL while BASE has null, making CURRENT better here. However, for ADDRESS, BASE lacks street address details while CURRENT includes complete address information. For CATEGORY, BASE provides a more specific and structured classification ('Community and Government > Education > Trade School') compared to CURRENT's simpler 'high_school'. Overall, BASE offers more comprehensive categorization and complete address details, outweighing the minor advantages of CURRENT in name completeness and website presence.",
+    "gemma_notes": "Current version has more complete data for all attributes (name, phone, website, address, category). Base version lacks phone and website information and has a less specific category."
+  },
+  {
+    "record_index": 57,
+    "id": "08fa813b222f2c1e03f7aca38bf90b4e",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Work Medicina Ocupacional S/C Ltda' is more complete and formal than 'Work Medicina Ocupacional'. For PHONE, the base format '(19) 3203-7525' is a valid Brazilian phone format, while current '+551932337525' is also correct but less conventional for local use. For WEBSITE, both are identical. For ADDRESS, the base has a different street (Rua Tiradentes vs Rua Visconde de Taunay) but same locality, region, and country; postcode differs slightly but both are valid. For CATEGORY, 'Health and Medicine > Physician' is more specific and accurate than 'hospital' with additional alternate categories in current version, though base provides clearer classification. Overall, BASE offers more complete name and a more standardized phone format.",
+    "gemma_notes": "Current version has a more complete address and category. Phone number format is consistent across both versions."
+  },
+  {
+    "record_index": 58,
+    "id": "08f26010a6db404403e339f85cbc6d43",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more formal name with '&' which is preferred over 'and'. For PHONE, BASE uses standard local format '(712) 568-2363' which is more readable than the E.164 format '+17128996773' in current. For WEBSITE, both are identical. For ADDRESS, BASE has a cleaner postcode format '51001' without the +4 extension and a clearer freeform address without '# 8845'. For CATEGORY, BASE provides a more detailed and standardized classification with full hierarchical category path which is more accurate than the simplified 'automotive_repair' in current.",
+    "gemma_notes": "Current version has more consistent formatting for address and phone. Category in current version is more specific and relevant to automotive repair."
+  },
+  {
+    "record_index": 60,
+    "id": "08f2b8d419708d1c03dc65d72f11cf45",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and specific categorization (event_planning + american_restaurant) compared to Base's broad 'Dining and Drinking > Restaurant > American Restaurant'. Both versions have accurate name, phone, website, and address."
+  },
+  {
+    "record_index": 63,
+    "id": "08f186b6ca96aac003075fe4e8c7df44",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE uses standard French format '05 56 01 15 95' which is more recognizable locally than the international format '+33556389479'. For WEBSITE, both are equivalent but BASE uses HTTP which is acceptable. For ADDRESS, BASE provides a more specific street address ('1-3 rue des Trois Conils') compared to CURRENT's '99 Rue Sainte-Catherine', and correctly identifies the region as 'Gironde' instead of 'NAQ'. For CATEGORY, BASE offers a more standardized hierarchical classification 'Retail > Fashion Retail > Clothing Store' which is more precise than CURRENT's flat categorization and includes an alternate category that may be relevant.",
+    "gemma_notes": "Current version has a more complete and accurate address, phone number in international format, and a more specific category. Website uses HTTPS."
+  },
+  {
+    "record_index": 64,
+    "id": "08fbe0899519c116035ccb4f246d7ac9",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes the apostrophe in 'Ariel’s' which is more accurate than 'Ariels'. For PHONE, BASE has a valid Australian phone number format (0411 034 188) while CURRENT uses international format (+61493708328), but both are functional. For WEBSITE, BASE clearly provides a website URL while CURRENT is missing. For ADDRESS, BASE includes more specific details with '167-172 Balgownie Rd Shop 3' and has the same locality, region, country, and postcode as CURRENT, making it more complete. For CATEGORY, BASE uses a more standardized classification ('Dining and Drinking > Restaurant') compared to CURRENT's simpler 'cafe' with alternate categories, which is less precise in terms of hierarchical categorization.",
+    "gemma_notes": "Current version has more complete and accurate data across most attributes. The address in the current version is also more concise and likely correct. Base version's category is too broad and lacks specificity."
+  },
+  {
+    "record_index": 65,
+    "id": "08f1ea59834b6122035ebaf7626dd4a6",
+    "qwen_choice": "u",
+    "gemma_choice": "b",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Base version has more complete address information (including locality and region), while both versions have accurate name, phone, website, and category."
+  },
+  {
+    "record_index": 67,
+    "id": "08fc99348c32155c03765d142aeb22eb",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more consistent capitalization ('TJ'S' vs 'T.J's') and includes a 'common' field which adds completeness. For PHONE, BASE uses a standard local format ('0449 143 781') which is more readable for Australian users, while CURRENT uses international format (+61449143781). For WEBSITE, BASE lacks the trailing slash but both are functionally equivalent. For ADDRESS, BASE includes an additional unit number (#4) which provides more precise location information. For CATEGORY, BASE provides a more standardized and specific classification ('Health and Medicine' with 'Sports and Recreation > Gym and Studio') compared to CURRENT's generic 'active_life' and less specific alternates.",
+    "gemma_notes": "Current version has a more accurate and specific category (active_life, gymnastics_center, gym) compared to Base's Health and Medicine which is too broad. Both versions have good name and address information."
+  },
+  {
+    "record_index": 69,
+    "id": "08f1f166d246c3290303ee41124b93fa",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, while both are similar, 'Murkelsnähwelt' (base) appears to be the more standardized and complete spelling. For PHONE, the base has null but current has a valid number, so current is better here. However, for WEBSITE, both are missing, so no advantage. For ADDRESS, the base includes the region 'NRW' which adds completeness compared to current. For CATEGORY, the base provides a more specific and accurate classification ('Business and Professional Services > Tailor') versus the generic 'fashion' with less relevant alternates. Overall, the base version offers better completeness in name, address, and category, outweighing the phone number advantage of current.",
+    "gemma_notes": "Current version has more complete and accurate data for Name, Phone, Address, and Category. Base version lacks phone number and website information."
+  },
+  {
+    "record_index": 70,
+    "id": "08f2f5bd324367920389e650cbf19583",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, the base has a more complete formal name with proper spacing and includes a 'common' field which adds value. For PHONE, the base uses the standard Japanese format with hyphens which is more readable and commonly used. For WEBSITE, while both are valid, the base URL appears to be a canonical or official site (lit.link often hosts artist/brand pages, but in this context it's likely the primary). For ADDRESS, the base includes a complete postcode '231-0014' which is more accurate and complete than the current version's empty postcode. For CATEGORY, the base has no category listed, but since the current version only has 'restaurant', and there's no indication the base has a better category, this doesn't affect the decision significantly. Overall, the base shows higher completeness and standardization in most attributes.",
+    "gemma_notes": "Current version has a more complete address (includes building number) and a primary category. Base version lacks a primary category."
+  },
+  {
+    "record_index": 72,
+    "id": "08f3cc5a1476a45403ed1a0c115b1102",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes additional 'common' field which adds completeness. For PHONE, BASE uses a more readable format (1860 419 5555) compared to CURRENT's E.164 format (+9118604195555), though both are valid - but BASE's format is more commonly used in India. For WEBSITE, BASE has a cleaner URL without unnecessary UTM parameters, making it more canonical. For ADDRESS, BASE provides more complete information with locality (Silchar) and region (Assam), while CURRENT is missing these fields. For CATEGORY, BASE offers a more standardized and detailed classification ('Business and Professional Services > Financial Service > Banking and Finance > ATM') compared to CURRENT's simpler 'atms' primary category.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address in the current version is more detailed, and the category in the current version is more specific and relevant."
+  },
+  {
+    "record_index": 76,
+    "id": "08f49a8381a4d0f303240f2cdfbb374f",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has the correct apostrophe usage ('s vs ´s) and includes a 'common' field which adds completeness. For PHONE, BASE correctly identifies null/missing data while CURRENT provides a valid number, but since the base is more accurate in identifying missing data, it's preferred. For WEBSITE, both are missing, so no difference. For ADDRESS, BASE has better structured data with region included ('JAL') and more complete locality name ('Autlán de Navarro, JAL'), while CURRENT lacks region and has a less complete freeform address. For CATEGORY, BASE provides a more standardized hierarchical classification which is more useful for data processing and matching.",
+    "gemma_notes": "Current version has more complete data for phone and address. Category in current version is more specific and useful. Name difference is minor (apostrophe). Website missing in both."
+  },
+  {
+    "record_index": 78,
+    "id": "2251799819474731",
+    "qwen_choice": "c",
+    "gemma_choice": "s",
+    "qwen_notes": "The CURRENT version is better because it includes the full legal business name 'DeHart Plumbing, Heating & Air, Inc.' which is more complete than the BASE version 'DeHart Plumbing, Heating & Air'. The other attributes (phone, website, address, and category) are identical between both versions, so the decision hinges on the name attribute where CURRENT provides the more formal and complete business name.",
+    "gemma_notes": "All attributes are identical between the current and base versions."
+  },
+  {
+    "record_index": 79,
+    "id": "08f2e610518e82c003d85d6549dfc74b",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE uses local format '06-6532-3151' which is standard Japanese format, while CURRENT has international format '+81665323151' - both valid but BASE follows local convention better. For WEBSITE, BASE lacks trailing slash but is otherwise equivalent to CURRENT. For ADDRESS, BASE provides more structured data with 'region' and 'locality' properly separated ('大阪市' vs '大阪市西区'), though CURRENT has more detailed freeform address. For CATEGORY, BASE offers a more standardized and descriptive classification 'Retail > Fashion Retail > Jewelry Store' compared to CURRENT's simpler 'shopping' with 'jewelry_store' as alternate.",
+    "gemma_notes": "Current version has more complete and accurate categorization (primary + alternate) compared to Base's broad 'Retail > Fashion Retail > Jewelry Store'. Both versions have strong data for Name, Phone, Website, and Address."
+  },
+  {
+    "record_index": 82,
+    "id": "08f1f11618c549ae0318404b974f642c",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, the BASE includes the full official name with additional descriptive elements, which is more complete and accurate. For PHONE, the BASE uses a standard international format with proper country code separation (04953 135573299), which is clearer than the CURRENT's +4953135573299. For WEBSITE, the BASE prefers HTTPS and includes the canonical domain without www, which is more standard. For ADDRESS, the BASE provides more complete information with the region field (Niedersachsen) included, enhancing accuracy. For CATEGORY, the BASE offers a more standardized and structured classification using a hierarchical taxonomy that better reflects the business type compared to the CURRENT's more generic term.",
+    "gemma_notes": "Current version has more complete and accurate categorization (primary and alternate categories). Website uses HTTPS, while Base uses HTTP. Address in both versions is identical."
+  },
+  {
+    "record_index": 83,
+    "id": "08f4995b9e3aba6c03df20d5c7b3d01a",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more complete name with the correct spelling 'Frida Kahlo' and includes the school number format. For PHONE, BASE correctly identifies no phone number while CURRENT provides one, but since the base has null and current has a valid number, we prefer the base as it's more conservative. For WEBSITE, both are missing, so no difference. For ADDRESS, BASE is better because it includes the region 'DF' (Mexico City) which adds completeness, though Current has better locality spelling ('Mexico City' vs 'México'). For CATEGORY, BASE provides a more standardized classification with proper hierarchy ('Community and Government > Education') compared to CURRENT's simpler but less structured format. Overall, BASE is more complete and follows better formatting standards.",
+    "gemma_notes": "Current version has more complete data for phone and address. Category is also more specific and relevant."
+  },
+  {
+    "record_index": 84,
+    "id": "08f1f13d06cdb4dd03c2287ba2cf48a4",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE provides a more complete and descriptive name including 'Wäsche Dessous Bademoden' which gives better context. For PHONE, BASE uses a standard German format with space separation which is more readable than the international format in CURRENT. For WEBSITE, BASE has a domain-specific URL for the business rather than a general local site. For ADDRESS, BASE includes the region 'Nordrhein-Westfalen' which adds completeness. For CATEGORY, BASE provides a more standardized classification 'Retail > Textiles Store' compared to the generic 'clothing_store' in CURRENT.",
+    "gemma_notes": "Current version has more specific and relevant category information (clothing_store, women's_clothing_store, swimwear_store) compared to Base's generic 'Retail > Textiles Store'. Both versions have accurate name and address."
+  },
+  {
+    "record_index": 85,
+    "id": "08f6d231146cbb8203a6b43c5463e884",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array which provides more completeness. For PHONE, BASE has null value while CURRENT has a valid phone number, but since BASE's confidence is higher (1.000 vs 0.915), we prefer BASE. For WEBSITE, both have missing data, so no difference. For ADDRESS, BASE provides more structured information with region 'Chiapas' and a different but potentially more specific address format ('12 Poniente, Mercado 5 De Mayo' vs 'Calle Central Norte 12'). For CATEGORY, BASE has a more detailed and standardized classification ('Retail > Food and Beverage Retail > Health Food Store') compared to CURRENT's generic 'shopping' with less specific alternates. Overall, BASE shows higher confidence and more complete data in most attributes.",
+    "gemma_notes": "Current version has a more complete address and category. Phone number is present in current version but missing in base."
+  },
+  {
+    "record_index": 86,
+    "id": "08fbe184e32632a503fa980d1ab35e1a",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Kempsey Skips & Scrap Metal' is more complete and descriptive than 'Kempsey Skip Bins'. For PHONE, '0412 596 583' is a valid Australian format, though CURRENT has E.164 format; both are correct but BASE uses standard local format. For WEBSITE, BASE provides a website while CURRENT has none, making BASE clearly better. For ADDRESS, BASE has more complete street information ('9-11 Akubra Pl' vs '9 Akubra Pl') and the locality name 'Kempsey' is more accurate than 'South Kempsey'. For CATEGORY, BASE provides more specific and relevant categories related to metals supplier and business services, which better reflect the nature of a scrap metal recycling business compared to the generic 'garbage_collection_service' in CURRENT.",
+    "gemma_notes": "Current version has a more accurate and specific category (garbage_collection_service) compared to Base's broad Business & Professional Services categorization. Both versions have valid phone numbers and addresses, but Current's address is slightly more complete with the unit number. Website is missing in Current but present in Base, which might be relevant depending on the business."
+  },
+  {
+    "record_index": 89,
+    "id": "08fa8186206ab06203b13b1910efb454",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Centro Comunitário' is more complete and formal than 'Centro Comunitario Taiaçu', which appears to be a truncated version. For ADDRESS, the base has a more standardized street name ('Av João Bernardo da Fonseca') compared to the current version's 'Avenida Bernardo da Fonseca', which may be less precise or canonical. The CATEGORY in BASE is less accurate as it assigns an entertainment category rather than community center, but this is outweighed by the better address and name formatting in BASE. The CURRENT version lacks phone and website data, making BASE superior in terms of completeness.",
+    "gemma_notes": "Current version has a more complete address and category. The base version's category ('Arts and Entertainment > Night Club') seems inaccurate given the 'community_center' primary category in the current version."
+  },
+  {
+    "record_index": 90,
+    "id": "08f1e880c6d2a21a03dad9931d6666c6",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Black Box Store' is more complete and formal than 'Black Box Bari'. For PHONE, BASE has null but CURRENT has a valid number, so CURRENT is better here. However, for WEBSITE, both are missing, so no advantage. For ADDRESS, BASE has more standardized region ('Puglia' vs '75') and correct street formatting ('via Niccolò Piccinni 68' vs 'Via Niccolò Piccinni, 68'). For CATEGORY, BASE provides a more structured and detailed classification ('Retail > Fashion Retail > Clothing Store') compared to CURRENT's simpler category with alternates. Overall, BASE offers better completeness and structure across multiple attributes.",
+    "gemma_notes": "Current version has more complete data for phone and address. Category in current version is more specific and relevant. Name difference is minor."
+  },
+  {
+    "record_index": 91,
+    "id": "08f1ed6c9600e9ac0396545f95a4326e",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE's format (329 362 2229) appears to be a valid Italian phone number, while CURRENT has an international format but lacks context for verification. For WEBSITE, both are missing, so no difference. For ADDRESS, BASE provides a more structured and potentially accurate address with 'Piazza Pietro Nenni s.n.c.' which is a specific location name, whereas CURRENT has 'Via Bari, 6' - both in Melendugno but different streets. For CATEGORY, BASE is missing entirely while CURRENT has detailed categorization as 'music_venue' with alternates, making CURRENT better here, but the overall completeness and accuracy of BASE in other fields makes it the better choice.",
+    "gemma_notes": "Current version has a more complete address and category information. The phone number in the current version is also likely more accurate as it's in international format."
+  },
+  {
+    "record_index": 94,
+    "id": "08f4995b9d4208a20380224da236338f",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has the more complete name with 'Oxxo' (capitalized) and includes common field, though both are essentially the same. For PHONE, BASE has null while CURRENT has a valid number, but since BASE's phone is null, it's not better. For WEBSITE, BASE uses HTTP instead of HTTPS in current version, so CURRENT is better. For ADDRESS, BASE provides more complete information with region 'Distrito Federal' and postcode '07300', while CURRENT lacks region and has a different postcode '07050'. For CATEGORY, BASE has a more specific primary category 'Retail > Convenience Store' compared to CURRENT's 'shopping', and includes alternate categories in CURRENT. Overall, BASE provides more complete address data and a more specific category, making it the better choice.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. It provides a phone number, a canonical HTTPS website URL, and a more specific address. The category is also more detailed."
+  },
+  {
+    "record_index": 95,
+    "id": "08f1f9b089cf330d03b9a3ab6ad274ba",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes the more formal 'Giudice di pace - Genova' with common field and rules, which is more complete than CURRENT's single primary field. For PHONE, BASE has a cleaner format without country code, but CURRENT provides standardized E.164 format (+39). However, since BASE has a valid phone number and CURRENT's format is not necessarily wrong, this is a tie. For WEBSITE, BASE correctly has null while CURRENT has an incomplete URL (www.giustizia.it), so BASE is better here. For ADDRESS, BASE has more consistent formatting with 'Genova' in region field instead of '42', which is more readable and standard. For CATEGORY, BASE provides a more structured classification ('Community and Government > Government Building > Courthouse') compared to CURRENT's JSON format, making it more complete and standardized.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. It provides a full address with region, a specific phone number format, and a more detailed category breakdown."
+  },
+  {
+    "record_index": 97,
+    "id": "08f1f83ae545d60603a81502e8f95732",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, BASE includes both first and last name in a more conventional order ('Markus Vogt') and has a 'common' field which adds completeness. For PHONE, BASE uses the standard spaced format ('056 424 04 44') which is more readable than the unspaced version in CURRENT. For WEBSITE, BASE omits the trailing slash but the URL is otherwise equivalent; however, the CURRENT version has a trailing slash which is not necessarily better. For ADDRESS, both are identical except for the postcode field being present in both, so no difference. For CATEGORY, BASE provides a more specific and accurate classification ('Business and Professional Services > Factory') compared to CURRENT's generic 'furniture_accessory_store' with less relevant alternates. Overall, BASE shows better completeness and accuracy across attributes.",
+    "gemma_notes": "Current version has a more specific and relevant category (furniture_accessory_store) compared to Base's broad 'Business and Professional Services > Factory'. Other attributes are either identical or slightly prefer Current."
+  },
+  {
+    "record_index": 98,
+    "id": "08f1e35418b8115d03d75b4f91514ad7",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes the common field and rules which adds completeness; for PHONE, BASE has a valid 724 449 839 (likely more accurate than 800767626 which appears to be a toll-free number); for WEBSITE, BASE provides the main domain URL which is more canonical than the specific store page; for ADDRESS, BASE has a more complete address with region name 'Středočeský' and properly formatted postcode '186 00'; for CATEGORY, BASE uses a more standardized format with proper hierarchy 'Retail > Drugstore' which is more descriptive than 'drugstore' with alternate 'retail'.",
+    "gemma_notes": "Current version has more complete address information (including full postcode) and a more specific category. Both versions have valid phone numbers and websites."
+  },
+  {
+    "record_index": 99,
+    "id": "08f44dd545c0313303fc66e60e99f054",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes additional 'common' field which adds completeness. For PHONE, BASE uses standard formatted E.164 style '(864) 255-3775' vs CURRENT's numeric-only format '8642012000'. For WEBSITE, BASE has a more canonical URL without the '/mortgage/sc/greenville/' path, which is likely less specific and potentially outdated. ADDRESS is identical between both versions. For CATEGORY, BASE provides a more standardized and descriptive classification ('Business and Professional Services > Financial Service') compared to CURRENT's more specific but less conventional categorization ('mortgage_lender'). Overall, BASE shows better formatting, completeness, and standardization across attributes.",
+    "gemma_notes": "Current version has more specific and relevant category information (mortgage_lender). Both versions have accurate name, address, and website. Phone number format difference is minor."
+  },
+  {
+    "record_index": 106,
+    "id": "08f1f22ba441bd8003c9ac92d5a2e082",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For PHONE, BASE has a valid number without country code, but CURRENT has +45 format which is more standardized; however, since both are functional and BASE's number is complete, it's acceptable. For WEBSITE, BASE provides a complete URL while CURRENT is missing, making BASE clearly superior here. For ADDRESS, BASE has a cleaner structure with proper locality 'Aarhus' instead of 'Aarhus N', and the region field is empty in BASE which is more accurate than '82' (which appears to be a numeric region code). For CATEGORY, BASE's 'travel' is less specific but still valid, while CURRENT has 'car_rental_agency' which is more precise. Overall, BASE provides better website data and cleaner address formatting, making it the preferred version.",
+    "gemma_notes": "Current version has more complete data (website and address), accurate formatting for phone number, and a more specific category. The base version lacks website information and has an inaccurate address format."
+  },
+  {
+    "record_index": 109,
+    "id": "1125899913098456",
+    "qwen_choice": "b",
+    "gemma_choice": "s",
+    "qwen_notes": "The BASE version is better because it includes the location-specific suffix '- Calgary' in the name, making it more complete and descriptive for a local business listing. The address in BASE uses a more standard format with '180' as the unit number followed by the street address, which is clearer than CURRENT's '4411 6 Street Southeast, #180' format. All other attributes (phone, website, category) are identical between versions.",
+    "gemma_notes": "All attributes are identical between versions."
+  },
+  {
+    "record_index": 112,
+    "id": "08f48932e69a12dd03d5671400e23b78",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE has additional 'common' field which adds completeness. For PHONE, BASE uses standard format with parentheses and spaces, which is more readable than the current version's plain number. For WEBSITE, both are URLs but BASE appears to have a more stable/official link structure (198494 vs 77613). For ADDRESS, both are identical. For CATEGORY, BASE provides a more standardized and detailed classification using hierarchical categories which is more accurate than the current version's simplified categorization.",
+    "gemma_notes": "Current version has more specific and relevant category information. Phone number formatting is consistent across both versions but Current's format is preferred. Website URLs are functionally equivalent."
+  },
+  {
+    "record_index": 113,
+    "id": "08fb25919140d504031466d3d5beb5d2",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field which adds completeness. For PHONE, BASE has null value while CURRENT has a valid number, but since BASE's phone is null, it doesn't contribute positively. For WEBSITE, both are equivalent except BASE lacks trailing slash, but this is minor. For ADDRESS, BASE has more complete information with region field and correct locality spelling ('Rio Cuarto' vs 'Río Cuarto'). For CATEGORY, BASE provides a more standardized hierarchical classification which is more precise than the flat category in CURRENT. Overall, BASE offers better structured data with more complete fields.",
+    "gemma_notes": "Current version has more complete and accurate data for phone, website, and address. Category is also more specific and useful."
+  },
+  {
+    "record_index": 116,
+    "id": "08f1fa59513a595d032fdd2acd350b85",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and accurate category information. Address is also slightly better formatted in current version."
+  },
+  {
+    "record_index": 120,
+    "id": "08f1f852314e30580373a86cedf0b53a",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. It provides a more specific category and includes relevant alternate categories. The website URL in the current version is also HTTPS."
+  },
+  {
+    "record_index": 121,
+    "id": "08f1e8079056036d03df90e7738c96c3",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more complete name with both first and last names properly ordered. For PHONE, BASE uses a standard Italian format which is more recognizable locally, while CURRENT uses international format. For WEBSITE, BASE omits the trailing slash but both are functionally equivalent. For ADDRESS, BASE has a more standardized region field ('Latina' vs '62') and a slightly different street number (8 vs 7) which may reflect an actual address difference. For CATEGORY, BASE is better as it provides no category rather than an inaccurate one with 'accommodation' as alternate.",
+    "gemma_notes": "Current version has a more complete category and address. Phone number formatting is minor difference."
+  },
+  {
+    "record_index": 122,
+    "id": "08f818584926190503301a10eee5fc4a",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more standardized spelling without accent (Camara Municipal De Maribondo) which is more commonly used in official contexts. For PHONE, BASE uses the local format (82) 3270-1138 which is acceptable and consistent with Brazilian conventions, while CURRENT has international format +558232701138 but both are valid. For ADDRESS, BASE is missing postcode which makes it less complete; however, the freeform address 'Rua Do Comercio' in BASE is more concise and standard than Current's 'Rua Comércio, S/N'. For CATEGORY, BASE provides a clearer hierarchical classification ('Business and Professional Services > Auditorium') compared to CURRENT's multiple generic categories. Overall, BASE shows better consistency and official formatting.",
+    "gemma_notes": "Current version has a more complete address (includes postcode) and a more specific category. The name difference is minor."
+  },
+  {
+    "record_index": 124,
+    "id": "08f2a13d500ec592038947279db72951",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has a more complete and accurate address, including the full postcode. The website URL in the current version is also more specific to the business."
+  },
+  {
+    "record_index": 125,
+    "id": "08f1f1253491e08a0355c6b41a4f0509",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'PZW' is a more concise and likely the official abbreviation, while the current includes a full formal name that may be less commonly used. For PHONE, the base uses a standard German format with area code prefix (04923 022060) which is clearer than the international format in current (+4923022060). For WEBSITE, both are identical. For ADDRESS, the base includes the region 'Nordrhein-Westfalen' which adds completeness compared to the current version that lacks this field. For CATEGORY, the base provides a more structured and industry-standard classification ('Business and Professional Services > Factory') versus the current's generic 'metal_supplier' with irrelevant alternate category 'fertility'. Overall, the base shows better formatting consistency, completeness in address details, and more appropriate categorization.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The 'alternate' categories in Current are more relevant than Base's broad categorization."
+  },
+  {
+    "record_index": 126,
+    "id": "2251799821514825",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, 'Giant Eagle Supermarket' is more complete and formal than 'Giant Eagle'. For PHONE, the base phone number '4123666828' appears to be the correct one for this specific location (verified via external sources). For WEBSITE, the base has an empty string which is worse than the current pharmacy-specific URL. For ADDRESS, both are identical. For CATEGORY, 'drugstore' is more accurate and specific than 'pharmacy' for a Giant Eagle supermarket location, as it reflects the primary business type.",
+    "gemma_notes": "Current version has a more complete website URL and a slightly more specific category (pharmacy vs drugstore). Both versions have identical addresses and phone numbers."
+  },
+  {
+    "record_index": 128,
+    "id": "08f29a4c74384c8003621001ebd68dce",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE provides a more complete name with 'Kool' and includes common field which may indicate official branding. For PHONE, BASE uses standard format without spaces which is acceptable but CURRENT has international format '+52'. However, since the confidence for BASE is higher (1.000 vs 0.984), we prefer it. For WEBSITE, both are valid but BASE has a cleaner domain name without subdirectory. For ADDRESS, BASE includes more structured fields like locality and region which makes it more complete. For CATEGORY, BASE provides a more specific and standardized classification ('Dining and Drinking > Restaurant > Mexican Restaurant') compared to CURRENT's generic 'fast_food_restaurant' with less relevant alternates.",
+    "gemma_notes": "Current version provides more complete and specific data for name, phone, website, and category. Address is similar in both versions."
+  },
+  {
+    "record_index": 130,
+    "id": "08fb91682e4caa2c03239f9cbc07f2c5",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address in the base version seems incorrect."
+  },
+  {
+    "record_index": 132,
+    "id": "08f44e540c45806d036445fe6c54049d",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete address information (includes postcode), and the website URL seems more specific to this location."
+  },
+  {
+    "record_index": 135,
+    "id": "08f1e8509086834603d4d09f48b6ba33",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes 'common' field which adds completeness; for PHONE, BASE uses standard international format without spaces; for WEBSITE, BASE has a cleaner URL without trailing slash; for ADDRESS, BASE provides more specific street information ('Olibra 55' vs 'Ulibra, 44') and correctly identifies the region as 'Ascoli Piceno' instead of '57'; for CATEGORY, BASE offers a more detailed and standardized classification with proper hierarchy.",
+    "gemma_notes": "Current version has more complete and accurate categorization (accommodation) compared to Base's less specific 'Travel and Transportation > Lodging > Cabin'. Both versions have good formatting for other attributes."
+  },
+  {
+    "record_index": 136,
+    "id": "08f1f88b66880d2e0385b0548cd07ca6",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete and specific category information. Address in current is also more detailed. Phone number formatting difference is minor."
+  },
+  {
+    "record_index": 137,
+    "id": "08f1f9b08e92a8ed03863143cbe743b8",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Si-Like' is more concise and likely the official name, while 'Si-Like Ristorante Cinese' adds a descriptive but not necessarily required suffix. For PHONE, the base format '010 465607' is cleaner with proper spacing. For WEBSITE, the base has 'www.' which is more canonical than the current version without it. For ADDRESS, the base has better structured formatting with consistent use of 'region' as 'Genova' instead of 'GE', and the freeform address is slightly more standardized. For CATEGORY, the base provides a more formal classification with hierarchy ('Dining and Drinking > Restaurant') which is more descriptive than the simple 'restaurant' label.",
+    "gemma_notes": "Current version has more complete category information and a more accurate address format."
+  },
+  {
+    "record_index": 138,
+    "id": "08f44e38ed4518540380d8904cd5b34a",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has a more complete and accurate address. The website URL in the current version is also more relevant to the business type. While the base version provides a detailed category, the current version's categorization is more concise and specific."
+  },
+  {
+    "record_index": 139,
+    "id": "08fa81eb2e78d11c03804afe6de4128a",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more standard name without unnecessary suffixes. For PHONE, BASE uses local format which is valid for Brazil, while CURRENT has international format but both are functional. For WEBSITE, both are identical. For ADDRESS, BASE has more accurate street number (720 vs 727) and correct locality name 'Brotas' (not 'Btotas'). For CATEGORY, BASE provides a more standardized hierarchical classification with proper category path which is more useful for data processing and matching.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The address is slightly more detailed, the phone number format is preferred, and the category is more specific."
+  },
+  {
+    "record_index": 140,
+    "id": "08f6d35aa62266810393381338e5810f",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes additional 'common' field which adds completeness. For PHONE, BASE provides a more standardized format (992 223 7635) compared to CURRENT's international format (+529222237633), though both are valid. For WEBSITE, BASE has a cleaner URL without trailing slash and consistent domain naming. For ADDRESS, BASE provides more complete information with region 'VER' and locality 'Minatitlan' (properly spelled) while CURRENT lacks region and has a slightly different locality spelling ('Minatitlán' vs 'Minatitlan'). For CATEGORY, BASE offers a more standardized and detailed classification ('Travel and Transportation > Lodging > Hotel') compared to CURRENT's simpler 'hotel' with alternate categories.",
+    "gemma_notes": "Current version has more complete address information (including postcode), a more specific category, and a consistent website URL format."
+  },
+  {
+    "record_index": 142,
+    "id": "08f29a19a2971d0003d7cf4ffd837d25",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE uses standard format '(424) 399-5282' which is more readable than CURRENT's '+14243995282'. For WEBSITE, BASE provides a more specific ATM location URL rather than a general map page. For ADDRESS, BASE correctly identifies 'Playa Del Rey' as the locality instead of 'Los Angeles', which is more accurate for this specific ATM location, and has a cleaner postcode format without the +4 extension. For CATEGORY, BASE offers a more standardized and detailed classification with proper hierarchical structure, while CURRENT has broader but less specific categories.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The website URL in the current version is more relevant to the business type (ATM). Address uses a more specific locality (Los Angeles) which aligns better with the provided freeform address."
+  },
+  {
+    "record_index": 144,
+    "id": "08f481270588895403e4355b3c793f94",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, 'Pastelería D' Susan' is more complete and formal than 'Pasteles D' Súsan', including the proper Spanish title 'Pastelería'. For PHONE, '871 123 4567' is a valid local format while '+528713304139' is international but less standardized. For ADDRESS, BASE has the more complete address with region 'Durango', which adds important geographic context missing in CURRENT. For CATEGORY, BASE provides a more specific and structured classification ('Dining and Drinking > Dessert Shop > Pie Shop') compared to CURRENT's generic 'desserts' with less descriptive alternates.",
+    "gemma_notes": "Current version has a more complete and accurate address (includes region), and the category is more specific and relevant to a dessert shop."
+  },
+  {
+    "record_index": 145,
+    "id": "562949958305102",
+    "qwen_choice": "s",
+    "gemma_choice": "c",
+    "qwen_notes": "All attributes (name, phone, website, address, category) are identical between current and base versions. No differences found that would favor one over the other in terms of completeness, accuracy, or formatting.",
+    "gemma_notes": "Both versions have identical name and address. Current version has a more relevant website URL as it directly points to the Oxford Glen Sachse page. The phone number in the base version seems incorrect."
+  },
+  {
+    "record_index": 146,
+    "id": "08f446b259454ad503533f12dc4d0f9c",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For WEBSITE, the BASE provides a more canonical and stable URL (http://www.loves.com/en/location-and-fuel-price-search/rv-services) compared to the CURRENT's shortened/less standard format. For ADDRESS, the BASE uses the more standardized 'County Road' spelling over 'CR 3101' in CURRENT, which is more consistent with typical US address formatting. For CATEGORY, the BASE includes an additional 'travel' alternate category, making it more complete than the CURRENT version.",
+    "gemma_notes": "Current version has a more relevant website URL for an RV Hookup location. Both versions have identical name, phone number, and address. The current version's category is slightly better as it omits the less relevant 'travel' category."
+  },
+  {
+    "record_index": 147,
+    "id": "08f2626c6660c31803d3a11019338da7",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes additional 'common' field and 'rules' array which provides more metadata even though primary names are identical. For PHONE, BASE uses standard format '(800) 511-8940' which is more readable than CURRENT's '+18005118940'. For WEBSITE, both URLs are functionally equivalent with only query parameter differences; however, BASE URL appears to be the canonical one without extra tracking parameters. For ADDRESS, BASE has a more complete postal code '58078' vs CURRENT's '58078-1833', but CURRENT includes unit number '# 60' which is more specific. However, BASE provides better structured data with consistent formatting. For CATEGORY, BASE is clearly superior as it contains no data rather than an incomplete category structure.",
+    "gemma_notes": "Current version has more complete category information and a more accurate address (including apartment number). Phone numbers are functionally equivalent."
+  },
+  {
+    "record_index": 148,
+    "id": "08f1f0204831024203a8625d51944196",
+    "qwen_choice": "c",
+    "gemma_choice": "b",
+    "qwen_notes": "CURRENT is better overall. For NAME, both are identical. For PHONE, CURRENT uses E.164 format (+4938608090) which is more standardized than BASE's local format (038608090). For WEBSITE, CURRENT has a cleaner URL without 'www' but both are functionally equivalent; CURRENT slightly preferred for consistency. For ADDRESS, CURRENT is less complete (missing locality and region) but more concise; BASE provides more structured data with additional fields. For CATEGORY, CURRENT offers more specific and complete categorization with 'shopping', 'home_improvement_store', and 'wholesale_store' compared to BASE's 'home_improvement_store' and 'retail'. The overall completeness and formatting standards favor CURRENT.",
+    "gemma_notes": "Base version has a more complete address with locality and region. Category in Base is also more specific."
+  },
+  {
+    "record_index": 153,
+    "id": "08f4880d8172067603fa7c012014e336",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE uses a standard format without spaces ('867 712 4737' vs '+528677124373'), which is acceptable but CURRENT has international format. For WEBSITE, both are missing, so neither is better. For ADDRESS, BASE provides more complete information with region 'Tamaulipas', while CURRENT lacks this. For CATEGORY, BASE offers a more standardized and detailed classification ('Travel and Transportation > Lodging > Hotel') compared to CURRENT's simpler 'hotel' with alternate categories. Overall, BASE has more structured and complete data in most attributes.",
+    "gemma_notes": "Current version has more complete and accurate data for most attributes. Phone number in current version is formatted as international standard, while base version uses a local format. Address in current version is also more concise and likely more accurate."
+  },
+  {
+    "record_index": 156,
+    "id": "1125899908396217",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "The BASE version is better overall. For NAME, 'Bluebell Physiotherapy Centre' is more complete than 'Bluebell Physiotherapy' and includes the formal 'Centre' designation. For WEBSITE, the BASE version has an empty string which is worse than the CURRENT's valid URL. However, the ADDRESS in BASE is more complete with 'Hilltop Farm, Warren Road' compared to just 'Warren Road' in CURRENT, providing better specificity. The CATEGORY attributes are identical. Overall, the BASE version provides more complete address information and a more formal name, making it the better choice.",
+    "gemma_notes": "Current version has a more complete address and website. Both versions have the same phone number and category."
+  },
+  {
+    "record_index": 157,
+    "id": "08f1fb432c6d432b030f6b6a47ed6ec0",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Gare SNCF de Creil' is more complete and specific than 'Gare de Creil', indicating the railway operator. For PHONE, '01 42 14 20 00' is a valid French local number format, while '+33892353535' appears to be a different number or possibly a wrong format. For WEBSITE, 'http://www.gares-en-mouvement.com' seems more relevant to train stations and transportation, whereas the current website points to a Darty kitchen store. For ADDRESS, the base has the additional region 'Picardie', which adds useful geographic context. For CATEGORY, the base provides a more detailed and standardized classification ('Travel and Transportation > Transport Hub > Rail Station') compared to the simpler 'train_station' with one alternate.",
+    "gemma_notes": "Current version has a more specific and accurate category ('train_station'). Both versions have valid address information. Current version's phone number is likely more reliable as it's in international format."
+  },
+  {
+    "record_index": 159,
+    "id": "08f1e368a432e2a3036a3229000375cc",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field which provides more completeness. For PHONE, BASE uses standardized spacing format '0961 39099' which is more readable than current '096139099'. For WEBSITE, BASE omits the trailing slash making it cleaner and more canonical. For ADDRESS, BASE has a more concise locality name 'Weiden' instead of 'Weiden in der Oberpfalz', and removes extra spaces in freeform address 'Neustädter Str. 52' vs 'Neustädter Str.  52'. For CATEGORY, BASE provides a more standardized and widely recognized category 'Retail > Furniture and Home Store' compared to the less specific 'office_equipment' with multiple alternates in current version.",
+    "gemma_notes": "Current version has more complete and specific categorization (alternate categories), while both versions have accurate name, phone, website, and address."
+  },
+  {
+    "record_index": 160,
+    "id": "08f1fa5362b859a803ed45df6695e1e3",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'ROSSMANN Drogeriemarkt' is more complete and formal than 'Rossmann'. For PHONE, '020997756247' is less standardized than '+4920997756247', but the base has a valid format with country code. For WEBSITE, both are identical. For ADDRESS, BASE provides more complete information with region 'North Rhine-Westphalia' and slightly more detailed freeform address 'Markenstr. 22-24'. For CATEGORY, 'drugstore' is more specific and accurate than 'shopping' for this type of business.",
+    "gemma_notes": "Current version has more complete category information and a slightly more accurate name (Rossmann is likely the preferred brand name). Phone number formatting difference is minor."
+  },
+  {
+    "record_index": 163,
+    "id": "08f2aa859dba3af003731e8ef72ef347",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE uses standard format '(301) 740-9244' which is more readable than CURRENT's '+13017409244'. For WEBSITE, both are identical. For ADDRESS, BASE has a more standardized postcode '20877' vs CURRENT's '20877-3013', though CURRENT is more specific; however, BASE's format is cleaner and more conventional. For CATEGORY, BASE provides a more formal classification 'Dining and Drinking > Bakery' with proper hierarchy, while CURRENT has simpler but less structured categorization. Overall, BASE shows better formatting consistency and completeness in key fields.",
+    "gemma_notes": "Current version has more complete and specific category information. Phone number format is also preferred in current version."
+  },
+  {
+    "record_index": 164,
+    "id": "08f1f912a5b8d896032a277714c8a918",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has a more complete name with 'Mystères du Lac' which is the official name, while CURRENT adds 'City Games & Escape Game' which appears to be a secondary branding or location-specific addition. For PHONE, BASE uses the standard French format without spaces, which is acceptable and consistent with local conventions, while CURRENT uses E.164 format (+33). For WEBSITE, both are essentially identical except for the trailing slash; BASE is slightly cleaner without it. For ADDRESS, BASE includes the region 'Haute-Savoie' which adds completeness and accuracy to the address structure. For CATEGORY, BASE provides a more standardized classification ('Arts and Entertainment > Escape Room') compared to CURRENT's flat categorization with alternates.",
+    "gemma_notes": "Current version has more complete and specific categorization (escape_rooms, arts_and_entertainment, active_life) compared to Base's broad 'Arts and Entertainment > Escape Room'. Both versions have accurate name, phone, website, and address."
+  },
+  {
+    "record_index": 165,
+    "id": "08f29a1d69b0b8da034c4f6acaa03eaf",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE has a more complete name with 'nails' capitalized and includes a 'common' field which adds value. For PHONE, BASE uses standard US format '(310) 360-6888' which is more readable than the E.164 format '+13103606888' in CURRENT. For WEBSITE, both are identical. For ADDRESS, BASE has a less complete address (missing street number and postcode) but it's still valid; CURRENT provides more detail including full street address and postcode. For CATEGORY, BASE offers a more standardized and detailed classification with hierarchical structure which is more accurate than the simpler 'spas' in CURRENT. Overall, BASE shows better formatting consistency and more structured categorization.",
+    "gemma_notes": "Current version has a more complete address (including postcode) and a more specific category. The phone number formats are equivalent."
+  },
+  {
+    "record_index": 167,
+    "id": "08f2832b85a12b3203fb6b84f25c83de",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Windshield Replacement Sacramento' is more complete and descriptive than 'Windshield Repair Sacramento'. For PHONE, the base format '(916) 892-0708' is a standard US phone format, while current uses E.164 format '+19169437958', but both are valid - however, the base has a more conventional presentation. For WEBSITE, the base URL 'https://www.windshieldreplacementsacramento.com' without trailing slash is canonical and cleaner. For ADDRESS, the base includes unit number '#2' which adds specificity and completeness over the current version. For CATEGORY, the base provides a more detailed and structured classification using hierarchical categories that better reflects the business type compared to the simpler 'auto_glass_service' with 'wholesale_store' alternate.",
+    "gemma_notes": "Current version has more specific and relevant category information (auto_glass_service). Phone number format is standardized in Current. Address details are mostly consistent, but Base includes an apartment number which may not be accurate for a business."
+  },
+  {
+    "record_index": 168,
+    "id": "08f28308106929aa0322048f73b8a6a1",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, 'Richard Lavigna, DPM' is more formal and complete than 'Richard Lavigna Dpm', including the professional designation with proper punctuation. For PHONE, both are different numbers; without additional context, we cannot determine which is correct, but since the confidence is equal and no clear indication of accuracy, we prefer to keep the original. For WEBSITE, the BASE version provides a more canonical provider page on balancehealth.com rather than a personal website, which is typically more reliable for professional services. For ADDRESS, the BASE has a cleaner freeform address without the 'Ste 107' unit number that may not be essential or could be an error in CURRENT. CATEGORY is identical in both versions.",
+    "gemma_notes": "Current version has a more complete address (includes suite number) and a website that appears to be directly related to the doctor's practice."
+  },
+  {
+    "record_index": 169,
+    "id": "08f49824998a425003760394c03c89c5",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE includes a more complete name with quotes and appears to be the official naming. For PHONE, BASE uses a standard format without spaces which is more consistent. For WEBSITE, BASE has null value while CURRENT provides a valid URL, but since BASE has higher confidence (1.000 vs 0.793), it's preferred. For ADDRESS, BASE has better structured data with region field filled and locality correctly identified as 'El Tephé'. For CATEGORY, BASE provides a more standardized and detailed classification with proper hierarchy, while CURRENT has a simpler but less descriptive categorization.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. It provides a full address, website, and a more specific category."
+  },
+  {
+    "record_index": 170,
+    "id": "08f64b1b0e401063031c58c4f99da9d7",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, both are identical but BASE has additional 'common' field which adds completeness. For PHONE and WEBSITE, both have null/missing values, but BASE's null is more explicitly structured. For ADDRESS, both are minimal with only country 'TH', but BASE maintains consistency. For CATEGORY, BASE provides a more detailed hierarchical classification ('Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant') compared to CURRENT's simpler 'thai_restaurant' with alternate categories, making it more accurate and complete.",
+    "gemma_notes": "Current version has a more specific and relevant primary category (thai_restaurant) compared to Base's broad categorization. Both versions have limited data, but Current provides more useful information."
+  },
+  {
+    "record_index": 175,
+    "id": "08f1f810aca9dd4a0338ca3023b18577",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has the official spelling without the accent mark which is more commonly used in digital contexts. For PHONE, BASE uses the standard German format with space separation which is more readable and consistent with local conventions. For WEBSITE, both are identical. For ADDRESS, BASE includes the region (Baden-Württemberg) which adds completeness and accuracy, while the street name abbreviation is a minor formatting difference. For CATEGORY, BASE provides a more standardized and detailed classification ('Retail > Fashion Retail > Bridal Store') compared to the simpler 'bridal_shop' with alternate categories in CURRENT.",
+    "gemma_notes": "Current version has more specific and detailed category information. Address in base is missing region, while current provides it. Name difference is minor."
+  },
+  {
+    "record_index": 176,
+    "id": "08f19424ccc1e0820363bbececd4900d",
+    "qwen_choice": "s",
+    "gemma_choice": "c",
+    "qwen_notes": "All attributes between current and base versions are identical or functionally equivalent. Name, phone, website, address, and category all match exactly. The website URL in base has additional UTM parameters but both refer to the same canonical domain. Address fields are identical with the base having an empty region field which does not affect data quality. No differences that would favor one version over the other.",
+    "gemma_notes": "Both versions are very similar. The current version has a slightly better website URL as it lacks tracking parameters."
+  },
+  {
+    "record_index": 178,
+    "id": "2251799819721663",
+    "qwen_choice": "b",
+    "gemma_choice": "s",
+    "qwen_notes": "The BASE version is better because it includes the 'region' field ('South Holland') which makes the address more complete and accurate compared to the CURRENT version that has an empty region field. All other attributes (name, phone, website, category) are identical between the two versions.",
+    "gemma_notes": "All attributes are identical in both versions."
+  },
+  {
+    "record_index": 179,
+    "id": "08f499da81376a8e035b83643df59654",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Automecanica Medellin' is more accurate and complete than 'Auto Técnica Medellín' which includes an unnecessary accent. For PHONE, the base format '444 817 6100' is cleaner and more readable than '+524448176100'. For ADDRESS, the base has better structured data with explicit region name 'San Luis Potosí' instead of abbreviation 'SLP', and correct street name 'Calzada Fray Diego de la Magdalena 1721'. For CATEGORY, the base provides a more standardized and detailed classification using hierarchical categories which is more useful for data processing and searchability.",
+    "gemma_notes": "Current version has more complete and accurate data for name, phone, address, and category. Base version lacks website information and its category description is less specific."
+  },
+  {
+    "record_index": 180,
+    "id": "08f1ea559883492c03bf7e33805a4382",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has correct capitalization ('Un Sogno Verde' vs 'Un sogno verde'). For PHONE, BASE uses a more standard format without spaces ('329 365 7448' vs '+393293657448'). For WEBSITE, BASE correctly identifies no website exists (null) while CURRENT provides one. For ADDRESS, BASE has better structured data with proper region name 'Venezia' instead of code '34', and the address format 'Via Molinella 83 1' is more complete than 'Via Molinella, 83'. For CATEGORY, BASE provides a more standardized classification ('Retail > Garden Center') compared to CURRENT's simpler 'gardener' with more alternate categories.",
+    "gemma_notes": "Current version has more complete and accurate data across all attributes. The website URL is present in current version while missing in base. Category in current version is also more specific and detailed."
+  },
+  {
+    "record_index": 182,
+    "id": "08f2aaab4d4c0d620325d61d2ce778c7",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has a more specific and relevant category (automotive_parts_and_accessories) compared to Base's broad Business and Professional Services. Phone number format in Current is also preferred."
+  },
+  {
+    "record_index": 183,
+    "id": "08f44ae8010ea034037504a8a664bb97",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, BASE has additional 'common' field and 'rules' array, making it more complete. For PHONE, BASE has a valid phone number while CURRENT has a different number; however, since the confidence for BASE is higher (1.000 vs 0.915), we prefer BASE. For WEBSITE, BASE has null value while CURRENT has a valid URL, so CURRENT is better here but not enough to outweigh other factors. For ADDRESS, BASE provides a more complete address with locality 'Lake Worth' and includes a full postcode '33460', whereas CURRENT has a different street address and postcode format. For CATEGORY, BASE uses a more standardized hierarchical format ('Arts and Entertainment > Art Gallery') which is more descriptive than the flat category 'art_gallery'. Overall, BASE shows better completeness and structure across most attributes.",
+    "gemma_notes": "Current version has a more complete address (including postcode), a valid phone number, and a website. The category is also more specific and detailed."
+  },
+  {
+    "record_index": 186,
+    "id": "08f26cbd2925b00e030b4221ad033046",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE is better overall. For NAME, BASE includes the more specific 'Bitcoin ATM' which better describes the service. For PHONE, BASE uses standard format '(678) 435-9604' which is more readable than CURRENT's E.164 '+16784359604'. For WEBSITE, BASE provides a more canonical branch URL which is likely more relevant for this specific ATM location. For ADDRESS, BASE has a cleaner postcode format '76011' without the +4 extension, which is more standard for general location data. For CATEGORY, BASE offers a more detailed and structured classification that better reflects the business type as a financial service ATM.",
+    "gemma_notes": "Current version has more complete and accurate categorization (primary 'atms' and alternate 'currency_exchange') compared to Base's broad 'Business and Professional Services > Financial Service > Banking and Finance > ATM'. Both versions have strong phone and website data, with Current having a slightly better address due to the full postcode."
+  },
+  {
+    "record_index": 188,
+    "id": "08f441a5a3b7474903f72b79ec32b831",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Presto! ATM at Publix®' is more complete and descriptive than just 'Presto! ATM'. For PHONE, '(863) 688-1188' is a properly formatted standard phone number while '8002421227' lacks formatting. For WEBSITE, 'https://ww4.publix.com/presto' appears to be the canonical or more official URL compared to the specific location-based one. For ADDRESS, '1617 Bartow Rd' is likely the correct street name, while '1617 US Hwy 98 S' may be incorrect or less precise. For CATEGORY, the BASE version provides a much more detailed and accurate classification with proper hierarchy.",
+    "gemma_notes": "Current version has a more concise and accurate name. Phone number in current version is likely more relevant as it's a toll-free number for ATM inquiries. Website URL in current version is also more specific to Presto! ATMs. Address details are mostly consistent, with slight variations in street names which might be due to different address databases. Category in current version is sufficient and aligns with the nature of the business."
+  },
+  {
+    "record_index": 189,
+    "id": "08f2661b7016194a032ee6510609a5e5",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Glasrite #2' is more specific and likely represents the actual business name. For PHONE, BASE has null which is worse than CURRENT's valid number. For WEBSITE, BASE has null which is worse than CURRENT's valid URL. For ADDRESS, BASE has a more complete address with all components (locality, region, country, postcode) while CURRENT includes freeform street address which adds value but BASE is more standardized. For CATEGORY, BASE has no category information while CURRENT provides a detailed and accurate categorization. Overall, BASE is better because it has more complete structured data in the address field and the name 'Glasrite #2' appears to be the correct business identifier.",
+    "gemma_notes": "Current version has more complete data for all attributes: name (includes common variations), phone, website, and address. Category is also more detailed in the current version."
+  },
+  {
+    "record_index": 192,
+    "id": "08f8b221a404320d03b459bdb2275ea1",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version has more complete data (phone, address) and a more specific category. Base lacks phone and website, and its category is less precise."
+  },
+  {
+    "record_index": 195,
+    "id": "08f39040ce78ab8a034e94b26de55c37",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "qwen_notes": "BASE version is better overall. For NAME, 'Sofrapa - Covilhã' is more specific and includes location context. For PHONE, the BASE version '275333397' is a valid local number, while CURRENT has international format but may be less accurate for this specific business. For WEBSITE, BASE provides a more specific store page URL rather than a general company site. For ADDRESS, BASE includes locality and region fields which makes it more complete. For CATEGORY, BASE has a broader range of relevant categories including 'auto_parts_and_supply_store' and 'auto_body_shop', while CURRENT is more narrowly focused on 'automotive_repair'. Overall, BASE provides more complete and contextually accurate information.",
+    "gemma_notes": "Current version has a more accurate and specific category (automotive_repair) compared to Base's broad and potentially unrelated categories. Both versions have good address and website information. Phone format is consistent across both, but Current uses the preferred international format."
+  },
+  {
+    "record_index": 199,
+    "id": "08f1e8439298263003d04efb18ab2497",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "qwen_notes": "JSON parsing error: Unterminated string starting at: line 3 column 12 (char 30)",
+    "gemma_notes": "Current version provides more complete and specific information for name, phone, website, and category. Address is slightly less complete in current version but still accurate."
+  }
+]
