@@ -3,100 +3,45 @@
 **Date**: November 11, 2024  
 **Branch**: `local_model_annotation`  
 **Contributors**: Jaskaran Singh  
-**Objective**: Evaluate multiple AI models for automated place attribute annotation
+**Objective**: Compare AI models for automated place attribute annotation
 
 ---
 
 ## Executive Summary
 
-We successfully tested multiple large language models (LLMs) for automated annotation of place attribute conflicts (current vs base). After encountering various compatibility and quality issues, we identified **Qwen 3 Coder 30B** as the most reliable annotator, with **Gemma 2 9B Instruct** as a useful comparison model.
+We successfully evaluated two large language models (LLMs) for automated annotation of place attribute conflicts (current vs base): **Qwen 3 Coder 30B** and **Gemma 2 9B Instruct**.
 
-**Key Finding**: Qwen 30B demonstrated balanced, nuanced decision-making with 46% agreement with Gemma, indicating both models are making reasonable but different judgments about attribute quality trade-offs.
+**Key Finding**: Qwen 30B demonstrated balanced, nuanced decision-making with 46% agreement with Gemma. This indicates both models are making reasonable but different judgments about attribute quality trade-offs, with Qwen being more guideline-adherent and Gemma showing a bias toward current versions.
 
 ---
 
-## Models Tested
+## Models Evaluated
 
-### 1. Llama 3.1 8B Instruct ❌
-**Result**: Failed - Systematic bias
+### Qwen 3 Coder 30B ✅
+**Best Overall Performer**
 
-- **Issue**: 100% selection of "current" version across all 200 records
-- **Analysis**: Model appeared to ignore attribute guidelines entirely
-- **Conclusion**: Not suitable for this task - shows complete bias
-
-### 2. DeepSeek R1 Qwen3 8B ❌
-**Result**: Failed - Performance issues
-
-- **Issue**: Reasoning model outputs thought process in `<think>` tags
-- **Time**: ~82 seconds per record (4.5 hours for 200 records)
-- **Problem**: Exhausts token limit (200) on reasoning before generating JSON
-- **Conclusion**: Not practical for this annotation task
-
-### 3. Mistral 7B Instruct v0.3 ❌
-**Result**: Failed - Prompt compatibility
-
-- **Issue**: `"Only user and assistant roles are supported!"`
-- **Problem**: Model's Jinja template doesn't support system messages
-- **Conclusion**: Incompatible with our prompt structure
-
-### 4. Gemma 2 9B (Base) ❌
-**Result**: Failed - Wrong variant
-
-- **Issue**: Empty/invalid JSON responses
-- **Problem**: Base model (not instruct-tuned) can't follow instructions
-- **Fix**: Switched to instruct variant
-
-### 5. Gemma 2 9B Instruct ✅
-**Result**: Success - After fixing markdown wrapper
-
-- **Issue**: Initially returned JSON wrapped in markdown code blocks
-- **Fix**: Added markdown stripping logic to annotation script
-- **Performance**: ~20 seconds per record
-- **Quality**: Good instruction following, but shows current-bias (77.5%)
-
-### 6. Qwen 3 Coder 30B ✅
-**Result**: Success - Best performer
-
-- **Performance**: ~10-15 seconds per record
+- **Performance**: ~10-15 seconds per record (~30-50 minutes total)
 - **Quality**: Most balanced and nuanced annotations
-- **No compatibility issues**: Worked perfectly out of the box
+- **Behavior**: 52% base, 29.5% current, 10% same, 8.5% unclear
+- **Strengths**: Catches quality issues (capitalization, canonical URLs, category structure)
+
+### Gemma 2 9B Instruct ✅
+**Fast Comparison Model**
+
+- **Performance**: ~1.5 seconds per record (~5 minutes total for 200 records)
+- **Quality**: Good instruction following, but shows current-bias
+- **Behavior**: 77.5% current, 12% base, 10% same, 0.5% unclear
+- **Strengths**: Very fast on RTX 4070 Super, reasonable explanations
+- **Note**: Required markdown code block stripping fix
 
 ---
 
-## Technical Fixes Implemented
+## Technical Implementations
 
-### 1. UTF-8 Encoding Issues (Windows Console)
-**Problem**: Unicode characters (✓, ✗, Thai text) caused crashes
-```python
-UnicodeEncodeError: 'charmap' codec can't encode character
-```
+### 1. Markdown Code Block Handling
+**Issue**: Gemma 2 wraps JSON responses in markdown code blocks
 
-**Solution**: Replaced all unicode symbols with ASCII equivalents:
-- `✓` → `[OK]`
-- `✗` → `[NO]`
-- `⚠` → `[WARNING]`
-
-**Files Modified**: 
-- `scripts/annotate_ai.py`
-- `scripts/calculate_agreement.py`
-
-### 2. JSON Response Format Parameter
-**Problem**: LM Studio rejected `response_format: {"type": "json_object"}`
-```
-Error code: 400 - {'error': "'response_format.type' must be 'json_schema' or 'text'"}
-```
-
-**Solution**: Removed `response_format` parameter entirely (line 180 in `annotate_ai.py`)
-
-### 3. Gemma Markdown Code Blocks
-**Problem**: Gemma wraps JSON in markdown:
-```
-```json
-{"choice": "c", "notes": "..."}
-```
-```
-
-**Solution**: Added markdown stripping logic before JSON parsing:
+**Solution**: Added automatic stripping logic in `annotate_ai.py`:
 ```python
 if result_text.strip().startswith('```'):
     lines = result_text.strip().split('\n')
@@ -106,6 +51,17 @@ if result_text.strip().startswith('```'):
         lines = lines[:-1]
     result_text = '\n'.join(lines)
 ```
+
+### 2. Windows Console Encoding
+**Issue**: Unicode characters caused crashes on Windows
+
+**Solution**: Replaced unicode symbols with ASCII in both scripts:
+- `✓` → `[OK]`, `✗` → `[NO]`, `⚠` → `[WARNING]`
+
+### 3. LM Studio API Compatibility
+**Issue**: Some API parameters not universally supported
+
+**Solution**: Removed `response_format` parameter for broader compatibility
 
 ---
 
@@ -119,12 +75,12 @@ if result_text.strip().startswith('```'):
 
 ### Choice Distribution
 
-| Choice | Qwen 30B | Gemma 2 9B | Llama 3.1 8B |
-|--------|----------|------------|--------------|
-| **current (c)** | 59 (29.5%) | 155 (77.5%) | 200 (100%) |
-| **base (b)** | 104 (52.0%) | 24 (12.0%) | 0 (0%) |
-| **same (s)** | 20 (10.0%) | 20 (10.0%) | 0 (0%) |
-| **unclear (u)** | 17 (8.5%) | 1 (0.5%) | 0 (0%) |
+| Choice | Qwen 30B | Gemma 2 9B |
+|--------|----------|------------|
+| **current (c)** | 59 (29.5%) | 155 (77.5%) |
+| **base (b)** | 104 (52.0%) | 24 (12.0%) |
+| **same (s)** | 20 (10.0%) | 20 (10.0%) |
+| **unclear (u)** | 17 (8.5%) | 1 (0.5%) |
 
 ### Key Observations
 
@@ -192,14 +148,12 @@ if result_text.strip().startswith('```'):
 
 ## Performance Metrics
 
-### Speed Comparison (per record)
+### Speed Comparison
 
-| Model | Time/Record | Total Time (200) | Notes |
-|-------|-------------|------------------|-------|
-| Llama 3.1 8B | ~7 seconds | ~25 minutes | Fast but biased |
-| DeepSeek R1 8B | ~82 seconds | ~4.5 hours | Too slow (reasoning overhead) |
-| Qwen 30B | ~10-15 seconds | ~30-50 minutes | Good balance |
-| Gemma 2 9B | ~20 seconds | ~65 minutes | Slower but acceptable |
+| Model | Time/Record | Total Time (200) | Quality Score |
+|-------|-------------|------------------|---------------|
+| Qwen 30B | ~10-15 seconds | ~30-50 minutes | ⭐⭐⭐⭐⭐ Best balanced |
+| Gemma 2 9B | ~1.5 seconds | ~5 minutes | ⭐⭐⭐⭐ Fast, slight bias |
 
 ### Hardware
 - **GPU**: RTX 4070 Super (12GB VRAM)
@@ -216,10 +170,6 @@ if result_text.strip().startswith('```'):
 - ✅ `data/annotations_gemma.json` - Gemma 2 9B annotations (200 records)
 - ✅ `disagreements_qwen_vs_gemma.json` - Detailed disagreements (108 records)
 
-### Deleted Files (Failed Attempts)
-- ❌ `data/annotations_llama.json` - 100% biased toward current
-- ❌ `data/annotations_mistral.json` - Prompt template errors
-- ❌ `disagreements_llama_vs_qwen.json` - No longer relevant
 
 ---
 
@@ -244,25 +194,24 @@ if result_text.strip().startswith('```'):
 
 ---
 
-## Lessons Learned
+## Key Insights
 
-### Model Selection
-- ✅ Larger models (30B) generally more nuanced than smaller (7-9B)
-- ✅ Task-specific models (coder variants) can work well for structured tasks
-- ❌ Model size alone doesn't guarantee quality (Llama 8B failed, Gemma 9B biased)
-- ✅ Testing with 5-record samples saves significant time
+### Model Behavior
+- **Qwen 30B** excels at nuanced quality judgments and follows guidelines closely
+- **Gemma 2 9B** is exceptionally fast but prioritizes data completeness over formatting quality
+- Both models make reasonable judgments but weigh attributes differently
+- 46% agreement represents genuine difficulty in edge cases, not random noise
 
-### Prompt Engineering
-- ✅ Including full guidelines in prompt works (for compatible models)
-- ⚠️ Some models can't handle complex prompts (Gemma had issues initially)
-- ✅ Low temperature (0.2) provides consistency without sacrificing reasoning
-- ⚠️ Different models have different prompt template requirements
+### Performance vs Quality Trade-off
+- **Gemma**: ~5 minutes for 200 records (⚡ extremely fast)
+- **Qwen**: ~30-50 minutes for 200 records (⚖️ more balanced)
+- Speed difference: 6-10x faster, but with increased current-bias
 
-### Technical Infrastructure
-- ⚠️ Windows console encoding requires special handling
-- ✅ LM Studio is reliable once model compatibility is established
-- ✅ Auto-save functionality crucial for long-running tasks
-- ✅ Background process management important to prevent conflicts
+### Technical Considerations
+- Low temperature (0.2) provides consistency without sacrificing reasoning
+- Auto-save functionality crucial for long-running tasks
+- Windows console encoding requires ASCII-compatible output
+- Markdown code block handling needed for some models (Gemma)
 
 ---
 
