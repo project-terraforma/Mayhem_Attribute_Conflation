@@ -1,0 +1,29 @@
+[
+  {
+    "record_index": 0,
+    "id": "08f64a59990a63a0030784450be43ba4",
+    "final_choice": "b",
+    "qwen_choice": "b",
+    "gemma_choice": "u",
+    "notes": "Translate confirms it is a barber shop, likely in a district in thailand, base would be better",
+    "reviewer": "manual"
+  },
+  {
+    "record_index": 1,
+    "id": "08f3da18ccad52ad03cc06b87820910f",
+    "final_choice": "c",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "notes": "Current is better, website actually works, base website 404s.",
+    "reviewer": "manual"
+  },
+  {
+    "record_index": 2,
+    "id": "08f4823ad167532903b45bc53a70221e",
+    "final_choice": "b",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "notes": "the base address is real. while base has a null phone number, the current phone number is linked to a home depot in a different location",
+    "reviewer": "manual"
+  }
+]
