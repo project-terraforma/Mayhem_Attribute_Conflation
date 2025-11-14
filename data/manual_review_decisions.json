@@ -25,5 +25,14 @@
     "gemma_choice": "c",
     "notes": "the base address is real. while base has a null phone number, the current phone number is linked to a home depot in a different location",
     "reviewer": "manual"
+  },
+  {
+    "record_index": 4,
+    "id": "08fa90e8d6b065a303084f1af4a32095",
+    "final_choice": "c",
+    "qwen_choice": "u",
+    "gemma_choice": "c",
+    "notes": "current has phone number and website. Qwen had a parsing error for this record, but Gemma still made a good choice. If there wasn't an error, qwen would have likely chosen the current record as well",
+    "reviewer": "manual"
   }
 ]
