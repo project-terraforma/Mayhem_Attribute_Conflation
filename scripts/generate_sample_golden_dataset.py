@@ -11,6 +11,8 @@ The sample dataset uses rule-based logic to simulate human annotation decisions:
 - Recency (current vs base) → slight preference for current
 """
 
+#sample golden dataset created with heuristics
+
 import pandas as pd
 import json
 import numpy as np
