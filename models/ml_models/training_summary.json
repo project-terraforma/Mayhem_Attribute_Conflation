@@ -1,0 +1,22 @@
+{
+  "best_model": "logistic_regression",
+  "best_val_f1": 0.9900332225913622,
+  "best_val_acc": 0.985,
+  "all_models": {
+    "logistic_regression": {
+      "val_f1": 0.9900332225913622,
+      "val_acc": 0.985,
+      "model_type": "logistic_regression"
+    },
+    "random_forest": {
+      "val_f1": 0.9797979797979798,
+      "val_acc": 0.97,
+      "model_type": "random_forest"
+    },
+    "gradient_boosting": {
+      "val_f1": 0.9865771812080537,
+      "val_acc": 0.98,
+      "model_type": "gradient_boosting"
+    }
+  }
+}
