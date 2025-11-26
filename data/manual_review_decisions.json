@@ -34,5 +34,14 @@
     "gemma_choice": "c",
     "notes": "current has phone number and website. Qwen had a parsing error for this record, but Gemma still made a good choice. If there wasn't an error, qwen would have likely chosen the current record as well",
     "reviewer": "manual"
+  },
+  {
+    "record_index": 5,
+    "id": "08f618c49a7528c003ccdd6a1e4805b9",
+    "final_choice": "b",
+    "qwen_choice": "b",
+    "gemma_choice": "c",
+    "notes": "Phone number has awkward format but seems correct. Base category information is more detailed",
+    "reviewer": "manual"
   }
 ]
