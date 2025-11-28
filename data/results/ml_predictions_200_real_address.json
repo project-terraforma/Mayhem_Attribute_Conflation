@@ -4,16 +4,16 @@
     "record_index": 0,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5416502437059281,
+    "model_confidence": 0.5036765279358884,
     "conflated_value": "{'country': 'TH'}",
     "candidates": {
       "current": "{'country': 'TH'}",
       "base": "{'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -21,16 +21,16 @@
     "record_index": 1,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': 'Shop No F21/66, Rohini, Sector 15', 'locality': 'New Delhi', 'postcode': '110089', 'region': 'Delhi', 'country': 'IN'}",
     "candidates": {
       "current": "{'freeform': 'Shop No F21/66, Rohini, Sector 15', 'locality': 'New Delhi', 'postcode': '110089', 'region': 'Delhi', 'country': 'IN'}",
       "base": "{'freeform': 'Shop No F21/66, Rohini, Sector 15', 'locality': 'New Delhi', 'region': 'Delhi', 'country': 'IN', 'postcode': '110089'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -38,16 +38,16 @@
     "record_index": 2,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5433140666513292,
+    "model_confidence": 0.5034262603051393,
     "conflated_value": "{'freeform': 'Calle Benito Juárez 75', 'locality': 'Cabo San Lucas', 'postcode': '23470', 'region': 'BCS', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Calle Benito Juárez 75', 'locality': 'Cabo San Lucas', 'postcode': '23470', 'region': 'BCS', 'country': 'MX'}",
       "base": "{'freeform': 'Carretera Transpeninsular Benito Juarez Km. 6.5 Col', 'locality': 'Cabo San Lucas', 'region': 'Baja California South', 'country': 'MX', 'postcode': '23455'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -55,16 +55,16 @@
     "record_index": 3,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5433022800649865,
+    "model_confidence": 0.5034280266070433,
     "conflated_value": "{'freeform': '8430 128 St', 'locality': 'Surrey', 'postcode': 'V3W 4G3', 'region': 'BC', 'country': 'CA'}",
     "candidates": {
       "current": "{'freeform': '8430 128 St', 'locality': 'Surrey', 'postcode': 'V3W 4G3', 'region': 'BC', 'country': 'CA'}",
       "base": "{'freeform': 'Unit - 23 8430 128 St', 'locality': 'Surrey', 'region': 'BC', 'country': 'CA', 'postcode': 'V3W 4G3'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -72,16 +72,16 @@
     "record_index": 4,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431712016901237,
+    "model_confidence": 0.5034476691177137,
     "conflated_value": "{'freeform': 'Rua Sobradinho, 100', 'locality': 'Novo Hamburgo', 'postcode': '93534-540', 'region': 'RS', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Rua Sobradinho, 100', 'locality': 'Novo Hamburgo', 'postcode': '93534-540', 'region': 'RS', 'country': 'BR'}",
       "base": "{'freeform': '100 Rua Sobradinho', 'locality': 'Novo Hamburgo', 'region': 'RS', 'country': 'BR', 'postcode': '93534-540'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -89,16 +89,16 @@
     "record_index": 5,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432088651569495,
+    "model_confidence": 0.5034420252205585,
     "conflated_value": "{'freeform': 'No 4, South Mada Street, Thiruvottriyur', 'locality': 'Tiruvallur', 'postcode': '600019', 'region': 'Tamil Nadu', 'country': 'IN'}",
     "candidates": {
       "current": "{'freeform': 'No 4, South Mada Street, Thiruvottriyur', 'locality': 'Tiruvallur', 'postcode': '600019', 'region': 'Tamil Nadu', 'country': 'IN'}",
       "base": "{'freeform': 'No 4,South Mada Street', 'locality': 'Tiruvallur', 'region': 'Tamil Nadu', 'country': 'IN', 'postcode': '600019'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -106,16 +106,16 @@
     "record_index": 6,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9970749201795833,
+    "model_confidence": 0.9966016028788008,
     "conflated_value": "{'freeform': '17601 Coastal Hwy', 'locality': 'Lewes', 'postcode': '19958-6217', 'region': 'DE', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '17601 Coastal Hwy', 'locality': 'Lewes', 'postcode': '19958-6217', 'region': 'DE', 'country': 'US'}",
       "base": "{'freeform': '17601 Coastal Hwy', 'postcode': '19958', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -123,16 +123,16 @@
     "record_index": 7,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885128523030448,
+    "model_confidence": 0.9866514707362811,
     "conflated_value": "{'freeform': 'Avenida General Edgard Facó, 2002', 'locality': 'São Paulo', 'postcode': '02924-600', 'region': 'SP', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Avenida General Edgard Facó, 2002', 'locality': 'São Paulo', 'postcode': '02924-600', 'region': 'SP', 'country': 'BR'}",
       "base": "{'freeform': 'Av. Gal. Edgard Faccó, 2002', 'locality': 'São Paulo', 'region': 'SP', 'country': 'BR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -140,16 +140,16 @@
     "record_index": 8,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432382743499626,
+    "model_confidence": 0.5034376181800956,
     "conflated_value": "{'freeform': '115 Country Music Way', 'locality': 'Bristol', 'region': 'VA', 'country': 'US', 'postcode': '24201'}",
     "candidates": {
       "current": "{'freeform': '115 Country Music Way', 'locality': 'Bristol', 'region': 'VA', 'country': 'US', 'postcode': '24201'}",
       "base": "{'freeform': '510 Birthplace Of Country Music Way', 'locality': 'Bristol', 'region': 'VA', 'country': 'US', 'postcode': '24201'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -157,16 +157,16 @@
     "record_index": 9,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8352340473391103,
+    "model_confidence": 0.8130070902868872,
     "conflated_value": "{'freeform': '380 Chemin de Boix Vieux', 'locality': 'Labastide-Saint-Pierre', 'postcode': '82370', 'country': 'FR'}",
     "candidates": {
       "current": "{'freeform': '380 Chemin de Boix Vieux', 'locality': 'Labastide-Saint-Pierre', 'postcode': '82370', 'country': 'FR'}",
       "base": "{'freeform': '196 Bis rue Victor Hugo', 'locality': 'Labastide-Saint-Pierre', 'region': 'Midi-Pyrénées', 'country': 'FR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -174,16 +174,16 @@
     "record_index": 10,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430575181647301,
+    "model_confidence": 0.5034647042208046,
     "conflated_value": "{'freeform': '945 Gardiners Rd', 'locality': 'Kingston', 'region': 'ON', 'country': 'CA', 'postcode': 'K7M 7H4'}",
     "candidates": {
       "current": "{'freeform': '945 Gardiners Rd', 'locality': 'Kingston', 'region': 'ON', 'country': 'CA', 'postcode': 'K7M 7H4'}",
       "base": "{'freeform': '945 Gardiners Road', 'locality': 'Kingston', 'region': 'ON', 'country': 'CA', 'postcode': 'K7M 7H4'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -191,16 +191,16 @@
     "record_index": 11,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': 'Hödlgasse 10', 'locality': 'Wien', 'postcode': '1230', 'region': 'Vienna', 'country': 'AT'}",
     "candidates": {
       "current": "{'freeform': 'Hödlgasse 10', 'locality': 'Wien', 'postcode': '1230', 'region': 'Vienna', 'country': 'AT'}",
       "base": "{'freeform': 'Hödlgasse 10', 'locality': 'Wien', 'region': 'Wien', 'country': 'AT', 'postcode': '1230'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -208,16 +208,16 @@
     "record_index": 12,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959035731387192,
+    "model_confidence": 0.9965026051216124,
     "conflated_value": "{'freeform': 'ศูนย์การกำลังสำรอง วิภาวดี', 'locality': 'วิภาวดี', 'region': 'Bangkom', 'country': 'TH'}",
     "candidates": {
       "current": "{'freeform': 'ศูนย์การกำลังสำรอง', 'country': 'TH'}",
       "base": "{'freeform': 'ศูนย์การกำลังสำรอง วิภาวดี', 'locality': 'วิภาวดี', 'region': 'Bangkom', 'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -225,16 +225,16 @@
     "record_index": 13,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '3451 Jerome Ave', 'locality': 'New York', 'postcode': '10467-1049', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3451 Jerome Ave', 'locality': 'New York', 'postcode': '10467-1049', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '3451 Jerome Ave', 'locality': 'Bronx', 'region': 'NY', 'country': 'US', 'postcode': '10467'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -242,16 +242,16 @@
     "record_index": 14,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959042607812373,
+    "model_confidence": 0.9965025212370581,
     "conflated_value": "{'freeform': '288 Garibaldi Ave', 'locality': 'Copiague', 'region': 'NY', 'country': 'US', 'postcode': '11726'}",
     "candidates": {
       "current": "{'freeform': '288 Garibaldi Ave', 'postcode': '11726', 'country': 'US'}",
       "base": "{'freeform': '288 Garibaldi Ave', 'locality': 'Copiague', 'region': 'NY', 'country': 'US', 'postcode': '11726'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -259,16 +259,16 @@
     "record_index": 15,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '730 US Highway 66 E', 'locality': 'Tell City', 'region': 'IN', 'country': 'US', 'postcode': '47586'}",
     "candidates": {
       "current": "{'freeform': '730 US Highway 66 E', 'locality': 'Tell City', 'region': 'IN', 'country': 'US', 'postcode': '47586'}",
       "base": "{'freeform': '730 US Highway 66 E', 'locality': 'Tell City', 'region': 'IN', 'country': 'US', 'postcode': '47586'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -276,16 +276,16 @@
     "record_index": 16,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.543146659394795,
+    "model_confidence": 0.5034513467577564,
     "conflated_value": "{'freeform': '3801 Plank Rd', 'locality': 'Fredericksburg', 'postcode': '22407-7124', 'region': 'VA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3801 Plank Rd', 'locality': 'Fredericksburg', 'postcode': '22407-7124', 'region': 'VA', 'country': 'US'}",
       "base": "{'freeform': '3801 Plank Rd Ste B', 'locality': 'Fredericksburg', 'region': 'VA', 'country': 'US', 'postcode': '22407'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -293,16 +293,16 @@
     "record_index": 17,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432535317229729,
+    "model_confidence": 0.5034353318069307,
     "conflated_value": "{'freeform': '3860 West Columbus Drive, Tampa Airport', 'locality': 'Tampa', 'region': 'FL', 'country': 'US', 'postcode': '33607'}",
     "candidates": {
       "current": "{'freeform': '3860 West Columbus Drive, Tampa Airport', 'locality': 'Tampa', 'region': 'FL', 'country': 'US', 'postcode': '33607'}",
       "base": "{'freeform': '3860 W Columbus Dr', 'locality': 'Tampa', 'region': 'FL', 'country': 'US', 'postcode': '33607'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -310,16 +310,16 @@
     "record_index": 18,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345705470361955,
+    "model_confidence": 0.9437143887225313,
     "conflated_value": "{'freeform': 'Salvador Galván 20', 'locality': 'Santiago de Querétaro', 'region': 'Querétaro', 'country': 'MX', 'postcode': '76154'}",
     "candidates": {
       "current": "{'freeform': 'Calle Salvador Galván 47', 'locality': 'Santiago de Querétaro', 'postcode': '76154', 'country': 'MX'}",
       "base": "{'freeform': 'Salvador Galván 20', 'locality': 'Santiago de Querétaro', 'region': 'Querétaro', 'country': 'MX', 'postcode': '76154'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -327,16 +327,16 @@
     "record_index": 19,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5416502437059281,
+    "model_confidence": 0.5036765279358884,
     "conflated_value": "{'country': 'TH'}",
     "candidates": {
       "current": "{'country': 'TH'}",
       "base": "{'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -344,16 +344,16 @@
     "record_index": 20,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '5530 W 84th St', 'locality': 'Indianapolis', 'region': 'IN', 'country': 'US', 'postcode': '46268'}",
     "candidates": {
       "current": "{'freeform': '5530 W 84th St', 'locality': 'Indianapolis', 'region': 'IN', 'country': 'US', 'postcode': '46268'}",
       "base": "{'freeform': '5530 W 84th St', 'locality': 'Indianapolis', 'region': 'IN', 'country': 'US', 'postcode': '46268'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -361,16 +361,16 @@
     "record_index": 21,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8348691824361856,
+    "model_confidence": 0.8130669815578714,
     "conflated_value": "{'freeform': '@BTM', 'locality': 'Bogor', 'postcode': '16122', 'country': 'ID'}",
     "candidates": {
       "current": "{'freeform': '@BTM', 'locality': 'Bogor', 'postcode': '16122', 'country': 'ID'}",
       "base": "{'freeform': '@BTM', 'locality': 'Bogor', 'region': 'West Java', 'country': 'ID'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -378,16 +378,16 @@
     "record_index": 22,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '6646 Clayton Rd', 'locality': 'Richmond Heights', 'postcode': '63117', 'region': 'MO', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '6646 Clayton Rd', 'locality': 'Richmond Heights', 'postcode': '63117', 'region': 'MO', 'country': 'US'}",
       "base": "{'freeform': '6646 Clayton Rd', 'locality': 'Saint Louis', 'region': 'MO', 'country': 'US', 'postcode': '63117'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -395,16 +395,16 @@
     "record_index": 23,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.543278985949175,
+    "model_confidence": 0.5034315173706176,
     "conflated_value": "{'freeform': '5540 Southwestern Blvd', 'locality': 'Hamburg', 'postcode': '14075', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '5540 Southwestern Blvd', 'locality': 'Hamburg', 'postcode': '14075', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '5324 Rogers Rd', 'locality': 'Hamburg', 'region': 'NY', 'country': 'US', 'postcode': '14075'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -412,16 +412,16 @@
     "record_index": 24,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5421385483116147,
+    "model_confidence": 0.5036031370339367,
     "conflated_value": "{'locality': 'Loei', 'country': 'TH'}",
     "candidates": {
       "current": "{'locality': 'Loei', 'country': 'TH'}",
       "base": "{'locality': 'Loei', 'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -429,16 +429,16 @@
     "record_index": 25,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9527405066282317,
+    "model_confidence": 0.9451744888148831,
     "conflated_value": "{'freeform': '38 Fore Street', 'locality': 'Torquay', 'postcode': 'TQ1 4LX', 'region': 'ENG', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '38 Fore Street', 'locality': 'Torquay', 'postcode': 'TQ1 4LX', 'region': 'ENG', 'country': 'GB'}",
       "base": "{'freeform': '38 Fore Street, St Marychurch', 'locality': 'Torquay', 'region': '', 'country': 'GB', 'postcode': 'TQ1 4LX'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -446,16 +446,16 @@
     "record_index": 26,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345880141597378,
+    "model_confidence": 0.9437121315599049,
     "conflated_value": "{'freeform': 'Richmond Centre, Munster Barracks, Ava Rd', 'locality': 'Catterick Garrison', 'region': 'North Yorkshire', 'country': 'GB', 'postcode': 'DL9 3PZ'}",
     "candidates": {
       "current": "{'freeform': 'Richmond Centre, Munster Barracks, Ava Road, Catterick', 'locality': 'North Yorkshire', 'postcode': 'DL9 3PZ', 'region': '', 'country': 'GB'}",
       "base": "{'freeform': 'Richmond Centre, Munster Barracks, Ava Rd', 'locality': 'Catterick Garrison', 'region': 'North Yorkshire', 'country': 'GB', 'postcode': 'DL9 3PZ'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -463,16 +463,16 @@
     "record_index": 27,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1275 Whitfield Ave', 'locality': 'Sarasota', 'region': 'FL', 'country': 'US', 'postcode': '34243'}",
     "candidates": {
       "current": "{'freeform': '1275 Whitfield Ave', 'locality': 'Sarasota', 'region': 'FL', 'country': 'US', 'postcode': '34243'}",
       "base": "{'freeform': '1275 Whitfield Ave', 'locality': 'Sarasota', 'region': 'FL', 'country': 'US', 'postcode': '34243'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -480,16 +480,16 @@
     "record_index": 28,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430962312665859,
+    "model_confidence": 0.50345890326603,
     "conflated_value": "{'freeform': '300 Mary Esther Blvd', 'locality': 'Mary Esther', 'postcode': '32569-1674', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '300 Mary Esther Blvd', 'locality': 'Mary Esther', 'postcode': '32569-1674', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '300 Mary Esther Blvd #119', 'locality': 'Mary Esther', 'region': 'FL', 'country': 'US', 'postcode': '32569'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -497,16 +497,16 @@
     "record_index": 29,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345971280988162,
+    "model_confidence": 0.9437109535685533,
     "conflated_value": "{'freeform': 'Volkmannstr. 19', 'locality': 'Halle (Saale)', 'region': 'Saxony-Anhalt', 'country': 'DE', 'postcode': '06112'}",
     "candidates": {
       "current": "{'freeform': 'Volkmannstraße 19', 'locality': 'Halle (Saale)', 'postcode': '06112', 'country': 'DE'}",
       "base": "{'freeform': 'Volkmannstr. 19', 'locality': 'Halle (Saale)', 'region': 'Saxony-Anhalt', 'country': 'DE', 'postcode': '06112'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -514,16 +514,16 @@
     "record_index": 30,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430778935463589,
+    "model_confidence": 0.5034616510868289,
     "conflated_value": "{'freeform': '26 Commercial Dr', 'locality': 'Melbourne', 'postcode': '3810', 'region': 'VIC', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': '26 Commercial Dr', 'locality': 'Melbourne', 'postcode': '3810', 'region': 'VIC', 'country': 'AU'}",
       "base": "{'freeform': '26 Commercial Drive', 'locality': 'Pakenham', 'region': 'Victoria', 'country': 'AU', 'postcode': '3810'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -531,16 +531,16 @@
     "record_index": 31,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1400 Teal Rd Ste 30', 'locality': 'Lafayette', 'region': 'IN', 'country': 'US', 'postcode': '47909'}",
     "candidates": {
       "current": "{'freeform': '1400 Teal Rd Ste 30', 'locality': 'Lafayette', 'region': 'IN', 'country': 'US', 'postcode': '47909'}",
       "base": "{'freeform': '1400 Teal Rd Ste 30', 'locality': 'Lafayette', 'region': 'IN', 'country': 'US', 'postcode': '47909'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -548,16 +548,16 @@
     "record_index": 32,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431288007741656,
+    "model_confidence": 0.5034540228354193,
     "conflated_value": "{'freeform': '3663 S Las Vegas Blvd', 'locality': 'Las Vegas', 'postcode': '89109', 'region': 'NV', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3663 S Las Vegas Blvd', 'locality': 'Las Vegas', 'postcode': '89109', 'region': 'NV', 'country': 'US'}",
       "base": "{'freeform': '3663 Las Vegas Blvd South', 'locality': 'Las Vegas', 'region': 'NV', 'country': 'US', 'postcode': '89109'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -565,16 +565,16 @@
     "record_index": 33,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '226 Liberty St', 'locality': 'Penn Yan', 'postcode': '14527-1647', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '226 Liberty St', 'locality': 'Penn Yan', 'postcode': '14527-1647', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '226 Liberty St', 'locality': 'Penn Yan', 'region': 'NY', 'country': 'US', 'postcode': '14527'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -582,16 +582,16 @@
     "record_index": 34,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885203662093878,
+    "model_confidence": 0.9866501739857286,
     "conflated_value": "{'freeform': 'Rua Capitão Otávio Machado, 1153', 'locality': 'São Paulo', 'postcode': '04718-002', 'region': 'SP', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Rua Capitão Otávio Machado, 1153', 'locality': 'São Paulo', 'postcode': '04718-002', 'region': 'SP', 'country': 'BR'}",
       "base": "{'freeform': 'R. Verbo Divino, 926', 'locality': 'São Paulo', 'region': 'SP', 'country': 'BR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -599,16 +599,16 @@
     "record_index": 35,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431096318344268,
+    "model_confidence": 0.5034568952430065,
     "conflated_value": "{'freeform': '4313 Bluebonnet Blvd', 'locality': 'Baton Rouge', 'postcode': '70809-9678', 'region': 'LA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '4313 Bluebonnet Blvd', 'locality': 'Baton Rouge', 'postcode': '70809-9678', 'region': 'LA', 'country': 'US'}",
       "base": "{'freeform': '4313 Bluebonnet Blvd Ste B', 'locality': 'Baton Rouge', 'region': 'LA', 'country': 'US', 'postcode': '70809'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -616,16 +616,16 @@
     "record_index": 36,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430747484921231,
+    "model_confidence": 0.5034621223565787,
     "conflated_value": "{'freeform': 'Søndre Tollbodgate 3', 'locality': 'Tromsø', 'postcode': '9008', 'region': '54', 'country': 'NO'}",
     "candidates": {
       "current": "{'freeform': 'Søndre Tollbodgate 3', 'locality': 'Tromsø', 'postcode': '9008', 'region': '54', 'country': 'NO'}",
       "base": "{'freeform': '3 Søndre Tollbodgate', 'locality': 'Tromsø', 'region': 'Troms', 'country': 'NO', 'postcode': '9008'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -633,16 +633,16 @@
     "record_index": 37,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345283154316485,
+    "model_confidence": 0.9437198433718698,
     "conflated_value": "{'freeform': 'La Garenne et la Loze', 'locality': 'Le Poët-Laval', 'region': 'Rhône-Alpes', 'country': 'FR', 'postcode': '26160'}",
     "candidates": {
       "current": "{'freeform': '95 Rue Neuve', 'locality': 'Le Poët-Laval', 'postcode': '26160', 'country': 'FR'}",
       "base": "{'freeform': 'La Garenne et la Loze', 'locality': 'Le Poët-Laval', 'region': 'Rhône-Alpes', 'country': 'FR', 'postcode': '26160'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -650,16 +650,16 @@
     "record_index": 38,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885156010415429,
+    "model_confidence": 0.9866509964704613,
     "conflated_value": "{'freeform': 'Via Alfredo Catalani, 158', 'locality': 'Lucca', 'postcode': '55100', 'region': '52', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Alfredo Catalani, 158', 'locality': 'Lucca', 'postcode': '55100', 'region': '52', 'country': 'IT'}",
       "base": "{'freeform': 'VIA Catalani 158', 'locality': 'Lucca', 'region': 'LU', 'country': 'IT'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -667,16 +667,16 @@
     "record_index": 39,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '2501 Rte 130 S', 'locality': 'Cinnaminson', 'postcode': '08077', 'region': 'NJ', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '2501 Rte 130 S', 'locality': 'Cinnaminson', 'postcode': '08077', 'region': 'NJ', 'country': 'US'}",
       "base": "{'freeform': '2501 Rte 130 S', 'locality': 'Cinnaminson', 'region': 'NJ', 'country': 'US', 'postcode': '08077'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -684,16 +684,16 @@
     "record_index": 40,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430562612371188,
+    "model_confidence": 0.5034648925634765,
     "conflated_value": "{'freeform': '402 E Front St', 'locality': 'Traverse City', 'postcode': '49686-2614', 'region': 'MI', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '402 E Front St', 'locality': 'Traverse City', 'postcode': '49686-2614', 'region': 'MI', 'country': 'US'}",
       "base": "{'freeform': '522 E Front St', 'locality': 'Traverse City', 'region': 'MI', 'country': 'US', 'postcode': '49686'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -701,16 +701,16 @@
     "record_index": 41,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431442881860019,
+    "model_confidence": 0.5034517020794974,
     "conflated_value": "{'freeform': '9770 Bluebonnet Blvd', 'locality': 'Baton Rouge', 'postcode': '70810-2845', 'region': 'LA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '9770 Bluebonnet Blvd', 'locality': 'Baton Rouge', 'postcode': '70810-2845', 'region': 'LA', 'country': 'US'}",
       "base": "{'freeform': '9770 Bluebonnet Blvd, Suite 2', 'locality': 'Baton Rouge', 'region': 'LA', 'country': 'US', 'postcode': '70810'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -718,16 +718,16 @@
     "record_index": 42,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1766 Palo Verde Ave', 'locality': 'East Palo Alto', 'postcode': '96303', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1766 Palo Verde Ave', 'locality': 'East Palo Alto', 'postcode': '96303', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '1766 Palo Verde Ave', 'locality': 'East Palo Alto', 'postcode': '96303', 'region': 'CA', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -735,16 +735,16 @@
     "record_index": 43,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '777 W Chandler Blvd', 'locality': 'Chandler', 'region': 'AZ', 'country': 'US', 'postcode': '85225'}",
     "candidates": {
       "current": "{'freeform': '777 W Chandler Blvd', 'locality': 'Chandler', 'region': 'AZ', 'country': 'US', 'postcode': '85225'}",
       "base": "{'freeform': '777 W Chandler Blvd', 'locality': 'Chandler', 'region': 'AZ', 'country': 'US', 'postcode': '85225'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -752,16 +752,16 @@
     "record_index": 44,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430817139143693,
+    "model_confidence": 0.5034610786241797,
     "conflated_value": "{'freeform': '346 Rue Principale O', 'locality': 'Magog', 'postcode': 'J1X 2A9', 'region': 'QC', 'country': 'CA'}",
     "candidates": {
       "current": "{'freeform': '346 Rue Principale O', 'locality': 'Magog', 'postcode': 'J1X 2A9', 'region': 'QC', 'country': 'CA'}",
       "base": "{'freeform': '346 Rue Principale Ouest', 'locality': 'Magog', 'region': 'QC', 'country': 'CA', 'postcode': 'J1X 2A9'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -769,16 +769,16 @@
     "record_index": 45,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '701 W Route 70', 'locality': 'Marlton', 'postcode': '08053-1643', 'region': 'NJ', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '701 W Route 70', 'locality': 'Marlton', 'postcode': '08053-1643', 'region': 'NJ', 'country': 'US'}",
       "base": "{'freeform': '701 W Route 70', 'locality': 'Marlton', 'region': 'NJ', 'country': 'US', 'postcode': '08053'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -786,16 +786,16 @@
     "record_index": 46,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '30 Nashua St', 'locality': 'Woburn', 'region': 'MA', 'country': 'US', 'postcode': '01801'}",
     "candidates": {
       "current": "{'freeform': '30 Nashua St', 'locality': 'Woburn', 'region': 'MA', 'country': 'US', 'postcode': '01801'}",
       "base": "{'freeform': '30 Nashua St', 'locality': 'Woburn', 'region': 'MA', 'country': 'US', 'postcode': '01801'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -803,16 +803,16 @@
     "record_index": 47,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430603647340584,
+    "model_confidence": 0.5034642776800441,
     "conflated_value": "{'freeform': '7801 Parston Dr', 'locality': 'District Heights', 'postcode': '20747-4401', 'region': 'MD', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '7801 Parston Dr', 'locality': 'District Heights', 'postcode': '20747-4401', 'region': 'MD', 'country': 'US'}",
       "base": "{'freeform': '7801-B Parston Dr', 'locality': 'Forestville', 'region': 'MD', 'country': 'US', 'postcode': '20747'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -820,16 +820,16 @@
     "record_index": 48,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '148 Bill Carruth Pkwy Ste Ll30', 'locality': 'Hiram', 'region': 'GA', 'country': 'US', 'postcode': '30141'}",
     "candidates": {
       "current": "{'freeform': '148 Bill Carruth Pkwy Ste Ll30', 'locality': 'Hiram', 'region': 'GA', 'country': 'US', 'postcode': '30141'}",
       "base": "{'freeform': '148 Bill Carruth Pkwy Ste Ll30', 'locality': 'Hiram', 'region': 'GA', 'country': 'US', 'postcode': '30141'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -837,16 +837,16 @@
     "record_index": 49,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '3411 W Columbus Dr', 'locality': 'Tampa', 'postcode': '33607-1821', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3411 W Columbus Dr', 'locality': 'Tampa', 'postcode': '33607-1821', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '3411 W Columbus Dr', 'locality': 'Tampa', 'region': 'FL', 'country': 'US', 'postcode': '33607'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -854,16 +854,16 @@
     "record_index": 50,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9993134475040774,
+    "model_confidence": 0.9992052527802305,
     "conflated_value": "{'freeform': '8800 W Sam Houston Pkwy S', 'locality': 'Houston', 'postcode': '77099-3146', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '8800 W Sam Houston Pkwy S', 'locality': 'Houston', 'postcode': '77099-3146', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '8800 W Sam Houston Pkwy S', 'region': 'TX', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -871,16 +871,16 @@
     "record_index": 51,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '7515 State Rd', 'locality': 'Wadsworth', 'region': 'OH', 'country': 'US', 'postcode': '44281'}",
     "candidates": {
       "current": "{'freeform': '7515 State Rd', 'locality': 'Wadsworth', 'region': 'OH', 'country': 'US', 'postcode': '44281'}",
       "base": "{'freeform': '7515 State Rd', 'locality': 'Wadsworth', 'region': 'OH', 'country': 'US', 'postcode': '44281'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -888,16 +888,16 @@
     "record_index": 52,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431107347360035,
+    "model_confidence": 0.5034567299770691,
     "conflated_value": "{'freeform': '111 W Sunrise Hwy', 'locality': 'Lindenhurst', 'postcode': '11757-2404', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '111 W Sunrise Hwy', 'locality': 'Lindenhurst', 'postcode': '11757-2404', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '1708 Sunrise Hwy', 'locality': 'Copiague', 'region': 'NY', 'country': 'US', 'postcode': '11726'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -905,16 +905,16 @@
     "record_index": 53,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959042607812373,
+    "model_confidence": 0.9965025212370581,
     "conflated_value": "{'freeform': '9838 Genesee Ave', 'locality': 'La Jolla', 'region': 'CA', 'country': 'US', 'postcode': '92037'}",
     "candidates": {
       "current": "{'freeform': '9838 Genesee Ave', 'postcode': '92037', 'country': 'US'}",
       "base": "{'freeform': '9838 Genesee Ave', 'locality': 'La Jolla', 'region': 'CA', 'country': 'US', 'postcode': '92037'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -922,16 +922,16 @@
     "record_index": 54,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431656118865693,
+    "model_confidence": 0.503448506747352,
     "conflated_value": "{'freeform': '1001 W 15th St', 'locality': 'Panama City', 'region': 'FL', 'country': 'US', 'postcode': '32401'}",
     "candidates": {
       "current": "{'freeform': '1001 W 15th St', 'locality': 'Panama City', 'region': 'FL', 'country': 'US', 'postcode': '32401'}",
       "base": "{'freeform': '1001 West 15th Street', 'locality': 'Panama City', 'region': 'FL', 'country': 'US', 'postcode': '32401'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -939,16 +939,16 @@
     "record_index": 55,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.983875008946037,
+    "model_confidence": 0.9862784718516303,
     "conflated_value": "{'freeform': '中央区高林5-8-15', 'locality': '浜松市', 'region': '静岡県', 'country': 'JP', 'postcode': '430-0907'}",
     "candidates": {
       "current": "{'freeform': '中区高林5丁目8-15', 'locality': '浜松市', 'postcode': '', 'region': '静岡県', 'country': 'JP'}",
       "base": "{'freeform': '中央区高林5-8-15', 'locality': '浜松市', 'region': '静岡県', 'country': 'JP', 'postcode': '430-0907'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -956,16 +956,16 @@
     "record_index": 56,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9993161787710021,
+    "model_confidence": 0.9992047814855928,
     "conflated_value": "{'freeform': '175 Birch St', 'locality': 'Waterbury', 'postcode': '06704-3808', 'region': 'CT', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '175 Birch St', 'locality': 'Waterbury', 'postcode': '06704-3808', 'region': 'CT', 'country': 'US'}",
       "base": "{'locality': 'Waterbury', 'region': 'CT', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -973,16 +973,16 @@
     "record_index": 57,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432318040544076,
+    "model_confidence": 0.5034385877738414,
     "conflated_value": "{'freeform': 'Rua Visconde de Taunay, 335', 'locality': 'Campinas', 'postcode': '13023-200', 'region': 'SP', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Rua Visconde de Taunay, 335', 'locality': 'Campinas', 'postcode': '13023-200', 'region': 'SP', 'country': 'BR'}",
       "base": "{'freeform': 'Rua Tiradentes, 217', 'locality': 'Campinas', 'region': 'SP', 'country': 'BR', 'postcode': '13023-190'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -990,16 +990,16 @@
     "record_index": 58,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.543126382456483,
+    "model_confidence": 0.5034543852140702,
     "conflated_value": "{'freeform': '20776 Evergreen Ave', 'locality': 'Akron', 'postcode': '51001-8845', 'region': 'IA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '20776 Evergreen Ave', 'locality': 'Akron', 'postcode': '51001-8845', 'region': 'IA', 'country': 'US'}",
       "base": "{'freeform': '20776 Evergreen Ave # 8845', 'locality': 'Akron', 'region': 'IA', 'country': 'US', 'postcode': '51001'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1007,16 +1007,16 @@
     "record_index": 59,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '544 E Main St', 'locality': 'Palmyra', 'postcode': '14522-1106', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '544 E Main St', 'locality': 'Palmyra', 'postcode': '14522-1106', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '544 E Main St', 'locality': 'Palmyra', 'region': 'NY', 'country': 'US', 'postcode': '14522'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1024,16 +1024,16 @@
     "record_index": 60,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '7201 State Route 8', 'locality': 'Brant Lake', 'postcode': '12815-2255', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '7201 State Route 8', 'locality': 'Brant Lake', 'postcode': '12815-2255', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '7201 State Route 8', 'locality': 'Brant Lake', 'region': 'NY', 'country': 'US', 'postcode': '12815'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1041,16 +1041,16 @@
     "record_index": 61,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9527534250089091,
+    "model_confidence": 0.9451722770930422,
     "conflated_value": "{'freeform': '1 East Lake', 'locality': 'Bognor Regis', 'postcode': 'PO21 1', 'region': 'ENG', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '1 East Lake', 'locality': 'Bognor Regis', 'postcode': 'PO21 1', 'region': 'ENG', 'country': 'GB'}",
       "base": "{'freeform': 'Lake House, 1 East Lake', 'locality': 'Bognor Regis', 'region': '', 'country': 'GB', 'postcode': 'PO21 1FY'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1058,16 +1058,16 @@
     "record_index": 62,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': 'Rheindorfer Weg 3', 'locality': 'Düsseldorf', 'postcode': '40591', 'region': 'North Rhine-Westphalia', 'country': 'DE'}",
     "candidates": {
       "current": "{'freeform': 'Rheindorfer Weg 3', 'locality': 'Düsseldorf', 'postcode': '40591', 'region': 'North Rhine-Westphalia', 'country': 'DE'}",
       "base": "{'freeform': 'Rheindorfer Weg 3', 'locality': 'Düsseldorf', 'region': 'Nordrhein-Westfalen', 'country': 'DE', 'postcode': '40591'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1075,16 +1075,16 @@
     "record_index": 63,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432630799204251,
+    "model_confidence": 0.5034339009683505,
     "conflated_value": "{'freeform': '99 Rue Sainte-Catherine', 'locality': 'Bordeaux', 'postcode': '33000', 'region': 'NAQ', 'country': 'FR'}",
     "candidates": {
       "current": "{'freeform': '99 Rue Sainte-Catherine', 'locality': 'Bordeaux', 'postcode': '33000', 'region': 'NAQ', 'country': 'FR'}",
       "base": "{'freeform': '1-3 rue des Trois Conils', 'locality': 'Bordeaux', 'region': 'Gironde', 'country': 'FR', 'postcode': '33000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1092,16 +1092,16 @@
     "record_index": 64,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431946247230606,
+    "model_confidence": 0.5034441591684571,
     "conflated_value": "{'freeform': '172 Balgownie Rd', 'locality': 'Wollongong', 'postcode': '2519', 'region': 'NSW', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': '172 Balgownie Rd', 'locality': 'Wollongong', 'postcode': '2519', 'region': 'NSW', 'country': 'AU'}",
       "base": "{'freeform': '167-172 Balgownie Rd Shop 3', 'locality': 'Wollongong', 'region': 'NSW', 'country': 'AU', 'postcode': '2519'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1109,16 +1109,16 @@
     "record_index": 65,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430454202137158,
+    "model_confidence": 0.5034665170189804,
     "conflated_value": "{'freeform': 'Via Roma, 37', 'locality': 'Alpago', 'postcode': '32016', 'region': 'BL', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Roma, 37', 'locality': 'Alpago', 'postcode': '32016', 'region': 'BL', 'country': 'IT'}",
       "base": "{'freeform': 'Via Roma 37', 'locality': \"Farra d'Alpago\", 'region': 'Belluno', 'country': 'IT', 'postcode': '32016'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1126,16 +1126,16 @@
     "record_index": 66,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '36 Main St', 'locality': 'Lincoln', 'postcode': '03251-4305', 'region': 'NH', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '36 Main St', 'locality': 'Lincoln', 'postcode': '03251-4305', 'region': 'NH', 'country': 'US'}",
       "base": "{'freeform': '36 Main St', 'locality': 'Lincoln', 'postcode': '03251', 'region': 'NH', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1143,16 +1143,16 @@
     "record_index": 67,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430859837314425,
+    "model_confidence": 0.5034604388129729,
     "conflated_value": "{'freeform': '20 Merchant Dr', 'locality': 'Rockingham', 'postcode': '6168', 'region': 'WA', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': '20 Merchant Dr', 'locality': 'Rockingham', 'postcode': '6168', 'region': 'WA', 'country': 'AU'}",
       "base": "{'freeform': '20 Merchant Dr #4', 'locality': 'Rockingham', 'region': 'WA', 'country': 'AU', 'postcode': '6168'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1160,16 +1160,16 @@
     "record_index": 68,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.543080523964221,
+    "model_confidence": 0.503461256932219,
     "conflated_value": "{'freeform': 'Unit No 2, Ground Floor, Phase 1, Cmrl, Ashok Nagar, Near ESI', 'locality': 'Chennai', 'postcode': '600083', 'region': 'Tamil Nadu', 'country': 'IN'}",
     "candidates": {
       "current": "{'freeform': 'Unit No 2, Ground Floor, Phase 1, Cmrl, Ashok Nagar, Near ESI', 'locality': 'Chennai', 'postcode': '600083', 'region': 'Tamil Nadu', 'country': 'IN'}",
       "base": "{'freeform': 'Unit No 2, Ground Floor, Phase 1, Cmrl, Ashok Nagar', 'locality': 'Chennai', 'region': 'Tamil Nadu', 'country': 'IN', 'postcode': '600083'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1177,16 +1177,16 @@
     "record_index": 69,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9347112783625007,
+    "model_confidence": 0.9436961845503054,
     "conflated_value": "{'freeform': 'Kötteröde 5', 'locality': 'Dülmen', 'region': 'NRW', 'country': 'DE', 'postcode': '48249'}",
     "candidates": {
       "current": "{'freeform': 'Kötteröde 5', 'locality': 'Dülmen', 'postcode': '48249', 'country': 'DE'}",
       "base": "{'freeform': 'Kötteröde 5', 'locality': 'Dülmen', 'region': 'NRW', 'country': 'DE', 'postcode': '48249'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1194,16 +1194,16 @@
     "record_index": 70,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9838643485935146,
+    "model_confidence": 0.9862798239201205,
     "conflated_value": "{'freeform': '中区常盤町5-66', 'locality': '横浜市', 'region': '神奈川県', 'country': 'JP', 'postcode': '231-0014'}",
     "candidates": {
       "current": "{'freeform': '中区常盤町 5-66, プランタンビル3階', 'locality': '横浜市', 'postcode': '', 'region': '神奈川県', 'country': 'JP'}",
       "base": "{'freeform': '中区常盤町5-66', 'locality': '横浜市', 'region': '神奈川県', 'country': 'JP', 'postcode': '231-0014'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1211,16 +1211,16 @@
     "record_index": 71,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431567503167443,
+    "model_confidence": 0.5034498346463689,
     "conflated_value": "{'freeform': '1328 W McDermott Dr', 'locality': 'Allen', 'postcode': '75013-3022', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1328 W McDermott Dr', 'locality': 'Allen', 'postcode': '75013-3022', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '1328 W Mcdermott Dr Ste 250', 'locality': 'Allen', 'region': 'TX', 'country': 'US', 'postcode': '75013'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1228,16 +1228,16 @@
     "record_index": 72,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9958957302257726,
+    "model_confidence": 0.9965036040929305,
     "conflated_value": "{'freeform': 'Hotel Gitanjali Complex', 'locality': 'Silchar', 'region': 'Assam', 'country': 'IN', 'postcode': '788001'}",
     "candidates": {
       "current": "{'freeform': 'Hotel Gitanjali Complex, Club Rd', 'postcode': '788001', 'country': 'IN'}",
       "base": "{'freeform': 'Hotel Gitanjali Complex', 'locality': 'Silchar', 'region': 'Assam', 'country': 'IN', 'postcode': '788001'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1245,16 +1245,16 @@
     "record_index": 73,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959005119078642,
+    "model_confidence": 0.9965029974309418,
     "conflated_value": "{'freeform': 'rue Berlioz', 'locality': 'Pau', 'region': 'Pyrénées-Atlantiques', 'country': 'FR', 'postcode': '64000'}",
     "candidates": {
       "current": "{'freeform': 'Rue Berlioz', 'postcode': '64000', 'country': 'FR'}",
       "base": "{'freeform': 'rue Berlioz', 'locality': 'Pau', 'region': 'Pyrénées-Atlantiques', 'country': 'FR', 'postcode': '64000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1262,16 +1262,16 @@
     "record_index": 74,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '10055 W Papago Fwy', 'locality': 'Avondale', 'region': 'AZ', 'country': 'US', 'postcode': '85323'}",
     "candidates": {
       "current": "{'freeform': '10055 W Papago Fwy', 'locality': 'Avondale', 'region': 'AZ', 'country': 'US', 'postcode': '85323'}",
       "base": "{'freeform': '10055 W Papago Fwy', 'locality': 'Avondale', 'region': 'AZ', 'country': 'US', 'postcode': '85323'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1279,16 +1279,16 @@
     "record_index": 75,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1550 Ingram Blvd', 'locality': 'West Memphis', 'region': 'AR', 'country': 'US', 'postcode': '72301'}",
     "candidates": {
       "current": "{'freeform': '1550 Ingram Blvd', 'locality': 'West Memphis', 'region': 'AR', 'country': 'US', 'postcode': '72301'}",
       "base": "{'freeform': '1550 Ingram Blvd', 'locality': 'West Memphis', 'region': 'AR', 'country': 'US', 'postcode': '72301'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1296,16 +1296,16 @@
     "record_index": 76,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9884988042470448,
+    "model_confidence": 0.9866539057922821,
     "conflated_value": "{'freeform': 'Calle Ignacio Zaragoza 115', 'locality': 'Autlán de Navarro', 'postcode': '48900', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Calle Ignacio Zaragoza 115', 'locality': 'Autlán de Navarro', 'postcode': '48900', 'country': 'MX'}",
       "base": "{'freeform': 'Zaragoza 115', 'locality': 'Autlán de Navarro, JAL', 'country': 'MX'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1313,16 +1313,16 @@
     "record_index": 77,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5428369475565861,
+    "model_confidence": 0.5034977540641001,
     "conflated_value": "{'freeform': '15175 Highland Valley Rd', 'locality': 'Escondido', 'postcode': '92025-2321', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '15175 Highland Valley Rd', 'locality': 'Escondido', 'postcode': '92025-2321', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '15175 highland valley Rd', 'locality': 'Escondido', 'region': 'CA', 'country': 'US', 'postcode': '92025'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1330,16 +1330,16 @@
     "record_index": 78,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '311 Bitritto Way', 'locality': 'Modesto', 'region': 'CA', 'country': 'US', 'postcode': '95356'}",
     "candidates": {
       "current": "{'freeform': '311 Bitritto Way', 'locality': 'Modesto', 'region': 'CA', 'country': 'US', 'postcode': '95356'}",
       "base": "{'freeform': '311 Bitritto Way', 'locality': 'Modesto', 'region': 'CA', 'country': 'US', 'postcode': '95356'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1347,16 +1347,16 @@
     "record_index": 79,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345524591096165,
+    "model_confidence": 0.943716725427279,
     "conflated_value": "{'freeform': '西区立売堀1丁目4-9', 'locality': '大阪市', 'region': '大阪府', 'country': 'JP', 'postcode': '550-0012'}",
     "candidates": {
       "current": "{'freeform': '大阪府大阪市西区立売堀１丁目４−９', 'locality': '大阪市西区', 'postcode': '550-0012', 'country': 'JP'}",
       "base": "{'freeform': '西区立売堀1丁目4-9', 'locality': '大阪市', 'region': '大阪府', 'country': 'JP', 'postcode': '550-0012'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1364,16 +1364,16 @@
     "record_index": 80,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430962312665859,
+    "model_confidence": 0.50345890326603,
     "conflated_value": "{'freeform': '14902 Preston Rd', 'locality': 'Dallas', 'postcode': '75254', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '14902 Preston Rd', 'locality': 'Dallas', 'postcode': '75254', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '14902 Preston Rd 404', 'locality': 'Dallas', 'region': 'TX', 'country': 'US', 'postcode': '75254'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1381,16 +1381,16 @@
     "record_index": 81,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '777 Kansas Star Dr', 'locality': 'Mulvane', 'postcode': '67120-9777', 'region': 'KS', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '777 Kansas Star Dr', 'locality': 'Mulvane', 'postcode': '67120-9777', 'region': 'KS', 'country': 'US'}",
       "base": "{'freeform': '777 Kansas Star Dr', 'locality': 'Mulvane', 'region': 'KS', 'country': 'US', 'postcode': '67110'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1398,16 +1398,16 @@
     "record_index": 82,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9347112783625007,
+    "model_confidence": 0.9436961845503054,
     "conflated_value": "{'freeform': 'Berliner Heerstraße 9', 'locality': 'Braunschweig', 'region': 'Niedersachsen', 'country': 'DE', 'postcode': '38104'}",
     "candidates": {
       "current": "{'freeform': 'Berliner Heerstraße 9', 'locality': 'Braunschweig', 'postcode': '38104', 'country': 'DE'}",
       "base": "{'freeform': 'Berliner Heerstraße 9', 'locality': 'Braunschweig', 'region': 'Niedersachsen', 'country': 'DE', 'postcode': '38104'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1415,16 +1415,16 @@
     "record_index": 83,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8348691824361856,
+    "model_confidence": 0.8130669815578714,
     "conflated_value": "{'freeform': 'Periferico', 'locality': 'Mexico City', 'postcode': '07080', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Periferico', 'locality': 'Mexico City', 'postcode': '07080', 'country': 'MX'}",
       "base": "{'freeform': 'Periferico', 'locality': 'México', 'region': 'DF', 'country': 'MX'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1432,16 +1432,16 @@
     "record_index": 84,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9347112783625007,
+    "model_confidence": 0.9436961845503054,
     "conflated_value": "{'freeform': 'Lange Straße 26', 'locality': 'Detmold', 'region': 'Nordrhein-Westfalen', 'country': 'DE', 'postcode': '32756'}",
     "candidates": {
       "current": "{'freeform': 'Lange Straße 26', 'locality': 'Detmold', 'postcode': '32756', 'country': 'DE'}",
       "base": "{'freeform': 'Lange Straße 26', 'locality': 'Detmold', 'region': 'Nordrhein-Westfalen', 'country': 'DE', 'postcode': '32756'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1449,16 +1449,16 @@
     "record_index": 85,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8352589785950014,
+    "model_confidence": 0.8130029934867764,
     "conflated_value": "{'freeform': 'Calle Central Norte 12', 'locality': 'Tuxtla Gutiérrez', 'postcode': '29000', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Calle Central Norte 12', 'locality': 'Tuxtla Gutiérrez', 'postcode': '29000', 'country': 'MX'}",
       "base": "{'freeform': '12 Poniente, Mercado 5 De Mayo', 'locality': 'Tuxtla Gutiérrez', 'region': 'Chiapas', 'country': 'MX'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1466,16 +1466,16 @@
     "record_index": 86,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431066950270076,
+    "model_confidence": 0.5034573353129969,
     "conflated_value": "{'freeform': '9 Akubra Pl', 'locality': 'South Kempsey', 'postcode': '2440', 'region': 'NSW', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': '9 Akubra Pl', 'locality': 'South Kempsey', 'postcode': '2440', 'region': 'NSW', 'country': 'AU'}",
       "base": "{'freeform': '9-11 Akubra Pl', 'locality': 'Kempsey', 'region': 'NSW', 'country': 'AU', 'postcode': '2440'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1483,16 +1483,16 @@
     "record_index": 87,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '11756 Borman Dr', 'locality': 'St Louis', 'postcode': '63146-4127', 'region': 'MO', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '11756 Borman Dr', 'locality': 'St Louis', 'postcode': '63146-4127', 'region': 'MO', 'country': 'US'}",
       "base": "{'freeform': '11756 Borman Dr', 'locality': 'Saint Louis', 'region': 'MO', 'country': 'US', 'postcode': '63146'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1500,16 +1500,16 @@
     "record_index": 88,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '8110 N College Ave', 'locality': 'Indianapolis', 'postcode': '46240-2554', 'region': 'IN', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '8110 N College Ave', 'locality': 'Indianapolis', 'postcode': '46240-2554', 'region': 'IN', 'country': 'US'}",
       "base": "{'freeform': '8110 N College Ave', 'locality': 'Indianapolis', 'region': 'IN', 'country': 'US', 'postcode': '46240'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1517,16 +1517,16 @@
     "record_index": 89,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431475425650957,
+    "model_confidence": 0.5034512144160623,
     "conflated_value": "{'freeform': 'Avenida Bernardo da Fonseca, 390', 'locality': 'Taiaçu', 'postcode': '14725-000', 'region': 'SP', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Avenida Bernardo da Fonseca, 390', 'locality': 'Taiaçu', 'postcode': '14725-000', 'region': 'SP', 'country': 'BR'}",
       "base": "{'freeform': 'Av João Bernardo da Fonseca', 'locality': 'Taiaçu', 'region': 'SP', 'country': 'BR', 'postcode': '14725-000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1534,16 +1534,16 @@
     "record_index": 90,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430422403090726,
+    "model_confidence": 0.5034669935054423,
     "conflated_value": "{'freeform': 'Via Niccolò Piccinni, 68', 'locality': 'Bari', 'postcode': '70122', 'region': '75', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Niccolò Piccinni, 68', 'locality': 'Bari', 'postcode': '70122', 'region': '75', 'country': 'IT'}",
       "base": "{'freeform': 'via Niccolò Piccinni 68', 'locality': 'Bari', 'region': 'Puglia', 'country': 'IT', 'postcode': '70122'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1551,16 +1551,16 @@
     "record_index": 91,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5433742881495733,
+    "model_confidence": 0.503417235580148,
     "conflated_value": "{'freeform': 'Via Bari, 6', 'locality': 'Melendugno', 'postcode': '73026', 'region': '75', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Bari, 6', 'locality': 'Melendugno', 'postcode': '73026', 'region': '75', 'country': 'IT'}",
       "base": "{'freeform': 'Piazza Pietro Nenni s.n.c.', 'locality': 'Melendugno', 'region': 'Lecce', 'country': 'IT', 'postcode': '73020'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1568,16 +1568,16 @@
     "record_index": 92,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432657677753595,
+    "model_confidence": 0.5034334981808234,
     "conflated_value": "{'freeform': '19321 SW Martinazzi Ave', 'locality': 'Tualatin', 'postcode': '97062-6354', 'region': 'OR', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '19321 SW Martinazzi Ave', 'locality': 'Tualatin', 'postcode': '97062-6354', 'region': 'OR', 'country': 'US'}",
       "base": "{'freeform': '19321 SW Martinazzi Ave (Martinazzi Sq, Uare - Tualatin)', 'locality': 'Tualatin', 'region': 'OR', 'country': 'US', 'postcode': '97062'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1585,16 +1585,16 @@
     "record_index": 93,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9527165144687939,
+    "model_confidence": 0.9451785947022266,
     "conflated_value": "{'freeform': '229 London Road', 'locality': 'Croydon', 'postcode': 'CR0 2RL', 'region': 'ENG', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '229 London Road', 'locality': 'Croydon', 'postcode': 'CR0 2RL', 'region': 'ENG', 'country': 'GB'}",
       "base": "{'freeform': '229-231 London Road', 'locality': 'Croydon', 'region': '', 'country': 'GB', 'postcode': 'CR0 2RL'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1602,16 +1602,16 @@
     "record_index": 94,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345090054004213,
+    "model_confidence": 0.943722336206985,
     "conflated_value": "{'freeform': 'Lindavista', 'locality': 'Gustavo A. Madero', 'region': 'Distrito Federal', 'country': 'MX', 'postcode': '07300'}",
     "candidates": {
       "current": "{'freeform': 'Fray Juan de Zumárraga 101', 'locality': 'Gustavo A Madero', 'postcode': '07050', 'country': 'MX'}",
       "base": "{'freeform': 'Lindavista', 'locality': 'Gustavo A. Madero', 'region': 'Distrito Federal', 'country': 'MX', 'postcode': '07300'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1619,16 +1619,16 @@
     "record_index": 95,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.988507914816097,
+    "model_confidence": 0.9866523223241933,
     "conflated_value": "{'freeform': 'Via Edmondo De Amicis, 2', 'locality': 'Genova', 'postcode': '16122', 'region': '42', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Edmondo De Amicis, 2', 'locality': 'Genova', 'postcode': '16122', 'region': '42', 'country': 'IT'}",
       "base": "{'freeform': 'Via Edmondo de Amicis 2', 'locality': 'Genova', 'region': 'Genova', 'country': 'IT'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1636,16 +1636,16 @@
     "record_index": 96,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '8513 Midlothian Tpke', 'locality': 'Richmond', 'region': 'VA', 'country': 'US', 'postcode': '23235'}",
     "candidates": {
       "current": "{'freeform': '8513 Midlothian Tpke', 'locality': 'Richmond', 'region': 'VA', 'country': 'US', 'postcode': '23235'}",
       "base": "{'freeform': '8513 Midlothian Tpke', 'locality': 'North Chesterfield', 'region': 'VA', 'country': 'US', 'postcode': '23235'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1653,16 +1653,16 @@
     "record_index": 97,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': 'Grosszelgstrasse 26', 'locality': 'Würenlos', 'postcode': '5436', 'region': 'Aargau', 'country': 'CH'}",
     "candidates": {
       "current": "{'freeform': 'Grosszelgstrasse 26', 'locality': 'Würenlos', 'postcode': '5436', 'region': 'Aargau', 'country': 'CH'}",
       "base": "{'freeform': 'Grosszelgstrasse 26', 'locality': 'Würenlos', 'region': 'Aargau', 'country': 'CH', 'postcode': '5436'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1670,16 +1670,16 @@
     "record_index": 98,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430792878791211,
+    "model_confidence": 0.5034614421532695,
     "conflated_value": "{'freeform': 'Sokolovská 192/79', 'locality': 'Praha', 'postcode': '18600', 'region': 'PR', 'country': 'CZ'}",
     "candidates": {
       "current": "{'freeform': 'Sokolovská 192/79', 'locality': 'Praha', 'postcode': '18600', 'region': 'PR', 'country': 'CZ'}",
       "base": "{'freeform': 'Sokolovská 28/77', 'locality': 'Praha', 'region': 'Středočeský', 'country': 'CZ', 'postcode': '186 00'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1687,16 +1687,16 @@
     "record_index": 99,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '2420 Laurens Rd', 'locality': 'Greenville', 'postcode': '29607', 'region': 'SC', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '2420 Laurens Rd', 'locality': 'Greenville', 'postcode': '29607', 'region': 'SC', 'country': 'US'}",
       "base": "{'freeform': '2420 Laurens Rd', 'locality': 'Greenville', 'region': 'SC', 'country': 'US', 'postcode': '29607'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1704,16 +1704,16 @@
     "record_index": 100,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1505 Marsh St', 'locality': 'Cedar Vale', 'postcode': '67024-9081', 'region': 'KS', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1505 Marsh St', 'locality': 'Cedar Vale', 'postcode': '67024-9081', 'region': 'KS', 'country': 'US'}",
       "base": "{'freeform': '1505 Marsh St', 'locality': 'Cedar Vale', 'region': 'KS', 'country': 'US', 'postcode': '67024'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1721,16 +1721,16 @@
     "record_index": 101,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '38232 5th Ave', 'locality': 'Zephyrhills', 'region': 'FL', 'country': 'US', 'postcode': '33542'}",
     "candidates": {
       "current": "{'freeform': '38232 5th Ave', 'locality': 'Zephyrhills', 'region': 'FL', 'country': 'US', 'postcode': '33542'}",
       "base": "{'freeform': '38232 5th Ave', 'locality': 'Zephyrhills', 'region': 'FL', 'country': 'US', 'postcode': '33542'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1738,16 +1738,16 @@
     "record_index": 102,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5421249342778754,
+    "model_confidence": 0.5036046743476497,
     "conflated_value": "{'freeform': 'Mieczysława Jeżyka 2A', 'locality': 'Wągrowiec', 'postcode': '62-100', 'country': 'PL'}",
     "candidates": {
       "current": "{'freeform': 'Mieczysława Jeżyka 2A', 'locality': 'Wągrowiec', 'postcode': '62-100', 'country': 'PL'}",
       "base": "{'freeform': 'Mieczysława Jeżyka 2A', 'locality': 'Wągrowiec', 'region': '', 'country': 'PL', 'postcode': '62-100'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1755,16 +1755,16 @@
     "record_index": 103,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5416502437059281,
+    "model_confidence": 0.5036765279358884,
     "conflated_value": "{'country': 'TH'}",
     "candidates": {
       "current": "{'country': 'TH'}",
       "base": "{'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1772,16 +1772,16 @@
     "record_index": 104,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.543048719659938,
+    "model_confidence": 0.503466022619487,
     "conflated_value": "{'freeform': '5152 69th St., Ste 100', 'locality': 'Lubbock', 'region': 'TX', 'country': 'US', 'postcode': '79424'}",
     "candidates": {
       "current": "{'freeform': '5152 69th St., Ste 100', 'locality': 'Lubbock', 'region': 'TX', 'country': 'US', 'postcode': '79424'}",
       "base": "{'freeform': '5152 69th St Ste 100', 'locality': 'Lubbock', 'region': 'TX', 'country': 'US', 'postcode': '79424'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1789,16 +1789,16 @@
     "record_index": 105,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '7777 Hennessy Blvd Ste 1000', 'locality': 'Baton Rouge', 'postcode': '70808', 'region': 'LA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '7777 Hennessy Blvd Ste 1000', 'locality': 'Baton Rouge', 'postcode': '70808', 'region': 'LA', 'country': 'US'}",
       "base": "{'freeform': '7777 Hennessy Blvd Ste 1000', 'locality': 'Baton Rouge', 'region': 'LA', 'country': 'US', 'postcode': '70808'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1806,16 +1806,16 @@
     "record_index": 106,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9526276615237894,
+    "model_confidence": 0.9451937807689124,
     "conflated_value": "{'freeform': 'Lisbjergbakken 2D', 'locality': 'Aarhus N', 'postcode': '8200', 'region': '82', 'country': 'DK'}",
     "candidates": {
       "current": "{'freeform': 'Lisbjergbakken 2D', 'locality': 'Aarhus N', 'postcode': '8200', 'region': '82', 'country': 'DK'}",
       "base": "{'freeform': 'Lisbjergbakken 2D', 'locality': 'Aarhus', 'region': '', 'country': 'DK', 'postcode': '8200'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1823,16 +1823,16 @@
     "record_index": 107,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430867600611392,
+    "model_confidence": 0.5034603224836612,
     "conflated_value": "{'freeform': '7001 Ky Route 550', 'locality': 'Lackey', 'postcode': '41643', 'region': 'KY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '7001 Ky Route 550', 'locality': 'Lackey', 'postcode': '41643', 'region': 'KY', 'country': 'US'}",
       "base": "{'freeform': '6923 Ky Route 550', 'locality': 'Lackey', 'region': 'KY', 'country': 'US', 'postcode': '41643'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1840,16 +1840,16 @@
     "record_index": 108,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '82 Leroy Rd', 'locality': 'Williston', 'region': 'VT', 'country': 'US', 'postcode': '05495'}",
     "candidates": {
       "current": "{'freeform': '82 Leroy Rd', 'locality': 'Williston', 'region': 'VT', 'country': 'US', 'postcode': '05495'}",
       "base": "{'freeform': '82 Leroy Rd', 'locality': 'Williston', 'region': 'VT', 'country': 'US', 'postcode': '05495'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1857,16 +1857,16 @@
     "record_index": 109,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432671431168855,
+    "model_confidence": 0.5034332920793697,
     "conflated_value": "{'freeform': '4411 6 Street Southeast, #180', 'locality': 'Calgary', 'region': 'AB', 'country': 'CA', 'postcode': 'T2G 4E8'}",
     "candidates": {
       "current": "{'freeform': '4411 6 Street Southeast, #180', 'locality': 'Calgary', 'region': 'AB', 'country': 'CA', 'postcode': 'T2G 4E8'}",
       "base": "{'freeform': '180 4411 6 Street SE', 'locality': 'Calgary', 'region': 'AB', 'country': 'CA', 'postcode': 'T2G 4E8'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1874,16 +1874,16 @@
     "record_index": 110,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '720 Main St', 'locality': 'Carrington', 'postcode': '58421-2105', 'region': 'ND', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '720 Main St', 'locality': 'Carrington', 'postcode': '58421-2105', 'region': 'ND', 'country': 'US'}",
       "base": "{'freeform': '720 Main St', 'locality': 'Carrington', 'region': 'ND', 'country': 'US', 'postcode': '58421'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1891,16 +1891,16 @@
     "record_index": 111,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9958933804911341,
+    "model_confidence": 0.9965039019123998,
     "conflated_value": "{'freeform': 'Via Dante', 'locality': 'Ponza', 'region': 'Latina', 'country': 'IT', 'postcode': '04027'}",
     "candidates": {
       "current": "{'freeform': 'Via Dante Alighieri, 19', 'postcode': '04027', 'country': 'IT'}",
       "base": "{'freeform': 'Via Dante', 'locality': 'Ponza', 'region': 'Latina', 'country': 'IT', 'postcode': '04027'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1908,16 +1908,16 @@
     "record_index": 112,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '104 Shult Dr Ste A', 'locality': 'Columbus', 'postcode': '78934', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '104 Shult Dr Ste A', 'locality': 'Columbus', 'postcode': '78934', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '104 Shult Dr Ste A', 'locality': 'Columbus', 'region': 'TX', 'country': 'US', 'postcode': '78934'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1925,16 +1925,16 @@
     "record_index": 113,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8352613177178555,
+    "model_confidence": 0.8130026090840041,
     "conflated_value": "{'freeform': 'Granaderos 222', 'locality': 'Río Cuarto', 'postcode': 'X5800', 'country': 'AR'}",
     "candidates": {
       "current": "{'freeform': 'Granaderos 222', 'locality': 'Río Cuarto', 'postcode': 'X5800', 'country': 'AR'}",
       "base": "{'freeform': 'Eliseo Sanchez 200', 'locality': 'Rio Cuarto', 'region': 'AR', 'country': 'AR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1942,16 +1942,16 @@
     "record_index": 114,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1310 E Lake Dr', 'locality': 'Tarpon Springs', 'postcode': '34688-8110', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1310 E Lake Dr', 'locality': 'Tarpon Springs', 'postcode': '34688-8110', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '1310 E Lake Dr', 'locality': 'Tarpon Springs', 'region': 'FL', 'country': 'US', 'postcode': '34688'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1959,16 +1959,16 @@
     "record_index": 115,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '4050 FM 762 Rd', 'locality': 'Rosenberg', 'postcode': '77469', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '4050 FM 762 Rd', 'locality': 'Rosenberg', 'postcode': '77469', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '4050 FM 762 Rd', 'locality': 'Rosenberg', 'region': 'TX', 'country': 'US', 'postcode': '77469'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1976,16 +1976,16 @@
     "record_index": 116,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345917234899886,
+    "model_confidence": 0.9437116521441956,
     "conflated_value": "{'freeform': 'Frankenstr. 23', 'locality': 'Emmerich', 'region': 'Nordrhein-Westfalen', 'country': 'DE', 'postcode': '46446'}",
     "candidates": {
       "current": "{'freeform': 'Frankenstraße 21', 'locality': 'Emmerich am Rhein', 'postcode': '46446', 'country': 'DE'}",
       "base": "{'freeform': 'Frankenstr. 23', 'locality': 'Emmerich', 'region': 'Nordrhein-Westfalen', 'country': 'DE', 'postcode': '46446'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -1993,16 +1993,16 @@
     "record_index": 117,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432684992506327,
+    "model_confidence": 0.5034330888561949,
     "conflated_value": "{'freeform': '610 Highway 17 N', 'locality': 'Surfside Beach', 'postcode': '29575', 'region': 'SC', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '610 Highway 17 N', 'locality': 'Surfside Beach', 'postcode': '29575', 'region': 'SC', 'country': 'US'}",
       "base": "{'freeform': '610 US-17 BUS Business', 'locality': 'Surfside Beach', 'region': 'SC', 'country': 'US', 'postcode': '29575'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2010,16 +2010,16 @@
     "record_index": 118,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431292704849123,
+    "model_confidence": 0.5034539524504429,
     "conflated_value": "{'freeform': '1 Old Oyster Point Rd', 'locality': 'Newport News', 'postcode': '23602-0013', 'region': 'VA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1 Old Oyster Point Rd', 'locality': 'Newport News', 'postcode': '23602-0013', 'region': 'VA', 'country': 'US'}",
       "base": "{'freeform': '1 Old Oyster Point Rd Ste 240', 'locality': 'Newport News', 'region': 'VA', 'country': 'US', 'postcode': '23602'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2027,16 +2027,16 @@
     "record_index": 119,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9958948363018041,
+    "model_confidence": 0.9965037174172051,
     "conflated_value": "{'freeform': 'I-70 Centerville', 'locality': 'Centerville', 'region': 'IN', 'country': 'US', 'postcode': '47330'}",
     "candidates": {
       "current": "{'freeform': '2351 N Centerville Rd', 'postcode': '47330', 'country': 'US'}",
       "base": "{'freeform': 'I-70 Centerville', 'locality': 'Centerville', 'region': 'IN', 'country': 'US', 'postcode': '47330'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2044,16 +2044,16 @@
     "record_index": 120,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346600000393847,
+    "model_confidence": 0.9437028224747289,
     "conflated_value": "{'freeform': '2 avenue du Général Schneider', 'locality': 'Seltz', 'region': 'Bas-Rhin', 'country': 'FR', 'postcode': '67470'}",
     "candidates": {
       "current": "{'freeform': '2 Avenue du Général Schneider', 'locality': 'Seltz', 'postcode': '67470', 'country': 'FR'}",
       "base": "{'freeform': '2 avenue du Général Schneider', 'locality': 'Seltz', 'region': 'Bas-Rhin', 'country': 'FR', 'postcode': '67470'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2061,16 +2061,16 @@
     "record_index": 121,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430431577341235,
+    "model_confidence": 0.503466856035772,
     "conflated_value": "{'freeform': 'Largo Risorgimento, 7', 'locality': 'Cisterna di Latina', 'postcode': '04012', 'region': '62', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Largo Risorgimento, 7', 'locality': 'Cisterna di Latina', 'postcode': '04012', 'region': '62', 'country': 'IT'}",
       "base": "{'freeform': 'Largo Risorgimento 8', 'locality': 'Cisterna di Latina', 'region': 'Latina', 'country': 'IT', 'postcode': '04012'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2078,16 +2078,16 @@
     "record_index": 122,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885139145326257,
+    "model_confidence": 0.9866512874750463,
     "conflated_value": "{'freeform': 'Rua Comércio, S/N', 'locality': 'Maribondo', 'postcode': '57670-000', 'region': 'AL', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Rua Comércio, S/N', 'locality': 'Maribondo', 'postcode': '57670-000', 'region': 'AL', 'country': 'BR'}",
       "base": "{'freeform': 'Rua Do Comercio', 'locality': 'Maribondo', 'region': 'AL', 'country': 'BR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2095,16 +2095,16 @@
     "record_index": 123,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '128 Sandgate Road', 'locality': 'Folkestone', 'postcode': 'CT20 2BW', 'region': 'ENG', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '128 Sandgate Road', 'locality': 'Folkestone', 'postcode': 'CT20 2BW', 'region': 'ENG', 'country': 'GB'}",
       "base": "{'freeform': '128 Sandgate Road', 'locality': 'Folkestone', 'region': 'Ken', 'country': 'GB', 'postcode': 'CT20 2BN'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2112,16 +2112,16 @@
     "record_index": 124,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '9 Centre Dr', 'locality': 'Jamesburg', 'postcode': '08831-5153', 'region': 'NJ', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '9 Centre Dr', 'locality': 'Jamesburg', 'postcode': '08831-5153', 'region': 'NJ', 'country': 'US'}",
       "base": "{'freeform': '9 Centre Dr', 'locality': 'Monroe Township', 'region': 'NJ', 'country': 'US', 'postcode': '08831'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2129,16 +2129,16 @@
     "record_index": 125,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8348691824361856,
+    "model_confidence": 0.8130669815578714,
     "conflated_value": "{'freeform': 'Im Esch 17', 'locality': 'Witten', 'postcode': '58455', 'country': 'DE'}",
     "candidates": {
       "current": "{'freeform': 'Im Esch 17', 'locality': 'Witten', 'postcode': '58455', 'country': 'DE'}",
       "base": "{'freeform': 'Im Esch 17', 'locality': 'Witten', 'region': 'Nordrhein-Westfalen', 'country': 'DE'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2146,16 +2146,16 @@
     "record_index": 126,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '9805 Mcknight Rd', 'locality': 'Pittsburgh', 'region': 'PA', 'country': 'US', 'postcode': '15237'}",
     "candidates": {
       "current": "{'freeform': '9805 Mcknight Rd', 'locality': 'Pittsburgh', 'region': 'PA', 'country': 'US', 'postcode': '15237'}",
       "base": "{'freeform': '9805 Mcknight Rd', 'locality': 'Pittsburgh', 'region': 'PA', 'country': 'US', 'postcode': '15237'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2163,16 +2163,16 @@
     "record_index": 127,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '401 Queens Quay Suite 605', 'locality': 'Toronto', 'postcode': 'M5V 2Y2', 'region': 'ON', 'country': 'CA'}",
     "candidates": {
       "current": "{'freeform': '401 Queens Quay Suite 605', 'locality': 'Toronto', 'postcode': 'M5V 2Y2', 'region': 'ON', 'country': 'CA'}",
       "base": "{'freeform': '401 Queens Quay Suite 605', 'locality': 'Toronto', 'region': 'ON', 'country': 'CA', 'postcode': 'M5V 2Y2'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2180,16 +2180,16 @@
     "record_index": 128,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959042607812373,
+    "model_confidence": 0.9965025212370581,
     "conflated_value": "{'freeform': 'Miguel Alemán Valdez 2612', 'locality': 'Tijuana', 'region': 'Baja California', 'country': 'MX', 'postcode': '22044'}",
     "candidates": {
       "current": "{'freeform': 'Miguel Alemán Valdez 2612', 'postcode': '22044', 'country': 'MX'}",
       "base": "{'freeform': 'Miguel Alemán Valdez 2612', 'locality': 'Tijuana', 'region': 'Baja California', 'country': 'MX', 'postcode': '22044'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2197,16 +2197,16 @@
     "record_index": 129,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426940617420322,
+    "model_confidence": 0.5035194134228846,
     "conflated_value": "{'freeform': 'Leipzig Ratzelbogen, Kiewer Straße 1', 'locality': 'Leipzig', 'postcode': '04209', 'country': 'DE'}",
     "candidates": {
       "current": "{'freeform': 'Leipzig Ratzelbogen, Kiewer Straße 1', 'locality': 'Leipzig', 'postcode': '04209', 'country': 'DE'}",
       "base": "{'freeform': 'Ratzelbogen, Kiewer Str. 1-5', 'locality': 'Leipzig', 'region': '', 'country': 'DE', 'postcode': '04209'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2214,16 +2214,16 @@
     "record_index": 130,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5433126630954432,
+    "model_confidence": 0.503426470638132,
     "conflated_value": "{'freeform': '11 Hindmarsh Sq', 'locality': 'Adelaide', 'postcode': '5000', 'region': 'SA', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': '11 Hindmarsh Sq', 'locality': 'Adelaide', 'postcode': '5000', 'region': 'SA', 'country': 'AU'}",
       "base": "{'freeform': '7/141-159 Rundle Mall', 'locality': 'Adelaide', 'region': 'SA', 'country': 'AU', 'postcode': '5000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2231,16 +2231,16 @@
     "record_index": 131,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.995896073961204,
+    "model_confidence": 0.9965035605094825,
     "conflated_value": "{'freeform': 'Jalan Persiaran Tanjung', 'locality': 'Johor Bahru', 'region': 'Johor', 'country': 'MY', 'postcode': '80200'}",
     "candidates": {
       "current": "{'freeform': 'Jalan Persiaran Tanjung Tampoi', 'postcode': '81200', 'country': 'MY'}",
       "base": "{'freeform': 'Jalan Persiaran Tanjung', 'locality': 'Johor Bahru', 'region': 'Johor', 'country': 'MY', 'postcode': '80200'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2248,16 +2248,16 @@
     "record_index": 132,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432811824612372,
+    "model_confidence": 0.5034311882112795,
     "conflated_value": "{'freeform': '2105 S Highway 77', 'locality': 'Lynn Haven', 'postcode': '32444-4631', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '2105 S Highway 77', 'locality': 'Lynn Haven', 'postcode': '32444-4631', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '2105 Florida 77, Suite Ste 2', 'locality': 'Lynn Haven', 'region': 'FL', 'country': 'US', 'postcode': '32444'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2265,16 +2265,16 @@
     "record_index": 133,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '700 Francisco Blvd W', 'locality': 'San Rafael', 'region': 'CA', 'country': 'US', 'postcode': '94901'}",
     "candidates": {
       "current": "{'freeform': '700 Francisco Blvd W', 'locality': 'San Rafael', 'region': 'CA', 'country': 'US', 'postcode': '94901'}",
       "base": "{'freeform': '700 Francisco Blvd W', 'locality': 'San Rafael', 'region': 'CA', 'country': 'US', 'postcode': '94901'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2282,16 +2282,16 @@
     "record_index": 134,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '6280 Hembree Ln', 'locality': 'Windsor', 'region': 'CA', 'country': 'US', 'postcode': '95492'}",
     "candidates": {
       "current": "{'freeform': '6280 Hembree Ln', 'locality': 'Windsor', 'region': 'CA', 'country': 'US', 'postcode': '95492'}",
       "base": "{'freeform': '6280 Hembree Ln', 'locality': 'Windsor', 'region': 'CA', 'country': 'US', 'postcode': '95492'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2299,16 +2299,16 @@
     "record_index": 135,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430761570137699,
+    "model_confidence": 0.503461911297121,
     "conflated_value": "{'freeform': 'Frazione Ulibra, 44', 'locality': 'Venarotta', 'postcode': '63091', 'region': '57', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Frazione Ulibra, 44', 'locality': 'Venarotta', 'postcode': '63091', 'region': '57', 'country': 'IT'}",
       "base": "{'freeform': 'Frazione Olibra 55', 'locality': 'Venarotta', 'region': 'Ascoli Piceno', 'country': 'IT', 'postcode': '63091'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2316,16 +2316,16 @@
     "record_index": 136,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345991386317329,
+    "model_confidence": 0.9437106936802503,
     "conflated_value": "{'freeform': 'Rodelweg 7 b', 'locality': 'Schäftlarn', 'region': 'Bayern', 'country': 'DE', 'postcode': '82067'}",
     "candidates": {
       "current": "{'freeform': 'Rodelweg 7B', 'locality': 'Schäftlarn', 'postcode': '82067', 'country': 'DE'}",
       "base": "{'freeform': 'Rodelweg 7 b', 'locality': 'Schäftlarn', 'region': 'Bayern', 'country': 'DE', 'postcode': '82067'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2333,16 +2333,16 @@
     "record_index": 137,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431558136432949,
+    "model_confidence": 0.50344997500588,
     "conflated_value": "{'freeform': \"Piazza Montano Nicolo', 24/R\", 'locality': 'Genova', 'postcode': '16151', 'region': 'GE', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': \"Piazza Montano Nicolo', 24/R\", 'locality': 'Genova', 'postcode': '16151', 'region': 'GE', 'country': 'IT'}",
       "base": "{'freeform': 'Piazza Nicolò Montano 24 R', 'locality': 'Genova', 'region': 'Genova', 'country': 'IT', 'postcode': '16151'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2350,16 +2350,16 @@
     "record_index": 138,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432902288471039,
+    "model_confidence": 0.5034298325582218,
     "conflated_value": "{'freeform': '150 Court Sq', 'locality': 'Blakely', 'postcode': '39823-2245', 'region': 'GA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '150 Court Sq', 'locality': 'Blakely', 'postcode': '39823-2245', 'region': 'GA', 'country': 'US'}",
       "base": "{'freeform': '17 McDonald Ave', 'locality': 'Blakely', 'region': 'GA', 'country': 'US', 'postcode': '39823'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2367,16 +2367,16 @@
     "record_index": 139,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430473186647727,
+    "model_confidence": 0.5034662325491188,
     "conflated_value": "{'freeform': 'Rua Quintino Bocaiúva, 727', 'locality': 'Brotas', 'postcode': '17380-000', 'region': 'SP', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Rua Quintino Bocaiúva, 727', 'locality': 'Brotas', 'postcode': '17380-000', 'region': 'SP', 'country': 'BR'}",
       "base": "{'freeform': 'Rua Quintino Bocaiuva 720', 'locality': 'Btotas', 'region': 'São Paulo', 'country': 'BR', 'postcode': '17380-000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2384,16 +2384,16 @@
     "record_index": 140,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.8352741011076338,
+    "model_confidence": 0.8130005082209926,
     "conflated_value": "{'freeform': 'Avenida Justo Sierra 215b', 'locality': 'Minatitlán', 'postcode': '96734', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Avenida Justo Sierra 215b', 'locality': 'Minatitlán', 'postcode': '96734', 'country': 'MX'}",
       "base": "{'freeform': 'Col Nueva Mina', 'locality': 'Minatitlan', 'region': 'VER', 'country': 'MX'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2401,16 +2401,16 @@
     "record_index": 141,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431252657513798,
+    "model_confidence": 0.503454552549338,
     "conflated_value": "{'freeform': '28422 Constellation Rd', 'locality': 'Valencia', 'postcode': '91355-5081', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '28422 Constellation Rd', 'locality': 'Valencia', 'postcode': '91355-5081', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '28422 Constellation Rd Ste 208', 'locality': 'Valencia', 'region': 'CA', 'country': 'US', 'postcode': '91355'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2418,16 +2418,16 @@
     "record_index": 142,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '449 W Manchester Ave', 'locality': 'Los Angeles', 'postcode': '90293-7733', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '449 W Manchester Ave', 'locality': 'Los Angeles', 'postcode': '90293-7733', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '449 W Manchester Ave', 'locality': 'Playa Del Rey', 'region': 'CA', 'country': 'US', 'postcode': '90293'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2435,16 +2435,16 @@
     "record_index": 143,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431606116851893,
+    "model_confidence": 0.5034492560239633,
     "conflated_value": "{'freeform': '211 Fountain Ct', 'locality': 'Lexington', 'postcode': '40509-2694', 'region': 'KY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '211 Fountain Ct', 'locality': 'Lexington', 'postcode': '40509-2694', 'region': 'KY', 'country': 'US'}",
       "base": "{'freeform': '211 Fountain Ct Ste 340', 'locality': 'Lexington', 'region': 'KY', 'country': 'US', 'postcode': '40509'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2452,16 +2452,16 @@
     "record_index": 144,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.93458674971724,
+    "model_confidence": 0.9437122949772517,
     "conflated_value": "{'freeform': 'Ave Del Parque 145', 'locality': 'Gómez Palacio', 'region': 'Durango', 'country': 'MX', 'postcode': '35049'}",
     "candidates": {
       "current": "{'freeform': 'Calle del Parque 145', 'locality': 'Gómez Palacio', 'postcode': '35049', 'country': 'MX'}",
       "base": "{'freeform': 'Ave Del Parque 145', 'locality': 'Gómez Palacio', 'region': 'Durango', 'country': 'MX', 'postcode': '35049'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2469,16 +2469,16 @@
     "record_index": 145,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '4546 Bunker Hill Rd', 'locality': 'Sachse', 'region': 'TX', 'country': 'US', 'postcode': '75048'}",
     "candidates": {
       "current": "{'freeform': '4546 Bunker Hill Rd', 'locality': 'Sachse', 'region': 'TX', 'country': 'US', 'postcode': '75048'}",
       "base": "{'freeform': '4546 Bunker Hill Rd', 'locality': 'Sachse', 'region': 'TX', 'country': 'US', 'postcode': '75048'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2486,16 +2486,16 @@
     "record_index": 146,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431903384796298,
+    "model_confidence": 0.5034448014656219,
     "conflated_value": "{'freeform': '12577 CR 3101', 'locality': 'Winona', 'postcode': '75792', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '12577 CR 3101', 'locality': 'Winona', 'postcode': '75792', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '12577 County Road 3101', 'locality': 'Winona', 'region': 'TX', 'country': 'US', 'postcode': '75792'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2503,16 +2503,16 @@
     "record_index": 147,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431237376279046,
+    "model_confidence": 0.5034547815344401,
     "conflated_value": "{'freeform': '239 Main Ave E', 'locality': 'West Fargo', 'postcode': '58078-1833', 'region': 'ND', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '239 Main Ave E', 'locality': 'West Fargo', 'postcode': '58078-1833', 'region': 'ND', 'country': 'US'}",
       "base": "{'freeform': '239 Main Ave E # 60', 'locality': 'West Fargo', 'region': 'ND', 'country': 'US', 'postcode': '58078'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2520,16 +2520,16 @@
     "record_index": 148,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9958952955715056,
+    "model_confidence": 0.9965036591983245,
     "conflated_value": "{'freeform': 'An Der Crivitzer Chaussee 1', 'locality': 'Pinnow', 'region': 'Mecklenburg-Vorpommern', 'country': 'DE', 'postcode': '19065'}",
     "candidates": {
       "current": "{'freeform': 'An d. Crivitzer Ch 1', 'postcode': '19065', 'country': 'DE'}",
       "base": "{'freeform': 'An Der Crivitzer Chaussee 1', 'locality': 'Pinnow', 'region': 'Mecklenburg-Vorpommern', 'country': 'DE', 'postcode': '19065'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2537,16 +2537,16 @@
     "record_index": 149,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '8501 Glenwood Ave', 'locality': 'Raleigh', 'region': 'NC', 'country': 'US', 'postcode': '27612'}",
     "candidates": {
       "current": "{'freeform': '8501 Glenwood Ave', 'locality': 'Raleigh', 'region': 'NC', 'country': 'US', 'postcode': '27612'}",
       "base": "{'freeform': '8501 Glenwood Ave', 'locality': 'Raleigh', 'region': 'NC', 'country': 'US', 'postcode': '27612'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2554,16 +2554,16 @@
     "record_index": 150,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.934707931272024,
+    "model_confidence": 0.943696511299026,
     "conflated_value": "{'locality': 'Mueang Sakon Nakhon', 'region': 'Sakon Nakhon', 'country': 'TH'}",
     "candidates": {
       "current": "{'locality': 'Amphoe Muang Sakhon Nakhon', 'country': 'TH'}",
       "base": "{'locality': 'Mueang Sakon Nakhon', 'region': 'Sakon Nakhon', 'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2571,16 +2571,16 @@
     "record_index": 151,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345906784463033,
+    "model_confidence": 0.9437117872147491,
     "conflated_value": "{'freeform': 'Goethestr. 11b-c', 'locality': 'Frankfurt/Oder', 'region': 'Brandenburg', 'country': 'DE', 'postcode': '15234'}",
     "candidates": {
       "current": "{'freeform': 'Goethestraße 11B', 'locality': 'Frankfurt (Oder)', 'postcode': '15234', 'country': 'DE'}",
       "base": "{'freeform': 'Goethestr. 11b-c', 'locality': 'Frankfurt/Oder', 'region': 'Brandenburg', 'country': 'DE', 'postcode': '15234'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2588,16 +2588,16 @@
     "record_index": 152,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346021312665145,
+    "model_confidence": 0.9437103068262784,
     "conflated_value": "{'freeform': 'Avenida Futebol Clube do Porto 779', 'locality': 'Marco de Canaveses', 'region': 'Porto', 'country': 'PT', 'postcode': '4630-203'}",
     "candidates": {
       "current": "{'freeform': 'Avenida do Futebol Clube do Porto 779', 'locality': 'Marco de Canaveses', 'postcode': '4630-203', 'country': 'PT'}",
       "base": "{'freeform': 'Avenida Futebol Clube do Porto 779', 'locality': 'Marco de Canaveses', 'region': 'Porto', 'country': 'PT', 'postcode': '4630-203'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2605,16 +2605,16 @@
     "record_index": 153,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.934528470391186,
+    "model_confidence": 0.9437198233641297,
     "conflated_value": "{'freeform': 'Pino Suárez 2809', 'locality': 'Nuevo Laredo', 'region': 'Tamaulipas', 'country': 'MX', 'postcode': '88000'}",
     "candidates": {
       "current": "{'freeform': 'Calle Melchor Ocampo 559', 'locality': 'Nuevo Laredo', 'postcode': '88000', 'country': 'MX'}",
       "base": "{'freeform': 'Pino Suárez 2809', 'locality': 'Nuevo Laredo', 'region': 'Tamaulipas', 'country': 'MX', 'postcode': '88000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2622,16 +2622,16 @@
     "record_index": 154,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '516 W Wise Rd', 'locality': 'Schaumburg', 'postcode': '60193-3815', 'region': 'IL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '516 W Wise Rd', 'locality': 'Schaumburg', 'postcode': '60193-3815', 'region': 'IL', 'country': 'US'}",
       "base": "{'freeform': '516 W Wise Rd', 'locality': 'Schaumburg', 'region': 'IL', 'country': 'US', 'postcode': '60193'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2639,16 +2639,16 @@
     "record_index": 155,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': 'Level 14/55 Clarence Street', 'locality': 'Sydney', 'postcode': '2000', 'region': 'New South Wales', 'country': 'AU'}",
     "candidates": {
       "current": "{'freeform': 'Level 14/55 Clarence Street', 'locality': 'Sydney', 'postcode': '2000', 'region': 'New South Wales', 'country': 'AU'}",
       "base": "{'freeform': 'Level 14/55 Clarence Street', 'locality': 'Sydney', 'region': 'New South Wales', 'country': 'AU', 'postcode': '2000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2656,16 +2656,16 @@
     "record_index": 156,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.54285791150778,
+    "model_confidence": 0.5034948639833884,
     "conflated_value": "{'freeform': 'Warren Road', 'locality': 'Chatham', 'region': '', 'country': 'GB', 'postcode': 'ME5 9RD'}",
     "candidates": {
       "current": "{'freeform': 'Warren Road', 'locality': 'Chatham', 'region': '', 'country': 'GB', 'postcode': 'ME5 9RD'}",
       "base": "{'freeform': 'Hilltop Farm, Warren Road', 'locality': 'Chatham', 'region': '', 'country': 'GB', 'postcode': 'ME5 9RD'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2673,16 +2673,16 @@
     "record_index": 157,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345750977130403,
+    "model_confidence": 0.9437138007303817,
     "conflated_value": "{'freeform': 'Place Charles de Gaulle', 'locality': 'Creil', 'region': 'Picardie', 'country': 'FR', 'postcode': '60100'}",
     "candidates": {
       "current": "{'freeform': 'Place Charles de Gaulle, 60100 Creil', 'locality': 'Creil', 'postcode': '60100', 'country': 'FR'}",
       "base": "{'freeform': 'Place Charles de Gaulle', 'locality': 'Creil', 'region': 'Picardie', 'country': 'FR', 'postcode': '60100'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2690,16 +2690,16 @@
     "record_index": 158,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346448303457291,
+    "model_confidence": 0.9437047317636005,
     "conflated_value": "{'freeform': 'Llanelwedd', 'locality': 'Builth Wells', 'postcode': 'LD2 3UB', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': 'Builth Wells Quarry', 'postcode': 'LD2 3UB', 'country': 'GB'}",
       "base": "{'freeform': 'Llanelwedd', 'locality': 'Builth Wells', 'postcode': 'LD2 3UB', 'country': 'GB'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2707,16 +2707,16 @@
     "record_index": 159,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430320487350977,
+    "model_confidence": 0.5034685206379108,
     "conflated_value": "{'freeform': 'Neustädter Str. 52', 'locality': 'Weiden in der Oberpfalz', 'postcode': '92637', 'region': 'Bayern', 'country': 'DE'}",
     "candidates": {
       "current": "{'freeform': 'Neustädter Str. 52', 'locality': 'Weiden in der Oberpfalz', 'postcode': '92637', 'region': 'Bayern', 'country': 'DE'}",
       "base": "{'freeform': 'Neustädter Str.  52', 'locality': 'Weiden', 'region': 'Bayern', 'country': 'DE', 'postcode': '92637'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2724,16 +2724,16 @@
     "record_index": 160,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.934588118023647,
+    "model_confidence": 0.9437121181363173,
     "conflated_value": "{'freeform': 'Markenstr. 22-24', 'locality': 'Gelsenkirchen', 'region': 'North Rhine-Westphalia', 'country': 'DE', 'postcode': '45899'}",
     "candidates": {
       "current": "{'freeform': 'Markenstraße 22', 'locality': 'Gelsenkirchen', 'postcode': '45899', 'country': 'DE'}",
       "base": "{'freeform': 'Markenstr. 22-24', 'locality': 'Gelsenkirchen', 'region': 'North Rhine-Westphalia', 'country': 'DE', 'postcode': '45899'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2741,16 +2741,16 @@
     "record_index": 161,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '4923 E State St', 'locality': 'Rockford', 'postcode': '61108-2210', 'region': 'IL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '4923 E State St', 'locality': 'Rockford', 'postcode': '61108-2210', 'region': 'IL', 'country': 'US'}",
       "base": "{'freeform': '4923 E State St', 'locality': 'Rockford', 'region': 'IL', 'country': 'US', 'postcode': '61108'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2758,16 +2758,16 @@
     "record_index": 162,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431279052354707,
+    "model_confidence": 0.5034541570296127,
     "conflated_value": "{'freeform': '305 Cedar Ln', 'locality': 'Fort Oglethorpe', 'postcode': '30742-3361', 'region': 'GA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '305 Cedar Ln', 'locality': 'Fort Oglethorpe', 'postcode': '30742-3361', 'region': 'GA', 'country': 'US'}",
       "base": "{'freeform': '305 S Cedar Lane', 'locality': 'Fort Oglethorpe', 'region': 'GA', 'country': 'US', 'postcode': '30742'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2775,16 +2775,16 @@
     "record_index": 163,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '113 E Diamond Ave', 'locality': 'Gaithersburg', 'postcode': '20877-3013', 'region': 'MD', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '113 E Diamond Ave', 'locality': 'Gaithersburg', 'postcode': '20877-3013', 'region': 'MD', 'country': 'US'}",
       "base": "{'freeform': '113 E Diamond Ave', 'locality': 'Gaithersburg', 'region': 'MD', 'country': 'US', 'postcode': '20877'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2792,16 +2792,16 @@
     "record_index": 164,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346583726931809,
+    "model_confidence": 0.9437030330415878,
     "conflated_value": "{'freeform': '23 rue Sommeiller', 'locality': 'Annecy', 'region': 'Haute-Savoie', 'country': 'FR', 'postcode': '74000'}",
     "candidates": {
       "current": "{'freeform': '23 Rue Sommeiller', 'locality': 'Annecy', 'postcode': '74000', 'country': 'FR'}",
       "base": "{'freeform': '23 rue Sommeiller', 'locality': 'Annecy', 'region': 'Haute-Savoie', 'country': 'FR', 'postcode': '74000'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2809,16 +2809,16 @@
     "record_index": 165,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885157343390008,
+    "model_confidence": 0.9866509734681168,
     "conflated_value": "{'freeform': '8539 W Sunset Blvd', 'locality': 'West Hollywood', 'postcode': '90069-2334', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '8539 W Sunset Blvd', 'locality': 'West Hollywood', 'postcode': '90069-2334', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': 'Sunset Blvd', 'locality': 'Los Angeles', 'region': 'CA', 'country': 'US'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2826,16 +2826,16 @@
     "record_index": 166,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5421249342778754,
+    "model_confidence": 0.5036046743476497,
     "conflated_value": "{'freeform': 'Av. Vereda da Cruz, Lt. 17', 'locality': 'Taguatinga', 'region': 'DF', 'country': 'BR'}",
     "candidates": {
       "current": "{'freeform': 'Av. Vereda da Cruz, Lt. 17', 'locality': 'Taguatinga', 'region': 'DF', 'country': 'BR'}",
       "base": "{'freeform': 'Av. Vereda da Cruz, Lt. 17', 'locality': 'Brasília', 'region': 'Distrito Federal', 'country': 'BR'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2843,16 +2843,16 @@
     "record_index": 167,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430817139143693,
+    "model_confidence": 0.5034610786241797,
     "conflated_value": "{'freeform': '3420 Harmony Ln', 'locality': 'Sacramento', 'postcode': '95821-2606', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3420 Harmony Ln', 'locality': 'Sacramento', 'postcode': '95821-2606', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '3420 Harmony Ln #2', 'locality': 'Sacramento', 'region': 'CA', 'country': 'US', 'postcode': '95821'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2860,16 +2860,16 @@
     "record_index": 168,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431674972061429,
+    "model_confidence": 0.5034482242332157,
     "conflated_value": "{'freeform': '2844 Summit St Ste 107', 'locality': 'Oakland', 'postcode': '94609', 'region': 'CA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '2844 Summit St Ste 107', 'locality': 'Oakland', 'postcode': '94609', 'region': 'CA', 'country': 'US'}",
       "base": "{'freeform': '2844 Summit St', 'locality': 'Oakland', 'region': 'CA', 'country': 'US', 'postcode': '94609'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2877,16 +2877,16 @@
     "record_index": 169,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345596077535827,
+    "model_confidence": 0.9437158020060897,
     "conflated_value": "{'freeform': 'Carr. México-Laredo Km. 152', 'locality': 'El Tephé', 'region': 'Hidalgo', 'country': 'MX', 'postcode': '42323'}",
     "candidates": {
       "current": "{'freeform': 'Carr. México Laredo, Km 152, 42323 El Tephé, Hgo.', 'locality': 'Ixmiquilpan', 'postcode': '42323', 'country': 'MX'}",
       "base": "{'freeform': 'Carr. México-Laredo Km. 152', 'locality': 'El Tephé', 'region': 'Hidalgo', 'country': 'MX', 'postcode': '42323'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2894,16 +2894,16 @@
     "record_index": 170,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5416502437059281,
+    "model_confidence": 0.5036765279358884,
     "conflated_value": "{'country': 'TH'}",
     "candidates": {
       "current": "{'country': 'TH'}",
       "base": "{'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2911,16 +2911,16 @@
     "record_index": 171,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5427120939855944,
+    "model_confidence": 0.5035167117393402,
     "conflated_value": "{'freeform': '神奈川県足柄上郡大井町金手１２−４', 'locality': '足柄上郡大井町', 'postcode': '258-0018', 'country': 'JP'}",
     "candidates": {
       "current": "{'freeform': '神奈川県足柄上郡大井町金手１２−４', 'locality': '足柄上郡大井町', 'postcode': '258-0018', 'country': 'JP'}",
       "base": "{'freeform': '足柄上郡大井町金手12-4', 'locality': '', 'region': '神奈川県', 'country': 'JP', 'postcode': '〒258-0018'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2928,16 +2928,16 @@
     "record_index": 172,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345894592090442,
+    "model_confidence": 0.9437119447966764,
     "conflated_value": "{'freeform': '62 Plesmanstraat', 'locality': 'Veenendaal', 'region': 'Utrecht', 'country': 'NL', 'postcode': '3905 KZ'}",
     "candidates": {
       "current": "{'freeform': 'Plesmanstraat 60', 'locality': 'Veenendaal', 'postcode': '3905 KZ', 'country': 'NL'}",
       "base": "{'freeform': '62 Plesmanstraat', 'locality': 'Veenendaal', 'region': 'Utrecht', 'country': 'NL', 'postcode': '3905 KZ'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2945,16 +2945,16 @@
     "record_index": 173,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9345632821415242,
+    "model_confidence": 0.9437153273274979,
     "conflated_value": "{'freeform': \"14 rue de l'Ecole, les Vidals\", 'locality': 'Lacaune', 'region': 'Tarn', 'country': 'FR', 'postcode': '81230'}",
     "candidates": {
       "current": "{'freeform': \"14 Rue de l'École\", 'locality': 'Lacaune', 'postcode': '81230', 'country': 'FR'}",
       "base": "{'freeform': \"14 rue de l'Ecole, les Vidals\", 'locality': 'Lacaune', 'region': 'Tarn', 'country': 'FR', 'postcode': '81230'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2962,16 +2962,16 @@
     "record_index": 174,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430848698667294,
+    "model_confidence": 0.5034606057202452,
     "conflated_value": "{'freeform': '18349 Lincoln Hwy E', 'locality': 'Monroeville', 'postcode': '46773-9629', 'region': 'IN', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '18349 Lincoln Hwy E', 'locality': 'Monroeville', 'postcode': '46773-9629', 'region': 'IN', 'country': 'US'}",
       "base": "{'freeform': '18349 Lincoln Highway E', 'locality': 'Monroeville', 'region': 'IN', 'country': 'US', 'postcode': '46773'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2979,16 +2979,16 @@
     "record_index": 175,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346020200345859,
+    "model_confidence": 0.9437103212054232,
     "conflated_value": "{'freeform': 'Heinrich-Hertz-Str. 28', 'locality': 'Villingen-Schwenningen', 'region': 'Baden-Württemberg', 'country': 'DE', 'postcode': '78052'}",
     "candidates": {
       "current": "{'freeform': 'Heinrich-Hertz-Straße 28', 'locality': 'Villingen-Schwenningen', 'postcode': '78052', 'country': 'DE'}",
       "base": "{'freeform': 'Heinrich-Hertz-Str. 28', 'locality': 'Villingen-Schwenningen', 'region': 'Baden-Württemberg', 'country': 'DE', 'postcode': '78052'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -2996,16 +2996,16 @@
     "record_index": 176,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5421249342778754,
+    "model_confidence": 0.5036046743476497,
     "conflated_value": "{'freeform': '385 Ashton Road', 'locality': 'Oldham', 'postcode': 'OL8 2NA', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '385 Ashton Road', 'locality': 'Oldham', 'postcode': 'OL8 2NA', 'country': 'GB'}",
       "base": "{'freeform': '385 Ashton Road', 'locality': 'Oldham', 'region': '', 'country': 'GB', 'postcode': 'OL8 2NA'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3013,16 +3013,16 @@
     "record_index": 177,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5416502437059281,
+    "model_confidence": 0.5036765279358884,
     "conflated_value": "{'country': 'TH'}",
     "candidates": {
       "current": "{'country': 'TH'}",
       "base": "{'country': 'TH'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3030,16 +3030,16 @@
     "record_index": 178,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9347112783625007,
+    "model_confidence": 0.9436961845503054,
     "conflated_value": "{'freeform': 'Het Rond 154', 'locality': 'Houten', 'region': 'South Holland', 'country': 'NL', 'postcode': '3995 DP'}",
     "candidates": {
       "current": "{'freeform': 'Het Rond 154', 'locality': 'Houten', 'region': '', 'country': 'NL', 'postcode': '3995 DP'}",
       "base": "{'freeform': 'Het Rond 154', 'locality': 'Houten', 'region': 'South Holland', 'country': 'NL', 'postcode': '3995 DP'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3047,16 +3047,16 @@
     "record_index": 179,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430698648900102,
+    "model_confidence": 0.5034628541375046,
     "conflated_value": "{'freeform': 'Avenida Fray Diego de la Magdalena 1721', 'locality': 'San Luis Potosí', 'postcode': '78140', 'region': 'SLP', 'country': 'MX'}",
     "candidates": {
       "current": "{'freeform': 'Avenida Fray Diego de la Magdalena 1721', 'locality': 'San Luis Potosí', 'postcode': '78140', 'region': 'SLP', 'country': 'MX'}",
       "base": "{'freeform': 'Calzada Fray Diego de la Magdalena 1721', 'locality': 'San Luis Potosí', 'region': 'San Luis Potosí', 'country': 'MX', 'postcode': '78140'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3064,16 +3064,16 @@
     "record_index": 180,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430598471762078,
+    "model_confidence": 0.50346435523291,
     "conflated_value": "{'freeform': 'Via Molinella, 83', 'locality': 'Pianiga', 'postcode': '30030', 'region': '34', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Via Molinella, 83', 'locality': 'Pianiga', 'postcode': '30030', 'region': '34', 'country': 'IT'}",
       "base": "{'freeform': 'Via Molinella 83 1', 'locality': 'Pianiga', 'region': 'Venezia', 'country': 'IT', 'postcode': '30030'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3081,16 +3081,16 @@
     "record_index": 181,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '51070 S Foster Rd', 'locality': 'New Baltimore', 'postcode': '48047-1326', 'region': 'MI', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '51070 S Foster Rd', 'locality': 'New Baltimore', 'postcode': '48047-1326', 'region': 'MI', 'country': 'US'}",
       "base": "{'freeform': '51070 S Foster Rd', 'locality': 'Chesterfield', 'region': 'MI', 'country': 'US', 'postcode': '48047'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3098,16 +3098,16 @@
     "record_index": 182,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5430448379581081,
+    "model_confidence": 0.5034666042659491,
     "conflated_value": "{'freeform': '7627 Fullerton Rd', 'locality': 'Springfield', 'postcode': '22153-2855', 'region': 'VA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '7627 Fullerton Rd', 'locality': 'Springfield', 'postcode': '22153-2855', 'region': 'VA', 'country': 'US'}",
       "base": "{'freeform': '7635 Fullerton Rd', 'locality': 'Springfield', 'region': 'VA', 'country': 'US', 'postcode': '22153'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3115,16 +3115,16 @@
     "record_index": 183,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432191859025187,
+    "model_confidence": 0.5034404786364586,
     "conflated_value": "{'freeform': '604 Lucerne Ave', 'locality': 'Lake Worth Beach', 'postcode': '33460-3821', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '604 Lucerne Ave', 'locality': 'Lake Worth Beach', 'postcode': '33460-3821', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '416 Lake Ave', 'locality': 'Lake Worth', 'region': 'FL', 'country': 'US', 'postcode': '33460'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3132,16 +3132,16 @@
     "record_index": 184,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '3195 Riley Fuzzel Rd', 'locality': 'Spring', 'postcode': '77386', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3195 Riley Fuzzel Rd', 'locality': 'Spring', 'postcode': '77386', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '3195 Riley Fuzzel Rd', 'locality': 'Spring', 'region': 'TX', 'country': 'US', 'postcode': '77386'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3149,16 +3149,16 @@
     "record_index": 185,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5421249342778754,
+    "model_confidence": 0.5036046743476497,
     "conflated_value": "{'freeform': '24 Brookehowse Road', 'locality': 'London', 'postcode': 'SE6 3TJ', 'country': 'GB'}",
     "candidates": {
       "current": "{'freeform': '24 Brookehowse Road', 'locality': 'London', 'postcode': 'SE6 3TJ', 'country': 'GB'}",
       "base": "{'freeform': '24 Brookehowse Road', 'locality': 'London', 'region': '', 'country': 'GB', 'postcode': 'SE6 3TL'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3166,16 +3166,16 @@
     "record_index": 186,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '825 E Sanford St', 'locality': 'Arlington', 'postcode': '76011-7947', 'region': 'TX', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '825 E Sanford St', 'locality': 'Arlington', 'postcode': '76011-7947', 'region': 'TX', 'country': 'US'}",
       "base": "{'freeform': '825 E Sanford St', 'locality': 'Arlington', 'region': 'TX', 'country': 'US', 'postcode': '76011'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3183,16 +3183,16 @@
     "record_index": 187,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431584476609117,
+    "model_confidence": 0.5034495803010494,
     "conflated_value": "{'freeform': 'B24/130/1, Samrala Road, Dharampura', 'locality': 'Ludhiana', 'postcode': '141008', 'region': 'Punjab', 'country': 'IN'}",
     "candidates": {
       "current": "{'freeform': 'B24/130/1, Samrala Road, Dharampura', 'locality': 'Ludhiana', 'postcode': '141008', 'region': 'Punjab', 'country': 'IN'}",
       "base": "{'freeform': 'B24/130/1, Samrala Road', 'locality': 'Ludhiana', 'region': 'Punjab', 'country': 'IN', 'postcode': '141008'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3200,16 +3200,16 @@
     "record_index": 188,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5432053211687227,
+    "model_confidence": 0.5034425562928938,
     "conflated_value": "{'freeform': '1617 US Hwy 98 S', 'locality': 'Lakeland', 'postcode': '33801', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '1617 US Hwy 98 S', 'locality': 'Lakeland', 'postcode': '33801', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '1617 Bartow Rd', 'locality': 'Lakeland', 'region': 'FL', 'country': 'US', 'postcode': '33801'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3217,16 +3217,16 @@
     "record_index": 189,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9528073488301367,
+    "model_confidence": 0.9451630378180773,
     "conflated_value": "{'freeform': '6790 E 32nd St', 'locality': 'Indianapolis', 'postcode': '46226-6163', 'region': 'IN', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '6790 E 32nd St', 'locality': 'Indianapolis', 'postcode': '46226-6163', 'region': 'IN', 'country': 'US'}",
       "base": "{'locality': 'Indianapolis', 'region': 'IN', 'country': 'US', 'postcode': '46226'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3234,16 +3234,16 @@
     "record_index": 190,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1629 Hennepin Ave Ste 300G', 'locality': 'Minneapolis', 'region': 'MN', 'country': 'US', 'postcode': '55403'}",
     "candidates": {
       "current": "{'freeform': '1629 Hennepin Ave Ste 300G', 'locality': 'Minneapolis', 'region': 'MN', 'country': 'US', 'postcode': '55403'}",
       "base": "{'freeform': '1629 Hennepin Ave Ste 300G', 'locality': 'Minneapolis', 'region': 'MN', 'country': 'US', 'postcode': '55403'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3251,16 +3251,16 @@
     "record_index": 191,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '11380 Lindbergh Blvd', 'locality': 'Fort Myers', 'postcode': '33913-8851', 'region': 'FL', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '11380 Lindbergh Blvd', 'locality': 'Fort Myers', 'postcode': '33913-8851', 'region': 'FL', 'country': 'US'}",
       "base": "{'freeform': '11380 Lindbergh Blvd', 'locality': 'Fort Myers', 'region': 'FL', 'country': 'US', 'postcode': '33913'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3268,16 +3268,16 @@
     "record_index": 192,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9884916540321321,
+    "model_confidence": 0.9866551371736767,
     "conflated_value": "{'freeform': 'Calle Chuquisaca, casi esquina Moldes', 'locality': 'Santa Cruz de la Sierra', 'postcode': '3', 'country': 'BO'}",
     "candidates": {
       "current": "{'freeform': 'Calle Chuquisaca, casi esquina Moldes', 'locality': 'Santa Cruz de la Sierra', 'postcode': '3', 'country': 'BO'}",
       "base": "{'freeform': 'C. Chuquisaca casi C. Moldes', 'locality': 'Santa Cruz de la Sierra', 'country': 'BO'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3285,16 +3285,16 @@
     "record_index": 193,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '817 Payne Ave', 'locality': 'North Tonawanda', 'postcode': '14120-6733', 'region': 'NY', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '817 Payne Ave', 'locality': 'North Tonawanda', 'postcode': '14120-6733', 'region': 'NY', 'country': 'US'}",
       "base": "{'freeform': '817 Payne Ave', 'locality': 'North Tonawanda', 'region': 'NY', 'country': 'US', 'postcode': '14120'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3302,16 +3302,16 @@
     "record_index": 194,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5431292704849123,
+    "model_confidence": 0.5034539524504429,
     "conflated_value": "{'freeform': '3300 Princess Anne Rd', 'locality': 'Virginia Beach', 'postcode': '23456-2603', 'region': 'VA', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '3300 Princess Anne Rd', 'locality': 'Virginia Beach', 'postcode': '23456-2603', 'region': 'VA', 'country': 'US'}",
       "base": "{'freeform': '3300 Princess Anne Rd Ste 739', 'locality': 'Virginia Beach', 'region': 'VA', 'country': 'US', 'postcode': '23456'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3319,16 +3319,16 @@
     "record_index": 195,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9959042607812373,
+    "model_confidence": 0.9965025212370581,
     "conflated_value": "{'freeform': 'Parque Industrial Covilhã Lote A-5', 'locality': 'Covilhã', 'region': 'Castelo Branco', 'country': 'PT', 'postcode': '6200-027'}",
     "candidates": {
       "current": "{'freeform': 'Parque Industrial Covilhã Lote A-5', 'postcode': '6200-027', 'country': 'PT'}",
       "base": "{'freeform': 'Parque Industrial Covilhã Lote A-5', 'locality': 'Covilhã', 'region': 'Castelo Branco', 'country': 'PT', 'postcode': '6200-027'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3336,16 +3336,16 @@
     "record_index": 196,
     "attribute": "address",
     "selected_source": "base",
-    "model_confidence": 0.9346036010618822,
+    "model_confidence": 0.9437101168208153,
     "conflated_value": "{'freeform': 'Cordoba 70', 'locality': 'Resistencia', 'region': 'CHACO', 'country': 'AR', 'postcode': '3500'}",
     "candidates": {
       "current": "{'freeform': 'Córdoba 70', 'locality': 'Resistencia', 'postcode': 'H3500', 'country': 'AR'}",
       "base": "{'freeform': 'Cordoba 70', 'locality': 'Resistencia', 'region': 'CHACO', 'country': 'AR', 'postcode': '3500'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3353,16 +3353,16 @@
     "record_index": 197,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '1624 Aviation Center Pkwy', 'locality': 'Daytona Beach', 'region': 'FL', 'country': 'US', 'postcode': '32114'}",
     "candidates": {
       "current": "{'freeform': '1624 Aviation Center Pkwy', 'locality': 'Daytona Beach', 'region': 'FL', 'country': 'US', 'postcode': '32114'}",
       "base": "{'freeform': '1624 Aviation Center Pkwy', 'locality': 'Daytona Beach', 'region': 'FL', 'country': 'US', 'postcode': '32114'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3370,16 +3370,16 @@
     "record_index": 198,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.5426131602107854,
+    "model_confidence": 0.5035312832936512,
     "conflated_value": "{'freeform': '178 Eagle Rock Ave', 'locality': 'Roseland', 'postcode': '07068-1341', 'region': 'NJ', 'country': 'US'}",
     "candidates": {
       "current": "{'freeform': '178 Eagle Rock Ave', 'locality': 'Roseland', 'postcode': '07068-1341', 'region': 'NJ', 'country': 'US'}",
       "base": "{'freeform': '178 Eagle Rock Ave', 'locality': 'Roseland', 'region': 'NJ', 'country': 'US', 'postcode': '07068'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   },
   {
@@ -3387,16 +3387,16 @@
     "record_index": 199,
     "attribute": "address",
     "selected_source": "current",
-    "model_confidence": 0.9885183016461989,
+    "model_confidence": 0.9866505303841565,
     "conflated_value": "{'freeform': 'Corso Camillo Benso di Cavour, 21', 'locality': 'Todi', 'postcode': '06059', 'region': '55', 'country': 'IT'}",
     "candidates": {
       "current": "{'freeform': 'Corso Camillo Benso di Cavour, 21', 'locality': 'Todi', 'postcode': '06059', 'region': '55', 'country': 'IT'}",
       "base": "{'freeform': 'Corso Cavour 21', 'locality': 'Todi', 'region': 'PG', 'country': 'IT'}"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009462833404541016,
-      "initial_memory_mb": 101.421875,
-      "peak_memory_mb": 165.828125
+      "duration_seconds": 0.0009889602661132812,
+      "initial_memory_mb": 101.375,
+      "peak_memory_mb": 167.109375
     }
   }
 ]

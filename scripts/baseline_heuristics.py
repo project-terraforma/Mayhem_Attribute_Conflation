@@ -1,9 +1,10 @@
+
 import pandas as pd
 import json
 import numpy as np
 from typing import Dict, Any, Optional, Literal
 from pathlib import Path
-from collections import Counter # Moved import to top for clarity
+from collections import Counter
 
 
 def parse_json_field(value):
@@ -68,7 +69,13 @@ class MostRecentBaseline:
             return 'current'
         
         # For other attributes, similar logic
-        attr_col_curr = attribute + 's' if attribute != 'address' else 'addresses'
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
         attr_col_base = 'base_' + attr_col_curr
         
         current_val = row.get(attr_col_curr)
@@ -81,7 +88,7 @@ class MostRecentBaseline:
         if pd.isna(base_val):
             return 'current'
         
-        # Check if same (simple string comparison)
+        # Check if same (simple string comparison for non-name attributes)
         if str(current_val).strip() == str(base_val).strip():
             return 'same'
         
@@ -108,7 +115,13 @@ class ConfidenceBaseline:
     
     def predict(self, row: pd.Series, attribute: str = 'name') -> Literal['current', 'base', 'same', 'unclear']:
         """Predict based on confidence scores."""
-        attr_col_curr = attribute + 's' if attribute != 'address' else 'addresses'
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
         attr_col_base = 'base_' + attr_col_curr
         
         current_data_val = row.get(attr_col_curr)
@@ -156,9 +169,9 @@ class CompletenessBaseline:
     def __init__(self):
         self.name = "Completeness-Based"
     
-    def _calculate_completeness(self, value):
+    def _calculate_completeness(self, value, attribute: str = 'name'):
         """Calculate a completeness score for a value."""
-        if pd.isna(value):
+        if pd.isna(value) or not value:
             return 0.0
         
         score = 1.0 # Base score for existence
@@ -167,26 +180,41 @@ class CompletenessBaseline:
             try:
                 parsed = json.loads(value)
                 if isinstance(parsed, dict):
-                    if 'primary' in parsed and parsed['primary']:
-                        score += 0.5 # Has primary
-                    if 'alternate' in parsed and parsed['alternate'] and len(parsed['alternate']) > 0:
-                        score += 0.2 # Has alternates
-                    if len(parsed) > 1: # More complex structure
-                        score += 0.1
+                    if attribute == 'category':
+                        # Category specific scoring
+                        if 'primary' in parsed and parsed['primary']:
+                            score += 2.0 # Higher score for having a primary category
+                            if ' > ' in parsed['primary']:
+                                score += parsed['primary'].count(' > ') * 0.75 # Score for hierarchy depth (more specific)
+                        if 'alternate' in parsed and parsed['alternate'] and len(parsed['alternate']) > 0:
+                            score += len(parsed['alternate']) * 0.5 # Score for multiple alternates (more details)
+                    else: # General JSON handling for other attributes
+                        if 'primary' in parsed and parsed['primary']:
+                            score += 0.5
+                        if len(parsed) > 1: # More complex structure beyond just primary
+                            score += 0.3
                 elif isinstance(parsed, list):
                     score += len(parsed) * 0.1 # More items in list is more complete
-                else: # Simple string
-                    if len(value.strip()) > 0:
-                        score += 0.1
-            except json.JSONDecodeError: # Not JSON
-                if len(value.strip()) > 0:
+                else: # Not a dict or list after parsing, e.g. a number or boolean
+                    score += 0.1
+            except json.JSONDecodeError: # Not JSON, treat as a simple string
+                if attribute == 'category' and len(value.strip()) > 0:
+                    # If it's a category and not JSON, but has text, it's a simple flat category
+                    score += 0.5 # Some completeness, but less than structured JSON
+                elif len(value.strip()) > 0:
                     score += 0.1
         
         return score
     
     def predict(self, row: pd.Series, attribute: str = 'name') -> Literal['current', 'base', 'same', 'unclear']:
         """Predict based on completeness."""
-        attr_col_curr = attribute + 's' if attribute != 'address' else 'addresses'
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
         attr_col_base = 'base_' + attr_col_curr
         
         current_val = row.get(attr_col_curr)
@@ -205,17 +233,16 @@ class CompletenessBaseline:
             base_primary = extract_name_primary(base_val)
             if current_primary and base_primary and current_primary.lower() == base_primary.lower():
                 return 'same'
-        else:
+        else: # For other attributes, simple string comparison
             if str(current_val).strip() == str(base_val).strip():
                 return 'same'
         
         # Compare completeness
-        current_complete = self._calculate_completeness(current_val)
-        base_complete = self._calculate_completeness(base_val)
+        current_complete = self._calculate_completeness(current_val, attribute)
+        base_complete = self._calculate_completeness(base_val, attribute)
         
         if abs(current_complete - base_complete) < 0.01: # Small epsilon for float comparison
-            # Tie-break: if completeness is almost same, default to 'current' (Most Recent)
-            return 'current'
+            return 'current' # Default to current if equal or very close
         
         return 'current' if current_complete > base_complete else 'base'
     

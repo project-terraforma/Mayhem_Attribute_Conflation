@@ -107,7 +107,7 @@ def train_logistic_regression(X_train: pd.DataFrame, y_train: pd.Series,
 
 def train_random_forest(X_train: pd.DataFrame, y_train: pd.Series,
                        X_val: pd.DataFrame, y_val: pd.Series,
-                       n_estimators: int = 100, max_depth: Optional[int] = None) -> Dict[str, Any]:
+                       n_estimators: int = 200, max_depth: Optional[int] = None) -> Dict[str, Any]:
     """Train a Random Forest model."""
     print("\nTraining Random Forest...")
     process = psutil.Process(os.getpid())
@@ -161,7 +161,7 @@ def train_random_forest(X_train: pd.DataFrame, y_train: pd.Series,
 
 def train_gradient_boosting(X_train: pd.DataFrame, y_train: pd.Series,
                            X_val: pd.DataFrame, y_val: pd.Series,
-                           n_estimators: int = 100, learning_rate: float = 0.1) -> Dict[str, Any]:
+                           n_estimators: int = 200, learning_rate: float = 0.1) -> Dict[str, Any]:
     """Train a Gradient Boosting model."""
     print("\nTraining Gradient Boosting...")
     process = psutil.Process(os.getpid())

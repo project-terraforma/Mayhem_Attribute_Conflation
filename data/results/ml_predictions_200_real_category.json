@@ -3,1105 +3,1105 @@
     "id": "08f64a59990a63a0030784450be43ba4",
     "record_index": 0,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Health and Beauty Service > Hair Salon",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "beauty_salon",
     "candidates": {
       "current": "beauty_salon",
       "base": "Business and Professional Services > Health and Beauty Service > Hair Salon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f3da18ccad52ad03cc06b87820910f",
     "record_index": 1,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "pharmacy",
     "candidates": {
       "current": "pharmacy",
       "base": "pharmacy"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4823ad167532903b45bc53a70221e",
     "record_index": 2,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Hardware Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "home_and_garden",
     "candidates": {
       "current": "home_and_garden",
       "base": "Retail > Hardware Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f28de8b291171e037d00b748edc418",
     "record_index": 3,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "jewelry_store",
     "candidates": {
       "current": "jewelry_store",
       "base": "jewelry_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa90e8d6b065a303084f1af4a32095",
     "record_index": 4,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Real Estate Service > Real Estate Agency",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "real_estate",
     "candidates": {
       "current": "real_estate",
       "base": "Business and Professional Services > Real Estate Service > Real Estate Agency"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f618c49a7528c003ccdd6a1e4805b9",
     "record_index": 5,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aad39c474c9c03e6e7b74bca7273",
     "record_index": 6,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "flowers_and_gifts_shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "barber",
     "candidates": {
       "current": "barber",
       "base": "flowers_and_gifts_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa810394ce9a0003eabeff0516b3b1",
     "record_index": 7,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Mediterranean Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Mediterranean Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949960007229",
     "record_index": 8,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "resort",
     "candidates": {
       "current": "resort",
       "base": "resort"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f39608a0b76a6203fb3f420b3f857f",
     "record_index": 9,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Vineyard",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "winery",
     "candidates": {
       "current": "winery",
       "base": "Dining and Drinking > Vineyard"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899909415294",
     "record_index": 10,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "sushi_restaurant",
     "candidates": {
       "current": "sushi_restaurant",
       "base": "sushi_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e15b0b2cbc5303c99047c56c8812",
     "record_index": 11,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Hardware Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "retail",
     "candidates": {
       "current": "retail",
       "base": "Retail > Hardware Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f64a4ba092672503433c3f96046607",
     "record_index": 12,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Landmarks and Outdoors > Field",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "attractions_and_activities",
     "candidates": {
       "current": "attractions_and_activities",
       "base": "Landmarks and Outdoors > Field"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a1001299846e0365e336fd67ea1f",
     "record_index": 13,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "children's_clothing_store",
     "candidates": {
       "current": "children's_clothing_store",
       "base": "children's_clothing_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a10af6490232035733f1aacdac0c",
     "record_index": 14,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "electrician",
     "candidates": {
       "current": "electrician",
       "base": "electrician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899911666117",
     "record_index": 15,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "department_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "department_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aab52140802c0395a9524fcac41d",
     "record_index": 16,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "tax_services",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "trusts",
     "candidates": {
       "current": "trusts",
       "base": "tax_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949958207347",
     "record_index": 17,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "sports_bar",
     "candidates": {
       "current": "sports_bar",
       "base": "sports_bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4983ca438bc5b033bac5a072fa3cd",
     "record_index": 18,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Vape Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "e_cigarette_store",
     "candidates": {
       "current": "e_cigarette_store",
       "base": "Retail > Vape Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f64a090e19a48203f58e9c92720d04",
     "record_index": 19,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899912289624",
     "record_index": 20,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "roofing",
     "candidates": {
       "current": "roofing",
       "base": "roofing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f8c100e5135acc0320b9849219dda3",
     "record_index": 21,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Arts and Entertainment > Arcade",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Arts and Entertainment > Arcade"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f264626394cd4b030ac3f573c76061",
     "record_index": 22,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Miscellaneous Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "online_shop",
     "candidates": {
       "current": "online_shop",
       "base": "Retail > Miscellaneous Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aa650405da4d03ac202ae41b574e",
     "record_index": 23,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Miscellaneous Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "home_service",
     "candidates": {
       "current": "home_service",
       "base": "Retail > Miscellaneous Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f64b018d54d71403e6f180aca04fd1",
     "record_index": 24,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Residential Building > Apartment or Condo",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "landmark_and_historical_building",
     "candidates": {
       "current": "landmark_and_historical_building",
       "base": "Community and Government > Residential Building > Apartment or Condo"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f195b614a70ba603c3acc5ff81ea94",
     "record_index": 25,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "travel_agents",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "travel_services",
     "candidates": {
       "current": "travel_services",
       "base": "travel_agents"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1955b54b2a74c0328fbe52b771e1c",
     "record_index": 26,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949955127994",
     "record_index": 27,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "mortgage_lender",
     "candidates": {
       "current": "mortgage_lender",
       "base": "mortgage_lender"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44e5a4a781c1e03baeb3101f89e1e",
     "record_index": 28,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "clothing_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "department_store",
     "candidates": {
       "current": "department_store",
       "base": "clothing_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f1a9ab72151e0395f93e968c61b9",
     "record_index": 29,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "gas_station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fbe63da4d1c35203c109690c55a1a6",
     "record_index": 30,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "used_car_dealer",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "car_dealer",
     "candidates": {
       "current": "car_dealer",
       "base": "used_car_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899912707169",
     "record_index": 31,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "florist",
     "candidates": {
       "current": "florist",
       "base": "florist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2986b8089b2cb03220db3aa72c816",
     "record_index": 32,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "shopping_center",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "parking",
     "candidates": {
       "current": "parking",
       "base": "shopping_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aa419d72b04103961e80be2a5836",
     "record_index": 33,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "pharmacy",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "vitamins_and_supplements",
     "candidates": {
       "current": "vitamins_and_supplements",
       "base": "pharmacy"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa810056a2b6400390bcc253369382",
     "record_index": 34,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Bistro",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "tea_room",
     "candidates": {
       "current": "tea_room",
       "base": "Dining and Drinking > Restaurant > Bistro"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4440ca382a59803895546c2d4bd4f",
     "record_index": 35,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "cosmetic_surgeon",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "cosmetic_surgeon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f08ed358889889037e291e52eb62a5",
     "record_index": 36,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Bar > Pub",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Bar > Pub"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f396cb6912ad000340ccfcbe06ce49",
     "record_index": 37,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Lodging > Hotel",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1ea2d93cc3a9e035b43ef4cb52ad1",
     "record_index": 38,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Convention Center > Conference Room",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "community_services_non_profits",
     "candidates": {
       "current": "community_services_non_profits",
       "base": "Business and Professional Services > Convention Center > Conference Room"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a1340ea313910338f0d15a4b7f1f",
     "record_index": 39,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "retail",
     "candidates": {
       "current": "retail",
       "base": "retail"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f27418ead55b2203bbea6c6321ba6c",
     "record_index": 40,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "commercial_real_estate",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "real_estate_agent",
     "candidates": {
       "current": "real_estate_agent",
       "base": "commercial_real_estate"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4440d8b89c95803ef5bd3cc80eac4",
     "record_index": 41,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Mexican Restaurant > Burrito Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "mexican_restaurant",
     "candidates": {
       "current": "mexican_restaurant",
       "base": "Dining and Drinking > Restaurant > Mexican Restaurant > Burrito Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f60a25956e9c320304addce950be4d",
     "record_index": 42,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "building_supply_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "automotive",
     "candidates": {
       "current": "automotive",
       "base": "building_supply_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899908355011",
     "record_index": 43,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "apartments",
     "candidates": {
       "current": "apartments",
       "base": "apartments"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2ba86ae7436460305560e1acd61d2",
     "record_index": 44,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Sporting Goods Retail",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "sporting_goods",
     "candidates": {
       "current": "sporting_goods",
       "base": "Retail > Sporting Goods Retail"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a1345c68e8b3038979f9ceb4b9d6",
     "record_index": 45,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "paint_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "home_improvement_store",
     "candidates": {
       "current": "home_improvement_store",
       "base": "paint_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "281474979747202",
     "record_index": 46,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "battery_store",
     "candidates": {
       "current": "battery_store",
       "base": "battery_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aa87330ca7a903957473b2acce21",
     "record_index": 47,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "fast_food_restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899908351517",
     "record_index": 48,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "oncologist",
     "candidates": {
       "current": "oncologist",
       "base": "oncologist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f441a124c1b405038dbedfa98c0914",
     "record_index": 49,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > Bank",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > Bank"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f446ca1d028ae803f05a7a411e1cb6",
     "record_index": 50,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Food and Beverage Service",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant_equipment_and_supply",
     "candidates": {
       "current": "restaurant_equipment_and_supply",
       "base": "Business and Professional Services > Food and Beverage Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949966520897",
     "record_index": 51,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "tree_services",
     "candidates": {
       "current": "tree_services",
       "base": "tree_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a10aaba5c06303d8a67958549713",
     "record_index": 52,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Pizzeria",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Pizzeria"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a4018a454c403d3e547067a3d3b",
     "record_index": 53,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "diagnostic_imaging",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "diagnostic_imaging"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949955293136",
     "record_index": 54,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "tire_shop",
     "candidates": {
       "current": "tire_shop",
       "base": "tire_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2e644d0cac26b03e6d1add3a59cb8",
     "record_index": 55,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Italian Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "international_restaurant",
     "candidates": {
       "current": "international_restaurant",
       "base": "Dining and Drinking > Restaurant > Italian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a143a2aea428033ac8f069c43517",
     "record_index": 56,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Education > Trade School",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "high_school",
     "candidates": {
       "current": "high_school",
       "base": "Community and Government > Education > Trade School"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa813b222f2c1e03f7aca38bf90b4e",
     "record_index": 57,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Health and Medicine > Physician",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "Health and Medicine > Physician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26010a6db404403e339f85cbc6d43",
     "record_index": 58,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Automotive Service > Automotive Repair Shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aa4d98923b4503b1be6672e9cf20",
     "record_index": 59,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "coffee_shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "donuts",
     "candidates": {
       "current": "donuts",
       "base": "coffee_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2b8d419708d1c03dc65d72f11cf45",
     "record_index": 60,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > American Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "event_planning",
     "candidates": {
       "current": "event_planning",
       "base": "Dining and Drinking > Restaurant > American Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1959b447aaa900389169fac74b366",
     "record_index": 61,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "doctor",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "naturopathic_holistic",
     "candidates": {
       "current": "naturopathic_holistic",
       "base": "doctor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1fa5290a1bb24032aa1147c2c2434",
     "record_index": 62,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "tax_services",
     "candidates": {
       "current": "tax_services",
       "base": "Business and Professional Services > Financial Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f186b6ca96aac003075fe4e8c7df44",
     "record_index": 63,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Fashion Retail > Clothing Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Fashion Retail > Clothing Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fbe0899519c116035ccb4f246d7ac9",
     "record_index": 64,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -1109,84 +1109,84 @@
     "record_index": 65,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "key_and_locksmith",
     "candidates": {
       "current": "key_and_locksmith",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a36c0344bc820337ca0f2e8822f2",
     "record_index": 66,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "gas_station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fc99348c32155c03765d142aeb22eb",
     "record_index": 67,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Health and Medicine",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "active_life",
     "candidates": {
       "current": "active_life",
       "base": "Health and Medicine"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f618c4c6d826e803b8e71b07951b00",
     "record_index": 68,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "pizza_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f166d246c3290303ee41124b93fa",
     "record_index": 69,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Tailor",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "fashion",
     "candidates": {
       "current": "fashion",
       "base": "Business and Professional Services > Tailor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -1194,356 +1194,356 @@
     "record_index": 70,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26c8390ba49350319b54f0294ec99",
     "record_index": 71,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "blood_and_plasma_donation_center",
     "candidates": {
       "current": "blood_and_plasma_donation_center",
       "base": "blood_and_plasma_donation_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f3cc5a1476a45403ed1a0c115b1102",
     "record_index": 72,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f3966534d9dc000361acdf01425035",
     "record_index": 73,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Bakery",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bakery",
     "candidates": {
       "current": "bakery",
       "base": "Dining and Drinking > Bakery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1407374886265533",
     "record_index": 74,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "used_car_dealer",
     "candidates": {
       "current": "used_car_dealer",
       "base": "used_car_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1970324838691605",
     "record_index": 75,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f49a8381a4d0f303240f2cdfbb374f",
     "record_index": 76,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Burger Joint",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "burger_restaurant",
     "candidates": {
       "current": "burger_restaurant",
       "base": "Dining and Drinking > Restaurant > Burger Joint"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a4714a4879e03bb7589c7e079e7",
     "record_index": 77,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "jewelry_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "b2b_jewelers",
     "candidates": {
       "current": "b2b_jewelers",
       "base": "jewelry_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "2251799819474731",
     "record_index": 78,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "hvac_services",
     "candidates": {
       "current": "hvac_services",
       "base": "hvac_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2e610518e82c003d85d6549dfc74b",
     "record_index": 79,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Fashion Retail > Jewelry Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Fashion Retail > Jewelry Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26c86642125b4031326f6a64ebbd6",
     "record_index": 80,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "business_management_services",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shredding_services",
     "candidates": {
       "current": "shredding_services",
       "base": "business_management_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26e3036354530039a96a9e4dcc0d4",
     "record_index": 81,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "steakhouse",
     "candidates": {
       "current": "steakhouse",
       "base": "steakhouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f11618c549ae0318404b974f642c",
     "record_index": 82,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Health and Medicine > Mental Health Service > Mental Health Clinic",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "naturopathic_holistic",
     "candidates": {
       "current": "naturopathic_holistic",
       "base": "Health and Medicine > Mental Health Service > Mental Health Clinic"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4995b9e3aba6c03df20d5c7b3d01a",
     "record_index": 83,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Education",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "Community and Government > Education"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f13d06cdb4dd03c2287ba2cf48a4",
     "record_index": 84,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Textiles Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Textiles Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f6d231146cbb8203a6b43c5463e884",
     "record_index": 85,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Food and Beverage Retail > Health Food Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Food and Beverage Retail > Health Food Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fbe184e32632a503fa980d1ab35e1a",
     "record_index": 86,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Home Improvement Service",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "garbage_collection_service",
     "candidates": {
       "current": "garbage_collection_service",
       "base": "Business and Professional Services > Home Improvement Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f264622866338c03c99743da67ae23",
     "record_index": 87,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "electrician",
     "candidates": {
       "current": "electrician",
       "base": "electrician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2661b2228b3990350416b04e58e61",
     "record_index": 88,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "chicken_restaurant",
     "candidates": {
       "current": "chicken_restaurant",
       "base": "chicken_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa8186206ab06203b13b1910efb454",
     "record_index": 89,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Arts and Entertainment > Night Club",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "community_center",
     "candidates": {
       "current": "community_center",
       "base": "Arts and Entertainment > Night Club"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e880c6d2a21a03dad9931d6666c6",
     "record_index": 90,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Fashion Retail > Clothing Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Fashion Retail > Clothing Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -1551,509 +1551,509 @@
     "record_index": 91,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "music_venue",
     "candidates": {
       "current": "music_venue",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f28f012d60e6ad03f99abbc4c48bf1",
     "record_index": 92,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "coffee_shop",
     "candidates": {
       "current": "coffee_shop",
       "base": "coffee_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f194ac2641827303a8c9d8d0f63cfb",
     "record_index": 93,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "betting_center",
     "candidates": {
       "current": "betting_center",
       "base": "betting_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4995b9d4208a20380224da236338f",
     "record_index": 94,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Convenience Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Convenience Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f9b089cf330d03b9a3ab6ad274ba",
     "record_index": 95,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Government Building > Courthouse",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "public_service_and_government",
     "candidates": {
       "current": "public_service_and_government",
       "base": "Community and Government > Government Building > Courthouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1407374883710721",
     "record_index": 96,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "shoe_store",
     "candidates": {
       "current": "shoe_store",
       "base": "shoe_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f83ae545d60603a81502e8f95732",
     "record_index": 97,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Factory",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "furniture_accessory_store",
     "candidates": {
       "current": "furniture_accessory_store",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e35418b8115d03d75b4f91514ad7",
     "record_index": 98,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Drugstore",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "drugstore",
     "candidates": {
       "current": "drugstore",
       "base": "Retail > Drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44dd545c0313303fc66e60e99f054",
     "record_index": 99,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "mortgage_lender",
     "candidates": {
       "current": "mortgage_lender",
       "base": "Business and Professional Services > Financial Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26eec3634b47603f6d23fb1b12603",
     "record_index": 100,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "business_to_business",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "butcher_shop",
     "candidates": {
       "current": "butcher_shop",
       "base": "business_to_business"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "2251799819434396",
     "record_index": 101,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "auto_insurance",
     "candidates": {
       "current": "auto_insurance",
       "base": "auto_insurance"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f0b44e466a0103f39fa87dc0107b",
     "record_index": 102,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "mobile_phone_store",
     "candidates": {
       "current": "mobile_phone_store",
       "base": "mobile_phone_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f658e764964a7403a88c11cb4e70e4",
     "record_index": 103,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Asian Restaurant > Noodle Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "eat_and_drink",
     "candidates": {
       "current": "eat_and_drink",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant > Noodle Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899912773417",
     "record_index": 104,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "mobile_phone_repair",
     "candidates": {
       "current": "mobile_phone_repair",
       "base": "mobile_phone_repair"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4440c1249b85c03b5b634418623f6",
     "record_index": 105,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "cardiologist",
     "candidates": {
       "current": "cardiologist",
       "base": "cardiologist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f22ba441bd8003c9ac92d5a2e082",
     "record_index": 106,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "travel",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "car_rental_agency",
     "candidates": {
       "current": "car_rental_agency",
       "base": "travel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a9872c50396203af1c0b0e7c8f17",
     "record_index": 107,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "discount_store",
     "candidates": {
       "current": "discount_store",
       "base": "discount_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1970324838624365",
     "record_index": 108,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "fire_and_water_damage_restoration",
     "candidates": {
       "current": "fire_and_water_damage_restoration",
       "base": "fire_and_water_damage_restoration"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899913098456",
     "record_index": 109,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "home_health_care",
     "candidates": {
       "current": "home_health_care",
       "base": "home_health_care"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f271a2d0294804035e0f9b5baa38d6",
     "record_index": 110,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "bank_credit_union"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e82252c1c0ae03c90f2f5d5feef9",
     "record_index": 111,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Bar",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bar",
     "candidates": {
       "current": "bar",
       "base": "Dining and Drinking > Bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f48932e69a12dd03d5671400e23b78",
     "record_index": 112,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Computers and Electronics Retail > Mobile Phone Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "mobile_phone_accessories",
     "candidates": {
       "current": "mobile_phone_accessories",
       "base": "Retail > Computers and Electronics Retail > Mobile Phone Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fb25919140d504031466d3d5beb5d2",
     "record_index": 113,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Fast Food Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Fast Food Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f441ab99d1e40903520592b478eaee",
     "record_index": 114,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "business_management_services",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "business_management_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f446cb626c2d00031ae6ee7a950c05",
     "record_index": 115,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "medical_center",
     "candidates": {
       "current": "medical_center",
       "base": "medical_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1fa59513a595d032fdd2acd350b85",
     "record_index": 116,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Health and Medicine > Physical Therapy Clinic",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "speech_therapist",
     "candidates": {
       "current": "speech_therapist",
       "base": "Health and Medicine > Physical Therapy Clinic"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2ad34495a3453030061ea2bb1add4",
     "record_index": 117,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "self_storage_facility",
     "candidates": {
       "current": "self_storage_facility",
       "base": "self_storage_facility"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2af60c44941950327df46b0384e4b",
     "record_index": 118,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "mortgage_lender",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "mortgage_lender"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a92a8c54d533034329dc2c045529",
     "record_index": 119,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Fuel Station",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "Travel and Transportation > Fuel Station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f852314e30580373a86cedf0b53a",
     "record_index": 120,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Library",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "library",
     "candidates": {
       "current": "library",
       "base": "Community and Government > Library"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -2061,441 +2061,441 @@
     "record_index": 121,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "engineering_services",
     "candidates": {
       "current": "engineering_services",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f818584926190503301a10eee5fc4a",
     "record_index": 122,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Auditorium",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "public_and_government_association",
     "candidates": {
       "current": "public_and_government_association",
       "base": "Business and Professional Services > Auditorium"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f194855a68525c032b1c6022501687",
     "record_index": 123,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "fast_food_restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a13d500ec592038947279db72951",
     "record_index": 124,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "diagnostic_imaging",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "doctor",
     "candidates": {
       "current": "doctor",
       "base": "diagnostic_imaging"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f1253491e08a0355c6b41a4f0509",
     "record_index": 125,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Factory",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "metal_supplier",
     "candidates": {
       "current": "metal_supplier",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "2251799821514825",
     "record_index": 126,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "drugstore",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pharmacy",
     "candidates": {
       "current": "pharmacy",
       "base": "drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2b9bc466424e403ff1e1ca190b31f",
     "record_index": 127,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "matchmaker",
     "candidates": {
       "current": "matchmaker",
       "base": "matchmaker"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a4c74384c8003621001ebd68dce",
     "record_index": 128,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Mexican Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Mexican Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f1a8da865c3503b4c552c4c8273e",
     "record_index": 129,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "mobile_phone_store",
     "candidates": {
       "current": "mobile_phone_store",
       "base": "mobile_phone_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fb91682e4caa2c03239f9cbc07f2c5",
     "record_index": 130,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Cafe, Coffee, and Tea House > Café",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Dining and Drinking > Cafe, Coffee, and Tea House > Café"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f65262686f413303c317cc0b4f574a",
     "record_index": 131,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Government Building",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "public_and_government_association",
     "candidates": {
       "current": "public_and_government_association",
       "base": "Community and Government > Government Building"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44e540c45806d036445fe6c54049d",
     "record_index": 132,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "barber",
     "candidates": {
       "current": "barber",
       "base": "barber"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1688849866257450",
     "record_index": 133,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "auto_manufacturers_and_distributors",
     "candidates": {
       "current": "auto_manufacturers_and_distributors",
       "base": "auto_manufacturers_and_distributors"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899910838791",
     "record_index": 134,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "key_and_locksmith",
     "candidates": {
       "current": "key_and_locksmith",
       "base": "key_and_locksmith"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e8509086834603d4d09f48b6ba33",
     "record_index": 135,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Lodging > Cabin",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "accommodation",
     "candidates": {
       "current": "accommodation",
       "base": "Travel and Transportation > Lodging > Cabin"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f88b66880d2e0385b0548cd07ca6",
     "record_index": 136,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Drugstore",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f9b08e92a8ed03863143cbe743b8",
     "record_index": 137,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44e38ed4518540380d8904cd5b34a",
     "record_index": 138,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Government Building > Courthouse",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "courthouse",
     "candidates": {
       "current": "courthouse",
       "base": "Community and Government > Government Building > Courthouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa81eb2e78d11c03804afe6de4128a",
     "record_index": 139,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Education > Language School",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "language_school",
     "candidates": {
       "current": "language_school",
       "base": "Community and Government > Education > Language School"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f6d35aa62266810393381338e5810f",
     "record_index": 140,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Lodging > Hotel",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a115e84c2a403e23dd743811ca2",
     "record_index": 141,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "divorce_and_family_law",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "lawyer",
     "candidates": {
       "current": "lawyer",
       "base": "divorce_and_family_law"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a19a2971d0003d7cf4ffd837d25",
     "record_index": 142,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f266daddb24aaa03e644de71b831ee",
     "record_index": 143,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "health_and_medical",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "health_and_medical"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f481270588895403e4355b3c793f94",
     "record_index": 144,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Dessert Shop > Pie Shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "desserts",
     "candidates": {
       "current": "desserts",
       "base": "Dining and Drinking > Dessert Shop > Pie Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "562949958305102",
     "record_index": 145,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "assisted_living_facility",
     "candidates": {
       "current": "assisted_living_facility",
       "base": "assisted_living_facility"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f446b259454ad503533f12dc4d0f9c",
     "record_index": 146,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "recreational_vehicle_dealer",
     "candidates": {
       "current": "recreational_vehicle_dealer",
       "base": "recreational_vehicle_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -2503,713 +2503,713 @@
     "record_index": 147,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f0204831024203a8625d51944196",
     "record_index": 148,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "home_improvement_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "home_improvement_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1970324842205440",
     "record_index": 149,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "auto_parts_and_supply_store",
     "candidates": {
       "current": "auto_parts_and_supply_store",
       "base": "auto_parts_and_supply_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f41695326f2812035673b147fa47f6",
     "record_index": 150,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Sports and Recreation > Soccer > Soccer Field",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "topic_concert_venue",
     "candidates": {
       "current": "topic_concert_venue",
       "base": "Sports and Recreation > Soccer > Soccer Field"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f19882108743037aa0e2fefe6fdb",
     "record_index": 151,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "tile_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "building_supply_store",
     "candidates": {
       "current": "building_supply_store",
       "base": "tile_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f3922211a9429003d34a89765a66c1",
     "record_index": 152,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "shopping_center",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "insurance_agency",
     "candidates": {
       "current": "insurance_agency",
       "base": "shopping_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f4880d8172067603fa7c012014e336",
     "record_index": 153,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Lodging > Hotel",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f275922226a40b03fa3c4693070159",
     "record_index": 154,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "waxing",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hair_salon",
     "candidates": {
       "current": "hair_salon",
       "base": "waxing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fbe0e35cad5c710328873748ffebb5",
     "record_index": 155,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "employment_agencies",
     "candidates": {
       "current": "employment_agencies",
       "base": "employment_agencies"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899908396217",
     "record_index": 156,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "doctor",
     "candidates": {
       "current": "doctor",
       "base": "doctor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1fb432c6d432b030f6b6a47ed6ec0",
     "record_index": 157,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Travel and Transportation > Transport Hub > Rail Station",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "train_station",
     "candidates": {
       "current": "train_station",
       "base": "Travel and Transportation > Transport Hub > Rail Station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f195e2017138a60344368b12283837",
     "record_index": 158,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "cement_supplier",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "commercial_industrial",
     "candidates": {
       "current": "commercial_industrial",
       "base": "cement_supplier"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e368a432e2a3036a3229000375cc",
     "record_index": 159,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Furniture and Home Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "office_equipment",
     "candidates": {
       "current": "office_equipment",
       "base": "Retail > Furniture and Home Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1fa5362b859a803ed45df6695e1e3",
     "record_index": 160,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "drugstore",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f27594f32db1000333b7abb88b623c",
     "record_index": 161,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "paint_store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "hardware_store",
     "candidates": {
       "current": "hardware_store",
       "base": "paint_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44cc2ed92b4ad037ec09a5c0f7c76",
     "record_index": 162,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "office_cleaning",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "home_cleaning",
     "candidates": {
       "current": "home_cleaning",
       "base": "office_cleaning"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aa859dba3af003731e8ef72ef347",
     "record_index": 163,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Bakery",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bakery",
     "candidates": {
       "current": "bakery",
       "base": "Dining and Drinking > Bakery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f912a5b8d896032a277714c8a918",
     "record_index": 164,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Arts and Entertainment > Escape Room",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "escape_rooms",
     "candidates": {
       "current": "escape_rooms",
       "base": "Arts and Entertainment > Escape Room"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f29a1d69b0b8da034c4f6acaa03eaf",
     "record_index": 165,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Health and Beauty Service > Nail Salon",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "spas",
     "candidates": {
       "current": "spas",
       "base": "Business and Professional Services > Health and Beauty Service > Nail Salon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa8c241822e42503ab5d13ab28882d",
     "record_index": 166,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Community and Government > Spiritual Center > Church",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "church_cathedral",
     "candidates": {
       "current": "church_cathedral",
       "base": "Community and Government > Spiritual Center > Church"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2832b85a12b3203fb6b84f25c83de",
     "record_index": 167,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Automotive Service > Automotive Repair Shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "auto_glass_service",
     "candidates": {
       "current": "auto_glass_service",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f28308106929aa0322048f73b8a6a1",
     "record_index": 168,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "podiatrist",
     "candidates": {
       "current": "podiatrist",
       "base": "podiatrist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f49824998a425003760394c03c89c5",
     "record_index": 169,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Sports and Recreation > Water Sports > Swimming > Swimming Pool",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "swimming_pool",
     "candidates": {
       "current": "swimming_pool",
       "base": "Sports and Recreation > Water Sports > Swimming > Swimming Pool"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f64b1b0e401063031c58c4f99da9d7",
     "record_index": 170,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "thai_restaurant",
     "candidates": {
       "current": "thai_restaurant",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2f5b88980dcc003698ae140ea2a9a",
     "record_index": 171,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "specialty_school",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "specialty_school"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1969045565263037bc7b1b7bf1e37",
     "record_index": 172,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Business Center",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "information_technology_company",
     "candidates": {
       "current": "information_technology_company",
       "base": "Business and Professional Services > Business Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f3961561d3094c038780c81f579575",
     "record_index": 173,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Food and Beverage Retail > Butcher",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Food and Beverage Retail > Butcher"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a9611a26bc4103b7d085f67b5173",
     "record_index": 174,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "motorcycle_dealer",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "motorsports_store",
     "candidates": {
       "current": "motorsports_store",
       "base": "motorcycle_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1f810aca9dd4a0338ca3023b18577",
     "record_index": 175,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Fashion Retail > Bridal Store",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bridal_shop",
     "candidates": {
       "current": "bridal_shop",
       "base": "Retail > Fashion Retail > Bridal Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f19424ccc1e0820363bbececd4900d",
     "record_index": 176,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "food_delivery_service",
     "candidates": {
       "current": "food_delivery_service",
       "base": "food_delivery_service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f658b4a649caad035bb199a7052b42",
     "record_index": 177,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Asian Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "asian_restaurant",
     "candidates": {
       "current": "asian_restaurant",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "2251799819721663",
     "record_index": 178,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "sunglasses_store",
     "candidates": {
       "current": "sunglasses_store",
       "base": "sunglasses_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f499da81376a8e035b83643df59654",
     "record_index": 179,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Automotive Service > Automotive Repair Shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1ea559883492c03bf7e33805a4382",
     "record_index": 180,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Retail > Garden Center",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "gardener",
     "candidates": {
       "current": "gardener",
       "base": "Retail > Garden Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2ab66e31767a003eb6104f50a0ad0",
     "record_index": 181,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "breakfast_and_brunch_restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "american_restaurant",
     "candidates": {
       "current": "american_restaurant",
       "base": "breakfast_and_brunch_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2aaab4d4c0d620325d61d2ce778c7",
     "record_index": 182,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Factory",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "automotive_parts_and_accessories",
     "candidates": {
       "current": "automotive_parts_and_accessories",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44ae8010ea034037504a8a664bb97",
     "record_index": 183,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Arts and Entertainment > Art Gallery",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "art_gallery",
     "candidates": {
       "current": "art_gallery",
       "base": "Arts and Entertainment > Art Gallery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f446c25679a70e03572240a924ba2c",
     "record_index": 184,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f194ad0131a06b031c2633af407eb2",
     "record_index": 185,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "roofing",
     "candidates": {
       "current": "roofing",
       "base": "roofing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f26cbd2925b00e030b4221ad033046",
     "record_index": 186,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f424927109622803649838ac7eb6a2",
     "record_index": 187,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f441a5a3b7474903f72b79ec32b831",
     "record_index": 188,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Business and Professional Services > Financial Service > Banking and Finance > ATM",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
@@ -3217,186 +3217,186 @@
     "record_index": 189,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9576947121065362,
+    "model_confidence": 0.9582287291846746,
     "conflated_value": "home_improvement_store",
     "candidates": {
       "current": "home_improvement_store",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1407374890752553",
     "record_index": 190,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "damage_restoration",
     "candidates": {
       "current": "damage_restoration",
       "base": "damage_restoration"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f44137216d105403e8dcb957543e94",
     "record_index": 191,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "gift_shop",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "chocolatier",
     "candidates": {
       "current": "chocolatier",
       "base": "gift_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f8b221a404320d03b459bdb2275ea1",
     "record_index": 192,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Bar",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "bar",
     "candidates": {
       "current": "bar",
       "base": "Dining and Drinking > Bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2b9b36479862e0351baadfa912c6b",
     "record_index": 193,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "pizza_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2af62655ad02303c1c002aed33a25",
     "record_index": 194,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "kids_recreation_and_party",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "kids_recreation_and_party"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f39040ce78ab8a034e94b26de55c37",
     "record_index": 195,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "oil_and_gas",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "oil_and_gas"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08fa96e0d31aaa0003dff57d6d7652d6",
     "record_index": 196,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Pizzeria",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Pizzeria"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "1125899912398662",
     "record_index": 197,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "specialty_school",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "vocational_and_technical_school",
     "candidates": {
       "current": "vocational_and_technical_school",
       "base": "specialty_school"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f2a104eda56165038129f326d78561",
     "record_index": 198,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "italian_restaurant",
     "candidates": {
       "current": "italian_restaurant",
       "base": "restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   },
   {
     "id": "08f1e8439298263003d04efb18ab2497",
     "record_index": 199,
     "attribute": "category",
-    "selected_source": "base",
-    "model_confidence": 0.5786494871155219,
-    "conflated_value": "Dining and Drinking > Restaurant > Italian Restaurant",
+    "selected_source": "current",
+    "model_confidence": 0.5043002089587514,
+    "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Italian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009119510650634766,
-      "initial_memory_mb": 101.375,
-      "peak_memory_mb": 166.75
+      "duration_seconds": 0.0009109973907470703,
+      "initial_memory_mb": 101.21875,
+      "peak_memory_mb": 166.984375
     }
   }
 ]

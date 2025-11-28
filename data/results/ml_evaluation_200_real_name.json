@@ -1,10 +1,10 @@
 {
   "algorithm": "ML Model (name)",
   "metrics": {
-    "accuracy": 0.305,
-    "precision": 0.8333333333333334,
-    "recall": 0.03496503496503497,
-    "f1": 0.06711409395973154,
+    "accuracy": 0.445,
+    "precision": 0.7758620689655172,
+    "recall": 0.3146853146853147,
+    "f1": 0.44776119402985076,
     "n_samples": 200
   },
   "coverage": 1.0,

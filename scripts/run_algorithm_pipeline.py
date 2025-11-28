@@ -53,9 +53,13 @@ def run_pipeline_for_attribute(attribute: str, args):
     # Step 1: Generate synthetic golden dataset (if needed)
     # This step generates the synthetic data ONCE, then process_synthetic_data uses it
     if attribute == ALL_ATTRIBUTES[0] and not args.skip_golden: # Only generate once for the first attribute
+        cmd = [sys.executable, 'scripts/generate_synthetic_dataset.py']
+        if args.synthetic_limit:
+            cmd.extend(['--limit', str(args.synthetic_limit)])
+            
         success = run_step(
             "Generate Synthetic Golden Dataset",
-            [sys.executable, 'scripts/generate_synthetic_dataset.py']
+            cmd
         )
         if not success:
             print("ERROR: Synthetic dataset generation failed. Cannot continue.")
@@ -83,7 +87,7 @@ def run_pipeline_for_attribute(attribute: str, args):
     # Step 3: Train ML models
     if not args.skip_ml:
         synthetic_features_file = f'data/processed/features_{attribute}_synthetic.parquet'
-        output_model_dir = f'models/ml_models/{attribute}'
+        output_model_dir = f'models/ml/{attribute}'
         
         success = run_step(
             f"Train ML Models ({attribute})",
@@ -100,7 +104,7 @@ def run_pipeline_for_attribute(attribute: str, args):
     if not args.skip_ml_eval:
         ml_predictions_200_file = f'data/results/ml_predictions_200_real_{attribute}.json'
         
-        output_model_dir = Path(f'models/ml_models/{attribute}')
+        output_model_dir = Path(f'models/ml/{attribute}')
         summary_path = output_model_dir / 'training_summary.json'
         
         # Check if model training output directory and summary exist
@@ -125,6 +129,7 @@ def run_pipeline_for_attribute(attribute: str, args):
             [sys.executable, '-m', 'scripts.run_inference',
              '--attribute', attribute,
              '--data', REAL_GOLDEN_PATH, # The 200 real records are in golden_dataset_200.json
+             '--model', str(model_path),
              '--output', ml_predictions_200_file
             ]
         )
@@ -155,7 +160,7 @@ def run_pipeline_for_attribute(attribute: str, args):
         print(f"EVALUATING BASELINE HEURISTICS ({attribute.upper()})")
         print("="*80)
         
-        baselines = ['most_recent', 'confidence', 'completeness'] # 'hybrid' is often a combination of these
+        baselines = ['most_recent', 'confidence', 'completeness', 'hybrid'] # 'hybrid' is often a combination of these
         
         for baseline_name in baselines:
             baseline_predictions_file = f'data/results/predictions_baseline_{baseline_name}_200_real_{attribute}.json'
@@ -191,7 +196,7 @@ def run_pipeline_for_attribute(attribute: str, args):
     
     # Step 6: Run final inference on 2000 Overture records (for ML model)
     if not args.skip_inference_2k:
-        output_model_dir = Path(f'models/ml_models/{attribute}')
+        output_model_dir = Path(f'models/ml/{attribute}')
         summary_path = output_model_dir / 'training_summary.json'
         
         # Check if model training output directory and summary exist
@@ -248,6 +253,8 @@ def main():
                        help='Skip final inference on 2000 Overture records')
     parser.add_argument('--skip-consolidation', action='store_true',
                        help='Skip final consolidation of 2k inference results')
+    parser.add_argument('--synthetic-limit', type=int, default=2000,
+                       help='Number of synthetic records to generate (0 for all)')
     
     args = parser.parse_args()
     
@@ -283,4 +290,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

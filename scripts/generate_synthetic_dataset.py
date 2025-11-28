@@ -39,15 +39,21 @@ def generate_fake_website(name, business_id):
     clean_name = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
     return f"https://www.{clean_name}.com"
 
+import argparse
+
 def create_synthetic_dataset(limit=2000):
-    print(f"Generating {limit} synthetic records from Yelp...")
+    print(f"Generating synthetic records from Yelp (limit={limit})...")
     
     records = []
     with open(YELP_PATH, 'r', encoding='utf-8') as f:
         yelp_data = [json.loads(line) for line in f]
     
-    # Sample random records
-    sampled_yelp = random.sample(yelp_data, min(limit, len(yelp_data)))
+    # Sample records
+    if limit > 0 and limit < len(yelp_data):
+        sampled_yelp = random.sample(yelp_data, limit)
+    else:
+        sampled_yelp = yelp_data
+        print(f"Using all {len(sampled_yelp)} Yelp records.")
     
     for i, y in enumerate(sampled_yelp):
         # Generate fake data if missing (Yelp public dataset often lacks phone/web)
@@ -120,4 +126,8 @@ def create_synthetic_dataset(limit=2000):
     print(f"✅ Generated {len(records)} synthetic records to {OUTPUT_PATH}")
 
 if __name__ == "__main__":
-    create_synthetic_dataset()
+    parser = argparse.ArgumentParser(description='Generate synthetic golden dataset')
+    parser.add_argument('--limit', type=int, default=2000, help='Number of records to generate (0 for all)')
+    args = parser.parse_args()
+    
+    create_synthetic_dataset(args.limit)

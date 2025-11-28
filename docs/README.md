@@ -4,7 +4,7 @@ This directory contains detailed documentation, reports, and summaries related t
 
 ## Table of Contents
 
-*   [Revised Objectives & Key Results (OKRs) and Detailed Progress](docs/OKRs_Detailed_Progress.md)
+*   [Revised Objectives & Key Results (OKRs) and Detailed Progress](docs/OKRs.md)
 *   [Attribute Labeling Guidelines](docs/attribute_guidelines.md)
 *   [AI Annotation Setup Guide](docs/ai_annotation_setup.md)
 *   [Algorithm Development Setup Summary](docs/ALGORITHM_SETUP_SUMMARY.md)
@@ -20,4 +20,4 @@ This directory contains detailed documentation, reports, and summaries related t
 
 **For a comprehensive report on the project's Objectives and Key Results, including current status and performance metrics, please refer to the dedicated document:**
 
-[Revised Objectives & Key Results (OKRs) and Detailed Progress](docs/OKRs_Detailed_Progress.md)
+[Revised Objectives & Key Results (OKRs) and Detailed Progress](docs/OKRs.md)
