@@ -6,6 +6,9 @@ import numpy as np
 import argparse
 from pathlib import Path
 from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_score, confusion_matrix
+import time
+import psutil
+import os
 from scripts.extract_features import extract_features_batch
 
 REAL_GOLDEN_PATH = 'data/golden_dataset_200.json'
@@ -36,6 +39,11 @@ def evaluate_on_real_data():
     print("="*80)
     print(f"FINAL EVALUATION: ML Model ({args.attribute.upper()}) vs. Real Manual Ground Truth (200 Records)")
     print("="*80)
+
+    # Measure initial memory usage
+    process = psutil.Process(os.getpid())
+    initial_memory_mb = process.memory_info().rss / (1024 * 1024)
+    print(f"Initial memory usage: {initial_memory_mb:.2f} MB")
 
     # 1. Load Model
     print(f"Loading model from {model_path}...")
@@ -105,8 +113,14 @@ def evaluate_on_real_data():
     
     # 4. Predict
     print("Running inference...")
+    start_time = time.time()
     y_pred = model.predict(X_eval)
+    end_time = time.time()
+    inference_duration_seconds = end_time - start_time
     
+    # Measure peak memory usage
+    peak_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     # 5. Metrics
     acc = accuracy_score(y_true, y_pred)
     f1 = f1_score(y_true, y_pred)
@@ -128,6 +142,11 @@ def evaluate_on_real_data():
     {cm}
     
     Total Records: {len(y_true)}
+    
+    Compute Metrics:
+      Inference Duration: {inference_duration_seconds:.4f} seconds
+      Initial Memory: {initial_memory_mb:.2f} MB
+      Peak Memory: {peak_memory_mb:.2f} MB
     """
     
     print(report)

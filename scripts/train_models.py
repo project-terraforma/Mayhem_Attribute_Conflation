@@ -11,6 +11,9 @@ import numpy as np
 from pathlib import Path
 from typing import Dict, Any, Optional
 import joblib
+import time
+import psutil
+import os
 
 try:
     from sklearn.model_selection import train_test_split, cross_val_score
@@ -58,6 +61,8 @@ def train_logistic_regression(X_train: pd.DataFrame, y_train: pd.Series,
                              X_val: pd.DataFrame, y_val: pd.Series) -> Dict[str, Any]:
     """Train a Logistic Regression model."""
     print("\nTraining Logistic Regression...")
+    process = psutil.Process(os.getpid())
+    initial_memory_mb = process.memory_info().rss / (1024 * 1024)
     
     # Scale features
     scaler = StandardScaler()
@@ -66,8 +71,13 @@ def train_logistic_regression(X_train: pd.DataFrame, y_train: pd.Series,
     
     # Train model
     model = LogisticRegression(max_iter=1000, random_state=42)
+    start_time = time.time()
     model.fit(X_train_scaled, y_train)
+    end_time = time.time()
+    train_duration_seconds = end_time - start_time
     
+    peak_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     # Evaluate
     train_pred = model.predict(X_train_scaled)
     val_pred = model.predict(X_val_scaled)
@@ -79,6 +89,8 @@ def train_logistic_regression(X_train: pd.DataFrame, y_train: pd.Series,
     print(f"  Train F1: {train_f1:.4f}")
     print(f"  Val F1:   {val_f1:.4f}")
     print(f"  Val Acc:  {val_acc:.4f}")
+    print(f"  Train Duration: {train_duration_seconds:.2f}s")
+    print(f"  Peak Memory: {peak_memory_mb:.2f}MB")
     
     return {
         'model': model,
@@ -86,7 +98,10 @@ def train_logistic_regression(X_train: pd.DataFrame, y_train: pd.Series,
         'model_type': 'logistic_regression',
         'train_f1': train_f1,
         'val_f1': val_f1,
-        'val_acc': val_acc
+        'val_acc': val_acc,
+        'train_duration_seconds': train_duration_seconds,
+        'initial_memory_mb': initial_memory_mb,
+        'peak_memory_mb': peak_memory_mb
     }
 
 
@@ -95,15 +110,22 @@ def train_random_forest(X_train: pd.DataFrame, y_train: pd.Series,
                        n_estimators: int = 100, max_depth: Optional[int] = None) -> Dict[str, Any]:
     """Train a Random Forest model."""
     print("\nTraining Random Forest...")
-    
+    process = psutil.Process(os.getpid())
+    initial_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     model = RandomForestClassifier(
         n_estimators=n_estimators,
         max_depth=max_depth,
         random_state=42,
         n_jobs=-1
     )
+    start_time = time.time()
     model.fit(X_train, y_train)
+    end_time = time.time()
+    train_duration_seconds = end_time - start_time
     
+    peak_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     # Evaluate
     train_pred = model.predict(X_train)
     val_pred = model.predict(X_val)
@@ -115,6 +137,8 @@ def train_random_forest(X_train: pd.DataFrame, y_train: pd.Series,
     print(f"  Train F1: {train_f1:.4f}")
     print(f"  Val F1:   {val_f1:.4f}")
     print(f"  Val Acc:  {val_acc:.4f}")
+    print(f"  Train Duration: {train_duration_seconds:.2f}s")
+    print(f"  Peak Memory: {peak_memory_mb:.2f}MB")
     
     # Feature importance
     feature_importance = dict(zip(X_train.columns, model.feature_importances_))
@@ -128,6 +152,9 @@ def train_random_forest(X_train: pd.DataFrame, y_train: pd.Series,
         'train_f1': train_f1,
         'val_f1': val_f1,
         'val_acc': val_acc,
+        'train_duration_seconds': train_duration_seconds,
+        'initial_memory_mb': initial_memory_mb,
+        'peak_memory_mb': peak_memory_mb,
         'feature_importance': feature_importance
     }
 
@@ -137,14 +164,21 @@ def train_gradient_boosting(X_train: pd.DataFrame, y_train: pd.Series,
                            n_estimators: int = 100, learning_rate: float = 0.1) -> Dict[str, Any]:
     """Train a Gradient Boosting model."""
     print("\nTraining Gradient Boosting...")
-    
+    process = psutil.Process(os.getpid())
+    initial_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     model = GradientBoostingClassifier(
         n_estimators=n_estimators,
         learning_rate=learning_rate,
         random_state=42
     )
+    start_time = time.time()
     model.fit(X_train, y_train)
+    end_time = time.time()
+    train_duration_seconds = end_time - start_time
     
+    peak_memory_mb = process.memory_info().rss / (1024 * 1024)
+
     # Evaluate
     train_pred = model.predict(X_train)
     val_pred = model.predict(X_val)
@@ -156,6 +190,8 @@ def train_gradient_boosting(X_train: pd.DataFrame, y_train: pd.Series,
     print(f"  Train F1: {train_f1:.4f}")
     print(f"  Val F1:   {val_f1:.4f}")
     print(f"  Val Acc:  {val_acc:.4f}")
+    print(f"  Train Duration: {train_duration_seconds:.2f}s")
+    print(f"  Peak Memory: {peak_memory_mb:.2f}MB")
     
     # Feature importance
     feature_importance = dict(zip(X_train.columns, model.feature_importances_))
@@ -169,6 +205,9 @@ def train_gradient_boosting(X_train: pd.DataFrame, y_train: pd.Series,
         'train_f1': train_f1,
         'val_f1': val_f1,
         'val_acc': val_acc,
+        'train_duration_seconds': train_duration_seconds,
+        'initial_memory_mb': initial_memory_mb,
+        'peak_memory_mb': peak_memory_mb,
         'feature_importance': feature_importance
     }
 
@@ -241,7 +280,10 @@ def train_all_models(
             'model_type': best_model['model_type'],
             'feature_cols': feature_cols,
             'val_f1': best_model['val_f1'],
-            'val_acc': best_model['val_acc']
+            'val_acc': best_model['val_acc'],
+            'train_duration_seconds': best_model.get('train_duration_seconds'),
+            'initial_memory_mb': best_model.get('initial_memory_mb'),
+            'peak_memory_mb': best_model.get('peak_memory_mb')
         }, model_file)
         print(f"Saved best model to {model_file}")
         
@@ -259,7 +301,10 @@ def train_all_models(
                 name: {
                     'val_f1': float(r['val_f1']),
                     'val_acc': float(r['val_acc']),
-                    'model_type': r['model_type']
+                    'model_type': r['model_type'],
+                    'train_duration_seconds': r.get('train_duration_seconds'),
+                    'initial_memory_mb': r.get('initial_memory_mb'),
+                    'peak_memory_mb': r.get('peak_memory_mb')
                 }
                 for name, r in results.items()
             }
@@ -296,4 +341,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
