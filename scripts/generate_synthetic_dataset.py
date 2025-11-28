@@ -28,9 +28,16 @@ def perturb_phone(phone):
     if choice < 0.4:
         return digits # Plain digits
     elif choice < 0.7:
-        return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}" # US Format
+        return f"({digits[-10:-7]}) {digits[-7:-4]}-{digits[-4:]}" # US Format
     else:
         return phone
+
+def generate_fake_phone():
+    return f"+1{random.randint(200,999)}{random.randint(200,999)}{random.randint(1000,9999)}"
+
+def generate_fake_website(name, business_id):
+    clean_name = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
+    return f"https://www.{clean_name}.com"
 
 def create_synthetic_dataset(limit=2000):
     print(f"Generating {limit} synthetic records from Yelp...")
@@ -43,13 +50,21 @@ def create_synthetic_dataset(limit=2000):
     sampled_yelp = random.sample(yelp_data, min(limit, len(yelp_data)))
     
     for i, y in enumerate(sampled_yelp):
+        # Generate fake data if missing (Yelp public dataset often lacks phone/web)
+        phone_val = y.get('phone')
+        if not phone_val:
+            phone_val = generate_fake_phone()
+            
+        website_val = y.get('website')
+        if not website_val:
+            website_val = generate_fake_website(y['name'], y['business_id'])
+
         # Create "Current" (The Good Version)
         # We assume Yelp data is generally "Ground Truth" quality
-        phone_val = y.get('phone') # standardized key in dataset dump
         current = {
             "names": json.dumps({"primary": y['name']}),
-            "phones": json.dumps([phone_val] if phone_val else []),
-            "websites": json.dumps([f"https://www.yelp.com/biz/{y['business_id']}"]), # Placeholder
+            "phones": json.dumps([phone_val]),
+            "websites": json.dumps([website_val]),
             "addresses": json.dumps([{
                 "freeform": y['address'],
                 "locality": y['city'],
@@ -63,8 +78,8 @@ def create_synthetic_dataset(limit=2000):
         # Create "Base" (The Stale/Noisy Version)
         base = {
             "names": json.dumps({"primary": perturb_name(y['name'])}),
-            "phones": json.dumps([perturb_phone(phone_val)] if phone_val else []),
-            "websites": "[]", # Simulate missing website
+            "phones": json.dumps([perturb_phone(phone_val)]),
+            "websites": json.dumps([website_val.replace('https://', 'http://')]) if random.random() < 0.5 else "[]", # Degrade website
             "addresses": json.dumps([{
                 "freeform": y['address'],
                 "locality": y['city'],

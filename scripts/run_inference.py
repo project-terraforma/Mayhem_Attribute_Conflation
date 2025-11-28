@@ -4,6 +4,9 @@ import json
 import joblib
 import argparse
 from pathlib import Path
+import time
+import psutil
+import os
 from scripts.extract_features import extract_features_batch
 
 def get_attribute_value(row, attribute, source='current'):
@@ -64,6 +67,11 @@ def run_inference():
     print(f"RUNNING INFERENCE ON 2,000 OVERTURE RECORDS ({args.attribute.upper()} ATTRIBUTE)")
     print("="*80)
 
+    # Measure initial memory usage
+    process = psutil.Process(os.getpid())
+    initial_memory_mb = process.memory_info().rss / (1024 * 1024)
+    print(f"Initial memory usage: {initial_memory_mb:.2f} MB")
+
     # 1. Load Data
     print(f"Loading Overture data from {args.data}...")
     df = pd.read_parquet(args.data)
@@ -94,8 +102,14 @@ def run_inference():
     
     # 4. Predict
     print("Predicting best attributes...")
+    start_time = time.time()
     predictions = model.predict(X)
     probabilities = model.predict_proba(X)
+    end_time = time.time()
+    inference_duration_seconds = end_time - start_time
+    
+    # Measure peak memory usage
+    peak_memory_mb = process.memory_info().rss / (1024 * 1024)
     
     # 5. Construct Results
     results = []
@@ -123,6 +137,11 @@ def run_inference():
             "candidates": {
                 "current": val_c,
                 "base": val_b
+            },
+            "inference_meta": {
+                "duration_seconds": inference_duration_seconds,
+                "initial_memory_mb": initial_memory_mb,
+                "peak_memory_mb": peak_memory_mb
             }
         })
         
@@ -139,6 +158,9 @@ def run_inference():
     print(f"Total Records: {len(results)}")
     print(f"Decisions: Current={stats['current']}, Base={stats['base']}")
     print(f"Results saved to: {args.output}")
+    print(f"Inference Duration: {inference_duration_seconds:.4f} seconds")
+    print(f"Initial Memory: {initial_memory_mb:.2f} MB")
+    print(f"Peak Memory: {peak_memory_mb:.2f} MB")
     
     # Show examples
     print("\nSample Decisions:")
