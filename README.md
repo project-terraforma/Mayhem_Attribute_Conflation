@@ -37,7 +37,7 @@ This project builds a proof-of-concept pipeline that:
 
 ## Objectives & Key Results (OKRs)
 
-The full OKRs are available in [this Google Doc](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtH_EX1DsRVup6oDc-I-A/edit?usp=sharing).
+The full OKRs are available in [this Google Doc](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtHw_EX1DsRVup6oDc-I-A/edit?usp=sharing).
 
 **Objective 1: Establish a definitive ground truth for place attribute selection**  
 *Foundation for reliable model development and benchmarking:*
@@ -58,7 +58,7 @@ The full OKRs are available in [this Google Doc](https://docs.google.com/documen
 - KR3: Provide a data-driven recommendation and cost-benefit analysis for scaling.
 - KR4: Present findings to answer: “Can ML truly beat a well-designed heuristic in this context?”
 
-*[Full OKRs and progress tracking](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtH_EX1DsRVup6oDc-I-A/edit?usp=sharing)*
+*[Full OKRs and progress tracking](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtHw_EX1DsRVup6oDc-I-A/edit?usp=sharing)*
 
 ---
 
@@ -69,7 +69,8 @@ The full OKRs are available in [this Google Doc](https://docs.google.com/documen
 2. **Guideline creation:**  
    - Develop and refine explicit, example-driven [attribute labeling guidelines](docs/attribute_guidelines.md).
 3. **Annotation:**  
-   - Use [annotate.py](scripts/annotate.py) to label a sample for IAA and the full dataset for model training.
+   - **Manual**: Use [annotate.py](scripts/annotate.py) to label a sample for IAA and the full dataset for model training.
+   - **AI-Powered**: Use [annotate_ai.py](scripts/annotate_ai.py) with LM Studio for automatic annotation (see [setup guide](docs/ai_annotation_setup.md)).
    - Reference [annotations_format.md](docs/annotations_format.md) for format details.
 4. **Agreement study:**  
    - Use [agreement_sample_200.csv](data/agreement_sample_200.csv) and [calculate_agreement.py](scripts/calculate_agreement.py) to ensure >95% IAA before expanding.
@@ -89,16 +90,16 @@ The full OKRs are available in [this Google Doc](https://docs.google.com/documen
 - [`docs/data_exploration_summary.json`](docs/data_exploration_summary.json): Machine-readable coverage/summary stats.
 
 ### Labeling & Agreement
-- [`scripts/annotate.py`](scripts/annotate.py): Interactive labeling tool.
+- [`scripts/annotate_ai.py`](scripts/annotate_ai.py): AI-powered automatic annotation using LM Studio (local LLM).
 - [`docs/attribute_guidelines.md`](docs/attribute_guidelines.md): Attribute-specific labeling rules and edge cases.
 - [`docs/annotations_format.md`](docs/annotations_format.md): Schema for annotation JSON output.
-- [`data/agreement_sample_200.csv`](data/agreement_sample_200.csv): Ready-to-label sample for agreement study.
+- [`docs/ai_annotation_setup.md`](docs/ai_annotation_setup.md): Setup guide for AI annotation with LM Studio.
 
 ### Agreement Analysis
 - [`scripts/calculate_agreement.py`](scripts/calculate_agreement.py): Computes IAA, Cohen’s Kappa, and prints sample disagreements.
 
 ### Project Coordination
-- [Full OKRs & progress (Google Doc)](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtH_EX1DsRVup6oDc-I-A/edit?usp=sharing): Project objectives, deliverables, and tracked progress.
+- [Full OKRs & progress (Google Doc)](https://docs.google.com/document/d/1OBkdFtXzfp6RGqbLMM2DDKwtHw_EX1DsRVup6oDc-I-A/edit?usp=sharing): Project objectives, deliverables, and tracked progress.
 
 ---
 

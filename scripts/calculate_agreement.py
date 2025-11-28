@@ -1,9 +1,9 @@
-"""
+```
 Inter-Annotator Agreement Analysis
 
 This script calculates agreement metrics between two annotators
 for the attribute selection task.
-"""
+```
 
 import pandas as pd
 import json
@@ -17,7 +17,7 @@ def load_annotations(*filenames):
     annotations = {}
     
     for filename in filenames:
-        with open(filename, 'r') as f:
+        with open(filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
             annotator_name = Path(filename).stem.replace('annotations_', '')
             annotations[annotator_name] = data
@@ -146,7 +146,7 @@ def print_agreement_report(agreement_results, kappa=None):
     
     print(f"\nTarget Agreement: >95%")
     target_met = agreement_results['agreement_rate'] >= 95
-    print(f"Target Met: {'✓ YES' if target_met else '✗ NO'}")
+    print(f"Target Met: {'[YES]' if target_met else '[NO]'}")
     
     if agreement_results['conflict_breakdown']:
         print(f"\nConflict Breakdown:")
@@ -201,7 +201,6 @@ def print_sample_disagreements(disagreements, n=5):
         print(f"  Current: {d['record']['phones']}")
         print(f"  Base: {d['record']['base_phones']}")
 
-
 def main():
     """Main agreement analysis."""
     import argparse
@@ -244,11 +243,10 @@ def main():
         with open(args.output, 'w') as f:
             json.dump(report, f, indent=2)
         
-        print(f"\n✓ Report saved to: {args.output}")
+        print(f"\n[OK] Report saved to: {args.output}")
     
     return agreement_results, kappa
 
 
 if __name__ == "__main__":
     main()
-

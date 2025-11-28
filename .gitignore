@@ -1,1 +1,24 @@
-yelp/
+# macOS specific files
+.DS_Store
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Environment folders
+.venv/
+venv/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
