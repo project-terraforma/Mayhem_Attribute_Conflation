@@ -45,8 +45,8 @@ def load_training_data(features_file: str) -> tuple:
     X = df[feature_cols].fillna(0.0)
     y = df[label_col]
     
-    # Convert labels to binary: 'current'/'same' -> 1, 'base' -> 0
-    y_binary = y.apply(lambda x: 1 if x in ['current', 'same'] else 0)
+    # Convert labels to binary: 'current'/'same'/'c' -> 1, 'base'/'b' -> 0
+    y_binary = y.apply(lambda x: 1 if x in ['current', 'same', 'c'] else 0)
     
     print(f"Loaded {len(X)} samples with {len(feature_cols)} features")
     print(f"Label distribution: {y.value_counts().to_dict()}")

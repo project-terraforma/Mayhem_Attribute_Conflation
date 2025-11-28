@@ -1,0 +1,16 @@
+
+    FINAL RESULTS (Real-World Validation)
+    -------------------------------------
+    Accuracy:  0.5683
+    F1-Score:  0.7085
+    Precision: 0.6621
+    Recall:    0.7619
+    
+    Confusion Matrix:
+    [[TN (Base Correct)  FP (Base Wrong)]
+     [FN (Curr Wrong)    TP (Curr Correct)]]
+    [[ 8 49]
+ [30 96]]
+    
+    Total Records: 183
+    
