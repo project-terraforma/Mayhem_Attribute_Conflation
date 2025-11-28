@@ -1,11 +1,11 @@
 {
   "algorithm": "Baseline Confidence (website)",
   "metrics": {
-    "accuracy": 0.0,
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1": 0.0,
-    "n_samples": 0
+    "accuracy": 0.67,
+    "precision": 0.7984496124031008,
+    "recall": 0.7202797202797203,
+    "f1": 0.7573529411764706,
+    "n_samples": 200
   },
   "coverage": 1.0,
   "n_total": 200,

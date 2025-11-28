@@ -1,11 +1,11 @@
 {
   "algorithm": "Baseline Completeness (name)",
   "metrics": {
-    "accuracy": 0.0,
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1": 0.0,
-    "n_samples": 0
+    "accuracy": 0.63,
+    "precision": 0.7593984962406015,
+    "recall": 0.7062937062937062,
+    "f1": 0.7318840579710145,
+    "n_samples": 200
   },
   "coverage": 1.0,
   "n_total": 200,

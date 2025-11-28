@@ -1,11 +1,11 @@
 {
   "algorithm": "Baseline Confidence (phone)",
   "metrics": {
-    "accuracy": 0.0,
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1": 0.0,
-    "n_samples": 0
+    "accuracy": 0.67,
+    "precision": 0.7938931297709924,
+    "recall": 0.7272727272727273,
+    "f1": 0.7591240875912408,
+    "n_samples": 200
   },
   "coverage": 1.0,
   "n_total": 200,

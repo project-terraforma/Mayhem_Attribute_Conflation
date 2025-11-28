@@ -1,4 +1,13 @@
 {
   "algorithm": "ML Model (name)",
-  "error": "No overlapping predictions and labels"
+  "metrics": {
+    "accuracy": 0.305,
+    "precision": 0.8333333333333334,
+    "recall": 0.03496503496503497,
+    "f1": 0.06711409395973154,
+    "n_samples": 200
+  },
+  "coverage": 1.0,
+  "n_total": 200,
+  "n_unclear": 0
 }
