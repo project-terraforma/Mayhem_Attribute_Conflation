@@ -6,17 +6,26 @@
     "logistic_regression": {
       "val_f1": 1.0,
       "val_acc": 1.0,
-      "model_type": "logistic_regression"
+      "model_type": "logistic_regression",
+      "train_duration_seconds": 0.01720881462097168,
+      "initial_memory_mb": 182.921875,
+      "peak_memory_mb": 183.75
     },
     "random_forest": {
       "val_f1": 1.0,
       "val_acc": 1.0,
-      "model_type": "random_forest"
+      "model_type": "random_forest",
+      "train_duration_seconds": 0.09702205657958984,
+      "initial_memory_mb": 183.78125,
+      "peak_memory_mb": 185.796875
     },
     "gradient_boosting": {
       "val_f1": 1.0,
       "val_acc": 1.0,
-      "model_type": "gradient_boosting"
+      "model_type": "gradient_boosting",
+      "train_duration_seconds": 0.03431510925292969,
+      "initial_memory_mb": 185.90625,
+      "peak_memory_mb": 185.953125
     }
   }
 }
