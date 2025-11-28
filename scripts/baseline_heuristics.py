@@ -298,25 +298,7 @@ class HybridBaseline:
         return [self.predict(row, attribute) for _, row in df.iterrows()]
 
 
-def load_golden_labels(golden_file: str) -> Dict[str, str]:
-    """
-    Load golden labels from JSON file.
-    
-    Returns:
-        Dictionary mapping record ID to label for a specific attribute
-    """
-    with open(golden_file, 'r') as f:
-        golden_data = json.load(f)
-    
-    labels = {}
-    for record in golden_data:
-        record_id = record['id']
-        # For now, assume we're looking at 'name' attribute
-        # This can be extended to handle multiple attributes
-        label = record.get('labels', {}).get('name', 'unclear')
-        labels[record_id] = label
-    
-    return labels
+
 
 
 def main():
@@ -324,28 +306,20 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description='Test baseline heuristics')
-    parser.add_argument('--data', default='data/project_b_samples_2k.parquet',
-                       help='Input data file')
-    parser.add_argument('--golden', default='data/processed/golden_dataset_sample.json',
-                       help='Golden labels file')
+    parser.add_argument('--data', required=True,
+                       help='Input data file (parquet or json)')
     parser.add_argument('--attribute', default='name',
                        choices=['name', 'phone', 'website', 'address', 'category'],
                        help='Attribute to evaluate')
     parser.add_argument('--baseline', default='most_recent',
                        choices=['most_recent', 'confidence', 'completeness', 'hybrid'],
                        help='Baseline algorithm to use')
+    parser.add_argument('--output', help='Output JSON file for predictions (dict: record_id -> prediction)')
     
     args = parser.parse_args()
     
     # Load data
-    print(f"Loading data from {args.data}...")
-    df = pd.read_parquet(args.data)
-    print(f"Loaded {len(df)} records")
-    
-    # Load golden labels
-    print(f"Loading golden labels from {args.golden}...")
-    golden_labels = load_golden_labels(args.golden)
-    print(f"Loaded {len(golden_labels)} labels")
+    df = load_data_for_baselines(args.data)
     
     # Initialize baseline
     if args.baseline == 'most_recent':
@@ -357,45 +331,28 @@ def main():
     else:
         baseline = HybridBaseline()
     
-    print(f"\nUsing baseline: {baseline.name}")
+    print(f"\nUsing baseline: {baseline.name} for attribute: {args.attribute}")
     
     # Make predictions
-    print(f"Making predictions for '{args.attribute}' attribute...")
-    predictions = baseline.predict_batch(df, args.attribute)
+    predictions_list = baseline.predict_batch(df, args.attribute)
     
-    # Evaluate (if golden labels available)
-    if golden_labels:
-        # Match predictions with golden labels
-        correct = 0
-        total = 0
-        
-        for idx, row in df.iterrows():
-            record_id = row['id']
-            if record_id in golden_labels:
-                golden_label = golden_labels[record_id]
-                pred = predictions[idx]
-                
-                # Convert predictions to match golden label format
-                if pred == 'current':
-                    pred_label = 'current'
-                elif pred == 'base':
-                    pred_label = 'base'
-                elif pred == 'same':
-                    pred_label = 'same'
-                else:
-                    pred_label = 'unclear'
-                
-                if pred_label == golden_label:
-                    correct += 1
-                total += 1
-        
-        accuracy = correct / total if total > 0 else 0.0
-        print(f"\nAccuracy: {correct}/{total} = {accuracy:.4f} ({accuracy*100:.2f}%)")
+    # Format predictions for output
+    output_predictions = {}
+    for idx, row in df.iterrows():
+        output_predictions[row['id']] = predictions_list[idx]
     
-    print(f"\nPredictions made: {len(predictions)}")
+    # Save predictions
+    if args.output:
+        output_path = Path(args.output)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(output_predictions, f, indent=2, ensure_ascii=False)
+        print(f"Predictions saved to {args.output}")
+    else:
+        print("\nPredictions made but not saved (no --output specified).")
+    
     from collections import Counter
-    pred_dist = Counter(predictions)
-    print(f"Prediction distribution: {dict(pred_dist)}")
+    print(f"\nPrediction distribution: {dict(Counter(predictions_list))}")
 
 
 if __name__ == "__main__":
