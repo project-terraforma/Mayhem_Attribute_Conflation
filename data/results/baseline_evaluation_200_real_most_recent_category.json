@@ -1,0 +1,13 @@
+{
+  "algorithm": "Baseline Most Recent (category)",
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_samples": 0
+  },
+  "coverage": 0.0,
+  "n_total": 200,
+  "n_unclear": 200
+}
