@@ -19,12 +19,12 @@ Here are the revised OKRs for the Mayhem project, along with a snapshot of our c
 
 *   **KR1: Create a labeled "Golden Dataset" of 2,000 pre-matched Overture places validated against Yelp ground truth**
     *   **Status: ACHIEVED ✅**
-    *   **Progress:** A **2,000-record Synthetic Golden Dataset** has been successfully generated from Yelp data. This dataset serves as the primary training data, mimicking Overture-Yelp conflation scenarios. This approach was adopted after discovering the Overture 2k samples had minimal direct overlap with the Yelp Academic Dataset, making direct Yelp-based labeling infeasible for the full 2k Overture records. The **200-record Real-World Manual Golden Dataset** (human-validated) serves as our crucial real-world validation set.
+    *   **Progress:** A **2,000-record Synthetic Golden Dataset** has been successfully generated from Yelp data. This dataset serves as our primary training data, mimicking Overture-Yelp conflation scenarios. This approach was adopted after discovering the Overture 2k samples had minimal direct overlap with the Yelp Academic Dataset, making direct Yelp-based labeling infeasible for the full 2k Overture records. The **200-record Real-World Manual Golden Dataset** (human-validated) serves as our crucial real-world validation set.
     *   **Rationale Connection:** This method directly addresses the revised rationale for this KR, providing a meaningful scale for model development by leveraging the large Yelp dataset.
 
 *   **KR2: Achieve ≥80% inter-annotator agreement on 200 records, documenting ≥10 distinct disagreement patterns**
     *   **Status: ACHIEVED ✅**
-    *   **Progress:** Through a systematic manual review and resolution process, the **200 records now represent a fully human-validated "diamond standard" ground truth**. The `data/manual_review_decisions.json` captures all final decisions and notes from this process.
+    *   **Progress:** Through a systematic manual review and resolution process, the **200 records now represent a fully human-validated "diamond standard" ground truth**. The `data/manual_review_decisions.json` file contains notes that are a rich source for documenting disagreement patterns.
     *   **Next Steps (for Documentation):** Extract and formally document ≥10 specific disagreement patterns and their resolution from the `data/manual_review_decisions.json` and `docs/attribute_guidelines.md`.
 
 *   **KR3: Document 5 key attributes with ≥15 edge cases and resolution strategies**
