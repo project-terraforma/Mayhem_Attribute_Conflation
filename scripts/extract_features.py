@@ -187,6 +187,181 @@ def extract_name_features(current_names: Any, base_names: Any) -> Dict[str, floa
     return features
 
 
+def extract_phone_primary(phone_field):
+    """Extract primary phone from phone field."""
+    parsed = parse_json_field(phone_field)
+    if parsed and isinstance(parsed, list) and len(parsed) > 0:
+        return str(parsed[0]) if parsed[0] else ''
+    return ''
+
+def extract_phone_features(current_phones: Any, base_phones: Any) -> Dict[str, float]:
+    """Extract features for phone attribute comparison."""
+    current = extract_phone_primary(current_phones)
+    base = extract_phone_primary(base_phones)
+    
+    features = {}
+    
+    # Presence features
+    features['phone_current_exists'] = 1.0 if current and current != 'nan' else 0.0
+    features['phone_base_exists'] = 1.0 if base and base != 'nan' else 0.0
+    
+    if features['phone_current_exists'] and features['phone_base_exists']:
+        # Length features
+        features['phone_current_len'] = len(current)
+        features['phone_base_len'] = len(base)
+        features['phone_len_diff'] = abs(len(current) - len(base))
+        
+        # Format features
+        features['phone_current_has_plus'] = 1.0 if '+' in current else 0.0
+        features['phone_base_has_plus'] = 1.0 if '+' in base else 0.0
+        features['phone_current_has_paren'] = 1.0 if '(' in current else 0.0
+        features['phone_base_has_paren'] = 1.0 if '(' in base else 0.0
+        
+        # Digit only comparison
+        curr_digits = ''.join(filter(str.isdigit, current))
+        base_digits = ''.join(filter(str.isdigit, base))
+        
+        features['phone_digits_match'] = 1.0 if curr_digits == base_digits else 0.0
+        features['phone_digits_len_diff'] = abs(len(curr_digits) - len(base_digits))
+        
+        # String similarity
+        sim_features = calculate_string_similarity(current, base)
+        features.update({f'phone_{k}': v for k, v in sim_features.items()})
+        
+    else:
+        # Fill zeros
+        for k in ['current_len', 'base_len', 'len_diff', 'current_has_plus', 'base_has_plus', 
+                  'current_has_paren', 'base_has_paren', 'digits_match', 'digits_len_diff']:
+            features[f'phone_{k}'] = 0.0
+        for k in ['exact_match', 'exact_match_lower', 'length_ratio', 'levenshtein_similarity', 'jaro_winkler_similarity']:
+            features[f'phone_{k}'] = 0.0
+            
+    return features
+
+def extract_website_primary(website_field):
+    """Extract primary website from website field."""
+    parsed = parse_json_field(website_field)
+    if parsed and isinstance(parsed, list) and len(parsed) > 0:
+        return str(parsed[0]) if parsed[0] else ''
+    return ''
+
+def extract_website_features(current_websites: Any, base_websites: Any) -> Dict[str, float]:
+    """Extract features for website attribute comparison."""
+    current = extract_website_primary(current_websites)
+    base = extract_website_primary(base_websites)
+    
+    features = {}
+    
+    # Presence
+    features['web_current_exists'] = 1.0 if current and current != 'nan' else 0.0
+    features['web_base_exists'] = 1.0 if base and base != 'nan' else 0.0
+    
+    if features['web_current_exists'] and features['web_base_exists']:
+        # Protocol
+        features['web_current_https'] = 1.0 if current.startswith('https') else 0.0
+        features['web_base_https'] = 1.0 if base.startswith('https') else 0.0
+        
+        # Subdomain
+        features['web_current_www'] = 1.0 if 'www.' in current else 0.0
+        features['web_base_www'] = 1.0 if 'www.' in base else 0.0
+        
+        # Length
+        features['web_len_diff'] = abs(len(current) - len(base))
+        features['web_len_ratio'] = min(len(current), len(base)) / max(len(current), len(base), 1)
+        
+        # Similarity
+        sim_features = calculate_string_similarity(current, base)
+        features.update({f'web_{k}': v for k, v in sim_features.items()})
+    else:
+        for k in ['current_https', 'base_https', 'current_www', 'base_www', 'len_diff', 'len_ratio']:
+            features[f'web_{k}'] = 0.0
+        for k in ['exact_match', 'exact_match_lower', 'length_ratio', 'levenshtein_similarity', 'jaro_winkler_similarity']:
+            features[f'web_{k}'] = 0.0
+            
+    return features
+
+def extract_address_primary(address_field):
+    """Extract primary address object."""
+    parsed = parse_json_field(address_field)
+    if parsed and isinstance(parsed, list) and len(parsed) > 0:
+        return parsed[0] if parsed[0] else {}
+    return {}
+
+def extract_address_features(current_addr: Any, base_addr: Any) -> Dict[str, float]:
+    """Extract features for address attribute comparison."""
+    curr_obj = extract_address_primary(current_addr)
+    base_obj = extract_address_primary(base_addr)
+    
+    features = {}
+    
+    # Component checks
+    components = ['freeform', 'locality', 'region', 'postcode', 'country']
+    
+    curr_present_count = sum(1 for c in components if curr_obj.get(c))
+    base_present_count = sum(1 for c in components if base_obj.get(c))
+    
+    features['addr_current_components'] = float(curr_present_count)
+    features['addr_base_components'] = float(base_present_count)
+    features['addr_components_diff'] = features['addr_current_components'] - features['addr_base_components']
+    
+    # Specific field presence
+    features['addr_current_has_postcode'] = 1.0 if curr_obj.get('postcode') else 0.0
+    features['addr_base_has_postcode'] = 1.0 if base_obj.get('postcode') else 0.0
+    
+    features['addr_current_has_region'] = 1.0 if curr_obj.get('region') else 0.0
+    features['addr_base_has_region'] = 1.0 if base_obj.get('region') else 0.0
+    
+    # Freeform text similarity
+    curr_free = str(curr_obj.get('freeform', '')).strip()
+    base_free = str(base_obj.get('freeform', '')).strip()
+    
+    if curr_free and base_free:
+        sim_features = calculate_string_similarity(curr_free, base_free)
+        features.update({f'addr_{k}': v for k, v in sim_features.items()})
+    else:
+        for k in ['exact_match', 'exact_match_lower', 'length_ratio', 'levenshtein_similarity', 'jaro_winkler_similarity']:
+            features[f'addr_{k}'] = 0.0
+            
+    return features
+
+def extract_category_primary(category_field):
+    """Extract primary category string."""
+    parsed = parse_json_field(category_field)
+    if parsed and isinstance(parsed, dict):
+        val = parsed.get('primary', '')
+        return str(val).strip() if val is not None else ''
+    return ''
+
+def extract_category_features(current_cat: Any, base_cat: Any) -> Dict[str, float]:
+    """Extract features for category attribute comparison."""
+    curr_prim = extract_category_primary(current_cat)
+    base_prim = extract_category_primary(base_cat)
+    
+    features = {}
+    
+    # Presence
+    features['cat_current_exists'] = 1.0 if curr_prim else 0.0
+    features['cat_base_exists'] = 1.0 if base_prim else 0.0
+    
+    # Similarity
+    if curr_prim and base_prim:
+        sim_features = calculate_string_similarity(curr_prim, base_prim)
+        features.update({f'cat_{k}': v for k, v in sim_features.items()})
+        
+        # Specificity proxy (length or ' > ' counts for hierarchy)
+        features['cat_current_depth'] = float(curr_prim.count('>'))
+        features['cat_base_depth'] = float(base_prim.count('>'))
+        features['cat_depth_diff'] = features['cat_current_depth'] - features['cat_base_depth']
+    else:
+        features['cat_current_depth'] = 0.0
+        features['cat_base_depth'] = 0.0
+        features['cat_depth_diff'] = 0.0
+        for k in ['exact_match', 'exact_match_lower', 'length_ratio', 'levenshtein_similarity', 'jaro_winkler_similarity']:
+            features[f'cat_{k}'] = 0.0
+            
+    return features
+
+
 def extract_metadata_features(row: pd.Series) -> Dict[str, float]:
     """Extract metadata features (confidence, sources, etc.)."""
     features = {}
@@ -228,8 +403,18 @@ def extract_features_for_record(row: pd.Series, attribute: str = 'name') -> Dict
     if attribute == 'name':
         name_features = extract_name_features(row['names'], row['base_names'])
         features.update(name_features)
-    
-    # TODO: Add features for other attributes (phone, website, etc.)
+    elif attribute == 'phone':
+        phone_features = extract_phone_features(row['phones'], row['base_phones'])
+        features.update(phone_features)
+    elif attribute == 'website':
+        website_features = extract_website_features(row['websites'], row['base_websites'])
+        features.update(website_features)
+    elif attribute == 'address':
+        address_features = extract_address_features(row['addresses'], row['base_addresses'])
+        features.update(address_features)
+    elif attribute == 'category':
+        category_features = extract_category_features(row['categories'], row['base_categories'])
+        features.update(category_features)
     
     return features
 
