@@ -1,10 +1,10 @@
 {
   "algorithm": "ML Model (address)",
   "metrics": {
-    "accuracy": 0.685,
-    "precision": 0.75,
-    "recall": 0.8391608391608392,
-    "f1": 0.7920792079207921,
+    "accuracy": 0.375,
+    "precision": 0.875,
+    "recall": 0.14685314685314685,
+    "f1": 0.25149700598802394,
     "n_samples": 200
   },
   "coverage": 1.0,

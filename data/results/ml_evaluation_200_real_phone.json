@@ -1,10 +1,10 @@
 {
   "algorithm": "ML Model (phone)",
   "metrics": {
-    "accuracy": 0.705,
-    "precision": 0.7763157894736842,
-    "recall": 0.8251748251748252,
-    "f1": 0.8,
+    "accuracy": 0.72,
+    "precision": 0.7351351351351352,
+    "recall": 0.951048951048951,
+    "f1": 0.8292682926829268,
     "n_samples": 200
   },
   "coverage": 1.0,

@@ -4,16 +4,16 @@
     "record_index": 0,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9823219080926001,
+    "model_confidence": 0.5999991554830568,
     "conflated_value": "ร้านตัดผมพี่ริน ห้วยตะแคง",
     "candidates": {
       "current": "ร้านตัดผมพี่ริน ห้วยตะแคง",
       "base": "ร้านตัดผมพี่ริน ห้วยตะแคง"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -21,16 +21,16 @@
     "record_index": 1,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9964626954763262,
+    "model_confidence": 0.869922761891208,
     "conflated_value": "Davaindia Generic Pharmacy",
     "candidates": {
       "current": "davaindia GENERIC PHARMACY",
       "base": "Davaindia Generic Pharmacy"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -38,33 +38,33 @@
     "record_index": 2,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8779270944395463,
+    "model_confidence": 0.823446784507147,
     "conflated_value": "The Home Depot",
     "candidates": {
       "current": "The Home Depot México",
       "base": "The Home Depot"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f28de8b291171e037d00b748edc418",
     "record_index": 3,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Sonei Jewellers",
     "candidates": {
       "current": "Sonei Jewellers",
       "base": "Sonei Jewellers"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -72,33 +72,33 @@
     "record_index": 4,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5965224999290455,
+    "model_confidence": 0.632430990648565,
     "conflated_value": "Imobiliaria Alegro",
     "candidates": {
       "current": "Imobiliária Alegro",
       "base": "Imobiliaria Alegro"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f618c49a7528c003ccdd6a1e4805b9",
     "record_index": 5,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5028198107512589,
+    "selected_source": "base",
+    "model_confidence": 0.6504856192265673,
     "conflated_value": "HDFC Bank ATM",
     "candidates": {
       "current": "HDFC Bank ATM",
       "base": "HDFC Bank ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -106,16 +106,16 @@
     "record_index": 6,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8779270944395463,
+    "model_confidence": 0.8019496933495416,
     "conflated_value": "Five Points Plaza",
     "candidates": {
       "current": "Five Pointe Barber Shop",
       "base": "Five Points Plaza"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -123,33 +123,33 @@
     "record_index": 7,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8551375532183247,
+    "model_confidence": 0.9375212792654875,
     "conflated_value": "Esfiha Chic",
     "candidates": {
       "current": "Esfiha Chic - Vila Arcádia",
       "base": "Esfiha Chic"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "562949960007229",
     "record_index": 8,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "The Bristol Hotel",
     "candidates": {
       "current": "The Bristol Hotel",
       "base": "The Bristol Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -157,50 +157,50 @@
     "record_index": 9,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8331098728430717,
+    "model_confidence": 0.6382624881760584,
     "conflated_value": "Chateau Saint Louis",
     "candidates": {
       "current": "Château Saint Louis",
       "base": "Chateau Saint Louis"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "1125899909415294",
     "record_index": 10,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5847136177007082,
+    "selected_source": "base",
+    "model_confidence": 0.6420041643428158,
     "conflated_value": "Bento Sushi",
     "candidates": {
       "current": "Bento Sushi",
       "base": "Bento Sushi"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1e15b0b2cbc5303c99047c56c8812",
     "record_index": 11,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9951721087828734,
-    "conflated_value": "Bauhaus Wien Hödlgasse",
+    "selected_source": "base",
+    "model_confidence": 0.6351150881729088,
+    "conflated_value": "BAUHAUS",
     "candidates": {
       "current": "Bauhaus Wien Hödlgasse",
       "base": "BAUHAUS"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -208,33 +208,33 @@
     "record_index": 12,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9805190729836767,
+    "model_confidence": 0.5363741928050421,
     "conflated_value": "ลานวรรณสมิต",
     "candidates": {
       "current": "ลานวรรณสมิต",
       "base": "ลานวรรณสมิต"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a1001299846e0365e336fd67ea1f",
     "record_index": 13,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5406870051685767,
+    "selected_source": "base",
+    "model_confidence": 0.6863083968164017,
     "conflated_value": "The Children's Place",
     "candidates": {
       "current": "The Children's Place",
       "base": "The Children's Place"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -242,16 +242,16 @@
     "record_index": 14,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5590645597386894,
+    "model_confidence": 0.6834297445925757,
     "conflated_value": "Jamprobe Electric LLC",
     "candidates": {
       "current": "Jamprobe Electric LLC",
       "base": "Jamprobe Electric LLC"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -259,33 +259,33 @@
     "record_index": 15,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9191146016068293,
+    "model_confidence": 0.9835129082358786,
     "conflated_value": "Walmart Supercenter",
     "candidates": {
       "current": "Walmart",
       "base": "Walmart Supercenter"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2aab52140802c0395a9524fcac41d",
     "record_index": 16,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5847136177007082,
+    "selected_source": "base",
+    "model_confidence": 0.6420041643428158,
     "conflated_value": "Liberty Tax",
     "candidates": {
       "current": "Liberty Tax",
       "base": "Liberty Tax"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -293,16 +293,16 @@
     "record_index": 17,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5985770550851501,
+    "model_confidence": 0.9554160055558509,
     "conflated_value": "Miller's Ale House",
     "candidates": {
       "current": "Miller's Ale House - Tampa Airport",
       "base": "Miller's Ale House"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -310,16 +310,16 @@
     "record_index": 18,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8673213486860561,
+    "model_confidence": 0.8686147521801169,
     "conflated_value": "Vape Haus",
     "candidates": {
       "current": "Vape Haus Queretaro",
       "base": "Vape Haus"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -327,16 +327,16 @@
     "record_index": 19,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9982810670772978,
+    "model_confidence": 0.9999697036776807,
     "conflated_value": "สวนอาหารบ้านตะวันแดง (Baan Tawundang Resturant)",
     "candidates": {
       "current": "สวนอาหารบ้านตะวันแดง",
       "base": "สวนอาหารบ้านตะวันแดง (Baan Tawundang Resturant)"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -344,16 +344,16 @@
     "record_index": 20,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5218780688412431,
+    "model_confidence": 0.7146309207885544,
     "conflated_value": "Universal Roofing & Exteriors",
     "candidates": {
       "current": "Universal Roofing & Exteriors",
       "base": "Universal Roofing & Exteriors"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -361,16 +361,16 @@
     "record_index": 21,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7055926873394542,
+    "model_confidence": 0.6735986212630737,
     "conflated_value": "Teras Corner",
     "candidates": {
       "current": "TerasCorner",
       "base": "Teras Corner"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -378,16 +378,16 @@
     "record_index": 22,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9201034125577958,
+    "model_confidence": 0.9411732922729993,
     "conflated_value": "Bank Of America ATM Center",
     "candidates": {
       "current": "Bank of America ATM",
       "base": "Bank Of America ATM Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -395,16 +395,16 @@
     "record_index": 23,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6422864885669683,
+    "model_confidence": 0.7005500087638814,
     "conflated_value": "Brierwood Childcare Center",
     "candidates": {
       "current": "Brierwood Child Care Center",
       "base": "Brierwood Childcare Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -412,16 +412,16 @@
     "record_index": 24,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9983388149661909,
+    "model_confidence": 0.9998403060315014,
     "conflated_value": "พีลาตุส อพาร์ทเม้นท์ (Pilatus Apartment)",
     "candidates": {
       "current": "พีลาตุส อพาร์ทเม้น",
       "base": "พีลาตุส อพาร์ทเม้นท์ (Pilatus Apartment)"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -429,16 +429,16 @@
     "record_index": 25,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5786560366593618,
+    "model_confidence": 0.6794026859301945,
     "conflated_value": "ItsSo Travel Torquay",
     "candidates": {
       "current": "ItsSo Travel Torquay",
       "base": "ItsSo Travel Torquay"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -446,16 +446,16 @@
     "record_index": 26,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9266969928856986,
+    "model_confidence": 0.9922120789361163,
     "conflated_value": "Barclays Bank Cash Machine",
     "candidates": {
       "current": "Barclays ATM",
       "base": "Barclays Bank Cash Machine"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -463,16 +463,16 @@
     "record_index": 27,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9202155012669168,
+    "model_confidence": 0.9549959593805422,
     "conflated_value": "Sunrise Financial Service",
     "candidates": {
       "current": "Sunrise Financial",
       "base": "Sunrise Financial Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -480,16 +480,16 @@
     "record_index": 28,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7638200914477726,
+    "model_confidence": 0.6408052756239602,
     "conflated_value": "Dillard's",
     "candidates": {
       "current": "Dillard's",
       "base": "Dillard's"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -497,16 +497,16 @@
     "record_index": 29,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9358936635548807,
+    "model_confidence": 0.9758654522768194,
     "conflated_value": "ARAL Tankstelle",
     "candidates": {
       "current": "Aral",
       "base": "ARAL Tankstelle"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -514,16 +514,16 @@
     "record_index": 30,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "Pakenham Isuzu UTE",
     "candidates": {
       "current": "Pakenham Isuzu UTE",
       "base": "Pakenham Isuzu UTE"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -531,16 +531,16 @@
     "record_index": 31,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9876901753712483,
+    "model_confidence": 0.6435869491140043,
     "conflated_value": "21 Petals Florist and Flower Market",
     "candidates": {
       "current": "21 Petals Florist and Flower Market",
       "base": "21 Petals Florist and Flower Market"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -548,16 +548,16 @@
     "record_index": 32,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7529504302428474,
+    "model_confidence": 0.9760263186527476,
     "conflated_value": "Miracle Mile Shops",
     "candidates": {
       "current": "Miracle Mile Shops At Planet Hollywood",
       "base": "Miracle Mile Shops"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -565,50 +565,50 @@
     "record_index": 33,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5593715034249902,
+    "model_confidence": 0.6334328773388764,
     "conflated_value": "Walgreens",
     "candidates": {
       "current": "Walgreens",
       "base": "Walgreens"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08fa810056a2b6400390bcc253369382",
     "record_index": 34,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5581867271981297,
+    "selected_source": "base",
+    "model_confidence": 0.7291333525048254,
     "conflated_value": "EVS - Espaço Vida Saudável Herbalife",
     "candidates": {
       "current": "EVS - Espaço Vida Saudável Herbalife",
       "base": "EVS - Espaço Vida Saudável Herbalife"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f4440ca382a59803895546c2d4bd4f",
     "record_index": 35,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6630299376058351,
     "conflated_value": "Rejuvime Medical",
     "candidates": {
       "current": "Rejuvime Medical",
       "base": "Rejuvime Medical"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -616,16 +616,16 @@
     "record_index": 36,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8680364151659711,
+    "model_confidence": 0.8090562876354167,
     "conflated_value": "Full Steam",
     "candidates": {
       "current": "Full Steam Tromso",
       "base": "Full Steam"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -633,16 +633,16 @@
     "record_index": 37,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9217158439422691,
+    "model_confidence": 0.9165761993026051,
     "conflated_value": "Les Hospitaliers Hotel",
     "candidates": {
       "current": "Les Hospitaliers",
       "base": "Les Hospitaliers Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -650,33 +650,33 @@
     "record_index": 38,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7469624808634485,
+    "model_confidence": 0.8653258939185196,
     "conflated_value": "Centro Nazionale Volontariato",
     "candidates": {
       "current": "Centro Nazionale Per Il Volontariato",
       "base": "Centro Nazionale Volontariato"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a1340ea313910338f0d15a4b7f1f",
     "record_index": 39,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.8979344958504654,
+    "selected_source": "base",
+    "model_confidence": 0.7574287889149249,
     "conflated_value": "Walmart Grocery Pick-up and Delivery Service",
     "candidates": {
       "current": "Walmart Grocery Pick-up and Delivery Service",
       "base": "Walmart Grocery Pick-up and Delivery Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -684,16 +684,16 @@
     "record_index": 40,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8860083921786618,
+    "model_confidence": 0.9999937350190157,
     "conflated_value": "Dan Stiebel, Coldwell Banker Commercial Schmidt",
     "candidates": {
       "current": "Dan Stiebel",
       "base": "Dan Stiebel, Coldwell Banker Commercial Schmidt"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -701,16 +701,16 @@
     "record_index": 41,
     "attribute": "name",
     "selected_source": "current",
-    "model_confidence": 0.6874552264371857,
+    "model_confidence": 0.7820645623916653,
     "conflated_value": "Izzo's Illegal Burrito",
     "candidates": {
       "current": "Izzo's Illegal Burrito",
       "base": "Izzo’s Illegal Burrito"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -718,16 +718,16 @@
     "record_index": 42,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7707224183361823,
+    "model_confidence": 0.6555600074395478,
     "conflated_value": "Real Estate Profile1 - Suite",
     "candidates": {
       "current": "Real Estate Profile1 - Local",
       "base": "Real Estate Profile1 - Suite"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -735,16 +735,16 @@
     "record_index": 43,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9610185810071598,
+    "model_confidence": 0.9853340146926113,
     "conflated_value": "The Fairways at San Marcos Apartments",
     "candidates": {
       "current": "The Fairways at San Marcos",
       "base": "The Fairways at San Marcos Apartments"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -752,16 +752,16 @@
     "record_index": 44,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8828486255607032,
+    "model_confidence": 0.7996412772585018,
     "conflated_value": "Sports Experts",
     "candidates": {
       "current": "Sports Experts Magog",
       "base": "Sports Experts"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -769,16 +769,16 @@
     "record_index": 45,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "Ricciardi Brothers",
     "candidates": {
       "current": "Ricciardi Brothers",
       "base": "Ricciardi Brothers"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -786,33 +786,33 @@
     "record_index": 46,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5218780688412431,
+    "model_confidence": 0.7146309207885544,
     "conflated_value": "Interstate All Battery Center",
     "candidates": {
       "current": "Interstate All Battery Center",
       "base": "Interstate All Battery Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2aa87330ca7a903957473b2acce21",
     "record_index": 47,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5988319199178549,
+    "selected_source": "base",
+    "model_confidence": 0.6742048455723334,
     "conflated_value": "Papa John's Pizza",
     "candidates": {
       "current": "Papa John's Pizza",
       "base": "Papa John's Pizza"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -820,16 +820,16 @@
     "record_index": 48,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5337682717105054,
+    "model_confidence": 0.7070049205952416,
     "conflated_value": "Wellstar Radiation Oncology",
     "candidates": {
       "current": "Wellstar Radiation Oncology",
       "base": "Wellstar Radiation Oncology"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -837,16 +837,16 @@
     "record_index": 49,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9217158439422691,
+    "model_confidence": 0.9165761993026051,
     "conflated_value": "Fifth Third Bank & ATM",
     "candidates": {
       "current": "Fifth Third Bank",
       "base": "Fifth Third Bank & ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -854,67 +854,67 @@
     "record_index": 50,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6416738119128483,
+    "model_confidence": 0.695345445709731,
     "conflated_value": "Budget Restaurant Supply",
     "candidates": {
       "current": "Budget Restaurant Supply",
       "base": "Budget Restaurant Supply"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "562949966520897",
     "record_index": 51,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Mills Tree Care",
     "candidates": {
       "current": "Mills Tree Care",
       "base": "Mills Tree Care"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a10aaba5c06303d8a67958549713",
     "record_index": 52,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5801755339044276,
+    "selected_source": "base",
+    "model_confidence": 0.6618643762360672,
     "conflated_value": "Domino's Pizza",
     "candidates": {
       "current": "Domino's Pizza",
       "base": "Domino's Pizza"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f29a4018a454c403d3e547067a3d3b",
     "record_index": 53,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.7719688643596989,
+    "selected_source": "base",
+    "model_confidence": 0.8247259865903251,
     "conflated_value": "Scripps Memorial Hospital La Jolla Outpatient Imaging Pavillion",
     "candidates": {
       "current": "Scripps Memorial Hospital La Jolla Outpatient Imaging Pavillion",
       "base": "Scripps Memorial Hospital La Jolla Outpatient Imaging Pavillion"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -922,16 +922,16 @@
     "record_index": 54,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.918455107906104,
+    "model_confidence": 0.9883069150491,
     "conflated_value": "Goodyear Auto Service",
     "candidates": {
       "current": "Goodyear",
       "base": "Goodyear Auto Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -939,16 +939,16 @@
     "record_index": 55,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9889466152731631,
+    "model_confidence": 0.540984037060935,
     "conflated_value": "オリーブの丘 浜松高林店",
     "candidates": {
       "current": "オリーブの丘 浜松高林店",
       "base": "オリーブの丘 浜松高林店"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -956,16 +956,16 @@
     "record_index": 56,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9326093126482274,
+    "model_confidence": 0.9888681546256674,
     "conflated_value": "Waterbury Career Academy High School",
     "candidates": {
       "current": "Waterbury Career Academy",
       "base": "Waterbury Career Academy High School"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -973,16 +973,16 @@
     "record_index": 57,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9226917561514217,
+    "model_confidence": 0.9719449009400282,
     "conflated_value": "Work Medicina Ocupacional S/C Ltda",
     "candidates": {
       "current": "Work Medicina Ocupacional",
       "base": "Work Medicina Ocupacional S/C Ltda"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -990,33 +990,33 @@
     "record_index": 58,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6551641029692588,
+    "model_confidence": 0.7076968361306399,
     "conflated_value": "Ritz Sales & Service",
     "candidates": {
       "current": "Ritz Sales and Service",
       "base": "Ritz Sales & Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2aa4d98923b4503b1be6672e9cf20",
     "record_index": 59,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.7032264260652172,
+    "selected_source": "base",
+    "model_confidence": 0.6322217278555622,
     "conflated_value": "Dunkin'",
     "candidates": {
       "current": "Dunkin'",
       "base": "Dunkin'"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1024,16 +1024,16 @@
     "record_index": 60,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9715230350778574,
+    "model_confidence": 0.9480244342661485,
     "conflated_value": "Jimbo's Club at the Point",
     "candidates": {
       "current": "Jimbos Club at the Point",
       "base": "Jimbo's Club at the Point"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1041,16 +1041,16 @@
     "record_index": 61,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7469252060269331,
+    "model_confidence": 0.9728581933670504,
     "conflated_value": "Mirage",
     "candidates": {
       "current": "Mirage Health and Wellbeing",
       "base": "Mirage"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1058,33 +1058,33 @@
     "record_index": 62,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5378571225792995,
+    "model_confidence": 0.699260890583029,
     "conflated_value": "Björn Klose Steuerberater",
     "candidates": {
       "current": "Björn Klose Steuerberater",
       "base": "Björn Klose Steuerberater"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f186b6ca96aac003075fe4e8c7df44",
     "record_index": 63,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5176115306436856,
+    "selected_source": "base",
+    "model_confidence": 0.6377294701478372,
     "conflated_value": "Quiksilver",
     "candidates": {
       "current": "Quiksilver",
       "base": "Quiksilver"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1092,16 +1092,16 @@
     "record_index": 64,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.634815613377659,
+    "model_confidence": 0.6950989479223018,
     "conflated_value": "Ariel’s Balgownie",
     "candidates": {
       "current": "Ariels Balgownie",
       "base": "Ariel’s Balgownie"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1109,33 +1109,33 @@
     "record_index": 65,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9983262456352364,
+    "model_confidence": 0.988877441209419,
     "conflated_value": "24H Artigian Riparazione Fabbri - Idraulici - Elettricisti",
     "candidates": {
       "current": "24H ARTIGIAN RIPARAZIONE FABBRI - IDRAULICI - ELETTRICISTI",
       "base": "24H Artigian Riparazione Fabbri - Idraulici - Elettricisti"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a36c0344bc820337ca0f2e8822f2",
     "record_index": 66,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.8457322793563874,
-    "conflated_value": "bp America",
+    "selected_source": "base",
+    "model_confidence": 0.6258603517047513,
+    "conflated_value": "BP",
     "candidates": {
       "current": "bp America",
       "base": "BP"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1143,16 +1143,16 @@
     "record_index": 67,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.618510526584154,
+    "model_confidence": 0.6644948580440022,
     "conflated_value": "TJ'S Gymsports",
     "candidates": {
       "current": "T.J's Gymsports",
       "base": "TJ'S Gymsports"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1160,16 +1160,16 @@
     "record_index": 68,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5593715034249902,
+    "model_confidence": 0.6334328773388764,
     "conflated_value": "Pizza Hut",
     "candidates": {
       "current": "Pizza Hut",
       "base": "Pizza Hut"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1177,16 +1177,16 @@
     "record_index": 69,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.883383047643844,
+    "model_confidence": 0.6813970121461729,
     "conflated_value": "Murkelsnähwelt",
     "candidates": {
       "current": "Murkel‘s Nähwelt",
       "base": "Murkelsnähwelt"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1194,50 +1194,50 @@
     "record_index": 70,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8925441021443957,
+    "model_confidence": 0.5464331197825271,
     "conflated_value": "-酒彩-睦月日本酒と創作和食のお店",
     "candidates": {
       "current": "-酒彩-睦月 日本酒と創作和食のお店",
       "base": "-酒彩-睦月日本酒と創作和食のお店"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f26c8390ba49350319b54f0294ec99",
     "record_index": 71,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6630299376058351,
     "conflated_value": "Carter BloodCare",
     "candidates": {
       "current": "Carter BloodCare",
       "base": "Carter BloodCare"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f3cc5a1476a45403ed1a0c115b1102",
     "record_index": 72,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5028198107512589,
+    "selected_source": "base",
+    "model_confidence": 0.6504856192265673,
     "conflated_value": "Axis Bank ATM",
     "candidates": {
       "current": "Axis Bank ATM",
       "base": "Axis Bank ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1245,16 +1245,16 @@
     "record_index": 73,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5184300513568686,
+    "model_confidence": 0.90266040856985,
     "conflated_value": "Boulangerie Pât. Darrigrand",
     "candidates": {
       "current": "Boulangerie Darrigrand",
       "base": "Boulangerie Pât. Darrigrand"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1262,16 +1262,16 @@
     "record_index": 74,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7546690260582516,
+    "model_confidence": 0.7553554129553093,
     "conflated_value": "Larry H. Miller Chrysler Jeep Avondale",
     "candidates": {
       "current": "Larry H. Miller Chrysler Jeep Avondale",
       "base": "Larry H. Miller Chrysler Jeep Avondale"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1279,16 +1279,16 @@
     "record_index": 75,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9217158439422691,
+    "model_confidence": 0.9165761993026051,
     "conflated_value": "Southland Casino Hotel",
     "candidates": {
       "current": "Southland Casino",
       "base": "Southland Casino Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1296,50 +1296,50 @@
     "record_index": 76,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8266079477179595,
+    "model_confidence": 0.9159562054463454,
     "conflated_value": "Burger's Grill",
     "candidates": {
       "current": "Burger´s Grill",
       "base": "Burger's Grill"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f29a4714a4879e03bb7589c7e079e7",
     "record_index": 77,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "Opal and Findings",
     "candidates": {
       "current": "Opal and Findings",
       "base": "Opal and Findings"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "2251799819474731",
     "record_index": 78,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.7103417005884615,
-    "conflated_value": "DeHart Plumbing, Heating & Air, Inc.",
+    "selected_source": "base",
+    "model_confidence": 0.8532523032051018,
+    "conflated_value": "DeHart Plumbing, Heating & Air",
     "candidates": {
       "current": "DeHart Plumbing, Heating & Air, Inc.",
       "base": "DeHart Plumbing, Heating & Air"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1347,50 +1347,50 @@
     "record_index": 79,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.989695812286574,
+    "model_confidence": 0.5178804140775697,
     "conflated_value": "レアストーンズ",
     "candidates": {
       "current": "レアストーンズ",
       "base": "レアストーンズ"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f26c86642125b4031326f6a64ebbd6",
     "record_index": 80,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5028198107512589,
+    "selected_source": "base",
+    "model_confidence": 0.6504856192265673,
     "conflated_value": "Shred Nations",
     "candidates": {
       "current": "Shred Nations",
       "base": "Shred Nations"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f26e3036354530039a96a9e4dcc0d4",
     "record_index": 81,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Woodfire Grille",
     "candidates": {
       "current": "Woodfire Grille",
       "base": "Woodfire Grille"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1398,16 +1398,16 @@
     "record_index": 82,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9612125230641659,
+    "model_confidence": 0.9999980666493138,
     "conflated_value": "Praxis Fahima Asseily für alternative Therapien und Seminare",
     "candidates": {
       "current": "Praxis Fahima Asseily",
       "base": "Praxis Fahima Asseily für alternative Therapien und Seminare"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1415,16 +1415,16 @@
     "record_index": 83,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6133345775959063,
+    "model_confidence": 0.7295206468896152,
     "conflated_value": "Escuela Secundaria Diurna # 171 \"Frida Khalo\"",
     "candidates": {
       "current": "Escuela Secundaria Diurna 171 - \"Frida Kahlo\"",
       "base": "Escuela Secundaria Diurna # 171 \"Frida Khalo\""
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1432,33 +1432,33 @@
     "record_index": 84,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9538521400617241,
+    "model_confidence": 0.9997929066723825,
     "conflated_value": "Oberschorfheide Wäsche Dessous Bademoden",
     "candidates": {
       "current": "Oberschorfheide",
       "base": "Oberschorfheide Wäsche Dessous Bademoden"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f6d231146cbb8203a6b43c5463e884",
     "record_index": 85,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "Tortilleria Rocha",
     "candidates": {
       "current": "Tortilleria Rocha",
       "base": "Tortilleria Rocha"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1466,33 +1466,33 @@
     "record_index": 86,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9196860555058655,
+    "model_confidence": 0.9750651159342647,
     "conflated_value": "Kempsey Skips & Scrap Metal",
     "candidates": {
       "current": "Kempsey Skip Bins",
       "base": "Kempsey Skips & Scrap Metal"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f264622866338c03c99743da67ae23",
     "record_index": 87,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9326289863765453,
+    "selected_source": "base",
+    "model_confidence": 0.6286587034653957,
     "conflated_value": "M-CO Wiring",
     "candidates": {
       "current": "M-CO Wiring",
       "base": "M-CO Wiring"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1500,16 +1500,16 @@
     "record_index": 88,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9202155012669168,
+    "model_confidence": 0.9810200018661193,
     "conflated_value": "Hollyhock Hill Restaurant",
     "candidates": {
       "current": "Hollyhock Hill",
       "base": "Hollyhock Hill Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1517,16 +1517,16 @@
     "record_index": 89,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8717854007290518,
+    "model_confidence": 0.83498993746446,
     "conflated_value": "Centro Comunitário",
     "candidates": {
       "current": "Centro Comunitario Taiaçu",
       "base": "Centro Comunitário"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1534,33 +1534,33 @@
     "record_index": 90,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.883383047643844,
+    "model_confidence": 0.6782042423141056,
     "conflated_value": "Black Box Store",
     "candidates": {
       "current": "Black Box Bari",
       "base": "Black Box Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1ed6c9600e9ac0396545f95a4326e",
     "record_index": 91,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "Garaci Collettivi",
     "candidates": {
       "current": "Garaci Collettivi",
       "base": "Garaci Collettivi"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1568,33 +1568,33 @@
     "record_index": 92,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5593715034249902,
+    "model_confidence": 0.6334328773388764,
     "conflated_value": "Starbucks",
     "candidates": {
       "current": "Starbucks",
       "base": "Starbucks"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f194ac2641827303a8c9d8d0f63cfb",
     "record_index": 93,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5847136177007082,
+    "selected_source": "base",
+    "model_confidence": 0.6420041643428158,
     "conflated_value": "Paddy Power",
     "candidates": {
       "current": "Paddy Power",
       "base": "Paddy Power"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1602,16 +1602,16 @@
     "record_index": 94,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9938202340986444,
+    "model_confidence": 0.9158535259757143,
     "conflated_value": "Oxxo",
     "candidates": {
       "current": "OXXO",
       "base": "Oxxo"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1619,16 +1619,16 @@
     "record_index": 95,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5117250420018478,
+    "model_confidence": 0.6839087905358163,
     "conflated_value": "Giudice di pace - Genova",
     "candidates": {
       "current": "Giudice di Pace di Genova",
       "base": "Giudice di pace - Genova"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1636,16 +1636,16 @@
     "record_index": 96,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8673213486860561,
+    "model_confidence": 0.8829510883309977,
     "conflated_value": "Red Wing",
     "candidates": {
       "current": "Red Wing Shoe Store",
       "base": "Red Wing"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1653,16 +1653,16 @@
     "record_index": 97,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9063002434913094,
+    "model_confidence": 0.6316084521540808,
     "conflated_value": "Schreinerei Markus Vogt",
     "candidates": {
       "current": "Schreinerei Vogt Markus",
       "base": "Schreinerei Markus Vogt"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1670,50 +1670,50 @@
     "record_index": 98,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9960376852709717,
+    "model_confidence": 0.9198540797859011,
     "conflated_value": "Rossmann",
     "candidates": {
       "current": "ROSSMANN",
       "base": "Rossmann"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f44dd545c0313303fc66e60e99f054",
     "record_index": 99,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5847136177007082,
+    "selected_source": "base",
+    "model_confidence": 0.6420041643428158,
     "conflated_value": "Renee Mason",
     "candidates": {
       "current": "Renee Mason",
       "base": "Renee Mason"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f26eec3634b47603f6d23fb1b12603",
     "record_index": 100,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "Cedar Vale Locker",
     "candidates": {
       "current": "Cedar Vale Locker",
       "base": "Cedar Vale Locker"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1721,33 +1721,33 @@
     "record_index": 101,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7988292416762264,
+    "model_confidence": 0.8403286936028702,
     "conflated_value": "Clifton And Lewis Insurance",
     "candidates": {
       "current": "Clifton and Lewis Insurance Group",
       "base": "Clifton And Lewis Insurance"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1f0b44e466a0103f39fa87dc0107b",
     "record_index": 102,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.7424896290758065,
+    "selected_source": "base",
+    "model_confidence": 0.7295192750232815,
     "conflated_value": "Punkt sprzedaży Plus i Polsat Box",
     "candidates": {
       "current": "Punkt sprzedaży Plus i Polsat Box",
       "base": "Punkt sprzedaży Plus i Polsat Box"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1755,16 +1755,16 @@
     "record_index": 103,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9851959268381087,
+    "model_confidence": 0.559345660227252,
     "conflated_value": "เกี๊ยวปลาสามย่าน",
     "candidates": {
       "current": "เกี๊ยวปลาสามย่าน",
       "base": "เกี๊ยวปลาสามย่าน"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1772,33 +1772,33 @@
     "record_index": 104,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5218780688412431,
+    "model_confidence": 0.7146309207885544,
     "conflated_value": "CPR Cell Phone Repair Lubbock",
     "candidates": {
       "current": "CPR Cell Phone Repair Lubbock",
       "base": "CPR Cell Phone Repair Lubbock"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f4440c1249b85c03b5b634418623f6",
     "record_index": 105,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.6964040678177211,
+    "selected_source": "base",
+    "model_confidence": 0.7003833577588988,
     "conflated_value": "Carl Sidney Luikart, MD",
     "candidates": {
       "current": "Carl Sidney Luikart, MD",
       "base": "Carl Sidney Luikart, MD"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1806,33 +1806,33 @@
     "record_index": 106,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5337682717105054,
+    "model_confidence": 0.7070049205952416,
     "conflated_value": "Oscar Biludlejning Lisbjerg",
     "candidates": {
       "current": "Oscar Biludlejning Lisbjerg",
       "base": "Oscar Biludlejning Lisbjerg"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a9872c50396203af1c0b0e7c8f17",
     "record_index": 107,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5028198107512589,
+    "selected_source": "base",
+    "model_confidence": 0.6504856192265673,
     "conflated_value": "Family Dollar",
     "candidates": {
       "current": "Family Dollar",
       "base": "Family Dollar"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1840,16 +1840,16 @@
     "record_index": 108,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6029519747950762,
+    "model_confidence": 0.6907233452945434,
     "conflated_value": "PuroClean Managed Services",
     "candidates": {
       "current": "Puroclean Managed Services",
       "base": "PuroClean Managed Services"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1857,67 +1857,67 @@
     "record_index": 109,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5182062886910632,
+    "model_confidence": 0.9846112009503541,
     "conflated_value": "Nurse Next Door Senior Home Care Services - Calgary",
     "candidates": {
       "current": "Nurse Next Door Senior Home Care Services",
       "base": "Nurse Next Door Senior Home Care Services - Calgary"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f271a2d0294804035e0f9b5baa38d6",
     "record_index": 110,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5159293120450672,
+    "selected_source": "base",
+    "model_confidence": 0.6546912952651741,
     "conflated_value": "Gate City Bank",
     "candidates": {
       "current": "Gate City Bank",
       "base": "Gate City Bank"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1e82252c1c0ae03c90f2f5d5feef9",
     "record_index": 111,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Bar Onda Marina",
     "candidates": {
       "current": "Bar Onda Marina",
       "base": "Bar Onda Marina"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f48932e69a12dd03d5671400e23b78",
     "record_index": 112,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5176115306436856,
+    "selected_source": "base",
+    "model_confidence": 0.6377294701478372,
     "conflated_value": "AT&T Store",
     "candidates": {
       "current": "AT&T Store",
       "base": "AT&T Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1925,33 +1925,33 @@
     "record_index": 113,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7216888345155359,
+    "model_confidence": 0.645063875833252,
     "conflated_value": "McDonald's",
     "candidates": {
       "current": "McDonald's",
       "base": "McDonald's"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f441ab99d1e40903520592b478eaee",
     "record_index": 114,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Delicae Gourmet",
     "candidates": {
       "current": "Delicae Gourmet",
       "base": "Delicae Gourmet"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1959,16 +1959,16 @@
     "record_index": 115,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5184117724542678,
+    "model_confidence": 0.740359235537337,
     "conflated_value": "Houston Methodist Primary Care Group",
     "candidates": {
       "current": "Houston Methodist Primary Care Group",
       "base": "Houston Methodist Primary Care Group"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -1976,33 +1976,33 @@
     "record_index": 116,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8447282021057938,
+    "model_confidence": 0.9439202753281261,
     "conflated_value": "Praxis für Logopädie und Lerntherapie B & B",
     "candidates": {
       "current": "Praxis für Logopädie und Lerntherapie",
       "base": "Praxis für Logopädie und Lerntherapie B & B"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2ad34495a3453030061ea2bb1add4",
     "record_index": 117,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5028198107512589,
+    "selected_source": "base",
+    "model_confidence": 0.6504856192265673,
     "conflated_value": "Prime Storage",
     "candidates": {
       "current": "Prime Storage",
       "base": "Prime Storage"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2010,16 +2010,16 @@
     "record_index": 118,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "TowneBank Mortgage",
     "candidates": {
       "current": "TowneBank Mortgage",
       "base": "TowneBank Mortgage"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2027,16 +2027,16 @@
     "record_index": 119,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9088248866969417,
+    "model_confidence": 0.879759714004809,
     "conflated_value": "Marathon Gas & DQ",
     "candidates": {
       "current": "Marathon Gas",
       "base": "Marathon Gas & DQ"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2044,16 +2044,16 @@
     "record_index": 120,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9216056834865897,
+    "model_confidence": 0.7578993697336742,
     "conflated_value": "Médiathèque municipale",
     "candidates": {
       "current": "Médiathèque De Seltz",
       "base": "Médiathèque municipale"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2061,16 +2061,16 @@
     "record_index": 121,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6703981880695958,
+    "model_confidence": 0.6366451776937754,
     "conflated_value": "Geometra Nicola Merolla",
     "candidates": {
       "current": "Geometra Merolla Nicola",
       "base": "Geometra Nicola Merolla"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2078,16 +2078,16 @@
     "record_index": 122,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8418544852286033,
+    "model_confidence": 0.681657562029975,
     "conflated_value": "Camara Municipal De Maribondo",
     "candidates": {
       "current": "Câmara Municipal de Maribondo",
       "base": "Camara Municipal De Maribondo"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2095,16 +2095,16 @@
     "record_index": 123,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "Pizza Hut Delivery",
     "candidates": {
       "current": "Pizza Hut Delivery",
       "base": "Pizza Hut Delivery"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2112,33 +2112,33 @@
     "record_index": 124,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.878493495804918,
+    "model_confidence": 0.9673674237120441,
     "conflated_value": "Princeton Radiology - Monroe",
     "candidates": {
       "current": "Princeton Radiology",
       "base": "Princeton Radiology - Monroe"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1f1253491e08a0355c6b41a4f0509",
     "record_index": 125,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9963717879557028,
-    "conflated_value": "PZW Press- und Zerspanungstechnik Witten GmbH & Co",
+    "selected_source": "base",
+    "model_confidence": 0.996576710301049,
+    "conflated_value": "PZW",
     "candidates": {
       "current": "PZW Press- und Zerspanungstechnik Witten GmbH & Co",
       "base": "PZW"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2146,33 +2146,33 @@
     "record_index": 126,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9236759197589357,
+    "model_confidence": 0.9851275942388578,
     "conflated_value": "Giant Eagle Supermarket",
     "candidates": {
       "current": "Giant Eagle",
       "base": "Giant Eagle Supermarket"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2b9bc466424e403ff1e1ca190b31f",
     "record_index": 127,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.887078450354621,
+    "selected_source": "base",
+    "model_confidence": 0.8051575971086464,
     "conflated_value": "Toronto MatchMaker | MatchMaking Services | Mutual Match",
     "candidates": {
       "current": "Toronto MatchMaker | MatchMaking Services | Mutual Match",
       "base": "Toronto MatchMaker | MatchMaking Services | Mutual Match"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2180,33 +2180,33 @@
     "record_index": 128,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8503149272478644,
+    "model_confidence": 0.8877600171174884,
     "conflated_value": "Kool",
     "candidates": {
       "current": "KOOL Restaurante",
       "base": "Kool"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1f1a8da865c3503b4c552c4c8273e",
     "record_index": 129,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5905797694748453,
+    "selected_source": "base",
+    "model_confidence": 0.7183988849510297,
     "conflated_value": "Mobilblitz Leipzig Ratzelbogen",
     "candidates": {
       "current": "Mobilblitz Leipzig Ratzelbogen",
       "base": "Mobilblitz Leipzig Ratzelbogen"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2214,16 +2214,16 @@
     "record_index": 130,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8717854007290518,
+    "model_confidence": 0.8389496986716415,
     "conflated_value": "Smiley Mocktail Bar",
     "candidates": {
       "current": "Smiley Mocktail Bar & Cafe",
       "base": "Smiley Mocktail Bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2231,67 +2231,67 @@
     "record_index": 131,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7041270488995413,
+    "model_confidence": 0.9243862734693874,
     "conflated_value": "Makmal Kesihatan Awam (MKA)",
     "candidates": {
       "current": "Makmal Kesihatan Awam",
       "base": "Makmal Kesihatan Awam (MKA)"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f44e540c45806d036445fe6c54049d",
     "record_index": 132,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9073800105821265,
-    "conflated_value": "Sport Clips Haircuts of Panama City - Cahall's Deli Plaza",
+    "selected_source": "base",
+    "model_confidence": 0.9302615080014512,
+    "conflated_value": "Sport Clips Haircuts of Lynn Haven",
     "candidates": {
       "current": "Sport Clips Haircuts of Panama City - Cahall's Deli Plaza",
       "base": "Sport Clips Haircuts of Lynn Haven"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "1688849866257450",
     "record_index": 133,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5176115306436856,
+    "selected_source": "base",
+    "model_confidence": 0.6377294701478372,
     "conflated_value": "Audi Marin",
     "candidates": {
       "current": "Audi Marin",
       "base": "Audi Marin"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "1125899910838791",
     "record_index": 134,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5176115306436856,
+    "selected_source": "base",
+    "model_confidence": 0.6377294701478372,
     "conflated_value": "Minute Key",
     "candidates": {
       "current": "Minute Key",
       "base": "Minute Key"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2299,16 +2299,16 @@
     "record_index": 135,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7177443010699405,
+    "model_confidence": 0.7266514915904247,
     "conflated_value": "Agriturismo Tenuta Borgio",
     "candidates": {
       "current": "Agritursmo Tenuta Borgio",
       "base": "Agriturismo Tenuta Borgio"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2316,16 +2316,16 @@
     "record_index": 136,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5593715034249902,
+    "model_confidence": 0.6291149620827412,
     "conflated_value": "Rossmann",
     "candidates": {
       "current": "Rossmann",
       "base": "Rossmann"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2333,16 +2333,16 @@
     "record_index": 137,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6554862248280396,
+    "model_confidence": 0.9552512754931859,
     "conflated_value": "Si-Like",
     "candidates": {
       "current": "Si-Like Ristorante Cinese",
       "base": "Si-Like"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2350,16 +2350,16 @@
     "record_index": 138,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7291150896234471,
+    "model_confidence": 0.7212103956666225,
     "conflated_value": "Early County Court House",
     "candidates": {
       "current": "Early County Courthouse",
       "base": "Early County Court House"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2367,16 +2367,16 @@
     "record_index": 139,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7631418702620102,
+    "model_confidence": 0.7915835279959021,
     "conflated_value": "Wizard",
     "candidates": {
       "current": "Wizard Brotas",
       "base": "Wizard"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2384,16 +2384,16 @@
     "record_index": 140,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5605089936225827,
+    "model_confidence": 0.6462563971111301,
     "conflated_value": "Hotel Madrid",
     "candidates": {
       "current": "Hotel Madrid",
       "base": "Hotel Madrid"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2401,16 +2401,16 @@
     "record_index": 141,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5786560366593618,
+    "model_confidence": 0.6794026859301945,
     "conflated_value": "Martinelli Law Group",
     "candidates": {
       "current": "Martinelli Law Group",
       "base": "Martinelli Law Group"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2418,16 +2418,16 @@
     "record_index": 142,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6201961094976196,
+    "model_confidence": 0.6874294910856302,
     "conflated_value": "Coin Cloud Bitcoin ATM",
     "candidates": {
       "current": "Coin Cloud Bitcoin ATM",
       "base": "Coin Cloud Bitcoin ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2435,16 +2435,16 @@
     "record_index": 143,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8877543348847327,
+    "model_confidence": 0.9961217497941081,
     "conflated_value": "CHI Saint Joseph Medical Group - Primary Care",
     "candidates": {
       "current": "CHI Saint Joseph Medical Group",
       "base": "CHI Saint Joseph Medical Group - Primary Care"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2452,50 +2452,50 @@
     "record_index": 144,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7632920508197256,
+    "model_confidence": 0.7639282619674599,
     "conflated_value": "Pastelería D' Susan",
     "candidates": {
       "current": "Pasteles D' Súsan",
       "base": "Pastelería D' Susan"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "562949958305102",
     "record_index": 145,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.7424896290758065,
+    "selected_source": "base",
+    "model_confidence": 0.7295192750232815,
     "conflated_value": "Oxford Glen Memory Care at Sachse",
     "candidates": {
       "current": "Oxford Glen Memory Care at Sachse",
       "base": "Oxford Glen Memory Care at Sachse"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f446b259454ad503533f12dc4d0f9c",
     "record_index": 146,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5932622698208844,
+    "selected_source": "base",
+    "model_confidence": 0.6701170807816075,
     "conflated_value": "Love's RV Hookup",
     "candidates": {
       "current": "Love's RV Hookup",
       "base": "Love's RV Hookup"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2503,16 +2503,16 @@
     "record_index": 147,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5786560366593618,
+    "model_confidence": 0.6794026859301945,
     "conflated_value": "LibertyX Bitcoin ATM",
     "candidates": {
       "current": "LibertyX Bitcoin ATM",
       "base": "LibertyX Bitcoin ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2520,16 +2520,16 @@
     "record_index": 148,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5593715034249902,
+    "model_confidence": 0.6291149620827412,
     "conflated_value": "LED Nord",
     "candidates": {
       "current": "LED Nord",
       "base": "LED Nord"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2537,16 +2537,16 @@
     "record_index": 149,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8930778184217136,
+    "model_confidence": 0.8617006486285648,
     "conflated_value": "Sir Walter Chevrolet",
     "candidates": {
       "current": "Sir Walter Chevrolet Company",
       "base": "Sir Walter Chevrolet"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2554,16 +2554,16 @@
     "record_index": 150,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9894137899235701,
+    "model_confidence": 0.8003793680932973,
     "conflated_value": "สนามฟุตบอล ราชภัฏสกลนคร",
     "candidates": {
       "current": "สนามบอลราชภัฏสกลนคร",
       "base": "สนามฟุตบอล ราชภัฏสกลนคร"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2571,33 +2571,33 @@
     "record_index": 151,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9996894384085608,
+    "model_confidence": 0.6423135149154413,
     "conflated_value": "KERAMUNDO",
     "candidates": {
       "current": "KERAMUNDO",
       "base": "KERAMUNDO"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f3922211a9429003d34a89765a66c1",
     "record_index": 152,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9954233412953096,
-    "conflated_value": "Fidelidade Marco Canaveses",
+    "selected_source": "base",
+    "model_confidence": 0.6846608249165782,
+    "conflated_value": "FIDELIDADE",
     "candidates": {
       "current": "Fidelidade Marco Canaveses",
       "base": "FIDELIDADE"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2605,33 +2605,33 @@
     "record_index": 153,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5605089936225827,
+    "model_confidence": 0.6462563971111301,
     "conflated_value": "Hotel Fiesta",
     "candidates": {
       "current": "Hotel Fiesta",
       "base": "Hotel Fiesta"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f275922226a40b03fa3c4693070159",
     "record_index": 154,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Cove Hair Salon",
     "candidates": {
       "current": "Cove Hair Salon",
       "base": "Cove Hair Salon"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2639,16 +2639,16 @@
     "record_index": 155,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5605089936225827,
+    "model_confidence": 0.6462563971111301,
     "conflated_value": "Frazer Jones",
     "candidates": {
       "current": "Frazer Jones",
       "base": "Frazer Jones"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2656,16 +2656,16 @@
     "record_index": 156,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9166539236009581,
+    "model_confidence": 0.9449626436086624,
     "conflated_value": "Bluebell Physiotherapy Centre",
     "candidates": {
       "current": "Bluebell Physiotherapy",
       "base": "Bluebell Physiotherapy Centre"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2673,16 +2673,16 @@
     "record_index": 157,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9072787196226171,
+    "model_confidence": 0.8826485910595028,
     "conflated_value": "Gare SNCF de Creil",
     "candidates": {
       "current": "Gare de Creil",
       "base": "Gare SNCF de Creil"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2690,33 +2690,33 @@
     "record_index": 158,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6294363988107213,
+    "model_confidence": 0.6642283925883816,
     "conflated_value": "Hanson Aggregates",
     "candidates": {
       "current": "Hanson Aggregrates",
       "base": "Hanson Aggregates"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f1e368a432e2a3036a3229000375cc",
     "record_index": 159,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.6942943490216997,
+    "selected_source": "base",
+    "model_confidence": 0.5333286237198617,
     "conflated_value": "büro eins",
     "candidates": {
       "current": "büro eins",
       "base": "büro eins"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2724,16 +2724,16 @@
     "record_index": 160,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9311767524671039,
+    "model_confidence": 0.9915588089084005,
     "conflated_value": "ROSSMANN Drogeriemarkt",
     "candidates": {
       "current": "Rossmann",
       "base": "ROSSMANN Drogeriemarkt"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2741,33 +2741,33 @@
     "record_index": 161,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8398563705863882,
+    "model_confidence": 0.9859956994184023,
     "conflated_value": "Sherwin-Williams Paint Store",
     "candidates": {
       "current": "Sherwin-Williams",
       "base": "Sherwin-Williams Paint Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f44cc2ed92b4ad037ec09a5c0f7c76",
     "record_index": 162,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5189583865576163,
+    "selected_source": "base",
+    "model_confidence": 0.667161903780762,
     "conflated_value": "Superior Cleaning",
     "candidates": {
       "current": "Superior Cleaning",
       "base": "Superior Cleaning"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2775,16 +2775,16 @@
     "record_index": 163,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5786560366593618,
+    "model_confidence": 0.6794026859301945,
     "conflated_value": "International Bakery",
     "candidates": {
       "current": "International Bakery",
       "base": "International Bakery"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2792,16 +2792,16 @@
     "record_index": 164,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8098993305622526,
+    "model_confidence": 0.9913822558308493,
     "conflated_value": "Mystères du Lac",
     "candidates": {
       "current": "Mystères du Lac - City Games & Escape Game",
       "base": "Mystères du Lac"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2809,16 +2809,16 @@
     "record_index": 165,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8779270944395463,
+    "model_confidence": 0.8411192086451003,
     "conflated_value": "Instyle nails",
     "candidates": {
       "current": "Instyle Nails and Spa",
       "base": "Instyle nails"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2826,16 +2826,16 @@
     "record_index": 166,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7364598187200664,
+    "model_confidence": 0.9568741342342368,
     "conflated_value": "Igreja Batista Vale de Bênção",
     "candidates": {
       "current": "Igreja Batista Vale De Benção - Águas Claras",
       "base": "Igreja Batista Vale de Bênção"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2843,16 +2843,16 @@
     "record_index": 167,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8709724972041809,
+    "model_confidence": 0.9105609791029384,
     "conflated_value": "Windshield Replacement Sacramento",
     "candidates": {
       "current": "Windshield Repair Sacramento",
       "base": "Windshield Replacement Sacramento"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2860,16 +2860,16 @@
     "record_index": 168,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8851042402677398,
+    "model_confidence": 0.7075900925530625,
     "conflated_value": "Richard Lavigna, DPM",
     "candidates": {
       "current": "Richard Lavigna Dpm",
       "base": "Richard Lavigna, DPM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2877,16 +2877,16 @@
     "record_index": 169,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9929565595723041,
+    "model_confidence": 0.9836372423973926,
     "conflated_value": "Parque Acuático 'El Thepe'",
     "candidates": {
       "current": "Parque Acuático Tephé",
       "base": "Parque Acuático 'El Thepe'"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2894,16 +2894,16 @@
     "record_index": 170,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.988439238824291,
+    "model_confidence": 0.5955388806637494,
     "conflated_value": "ร้านข้าวราดแกง ข้างโลตัส",
     "candidates": {
       "current": "ร้านข้าวราดแกง ข้างโลตัส",
       "base": "ร้านข้าวราดแกง ข้างโลตัส"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2911,16 +2911,16 @@
     "record_index": 171,
     "attribute": "name",
     "selected_source": "current",
-    "model_confidence": 0.9944424323109844,
+    "model_confidence": 0.7872340747403571,
     "conflated_value": "Itto個別指導学院 神奈川大井松田",
     "candidates": {
       "current": "Itto個別指導学院 神奈川大井松田",
       "base": "ITTO個別指導学院 大井松田校"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2928,16 +2928,16 @@
     "record_index": 172,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6860581704348176,
+    "model_confidence": 0.9483551664513035,
     "conflated_value": "Speyk",
     "candidates": {
       "current": "SPEYK nieuwerwetse ICT",
       "base": "Speyk"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2945,33 +2945,33 @@
     "record_index": 173,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9280849767662126,
+    "model_confidence": 0.9803267823802325,
     "conflated_value": "Maison Artisanale Nègre",
     "candidates": {
       "current": "Maison Nègre",
       "base": "Maison Artisanale Nègre"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2a9611a26bc4103b7d085f67b5173",
     "record_index": 174,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5680234799970231,
-    "conflated_value": "R.T. Sales",
+    "selected_source": "base",
+    "model_confidence": 0.9088311463762339,
+    "conflated_value": "R.T. Sales, Inc.",
     "candidates": {
       "current": "R.T. Sales",
       "base": "R.T. Sales, Inc."
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -2979,33 +2979,33 @@
     "record_index": 175,
     "attribute": "name",
     "selected_source": "current",
-    "model_confidence": 0.9512336442443744,
+    "model_confidence": 0.7738920723751578,
     "conflated_value": "L'ynara Brautmode",
     "candidates": {
       "current": "L'ynara Brautmode",
       "base": "Lynara Brautmode"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f19424ccc1e0820363bbececd4900d",
     "record_index": 176,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5131813077781219,
+    "selected_source": "base",
+    "model_confidence": 0.6588729038044374,
     "conflated_value": "Evri ParcelShop",
     "candidates": {
       "current": "Evri ParcelShop",
       "base": "Evri ParcelShop"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3013,16 +3013,16 @@
     "record_index": 177,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9850844746732368,
+    "model_confidence": 0.5317581234472866,
     "conflated_value": "ร้านร่มไทร",
     "candidates": {
       "current": "ร้านร่มไทร",
       "base": "ร้านร่มไทร"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3030,16 +3030,16 @@
     "record_index": 178,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6201961094976196,
+    "model_confidence": 0.691401521182603,
     "conflated_value": "Pearle Opticiens Houten",
     "candidates": {
       "current": "Pearle Opticiens Houten",
       "base": "Pearle Opticiens Houten"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3047,16 +3047,16 @@
     "record_index": 179,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8824938192249654,
+    "model_confidence": 0.637488769157325,
     "conflated_value": "Automecanica Medellin",
     "candidates": {
       "current": "Auto Técnica Medellín",
       "base": "Automecanica Medellin"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3064,16 +3064,16 @@
     "record_index": 180,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8514262740363174,
+    "model_confidence": 0.6368187648398608,
     "conflated_value": "Un Sogno Verde",
     "candidates": {
       "current": "Un sogno verde",
       "base": "Un Sogno Verde"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3081,16 +3081,16 @@
     "record_index": 181,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5337682717105054,
+    "model_confidence": 0.7108328331341548,
     "conflated_value": "Strawberry Fields Restaurant",
     "candidates": {
       "current": "Strawberry Fields Restaurant",
       "base": "Strawberry Fields Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3098,16 +3098,16 @@
     "record_index": 182,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9202155012669168,
+    "model_confidence": 0.9669954915750433,
     "conflated_value": "Draeger Ignition Interlock",
     "candidates": {
       "current": "Draeger Interlock",
       "base": "Draeger Ignition Interlock"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3115,16 +3115,16 @@
     "record_index": 183,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5590645597386894,
+    "model_confidence": 0.6834297445925757,
     "conflated_value": "Lake Worth Art League",
     "candidates": {
       "current": "Lake Worth Art League",
       "base": "Lake Worth Art League"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3132,16 +3132,16 @@
     "record_index": 184,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.669084743015897,
+    "model_confidence": 0.9702886032506145,
     "conflated_value": "Chick-fil-A",
     "candidates": {
       "current": "Chick-fil-A Grand Parkway North",
       "base": "Chick-fil-A"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3149,16 +3149,16 @@
     "record_index": 185,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "Resolution Roofing",
     "candidates": {
       "current": "Resolution Roofing",
       "base": "Resolution Roofing"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3166,16 +3166,16 @@
     "record_index": 186,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8979365716899604,
+    "model_confidence": 0.9922730104942258,
     "conflated_value": "Bitcoin Depot - Bitcoin ATM",
     "candidates": {
       "current": "Bitcoin Depot",
       "base": "Bitcoin Depot - Bitcoin ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3183,16 +3183,16 @@
     "record_index": 187,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.5605089936225827,
+    "model_confidence": 0.6462563971111301,
     "conflated_value": "YES Bank ATM",
     "candidates": {
       "current": "YES Bank ATM",
       "base": "YES Bank ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3200,16 +3200,16 @@
     "record_index": 188,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7261373153542896,
+    "model_confidence": 0.9804557160732541,
     "conflated_value": "Presto! ATM at Publix®",
     "candidates": {
       "current": "Presto! ATM",
       "base": "Presto! ATM at Publix®"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3217,33 +3217,33 @@
     "record_index": 189,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9078005275214416,
+    "model_confidence": 0.780584002407834,
     "conflated_value": "Glasrite #2",
     "candidates": {
       "current": "Glasrite",
       "base": "Glasrite #2"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "1407374890752553",
     "record_index": 190,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5581867271981297,
+    "selected_source": "base",
+    "model_confidence": 0.7291333525048254,
     "conflated_value": "Roto-Rooter Plumbing & Water Cleanup",
     "candidates": {
       "current": "Roto-Rooter Plumbing & Water Cleanup",
       "base": "Roto-Rooter Plumbing & Water Cleanup"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3251,16 +3251,16 @@
     "record_index": 191,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6201961094976196,
+    "model_confidence": 0.691401521182603,
     "conflated_value": "Norman Love Confections",
     "candidates": {
       "current": "Norman Love Confections",
       "base": "Norman Love Confections"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3268,33 +3268,33 @@
     "record_index": 192,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.881781588015706,
+    "model_confidence": 0.7177503301943747,
     "conflated_value": "Etcetera",
     "candidates": {
       "current": "Etcetera BAR",
       "base": "Etcetera"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "08f2b9b36479862e0351baadfa912c6b",
     "record_index": 193,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.5801755339044276,
+    "selected_source": "base",
+    "model_confidence": 0.6618643762360672,
     "conflated_value": "Franco's Pizza",
     "candidates": {
       "current": "Franco's Pizza",
       "base": "Franco's Pizza"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3302,16 +3302,16 @@
     "record_index": 194,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.9222099721916455,
+    "model_confidence": 0.9942749955608167,
     "conflated_value": "Code Ninjas Virginia Beach",
     "candidates": {
       "current": "Code Ninjas",
       "base": "Code Ninjas Virginia Beach"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3319,16 +3319,16 @@
     "record_index": 195,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.7951797666937395,
+    "model_confidence": 0.9682920307550953,
     "conflated_value": "Sofrapa - Covilhã",
     "candidates": {
       "current": "Sofrapa",
       "base": "Sofrapa - Covilhã"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3336,33 +3336,33 @@
     "record_index": 196,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.6036815037963505,
+    "model_confidence": 0.6712683239398766,
     "conflated_value": "Mongoaurelio Resto",
     "candidates": {
       "current": "Mongoaurelio Resto",
       "base": "Mongoaurelio Resto"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
     "id": "1125899912398662",
     "record_index": 197,
     "attribute": "name",
-    "selected_source": "current",
-    "model_confidence": 0.9965106006499949,
-    "conflated_value": "ATP Flight School",
+    "selected_source": "base",
+    "model_confidence": 0.5711704172131582,
+    "conflated_value": "ATP",
     "candidates": {
       "current": "ATP Flight School",
       "base": "ATP"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3370,16 +3370,16 @@
     "record_index": 198,
     "attribute": "name",
     "selected_source": "current",
-    "model_confidence": 0.9957435444118029,
+    "model_confidence": 0.8245947551187067,
     "conflated_value": "La Cucina Piccola",
     "candidates": {
       "current": "La Cucina Piccola",
       "base": "LA CUCINA PICCOLA"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   },
   {
@@ -3387,16 +3387,16 @@
     "record_index": 199,
     "attribute": "name",
     "selected_source": "base",
-    "model_confidence": 0.8779270944395463,
+    "model_confidence": 0.8728547794458179,
     "conflated_value": "Ristorante Cavour",
     "candidates": {
       "current": "Ristorante Pizzeria Cavour",
       "base": "Ristorante Cavour"
     },
     "inference_meta": {
-      "duration_seconds": 0.001653909683227539,
-      "initial_memory_mb": 101.078125,
-      "peak_memory_mb": 176.359375
+      "duration_seconds": 0.002249002456665039,
+      "initial_memory_mb": 100.1875,
+      "peak_memory_mb": 165.53125
     }
   }
 ]

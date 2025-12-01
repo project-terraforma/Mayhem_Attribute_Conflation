@@ -4,16 +4,16 @@
     "record_index": 0,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5093944674905613,
     "conflated_value": "beauty_salon",
     "candidates": {
       "current": "beauty_salon",
       "base": "Business and Professional Services > Health and Beauty Service > Hair Salon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -21,16 +21,16 @@
     "record_index": 1,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "pharmacy",
     "candidates": {
       "current": "pharmacy",
       "base": "pharmacy"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -38,16 +38,16 @@
     "record_index": 2,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5119549333661486,
     "conflated_value": "home_and_garden",
     "candidates": {
       "current": "home_and_garden",
       "base": "Retail > Hardware Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -55,16 +55,16 @@
     "record_index": 3,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "jewelry_store",
     "candidates": {
       "current": "jewelry_store",
       "base": "jewelry_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -72,16 +72,16 @@
     "record_index": 4,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5100918447086712,
     "conflated_value": "real_estate",
     "candidates": {
       "current": "real_estate",
       "base": "Business and Professional Services > Real Estate Service > Real Estate Agency"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -89,16 +89,16 @@
     "record_index": 5,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.509568355169441,
     "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -106,16 +106,16 @@
     "record_index": 6,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5094797160857417,
     "conflated_value": "barber",
     "candidates": {
       "current": "barber",
       "base": "flowers_and_gifts_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -123,16 +123,16 @@
     "record_index": 7,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5117048315109206,
     "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Mediterranean Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -140,16 +140,16 @@
     "record_index": 8,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "resort",
     "candidates": {
       "current": "resort",
       "base": "resort"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -157,16 +157,16 @@
     "record_index": 9,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5101178256909995,
     "conflated_value": "winery",
     "candidates": {
       "current": "winery",
       "base": "Dining and Drinking > Vineyard"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -174,16 +174,16 @@
     "record_index": 10,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "sushi_restaurant",
     "candidates": {
       "current": "sushi_restaurant",
       "base": "sushi_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -191,16 +191,16 @@
     "record_index": 11,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5119433280841984,
     "conflated_value": "retail",
     "candidates": {
       "current": "retail",
       "base": "Retail > Hardware Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -208,16 +208,16 @@
     "record_index": 12,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5132065249663268,
     "conflated_value": "attractions_and_activities",
     "candidates": {
       "current": "attractions_and_activities",
       "base": "Landmarks and Outdoors > Field"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -225,16 +225,16 @@
     "record_index": 13,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "children's_clothing_store",
     "candidates": {
       "current": "children's_clothing_store",
       "base": "children's_clothing_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -242,16 +242,16 @@
     "record_index": 14,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "electrician",
     "candidates": {
       "current": "electrician",
       "base": "electrician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -259,16 +259,16 @@
     "record_index": 15,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5123676093969655,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "department_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -276,16 +276,16 @@
     "record_index": 16,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5124092447403314,
     "conflated_value": "trusts",
     "candidates": {
       "current": "trusts",
       "base": "tax_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -293,16 +293,16 @@
     "record_index": 17,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "sports_bar",
     "candidates": {
       "current": "sports_bar",
       "base": "sports_bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -310,16 +310,16 @@
     "record_index": 18,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5152788901582226,
     "conflated_value": "e_cigarette_store",
     "candidates": {
       "current": "e_cigarette_store",
       "base": "Retail > Vape Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -327,16 +327,16 @@
     "record_index": 19,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5114735946189313,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -344,16 +344,16 @@
     "record_index": 20,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "roofing",
     "candidates": {
       "current": "roofing",
       "base": "roofing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -361,16 +361,16 @@
     "record_index": 21,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5094169698184685,
     "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Arts and Entertainment > Arcade"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -378,16 +378,16 @@
     "record_index": 22,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5113918901082809,
     "conflated_value": "online_shop",
     "candidates": {
       "current": "online_shop",
       "base": "Retail > Miscellaneous Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -395,16 +395,16 @@
     "record_index": 23,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5103711993034205,
     "conflated_value": "home_service",
     "candidates": {
       "current": "home_service",
       "base": "Retail > Miscellaneous Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -412,16 +412,16 @@
     "record_index": 24,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5119310287326007,
     "conflated_value": "landmark_and_historical_building",
     "candidates": {
       "current": "landmark_and_historical_building",
       "base": "Community and Government > Residential Building > Apartment or Condo"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -429,16 +429,16 @@
     "record_index": 25,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5182169356024192,
     "conflated_value": "travel_services",
     "candidates": {
       "current": "travel_services",
       "base": "travel_agents"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -446,16 +446,16 @@
     "record_index": 26,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -463,16 +463,16 @@
     "record_index": 27,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "mortgage_lender",
     "candidates": {
       "current": "mortgage_lender",
       "base": "mortgage_lender"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -480,16 +480,16 @@
     "record_index": 28,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5164736209548442,
     "conflated_value": "department_store",
     "candidates": {
       "current": "department_store",
       "base": "clothing_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -497,16 +497,16 @@
     "record_index": 29,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "gas_station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -514,16 +514,16 @@
     "record_index": 30,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5183153767043871,
     "conflated_value": "car_dealer",
     "candidates": {
       "current": "car_dealer",
       "base": "used_car_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -531,16 +531,16 @@
     "record_index": 31,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "florist",
     "candidates": {
       "current": "florist",
       "base": "florist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -548,16 +548,16 @@
     "record_index": 32,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5122086337274107,
     "conflated_value": "parking",
     "candidates": {
       "current": "parking",
       "base": "shopping_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -565,16 +565,16 @@
     "record_index": 33,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5099602939064536,
     "conflated_value": "vitamins_and_supplements",
     "candidates": {
       "current": "vitamins_and_supplements",
       "base": "pharmacy"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -582,16 +582,16 @@
     "record_index": 34,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5089950181521491,
     "conflated_value": "tea_room",
     "candidates": {
       "current": "tea_room",
       "base": "Dining and Drinking > Restaurant > Bistro"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -599,16 +599,16 @@
     "record_index": 35,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116540474538837,
     "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "cosmetic_surgeon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -616,16 +616,16 @@
     "record_index": 36,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5093363362508574,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Bar > Pub"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -633,16 +633,16 @@
     "record_index": 37,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5090477525379226,
     "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -650,16 +650,16 @@
     "record_index": 38,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5117265302728862,
     "conflated_value": "community_services_non_profits",
     "candidates": {
       "current": "community_services_non_profits",
       "base": "Business and Professional Services > Convention Center > Conference Room"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -667,16 +667,16 @@
     "record_index": 39,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "retail",
     "candidates": {
       "current": "retail",
       "base": "retail"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -684,16 +684,16 @@
     "record_index": 40,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5141323142451756,
     "conflated_value": "real_estate_agent",
     "candidates": {
       "current": "real_estate_agent",
       "base": "commercial_real_estate"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -701,16 +701,16 @@
     "record_index": 41,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5111303874999106,
     "conflated_value": "mexican_restaurant",
     "candidates": {
       "current": "mexican_restaurant",
       "base": "Dining and Drinking > Restaurant > Mexican Restaurant > Burrito Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -718,16 +718,16 @@
     "record_index": 42,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5107742534927324,
     "conflated_value": "automotive",
     "candidates": {
       "current": "automotive",
       "base": "building_supply_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -735,16 +735,16 @@
     "record_index": 43,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "apartments",
     "candidates": {
       "current": "apartments",
       "base": "apartments"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -752,16 +752,16 @@
     "record_index": 44,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.51403636818117,
     "conflated_value": "sporting_goods",
     "candidates": {
       "current": "sporting_goods",
       "base": "Retail > Sporting Goods Retail"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -769,16 +769,16 @@
     "record_index": 45,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5140540833051372,
     "conflated_value": "home_improvement_store",
     "candidates": {
       "current": "home_improvement_store",
       "base": "paint_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -786,16 +786,16 @@
     "record_index": 46,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "battery_store",
     "candidates": {
       "current": "battery_store",
       "base": "battery_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -803,16 +803,16 @@
     "record_index": 47,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5171145417333411,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -820,16 +820,16 @@
     "record_index": 48,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "oncologist",
     "candidates": {
       "current": "oncologist",
       "base": "oncologist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -837,16 +837,16 @@
     "record_index": 49,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5095424807566719,
     "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > Bank"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -854,16 +854,16 @@
     "record_index": 50,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5113391312997959,
     "conflated_value": "restaurant_equipment_and_supply",
     "candidates": {
       "current": "restaurant_equipment_and_supply",
       "base": "Business and Professional Services > Food and Beverage Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -871,16 +871,16 @@
     "record_index": 51,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "tree_services",
     "candidates": {
       "current": "tree_services",
       "base": "tree_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -888,16 +888,16 @@
     "record_index": 52,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5122730309511522,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Pizzeria"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -905,16 +905,16 @@
     "record_index": 53,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116315249402946,
     "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "diagnostic_imaging"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -922,16 +922,16 @@
     "record_index": 54,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "tire_shop",
     "candidates": {
       "current": "tire_shop",
       "base": "tire_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -939,16 +939,16 @@
     "record_index": 55,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5132832888285175,
     "conflated_value": "international_restaurant",
     "candidates": {
       "current": "international_restaurant",
       "base": "Dining and Drinking > Restaurant > Italian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -956,16 +956,16 @@
     "record_index": 56,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5091423973206343,
     "conflated_value": "high_school",
     "candidates": {
       "current": "high_school",
       "base": "Community and Government > Education > Trade School"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -973,16 +973,16 @@
     "record_index": 57,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5096196826354606,
     "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "Health and Medicine > Physician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -990,16 +990,16 @@
     "record_index": 58,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5109548297571453,
     "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1007,16 +1007,16 @@
     "record_index": 59,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5117962561959353,
     "conflated_value": "donuts",
     "candidates": {
       "current": "donuts",
       "base": "coffee_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1024,16 +1024,16 @@
     "record_index": 60,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5098257561013714,
     "conflated_value": "event_planning",
     "candidates": {
       "current": "event_planning",
       "base": "Dining and Drinking > Restaurant > American Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1041,16 +1041,16 @@
     "record_index": 61,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5101439232072569,
     "conflated_value": "naturopathic_holistic",
     "candidates": {
       "current": "naturopathic_holistic",
       "base": "doctor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1058,16 +1058,16 @@
     "record_index": 62,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5103299623030383,
     "conflated_value": "tax_services",
     "candidates": {
       "current": "tax_services",
       "base": "Business and Professional Services > Financial Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1075,16 +1075,16 @@
     "record_index": 63,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.511903247372843,
     "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Fashion Retail > Clothing Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1092,16 +1092,16 @@
     "record_index": 64,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5085886782795557,
     "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1109,16 +1109,16 @@
     "record_index": 65,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "key_and_locksmith",
     "candidates": {
       "current": "key_and_locksmith",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1126,16 +1126,16 @@
     "record_index": 66,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "gas_station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1143,16 +1143,16 @@
     "record_index": 67,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5124939471757408,
     "conflated_value": "active_life",
     "candidates": {
       "current": "active_life",
       "base": "Health and Medicine"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1160,16 +1160,16 @@
     "record_index": 68,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "pizza_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1177,16 +1177,16 @@
     "record_index": 69,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5097694597387407,
     "conflated_value": "fashion",
     "candidates": {
       "current": "fashion",
       "base": "Business and Professional Services > Tailor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1194,16 +1194,16 @@
     "record_index": 70,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1211,16 +1211,16 @@
     "record_index": 71,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "blood_and_plasma_donation_center",
     "candidates": {
       "current": "blood_and_plasma_donation_center",
       "base": "blood_and_plasma_donation_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1228,16 +1228,16 @@
     "record_index": 72,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1245,16 +1245,16 @@
     "record_index": 73,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5100932668088446,
     "conflated_value": "bakery",
     "candidates": {
       "current": "bakery",
       "base": "Dining and Drinking > Bakery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1262,16 +1262,16 @@
     "record_index": 74,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "used_car_dealer",
     "candidates": {
       "current": "used_car_dealer",
       "base": "used_car_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1279,16 +1279,16 @@
     "record_index": 75,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1296,16 +1296,16 @@
     "record_index": 76,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116217059846969,
     "conflated_value": "burger_restaurant",
     "candidates": {
       "current": "burger_restaurant",
       "base": "Dining and Drinking > Restaurant > Burger Joint"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1313,16 +1313,16 @@
     "record_index": 77,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5136676771416945,
     "conflated_value": "b2b_jewelers",
     "candidates": {
       "current": "b2b_jewelers",
       "base": "jewelry_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1330,16 +1330,16 @@
     "record_index": 78,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "hvac_services",
     "candidates": {
       "current": "hvac_services",
       "base": "hvac_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1347,16 +1347,16 @@
     "record_index": 79,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5094202606080811,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Fashion Retail > Jewelry Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1364,16 +1364,16 @@
     "record_index": 80,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.515516248489227,
     "conflated_value": "shredding_services",
     "candidates": {
       "current": "shredding_services",
       "base": "business_management_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1381,16 +1381,16 @@
     "record_index": 81,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "steakhouse",
     "candidates": {
       "current": "steakhouse",
       "base": "steakhouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1398,16 +1398,16 @@
     "record_index": 82,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5108389503598512,
     "conflated_value": "naturopathic_holistic",
     "candidates": {
       "current": "naturopathic_holistic",
       "base": "Health and Medicine > Mental Health Service > Mental Health Clinic"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1415,16 +1415,16 @@
     "record_index": 83,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116106198081565,
     "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "Community and Government > Education"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1432,16 +1432,16 @@
     "record_index": 84,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5127834403522891,
     "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Textiles Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1449,16 +1449,16 @@
     "record_index": 85,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5087015904900688,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Food and Beverage Retail > Health Food Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1466,16 +1466,16 @@
     "record_index": 86,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5120713199682196,
     "conflated_value": "garbage_collection_service",
     "candidates": {
       "current": "garbage_collection_service",
       "base": "Business and Professional Services > Home Improvement Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1483,16 +1483,16 @@
     "record_index": 87,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "electrician",
     "candidates": {
       "current": "electrician",
       "base": "electrician"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1500,16 +1500,16 @@
     "record_index": 88,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "chicken_restaurant",
     "candidates": {
       "current": "chicken_restaurant",
       "base": "chicken_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1517,16 +1517,16 @@
     "record_index": 89,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5107411975373779,
     "conflated_value": "community_center",
     "candidates": {
       "current": "community_center",
       "base": "Arts and Entertainment > Night Club"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1534,16 +1534,16 @@
     "record_index": 90,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.511903247372843,
     "conflated_value": "clothing_store",
     "candidates": {
       "current": "clothing_store",
       "base": "Retail > Fashion Retail > Clothing Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1551,16 +1551,16 @@
     "record_index": 91,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "music_venue",
     "candidates": {
       "current": "music_venue",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1568,16 +1568,16 @@
     "record_index": 92,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "coffee_shop",
     "candidates": {
       "current": "coffee_shop",
       "base": "coffee_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1585,16 +1585,16 @@
     "record_index": 93,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "betting_center",
     "candidates": {
       "current": "betting_center",
       "base": "betting_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1602,16 +1602,16 @@
     "record_index": 94,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5096213366727771,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Convenience Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1619,16 +1619,16 @@
     "record_index": 95,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5118745054865557,
     "conflated_value": "public_service_and_government",
     "candidates": {
       "current": "public_service_and_government",
       "base": "Community and Government > Government Building > Courthouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1636,16 +1636,16 @@
     "record_index": 96,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "shoe_store",
     "candidates": {
       "current": "shoe_store",
       "base": "shoe_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1653,16 +1653,16 @@
     "record_index": 97,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5128974102261421,
     "conflated_value": "furniture_accessory_store",
     "candidates": {
       "current": "furniture_accessory_store",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1670,16 +1670,16 @@
     "record_index": 98,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.513428527220324,
     "conflated_value": "drugstore",
     "candidates": {
       "current": "drugstore",
       "base": "Retail > Drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1687,16 +1687,16 @@
     "record_index": 99,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5102178419425376,
     "conflated_value": "mortgage_lender",
     "candidates": {
       "current": "mortgage_lender",
       "base": "Business and Professional Services > Financial Service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1704,16 +1704,16 @@
     "record_index": 100,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.513546122882672,
     "conflated_value": "butcher_shop",
     "candidates": {
       "current": "butcher_shop",
       "base": "business_to_business"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1721,16 +1721,16 @@
     "record_index": 101,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "auto_insurance",
     "candidates": {
       "current": "auto_insurance",
       "base": "auto_insurance"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1738,16 +1738,16 @@
     "record_index": 102,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "mobile_phone_store",
     "candidates": {
       "current": "mobile_phone_store",
       "base": "mobile_phone_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1755,16 +1755,16 @@
     "record_index": 103,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5096137054784077,
     "conflated_value": "eat_and_drink",
     "candidates": {
       "current": "eat_and_drink",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant > Noodle Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1772,16 +1772,16 @@
     "record_index": 104,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "mobile_phone_repair",
     "candidates": {
       "current": "mobile_phone_repair",
       "base": "mobile_phone_repair"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1789,16 +1789,16 @@
     "record_index": 105,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "cardiologist",
     "candidates": {
       "current": "cardiologist",
       "base": "cardiologist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1806,16 +1806,16 @@
     "record_index": 106,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5115161486271996,
     "conflated_value": "car_rental_agency",
     "candidates": {
       "current": "car_rental_agency",
       "base": "travel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1823,16 +1823,16 @@
     "record_index": 107,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "discount_store",
     "candidates": {
       "current": "discount_store",
       "base": "discount_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1840,16 +1840,16 @@
     "record_index": 108,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "fire_and_water_damage_restoration",
     "candidates": {
       "current": "fire_and_water_damage_restoration",
       "base": "fire_and_water_damage_restoration"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1857,16 +1857,16 @@
     "record_index": 109,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "home_health_care",
     "candidates": {
       "current": "home_health_care",
       "base": "home_health_care"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1874,16 +1874,16 @@
     "record_index": 110,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "bank_credit_union"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1891,16 +1891,16 @@
     "record_index": 111,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.509512445025089,
     "conflated_value": "bar",
     "candidates": {
       "current": "bar",
       "base": "Dining and Drinking > Bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1908,16 +1908,16 @@
     "record_index": 112,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.511366244547232,
     "conflated_value": "mobile_phone_accessories",
     "candidates": {
       "current": "mobile_phone_accessories",
       "base": "Retail > Computers and Electronics Retail > Mobile Phone Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1925,16 +1925,16 @@
     "record_index": 113,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5119754270842805,
     "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Fast Food Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1942,16 +1942,16 @@
     "record_index": 114,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5112850288108184,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "business_management_services"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1959,16 +1959,16 @@
     "record_index": 115,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "medical_center",
     "candidates": {
       "current": "medical_center",
       "base": "medical_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1976,16 +1976,16 @@
     "record_index": 116,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5112206280816433,
     "conflated_value": "speech_therapist",
     "candidates": {
       "current": "speech_therapist",
       "base": "Health and Medicine > Physical Therapy Clinic"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -1993,16 +1993,16 @@
     "record_index": 117,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "self_storage_facility",
     "candidates": {
       "current": "self_storage_facility",
       "base": "self_storage_facility"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2010,16 +2010,16 @@
     "record_index": 118,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5123350291715144,
     "conflated_value": "bank_credit_union",
     "candidates": {
       "current": "bank_credit_union",
       "base": "mortgage_lender"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2027,16 +2027,16 @@
     "record_index": 119,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5108987207152411,
     "conflated_value": "gas_station",
     "candidates": {
       "current": "gas_station",
       "base": "Travel and Transportation > Fuel Station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2044,16 +2044,16 @@
     "record_index": 120,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.510311716064167,
     "conflated_value": "library",
     "candidates": {
       "current": "library",
       "base": "Community and Government > Library"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2061,16 +2061,16 @@
     "record_index": 121,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "engineering_services",
     "candidates": {
       "current": "engineering_services",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2078,16 +2078,16 @@
     "record_index": 122,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5133100676373509,
     "conflated_value": "public_and_government_association",
     "candidates": {
       "current": "public_and_government_association",
       "base": "Business and Professional Services > Auditorium"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2095,16 +2095,16 @@
     "record_index": 123,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5171145417333411,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2112,16 +2112,16 @@
     "record_index": 124,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5112553564277965,
     "conflated_value": "doctor",
     "candidates": {
       "current": "doctor",
       "base": "diagnostic_imaging"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2129,16 +2129,16 @@
     "record_index": 125,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5103647305083129,
     "conflated_value": "metal_supplier",
     "candidates": {
       "current": "metal_supplier",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2146,16 +2146,16 @@
     "record_index": 126,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5108191190431303,
     "conflated_value": "pharmacy",
     "candidates": {
       "current": "pharmacy",
       "base": "drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2163,16 +2163,16 @@
     "record_index": 127,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "matchmaker",
     "candidates": {
       "current": "matchmaker",
       "base": "matchmaker"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2180,16 +2180,16 @@
     "record_index": 128,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116332204178303,
     "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "Dining and Drinking > Restaurant > Mexican Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2197,16 +2197,16 @@
     "record_index": 129,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "mobile_phone_store",
     "candidates": {
       "current": "mobile_phone_store",
       "base": "mobile_phone_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2214,16 +2214,16 @@
     "record_index": 130,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5091521586040821,
     "conflated_value": "cafe",
     "candidates": {
       "current": "cafe",
       "base": "Dining and Drinking > Cafe, Coffee, and Tea House > Café"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2231,16 +2231,16 @@
     "record_index": 131,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5145203267964853,
     "conflated_value": "public_and_government_association",
     "candidates": {
       "current": "public_and_government_association",
       "base": "Community and Government > Government Building"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2248,16 +2248,16 @@
     "record_index": 132,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "barber",
     "candidates": {
       "current": "barber",
       "base": "barber"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2265,16 +2265,16 @@
     "record_index": 133,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "auto_manufacturers_and_distributors",
     "candidates": {
       "current": "auto_manufacturers_and_distributors",
       "base": "auto_manufacturers_and_distributors"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2282,16 +2282,16 @@
     "record_index": 134,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "key_and_locksmith",
     "candidates": {
       "current": "key_and_locksmith",
       "base": "key_and_locksmith"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2299,16 +2299,16 @@
     "record_index": 135,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.510939636657078,
     "conflated_value": "accommodation",
     "candidates": {
       "current": "accommodation",
       "base": "Travel and Transportation > Lodging > Cabin"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2316,16 +2316,16 @@
     "record_index": 136,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5098780036751667,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2333,16 +2333,16 @@
     "record_index": 137,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5114735946189313,
     "conflated_value": "restaurant",
     "candidates": {
       "current": "restaurant",
       "base": "Dining and Drinking > Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2350,16 +2350,16 @@
     "record_index": 138,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5098135183768896,
     "conflated_value": "courthouse",
     "candidates": {
       "current": "courthouse",
       "base": "Community and Government > Government Building > Courthouse"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2367,16 +2367,16 @@
     "record_index": 139,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5107295577039233,
     "conflated_value": "language_school",
     "candidates": {
       "current": "language_school",
       "base": "Community and Government > Education > Language School"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2384,16 +2384,16 @@
     "record_index": 140,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5090477525379226,
     "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2401,16 +2401,16 @@
     "record_index": 141,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5094797160857417,
     "conflated_value": "lawyer",
     "candidates": {
       "current": "lawyer",
       "base": "divorce_and_family_law"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2418,16 +2418,16 @@
     "record_index": 142,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2435,16 +2435,16 @@
     "record_index": 143,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5118120805442535,
     "conflated_value": "hospital",
     "candidates": {
       "current": "hospital",
       "base": "health_and_medical"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2452,16 +2452,16 @@
     "record_index": 144,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5101519224886526,
     "conflated_value": "desserts",
     "candidates": {
       "current": "desserts",
       "base": "Dining and Drinking > Dessert Shop > Pie Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2469,16 +2469,16 @@
     "record_index": 145,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "assisted_living_facility",
     "candidates": {
       "current": "assisted_living_facility",
       "base": "assisted_living_facility"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2486,16 +2486,16 @@
     "record_index": 146,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "recreational_vehicle_dealer",
     "candidates": {
       "current": "recreational_vehicle_dealer",
       "base": "recreational_vehicle_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2503,16 +2503,16 @@
     "record_index": 147,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2520,16 +2520,16 @@
     "record_index": 148,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5108635232185427,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "home_improvement_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2537,16 +2537,16 @@
     "record_index": 149,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "auto_parts_and_supply_store",
     "candidates": {
       "current": "auto_parts_and_supply_store",
       "base": "auto_parts_and_supply_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2554,16 +2554,16 @@
     "record_index": 150,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5117932476310146,
     "conflated_value": "topic_concert_venue",
     "candidates": {
       "current": "topic_concert_venue",
       "base": "Sports and Recreation > Soccer > Soccer Field"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2571,16 +2571,16 @@
     "record_index": 151,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5136668065946604,
     "conflated_value": "building_supply_store",
     "candidates": {
       "current": "building_supply_store",
       "base": "tile_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2588,16 +2588,16 @@
     "record_index": 152,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5136942878705617,
     "conflated_value": "insurance_agency",
     "candidates": {
       "current": "insurance_agency",
       "base": "shopping_center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2605,16 +2605,16 @@
     "record_index": 153,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5090477525379226,
     "conflated_value": "hotel",
     "candidates": {
       "current": "hotel",
       "base": "Travel and Transportation > Lodging > Hotel"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2622,16 +2622,16 @@
     "record_index": 154,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5112087325290242,
     "conflated_value": "hair_salon",
     "candidates": {
       "current": "hair_salon",
       "base": "waxing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2639,16 +2639,16 @@
     "record_index": 155,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "employment_agencies",
     "candidates": {
       "current": "employment_agencies",
       "base": "employment_agencies"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2656,16 +2656,16 @@
     "record_index": 156,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "doctor",
     "candidates": {
       "current": "doctor",
       "base": "doctor"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2673,16 +2673,16 @@
     "record_index": 157,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5110839977762957,
     "conflated_value": "train_station",
     "candidates": {
       "current": "train_station",
       "base": "Travel and Transportation > Transport Hub > Rail Station"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2690,16 +2690,16 @@
     "record_index": 158,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5140027231658859,
     "conflated_value": "commercial_industrial",
     "candidates": {
       "current": "commercial_industrial",
       "base": "cement_supplier"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2707,16 +2707,16 @@
     "record_index": 159,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5114500662614705,
     "conflated_value": "office_equipment",
     "candidates": {
       "current": "office_equipment",
       "base": "Retail > Furniture and Home Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2724,16 +2724,16 @@
     "record_index": 160,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5087846779859774,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "drugstore"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2741,16 +2741,16 @@
     "record_index": 161,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5162520992055154,
     "conflated_value": "hardware_store",
     "candidates": {
       "current": "hardware_store",
       "base": "paint_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2758,16 +2758,16 @@
     "record_index": 162,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5194557600190077,
     "conflated_value": "home_cleaning",
     "candidates": {
       "current": "home_cleaning",
       "base": "office_cleaning"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2775,16 +2775,16 @@
     "record_index": 163,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5100932668088446,
     "conflated_value": "bakery",
     "candidates": {
       "current": "bakery",
       "base": "Dining and Drinking > Bakery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2792,16 +2792,16 @@
     "record_index": 164,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5114689140952275,
     "conflated_value": "escape_rooms",
     "candidates": {
       "current": "escape_rooms",
       "base": "Arts and Entertainment > Escape Room"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2809,16 +2809,16 @@
     "record_index": 165,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5083743705858123,
     "conflated_value": "spas",
     "candidates": {
       "current": "spas",
       "base": "Business and Professional Services > Health and Beauty Service > Nail Salon"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2826,16 +2826,16 @@
     "record_index": 166,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5102991829733196,
     "conflated_value": "church_cathedral",
     "candidates": {
       "current": "church_cathedral",
       "base": "Community and Government > Spiritual Center > Church"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2843,16 +2843,16 @@
     "record_index": 167,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5102354839688071,
     "conflated_value": "auto_glass_service",
     "candidates": {
       "current": "auto_glass_service",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2860,16 +2860,16 @@
     "record_index": 168,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "podiatrist",
     "candidates": {
       "current": "podiatrist",
       "base": "podiatrist"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2877,16 +2877,16 @@
     "record_index": 169,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5098025902334985,
     "conflated_value": "swimming_pool",
     "candidates": {
       "current": "swimming_pool",
       "base": "Sports and Recreation > Water Sports > Swimming > Swimming Pool"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2894,16 +2894,16 @@
     "record_index": 170,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5112371837215893,
     "conflated_value": "thai_restaurant",
     "candidates": {
       "current": "thai_restaurant",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2911,16 +2911,16 @@
     "record_index": 171,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5130059569478826,
     "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "specialty_school"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2928,16 +2928,16 @@
     "record_index": 172,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5116752223212208,
     "conflated_value": "information_technology_company",
     "candidates": {
       "current": "information_technology_company",
       "base": "Business and Professional Services > Business Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2945,16 +2945,16 @@
     "record_index": 173,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5089985372119772,
     "conflated_value": "shopping",
     "candidates": {
       "current": "shopping",
       "base": "Retail > Food and Beverage Retail > Butcher"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2962,16 +2962,16 @@
     "record_index": 174,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5164849000122609,
     "conflated_value": "motorsports_store",
     "candidates": {
       "current": "motorsports_store",
       "base": "motorcycle_dealer"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2979,16 +2979,16 @@
     "record_index": 175,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5106058858419396,
     "conflated_value": "bridal_shop",
     "candidates": {
       "current": "bridal_shop",
       "base": "Retail > Fashion Retail > Bridal Store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -2996,16 +2996,16 @@
     "record_index": 176,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "food_delivery_service",
     "candidates": {
       "current": "food_delivery_service",
       "base": "food_delivery_service"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3013,16 +3013,16 @@
     "record_index": 177,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5123082817783451,
     "conflated_value": "asian_restaurant",
     "candidates": {
       "current": "asian_restaurant",
       "base": "Dining and Drinking > Restaurant > Asian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3030,16 +3030,16 @@
     "record_index": 178,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "sunglasses_store",
     "candidates": {
       "current": "sunglasses_store",
       "base": "sunglasses_store"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3047,16 +3047,16 @@
     "record_index": 179,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5109548297571453,
     "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "Business and Professional Services > Automotive Service > Automotive Repair Shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3064,16 +3064,16 @@
     "record_index": 180,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5124883218631462,
     "conflated_value": "gardener",
     "candidates": {
       "current": "gardener",
       "base": "Retail > Garden Center"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3081,16 +3081,16 @@
     "record_index": 181,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5156314752869979,
     "conflated_value": "american_restaurant",
     "candidates": {
       "current": "american_restaurant",
       "base": "breakfast_and_brunch_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3098,16 +3098,16 @@
     "record_index": 182,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5126735245995401,
     "conflated_value": "automotive_parts_and_accessories",
     "candidates": {
       "current": "automotive_parts_and_accessories",
       "base": "Business and Professional Services > Factory"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3115,16 +3115,16 @@
     "record_index": 183,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5110647239748795,
     "conflated_value": "art_gallery",
     "candidates": {
       "current": "art_gallery",
       "base": "Arts and Entertainment > Art Gallery"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3132,16 +3132,16 @@
     "record_index": 184,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "fast_food_restaurant",
     "candidates": {
       "current": "fast_food_restaurant",
       "base": "fast_food_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3149,16 +3149,16 @@
     "record_index": 185,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "roofing",
     "candidates": {
       "current": "roofing",
       "base": "roofing"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3166,16 +3166,16 @@
     "record_index": 186,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3183,16 +3183,16 @@
     "record_index": 187,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3200,16 +3200,16 @@
     "record_index": 188,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5074874692689595,
     "conflated_value": "atms",
     "candidates": {
       "current": "atms",
       "base": "Business and Professional Services > Financial Service > Banking and Finance > ATM"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3217,16 +3217,16 @@
     "record_index": 189,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.9582287291846746,
+    "model_confidence": 0.5089476925245356,
     "conflated_value": "home_improvement_store",
     "candidates": {
       "current": "home_improvement_store",
       "base": ""
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3234,16 +3234,16 @@
     "record_index": 190,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "damage_restoration",
     "candidates": {
       "current": "damage_restoration",
       "base": "damage_restoration"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3251,16 +3251,16 @@
     "record_index": 191,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5100008036155449,
     "conflated_value": "chocolatier",
     "candidates": {
       "current": "chocolatier",
       "base": "gift_shop"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3268,16 +3268,16 @@
     "record_index": 192,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.509512445025089,
     "conflated_value": "bar",
     "candidates": {
       "current": "bar",
       "base": "Dining and Drinking > Bar"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3285,16 +3285,16 @@
     "record_index": 193,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5142611572667524,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "pizza_restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3302,16 +3302,16 @@
     "record_index": 194,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5127032394207731,
     "conflated_value": "education",
     "candidates": {
       "current": "education",
       "base": "kids_recreation_and_party"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3319,16 +3319,16 @@
     "record_index": 195,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5118587630055144,
     "conflated_value": "automotive_repair",
     "candidates": {
       "current": "automotive_repair",
       "base": "oil_and_gas"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3336,16 +3336,16 @@
     "record_index": 196,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5122730309511522,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Pizzeria"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3353,16 +3353,16 @@
     "record_index": 197,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5137701659545939,
     "conflated_value": "vocational_and_technical_school",
     "candidates": {
       "current": "vocational_and_technical_school",
       "base": "specialty_school"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3370,16 +3370,16 @@
     "record_index": 198,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5165011843284913,
     "conflated_value": "italian_restaurant",
     "candidates": {
       "current": "italian_restaurant",
       "base": "restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   },
   {
@@ -3387,16 +3387,16 @@
     "record_index": 199,
     "attribute": "category",
     "selected_source": "current",
-    "model_confidence": 0.5043002089587514,
+    "model_confidence": 0.5113842661541711,
     "conflated_value": "pizza_restaurant",
     "candidates": {
       "current": "pizza_restaurant",
       "base": "Dining and Drinking > Restaurant > Italian Restaurant"
     },
     "inference_meta": {
-      "duration_seconds": 0.0009109973907470703,
-      "initial_memory_mb": 101.21875,
-      "peak_memory_mb": 166.984375
+      "duration_seconds": 0.001280069351196289,
+      "initial_memory_mb": 99.90625,
+      "peak_memory_mb": 165.046875
     }
   }
 ]
