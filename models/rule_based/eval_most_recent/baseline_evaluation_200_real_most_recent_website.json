@@ -1,0 +1,13 @@
+{
+  "algorithm": "Baseline Most Recent (website)",
+  "metrics": {
+    "accuracy": 0.74,
+    "precision": 0.7724550898203593,
+    "recall": 0.9020979020979021,
+    "f1": 0.832258064516129,
+    "n_samples": 200
+  },
+  "coverage": 1.0,
+  "n_total": 200,
+  "n_unclear": 0
+}

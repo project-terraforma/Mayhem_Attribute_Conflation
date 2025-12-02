@@ -1,0 +1,13 @@
+{
+  "algorithm": "Baseline Most Recent (phone)",
+  "metrics": {
+    "accuracy": 0.76,
+    "precision": 0.7513227513227513,
+    "recall": 0.993006993006993,
+    "f1": 0.8554216867469879,
+    "n_samples": 200
+  },
+  "coverage": 1.0,
+  "n_total": 200,
+  "n_unclear": 0
+}

@@ -24,8 +24,39 @@ def load_golden_labels(golden_file: str, attribute: str = 'name') -> Dict[str, s
     labels = {}
     for record in golden_data:
         record_id = record['id']
-        label = record.get('labels', {}).get(attribute, 'unclear')
-        labels[record_id] = label
+        
+        # Get raw values to check for equality
+        # Map attribute name to data keys
+        attr_key_map = {
+            'name': ('names', 'base_names'),
+            'phone': ('phones', 'base_phones'),
+            'website': ('websites', 'base_websites'),
+            'address': ('addresses', 'base_addresses'),
+            'category': ('categories', 'base_categories')
+        }
+        
+        curr_key, base_key = attr_key_map.get(attribute, (None, None))
+        
+        # Fallback label from manual review
+        manual_label = record.get('label', 'unclear')
+        label_map = {'b': 'base', 'c': 'current', 's': 'same', 'u': 'unclear'}
+        final_label = label_map.get(manual_label, manual_label)
+
+        # Smart derivation: If values are identical, label is 'same'
+        if curr_key and 'data' in record:
+            try:
+                val_c = str(record['data']['current'].get(curr_key, '')).strip()
+                val_b = str(record['data']['base'].get(base_key, '')).strip()
+                
+                # Normalize nulls/NaNs
+                if val_c in ['None', 'nan', 'NaN', '[]', '{}'] and val_b in ['None', 'nan', 'NaN', '[]', '{}']:
+                    final_label = 'same'
+                elif val_c == val_b:
+                    final_label = 'same'
+            except:
+                pass
+        
+        labels[record_id] = final_label
     
     return labels
 
@@ -303,7 +334,16 @@ def main():
     # Load predictions
     print(f"Loading predictions from {args.predictions}...")
     with open(args.predictions, 'r') as f:
-        predictions = json.load(f)
+        raw_predictions = json.load(f)
+        
+    # Handle list format (from run_inference.py) vs dict format (from baseline_heuristics.py)
+    if isinstance(raw_predictions, list):
+        predictions = {}
+        for item in raw_predictions:
+            if 'id' in item and 'selected_source' in item:
+                predictions[item['id']] = item['selected_source']
+    else:
+        predictions = raw_predictions
     
     # Load golden labels
     print(f"Loading golden labels from {args.golden}...")

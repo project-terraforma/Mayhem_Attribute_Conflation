@@ -53,9 +53,13 @@ def run_pipeline_for_attribute(attribute: str, args):
     # Step 1: Generate synthetic golden dataset (if needed)
     # This step generates the synthetic data ONCE, then process_synthetic_data uses it
     if attribute == ALL_ATTRIBUTES[0] and not args.skip_golden: # Only generate once for the first attribute
+        cmd = [sys.executable, 'scripts/generate_synthetic_dataset.py']
+        if args.synthetic_limit:
+            cmd.extend(['--limit', str(args.synthetic_limit)])
+            
         success = run_step(
             "Generate Synthetic Golden Dataset",
-            [sys.executable, 'scripts/generate_synthetic_dataset.py']
+            cmd
         )
         if not success:
             print("ERROR: Synthetic dataset generation failed. Cannot continue.")
@@ -68,49 +72,64 @@ def run_pipeline_for_attribute(attribute: str, args):
     # Step 2: Process synthetic data (extract features for training)
     if not args.skip_features:
         synthetic_features_file = f'data/processed/features_{attribute}_synthetic.parquet'
-        if not Path(synthetic_features_file).exists():
-            success = run_step(
-                f"Process Synthetic Data (Features for {attribute})",
-                [sys.executable, '-m', 'scripts.process_synthetic_data',
-                 '--attribute', attribute]
-            )
-            if not success:
-                print(f"ERROR: Feature extraction for {attribute} failed. Cannot continue.")
-                return False
-        else:
-            print(f"\nFeatures for {attribute} already exist: {synthetic_features_file}")
+        # Features for an attribute are always regenerated if not skipped
+        success = run_step(
+            f"Process Synthetic Data (Features for {attribute})",
+            [sys.executable, '-m', 'scripts.process_synthetic_data',
+             '--attribute', attribute]
+        )
+        if not success:
+            print(f"ERROR: Feature extraction for {attribute} failed. Cannot continue.")
+            return False
     else:
         print(f"\nSkipping feature extraction for {attribute}.")
 
     # Step 3: Train ML models
     if not args.skip_ml:
         synthetic_features_file = f'data/processed/features_{attribute}_synthetic.parquet'
-        output_model_dir = f'models/ml_models/{attribute}'
-        if Path(synthetic_features_file).exists():
-            success = run_step(
-                f"Train ML Models ({attribute})",
-                [sys.executable, 'scripts/train_models.py',
-                 '--features', synthetic_features_file,
-                 '--output-dir', output_model_dir]
-            )
-            if not success:
-                print(f"Warning: ML training for {attribute} failed, but continuing...")
-        else:
-            print(f"ERROR: Synthetic features file not found for {attribute}. Run feature extraction first.")
+        output_model_dir = f'models/ml/{attribute}'
+        
+        success = run_step(
+            f"Train ML Models ({attribute})",
+            [sys.executable, 'scripts/train_models.py',
+             '--features', synthetic_features_file,
+             '--output-dir', output_model_dir]
+        )
+        if not success:
+            print(f"Warning: ML training for {attribute} failed, but continuing...")
     else:
         print(f"\nSkipping ML model training for {attribute}.")
     
     # Step 4: Evaluate ML Model on Real Golden Dataset (200 records)
-    # This replaces the original evaluate_real_data.py call
     if not args.skip_ml_eval:
         ml_predictions_200_file = f'data/results/ml_predictions_200_real_{attribute}.json'
         
-        # First, run inference on the 200 real records
+        output_model_dir = Path(f'models/ml/{attribute}')
+        summary_path = output_model_dir / 'training_summary.json'
+        
+        # Check if model training output directory and summary exist
+        if not (output_model_dir.exists() and summary_path.exists()):
+            print(f"Warning: No trained ML model found for {attribute} at {output_model_dir}. Skipping ML evaluation on 200 real records.")
+            return True # Allow pipeline to continue
+        
+        # Load best model name from summary
+        with open(summary_path, 'r') as f:
+            summary = json.load(f)
+        best_model_name = summary['best_model']
+        model_path = output_model_dir / f"best_model_{best_model_name}.joblib"
+        
+        # Check if the actual best model file exists
+        if not model_path.exists():
+            print(f"Warning: Best model file not found at {model_path}. Skipping ML evaluation on 200 real records.")
+            return True # Allow pipeline to continue
+
+        # First, run inference on the 200 real records using the dynamically selected best model
         success = run_step(
             f"Run ML Inference on 200 Real Records ({attribute})",
             [sys.executable, '-m', 'scripts.run_inference',
              '--attribute', attribute,
              '--data', REAL_GOLDEN_PATH, # The 200 real records are in golden_dataset_200.json
+             '--model', str(model_path),
              '--output', ml_predictions_200_file
             ]
         )
@@ -141,7 +160,7 @@ def run_pipeline_for_attribute(attribute: str, args):
         print(f"EVALUATING BASELINE HEURISTICS ({attribute.upper()})")
         print("="*80)
         
-        baselines = ['most_recent', 'confidence', 'completeness'] # 'hybrid' is often a combination of these
+        baselines = ['most_recent', 'confidence', 'completeness', 'hybrid'] # 'hybrid' is often a combination of these
         
         for baseline_name in baselines:
             baseline_predictions_file = f'data/results/predictions_baseline_{baseline_name}_200_real_{attribute}.json'
@@ -177,28 +196,36 @@ def run_pipeline_for_attribute(attribute: str, args):
     
     # Step 6: Run final inference on 2000 Overture records (for ML model)
     if not args.skip_inference_2k:
-        model_dir = Path(f'models/ml_models/{attribute}')
-        summary_path = model_dir / 'training_summary.json'
+        output_model_dir = Path(f'models/ml/{attribute}')
+        summary_path = output_model_dir / 'training_summary.json'
         
-        if summary_path.exists():
-            with open(summary_path, 'r') as f:
-                summary = json.load(f)
-            best_model_name = summary['best_model']
-            model_path = model_dir / f"best_model_{best_model_name}.joblib"
+        # Check if model training output directory and summary exist
+        if not (output_model_dir.exists() and summary_path.exists()):
+            print(f"Warning: No trained ML model found for {attribute} at {output_model_dir}. Skipping final ML inference.")
+            return True # Allow pipeline to continue
+        
+        # Load best model name from summary
+        with open(summary_path, 'r') as f:
+            summary = json.load(f)
+        best_model_name = summary['best_model']
+        model_path = output_model_dir / f"best_model_{best_model_name}.joblib"
+        
+        # Check if the actual best model file exists
+        if not model_path.exists():
+            print(f"Warning: Best model file not found at {model_path}. Skipping final ML inference.")
+            return True # Allow pipeline to continue
             
-            success = run_step(
-                f"Run Final ML Inference on 2000 Overture Records ({attribute})",
-                [sys.executable, '-m', 'scripts.run_inference',
-                 '--attribute', attribute,
-                 '--data', 'data/project_b_samples_2k.parquet',
-                 '--model', str(model_path),
-                 '--output', f'data/results/final_conflated_{attribute}_2k.json'
-                ]
-            )
-            if not success:
-                print(f"Warning: Final ML inference for {attribute} on 2000 records failed.")
-        else:
-            print(f"Warning: No trained ML model found for {attribute}. Skipping final inference.")
+        success = run_step(
+            f"Run Final ML Inference on 2000 Overture Records ({attribute})",
+            [sys.executable, '-m', 'scripts.run_inference',
+             '--attribute', attribute,
+             '--data', 'data/project_b_samples_2k.parquet',
+             '--model', str(model_path),
+             '--output', f'data/results/final_conflated_{attribute}_2k.json'
+            ]
+        )
+        if not success:
+            print(f"Warning: Final ML inference for {attribute} on 2000 records failed.")
     else:
         print(f"\nSkipping final ML inference for {attribute} on 2000 records.")
 
@@ -226,6 +253,8 @@ def main():
                        help='Skip final inference on 2000 Overture records')
     parser.add_argument('--skip-consolidation', action='store_true',
                        help='Skip final consolidation of 2k inference results')
+    parser.add_argument('--synthetic-limit', type=int, default=2000,
+                       help='Number of synthetic records to generate (0 for all)')
     
     args = parser.parse_args()
     
@@ -261,4 +290,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

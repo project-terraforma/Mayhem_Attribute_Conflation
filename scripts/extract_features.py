@@ -328,8 +328,8 @@ def extract_category_primary(category_field):
     """Extract primary category string."""
     parsed = parse_json_field(category_field)
     if parsed and isinstance(parsed, dict):
-        val = parsed.get('primary', '')
-        return str(val).strip() if val is not None else ''
+        val = parsed.get('primary') # Get primary, can be None
+        return str(val).strip() if val is not None else '' # Ensure it's a string
     return ''
 
 def extract_category_features(current_cat: Any, base_cat: Any) -> Dict[str, float]:

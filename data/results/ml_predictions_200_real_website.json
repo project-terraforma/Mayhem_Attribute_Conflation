@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "08f64a59990a63a0030784450be43ba4",
+    "record_index": 0,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f3da18ccad52ad03cc06b87820910f",
+    "record_index": 1,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.981183831502138,
+    "conflated_value": "https://pharmacy-nearme.davaindia.com/davaindia-generic-pharmacy-pharmacy-rohini-sector-15-new-delhi-173545/Home?utm_source=locator&utm_medium=bing",
+    "candidates": {
+      "current": "http://sector15rohini.davaindia.com/",
+      "base": "https://pharmacy-nearme.davaindia.com/davaindia-generic-pharmacy-pharmacy-rohini-sector-15-new-delhi-173545/Home?utm_source=locator&utm_medium=bing"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4823ad167532903b45bc53a70221e",
+    "record_index": 2,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5142760784220743,
+    "conflated_value": "http://www.homedepot.com.mx/",
+    "candidates": {
+      "current": "http://www.homedepot.com.mx/",
+      "base": "http://www.homedepot.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f28de8b291171e037d00b748edc418",
+    "record_index": 3,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8537105786023717,
+    "conflated_value": "https://soneijewellers.ca/",
+    "candidates": {
+      "current": "http://soneijewellers.ca/",
+      "base": "https://soneijewellers.ca/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa90e8d6b065a303084f1af4a32095",
+    "record_index": 4,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.imobiliariaalegro.com.br/",
+    "candidates": {
+      "current": "http://www.imobiliariaalegro.com.br/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f618c49a7528c003ccdd6a1e4805b9",
+    "record_index": 5,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6605437963018908,
+    "conflated_value": "https://v1.hdfcbank.com/branch-atm-locator/hdfc-bank-atm-thiruvottriyur-atm-thiruvottriyur-tiruvallur-17474/Home",
+    "candidates": {
+      "current": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-atm-thiruvottriyur-atm-thiruvottriyur-tiruvallur-17474/Home?utm_source=locator&utm_medium=bing",
+      "base": "https://v1.hdfcbank.com/branch-atm-locator/hdfc-bank-atm-thiruvottriyur-atm-thiruvottriyur-tiruvallur-17474/Home"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aad39c474c9c03e6e7b74bca7273",
+    "record_index": 6,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://5pointbarber.com",
+    "candidates": {
+      "current": "http://5pointbarber.com",
+      "base": "nan"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa810394ce9a0003eabeff0516b3b1",
+    "record_index": 7,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8749577918376866,
+    "conflated_value": "https://edeliveryapp.com.br/esfihachic/",
+    "candidates": {
+      "current": "https://edeliveryapp.com.br/esfihachic/",
+      "base": "http://esfihachicvergueiro.com.br"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949960007229",
+    "record_index": 8,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.7322944523897585,
+    "conflated_value": "https://www.bristolhotelva.com/",
+    "candidates": {
+      "current": "https://www.bristolhotelva.com/?utm_medium=organic&utm_source=yext&utm_campaign=website",
+      "base": "https://www.bristolhotelva.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f39608a0b76a6203fb3f420b3f857f",
+    "record_index": 9,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.chateausaintlouis.fr",
+    "candidates": {
+      "current": "http://www.chateausaintlouis.fr",
+      "base": "http://www.chateausaintlouis.fr"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899909415294",
+    "record_index": 10,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.bentosushi.com/",
+    "candidates": {
+      "current": "https://www.bentosushi.com/",
+      "base": "https://www.bentosushi.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e15b0b2cbc5303c99047c56c8812",
+    "record_index": 11,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9765150002784784,
+    "conflated_value": "https://www.bauhaus.at",
+    "candidates": {
+      "current": "http://bauhaus.at/",
+      "base": "https://www.bauhaus.at"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f64a4ba092672503433c3f96046607",
+    "record_index": 12,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a1001299846e0365e336fd67ea1f",
+    "record_index": 13,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9269283458086449,
+    "conflated_value": "https://www.childrensplace.com/us/store/jeromeavenue-bronx-NY-114402",
+    "candidates": {
+      "current": "http://www.childrensplace.com",
+      "base": "https://www.childrensplace.com/us/store/jeromeavenue-bronx-NY-114402"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a10af6490232035733f1aacdac0c",
+    "record_index": 14,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5418678821917936,
+    "conflated_value": "http://Jamprobeelectric.com/",
+    "candidates": {
+      "current": "http://Jamprobeelectric.com/",
+      "base": "http://jamprobeelectric.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899911666117",
+    "record_index": 15,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8608437679703173,
+    "conflated_value": "https://www.walmart.com/store/1676-tell-city-in/",
+    "candidates": {
+      "current": "http://www.walmart.com/store/1676-tell-city-in",
+      "base": "https://www.walmart.com/store/1676-tell-city-in/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aab52140802c0395a9524fcac41d",
+    "record_index": 16,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.libertytax.com/12077",
+    "candidates": {
+      "current": "https://www.libertytax.com/12077",
+      "base": "https://www.libertytax.com/12077"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949958207347",
+    "record_index": 17,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://millersalehouse.com/locations/tampa/?utm_source=extnet&utm_medium=organic",
+    "candidates": {
+      "current": "",
+      "base": "https://millersalehouse.com/locations/tampa/?utm_source=extnet&utm_medium=organic"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4983ca438bc5b033bac5a072fa3cd",
+    "record_index": 18,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.vapehausmx.com/",
+    "candidates": {
+      "current": "http://www.vapehausmx.com/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f64a090e19a48203f58e9c92720d04",
+    "record_index": 19,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899912289624",
+    "record_index": 20,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8737392089009272,
+    "conflated_value": "https://www.universalrfg.com/",
+    "candidates": {
+      "current": "https://www.universalrfg.com/",
+      "base": "https://universalrfg.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f8c100e5135acc0320b9849219dda3",
+    "record_index": 21,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f264626394cd4b030ac3f573c76061",
+    "record_index": 22,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.7320100557383289,
+    "conflated_value": "http://www.bankofamerica.com",
+    "candidates": {
+      "current": "https://locators.bankofamerica.com/mo/richmondheights/atm-richmond-heights-108052.html",
+      "base": "http://www.bankofamerica.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aa650405da4d03ac202ae41b574e",
+    "record_index": 23,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.brierwoodchildcare.com/hamburg-ny-daycare-center.php",
+    "candidates": {
+      "current": "https://www.brierwoodchildcare.com/hamburg-ny-daycare-center.php",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f64b018d54d71403e6f180aca04fd1",
+    "record_index": 24,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f195b614a70ba603c3acc5ff81ea94",
+    "record_index": 25,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.itssotravel.com/",
+    "candidates": {
+      "current": "http://www.itssotravel.com/",
+      "base": "http://www.itssotravel.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1955b54b2a74c0328fbe52b771e1c",
+    "record_index": 26,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8464015295402391,
+    "conflated_value": "https://www.barclays.co.uk/branch-finder/",
+    "candidates": {
+      "current": "https://www.barclays.co.uk/branch-finder/",
+      "base": "http://www.barclays.co.uk"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949955127994",
+    "record_index": 27,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://www.mysunrisefinancial.com/",
+    "candidates": {
+      "current": "",
+      "base": "https://www.mysunrisefinancial.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44e5a4a781c1e03baeb3101f89e1e",
+    "record_index": 28,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9380202257894312,
+    "conflated_value": "https://www.dillards.com/stores/florida/santa-rosa-mall-mary-esther/0246",
+    "candidates": {
+      "current": "http://www.Dillards.com/",
+      "base": "https://www.dillards.com/stores/florida/santa-rosa-mall-mary-esther/0246"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f1a9ab72151e0395f93e968c61b9",
+    "record_index": 29,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5935377320664721,
+    "conflated_value": "https://tankstelle.aral.de/tankstelle/28743000",
+    "candidates": {
+      "current": "http://www.aral.de/",
+      "base": "https://tankstelle.aral.de/tankstelle/28743000"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fbe63da4d1c35203c109690c55a1a6",
+    "record_index": 30,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.pakenhamisuzuute.com.au/",
+    "candidates": {
+      "current": "http://www.pakenhamisuzuute.com.au/",
+      "base": "http://www.pakenhamisuzuute.com.au/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899912707169",
+    "record_index": 31,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5186405821681395,
+    "conflated_value": "https://21petalsflowerslafayette.com/",
+    "candidates": {
+      "current": "https://21petalsflowerslafayette.com/",
+      "base": "http://www.21petalsflowerslafayette.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2986b8089b2cb03220db3aa72c816",
+    "record_index": 32,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9645691599590874,
+    "conflated_value": "https://www.miraclemileshopslv.com/",
+    "candidates": {
+      "current": "https://en.parkopedia.com/parking/garage/miracle_mile_shops_planet_hollywood_resort/89109/las_vegas/?vendor=here",
+      "base": "https://www.miraclemileshopslv.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aa419d72b04103961e80be2a5836",
+    "record_index": 33,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.walgreens.com/locator/walgreens-226+liberty+st-penn+yan-ny-14527/id=10218",
+    "candidates": {
+      "current": "https://www.walgreens.com/locator/walgreens-226+liberty+st-penn+yan-ny-14527/id=10218",
+      "base": "https://www.walgreens.com/locator/walgreens-226+liberty+st-penn+yan-ny-14527/id=10218"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa810056a2b6400390bcc253369382",
+    "record_index": 34,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://evsaguiar.com.br/",
+    "candidates": {
+      "current": "http://evsaguiar.com.br/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4440ca382a59803895546c2d4bd4f",
+    "record_index": 35,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8585628054375511,
+    "conflated_value": "https://www.rejuvimemedical.com/",
+    "candidates": {
+      "current": "http://www.rejuvimemedical.com/",
+      "base": "https://www.rejuvimemedical.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f08ed358889889037e291e52eb62a5",
+    "record_index": 36,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5327549145457852,
+    "conflated_value": "http://www.fullsteam.no/",
+    "candidates": {
+      "current": "http://www.fullsteam.no/",
+      "base": "http://www.full-steam.no"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f396cb6912ad000340ccfcbe06ce49",
+    "record_index": 37,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.hotel-les-hospitaliers.com/",
+    "candidates": {
+      "current": "https://www.hotel-les-hospitaliers.com/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1ea2d93cc3a9e035b43ef4cb52ad1",
+    "record_index": 38,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5276532573239996,
+    "conflated_value": "http://www.centrovolontariato.net/",
+    "candidates": {
+      "current": "http://www.centrovolontariato.net/",
+      "base": "http://www.centrovolontariato.net"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a1340ea313910338f0d15a4b7f1f",
+    "record_index": 39,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://grocery.walmart.com/locations/delivery/Walmart-Cinnaminson-NJ-Supercenter-2871",
+    "candidates": {
+      "current": "https://grocery.walmart.com/locations/delivery/Walmart-Cinnaminson-NJ-Supercenter-2871",
+      "base": "https://grocery.walmart.com/locations/delivery/Walmart-Cinnaminson-NJ-Supercenter-2871"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f27418ead55b2203bbea6c6321ba6c",
+    "record_index": 40,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8603653708156315,
+    "conflated_value": "http://www.realestatetc.com/",
+    "candidates": {
+      "current": "http://realestatetc.com/",
+      "base": "http://www.realestatetc.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4440d8b89c95803ef5bd3cc80eac4",
+    "record_index": 41,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5416122242245553,
+    "conflated_value": "http://izzos.com",
+    "candidates": {
+      "current": "http://izzos.com",
+      "base": "http://izzos.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f60a25956e9c320304addce950be4d",
+    "record_index": 42,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "",
+    "candidates": {
+      "current": "",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899908355011",
+    "record_index": 43,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9022544054154266,
+    "conflated_value": "https://www.livebh.com/apartments/the-fairways-at-san-marcos/",
+    "candidates": {
+      "current": "http://www.fairwaysapartmenthomes.com/",
+      "base": "https://www.livebh.com/apartments/the-fairways-at-san-marcos/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2ba86ae7436460305560e1acd61d2",
+    "record_index": 44,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5183351969908733,
+    "conflated_value": "https://www.sportsexperts.ca/",
+    "candidates": {
+      "current": "https://www.sportsexperts.ca/",
+      "base": "https://www.sportsexperts.ca"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a1345c68e8b3038979f9ceb4b9d6",
+    "record_index": 45,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.533090134508992,
+    "conflated_value": "http://www.ricciardibrothers.com/location-nj",
+    "candidates": {
+      "current": "https://ricciardibrothers.com/",
+      "base": "http://www.ricciardibrothers.com/location-nj"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "281474979747202",
+    "record_index": 46,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6511321973942545,
+    "conflated_value": "https://www.interstatebatteries.com/locations/all-battery-center-woburn-ma?utm_source=referral&utm_campaign=llm",
+    "candidates": {
+      "current": "https://www.interstatebatteries.com/locations/all-battery-center-woburn-ma?utm_source=bing&utm_medium=local&utm_campaign=localmaps&utm_content=9078",
+      "base": "https://www.interstatebatteries.com/locations/all-battery-center-woburn-ma?utm_source=referral&utm_campaign=llm"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aa87330ca7a903957473b2acce21",
+    "record_index": 47,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9935999643604976,
+    "conflated_value": "https://www.papajohns.com/",
+    "candidates": {
+      "current": "https://locations.papajohns.com/united-states/md/20747/forestville/7801-b-parson-dr?utm_source=facebook-store-pages&utm_medium=referral&y_source=1_MTA2OTExNzMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "base": "https://www.papajohns.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899908351517",
+    "record_index": 48,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8321631686675882,
+    "conflated_value": "https://www.wellstar.org/locations/medical-practice/radiation-oncology-hiram-148-bill-carruth-parkway-suite-ll30?utm_medium=listing&utm_source=bing&utm_content=Wellstar_Radiation_Oncology",
+    "candidates": {
+      "current": "https://www.wellstar.org/locations/pages/practice-detail.aspx?lid=839EC2F9-D4D1-4428-A094-280D8AEE374E",
+      "base": "https://www.wellstar.org/locations/medical-practice/radiation-oncology-hiram-148-bill-carruth-parkway-suite-ll30?utm_medium=listing&utm_source=bing&utm_content=Wellstar_Radiation_Oncology"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f441a124c1b405038dbedfa98c0914",
+    "record_index": 49,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6763978490622555,
+    "conflated_value": "https://locations.53.com/fl/tampa/3411-west-columbus-drive.html",
+    "candidates": {
+      "current": "http://www.53.com/",
+      "base": "https://locations.53.com/fl/tampa/3411-west-columbus-drive.html"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f446ca1d028ae803f05a7a411e1cb6",
+    "record_index": 50,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5278544803543013,
+    "conflated_value": "http://www.budgetrs.com/",
+    "candidates": {
+      "current": "http://www.budgetrs.com/",
+      "base": "http://www.budgetrs.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949966520897",
+    "record_index": 51,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "",
+    "candidates": {
+      "current": "",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a10aaba5c06303d8a67958549713",
+    "record_index": 52,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.6753672420845397,
+    "conflated_value": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps",
+    "candidates": {
+      "current": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps",
+      "base": "http://www.dominos.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a4018a454c403d3e547067a3d3b",
+    "record_index": 53,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "http://www.scripps.org/LocListSMHLJOIsdpsocial-gmb",
+    "candidates": {
+      "current": "nan",
+      "base": "http://www.scripps.org/LocListSMHLJOIsdpsocial-gmb"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949955293136",
+    "record_index": 54,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://www.goodyearautoservice.com/en-US/shop/FL/Panama-City/000902227-32401-2043",
+    "candidates": {
+      "current": "",
+      "base": "https://www.goodyearautoservice.com/en-US/shop/FL/Panama-City/000902227-32401-2043"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2e644d0cac26b03e6d1add3a59cb8",
+    "record_index": 55,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8983632101048902,
+    "conflated_value": "https://www.olivenooka.jp",
+    "candidates": {
+      "current": "https://maps.olivenooka.jp/jp/detail/5642.html",
+      "base": "https://www.olivenooka.jp"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a143a2aea428033ac8f069c43517",
+    "record_index": 56,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.waterbury.k12.ct.us/4/Home",
+    "candidates": {
+      "current": "http://www.waterbury.k12.ct.us/4/Home",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa813b222f2c1e03f7aca38bf90b4e",
+    "record_index": 57,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.workocupacional.com.br",
+    "candidates": {
+      "current": "http://www.workocupacional.com.br",
+      "base": "http://www.workocupacional.com.br"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26010a6db404403e339f85cbc6d43",
+    "record_index": 58,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://ritz-sales-services.business.site",
+    "candidates": {
+      "current": "https://ritz-sales-services.business.site",
+      "base": "https://ritz-sales-services.business.site"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aa4d98923b4503b1be6672e9cf20",
+    "record_index": 59,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5127202523848569,
+    "conflated_value": "https://locations.dunkindonuts.com/en/ny/palmyra/544-e-main-st/352110?utm_source=facebook&utm_medium=local&utm_campaign=localmaps&utm_content=352110&y_source=1_MTIxMTEzMTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "candidates": {
+      "current": "https://locations.dunkindonuts.com/en/ny/palmyra/544-e-main-st/352110?utm_source=facebook&utm_medium=local&utm_campaign=localmaps&utm_content=352110&y_source=1_MTIxMTEzMTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "base": "https://locations.dunkindonuts.com/en/ny/palmyra/544-e-main-st/352110?utm_source=bing&utm_medium=local&utm_campaign=localmaps&utm_content=352110&y_source=1_MTIxMTEzMTgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2b8d419708d1c03dc65d72f11cf45",
+    "record_index": 60,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8779464911049762,
+    "conflated_value": "http://www.jimbosclub.com/",
+    "candidates": {
+      "current": "http://www.jimbosclub.com/",
+      "base": "http://jimbosclub.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1959b447aaa900389169fac74b366",
+    "record_index": 61,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5275612666563716,
+    "conflated_value": "http://www.miragehealthandwellbeing.co.uk",
+    "candidates": {
+      "current": "http://www.miragehealthandwellbeing.co.uk",
+      "base": "http://www.miragehealthandwellbeing.co.uk/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1fa5290a1bb24032aa1147c2c2434",
+    "record_index": 62,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5276834413529576,
+    "conflated_value": "http://www.steuerbuero-klose.de/",
+    "candidates": {
+      "current": "http://www.steuerbuero-klose.de/",
+      "base": "http://www.steuerbuero-klose.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f186b6ca96aac003075fe4e8c7df44",
+    "record_index": 63,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8777006852946095,
+    "conflated_value": "https://www.quiksilver.fr/",
+    "candidates": {
+      "current": "https://www.quiksilver.fr/",
+      "base": "http://www.quiksilver.fr"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fbe0899519c116035ccb4f246d7ac9",
+    "record_index": 64,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://www.honecafe.com",
+    "candidates": {
+      "current": "nan",
+      "base": "https://www.honecafe.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1ea59834b6122035ebaf7626dd4a6",
+    "record_index": 65,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5181897630914623,
+    "conflated_value": "https://www.prontointerventoexpress.it/",
+    "candidates": {
+      "current": "https://www.prontointerventoexpress.it/",
+      "base": "https://www.prontointerventoexpress.it"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a36c0344bc820337ca0f2e8822f2",
+    "record_index": 66,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9381050112579622,
+    "conflated_value": "https://www.bp.com/en_us/bp-us.html",
+    "candidates": {
+      "current": "https://map.bp.com/en-US/US/gas-station/lincoln/bp/07140528220360325100100000000000",
+      "base": "https://www.bp.com/en_us/bp-us.html"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fc99348c32155c03765d142aeb22eb",
+    "record_index": 67,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5276999937990534,
+    "conflated_value": "http://www.tjsgymsports.com.au/",
+    "candidates": {
+      "current": "http://www.tjsgymsports.com.au/",
+      "base": "http://www.tjsgymsports.com.au"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f618c4c6d826e803b8e71b07951b00",
+    "record_index": 68,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6381979966895046,
+    "conflated_value": "https://restaurants.pizzahut.co.in/pizza-hut-ashok-nagar-cmrl-pizza-restaurant-ashok-nagar-chennai-163839/Home?utm_source=locator&utm_medium=bing",
+    "candidates": {
+      "current": "https://restaurants.pizzahut.co.in/pizza-hut-ashok-nagar-cmrl-pizza-restaurant-ashok-nagar-chennai-163839/Home",
+      "base": "https://restaurants.pizzahut.co.in/pizza-hut-ashok-nagar-cmrl-pizza-restaurant-ashok-nagar-chennai-163839/Home?utm_source=locator&utm_medium=bing"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f166d246c3290303ee41124b93fa",
+    "record_index": 69,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2f5bd324367920389e650cbf19583",
+    "record_index": 70,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5163686307656258,
+    "conflated_value": "https://shusaimutsuki.com/",
+    "candidates": {
+      "current": "https://shusaimutsuki.com/",
+      "base": "https://lit.link/shusaimutsuki"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26c8390ba49350319b54f0294ec99",
+    "record_index": 71,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5276999937990534,
+    "conflated_value": "http://www.carterbloodcare.org",
+    "candidates": {
+      "current": "http://www.carterbloodcare.org",
+      "base": "http://www.carterbloodcare.org/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f3cc5a1476a45403ed1a0c115b1102",
+    "record_index": 72,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6905818785266501,
+    "conflated_value": "https://branch.axisbank.com/axis-bank-hotel-gitanjali-complex-atm-silchar-assam-56517/Home",
+    "candidates": {
+      "current": "https://branch.axisbank.com/axis-bank-atm-hotel-gitanjali-complex-atm-club-road-silchar-56517/Home?utm_source=locator&utm_medium=facebook",
+      "base": "https://branch.axisbank.com/axis-bank-hotel-gitanjali-complex-atm-silchar-assam-56517/Home"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f3966534d9dc000361acdf01425035",
+    "record_index": 73,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1407374886265533",
+    "record_index": 74,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9786640305156586,
+    "conflated_value": "https://www.larrymillerchryslerjeepavondale.com/",
+    "candidates": {
+      "current": "https://www.larrymillerchryslerjeepavondale.com/",
+      "base": "http://larrymillerchryslerjeepavondale.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1970324838691605",
+    "record_index": 75,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8625401113289055,
+    "conflated_value": "https://www.southlandcasino.com/",
+    "candidates": {
+      "current": "http://www.southlandpark.com/",
+      "base": "https://www.southlandcasino.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f49a8381a4d0f303240f2cdfbb374f",
+    "record_index": 76,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a4714a4879e03bb7589c7e079e7",
+    "record_index": 77,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8585628054375511,
+    "conflated_value": "https://www.opalandfindings.com/",
+    "candidates": {
+      "current": "http://www.opalandfindings.com/",
+      "base": "https://www.opalandfindings.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "2251799819474731",
+    "record_index": 78,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.dehartinc.com/",
+    "candidates": {
+      "current": "https://www.dehartinc.com/",
+      "base": "https://www.dehartinc.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2e610518e82c003d85d6549dfc74b",
+    "record_index": 79,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5183554536095082,
+    "conflated_value": "https://www.rare-stones.com/",
+    "candidates": {
+      "current": "https://www.rare-stones.com/",
+      "base": "https://www.rare-stones.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26c86642125b4031326f6a64ebbd6",
+    "record_index": 80,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8426109877413747,
+    "conflated_value": "https://www.shrednations.com/tx/ups-store-75254/",
+    "candidates": {
+      "current": "https://www.shrednations.com/tx/ups-store-75254/?utm_source=facebook&utm_medium=retail&utm_campaign=sn-deci-facebook-internal-mapslisting",
+      "base": "https://www.shrednations.com/tx/ups-store-75254/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26e3036354530039a96a9e4dcc0d4",
+    "record_index": 81,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://kansasstar.boydgaming.com/dine/woodfire-grille",
+    "candidates": {
+      "current": "https://kansasstar.boydgaming.com/dine/woodfire-grille",
+      "base": "https://kansasstar.boydgaming.com/dine/woodfire-grille"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f11618c549ae0318404b974f642c",
+    "record_index": 82,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5154619128513683,
+    "conflated_value": "http://www.fahealing.de/",
+    "candidates": {
+      "current": "http://www.fahealing.de/",
+      "base": "https://fahealing.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4995b9e3aba6c03df20d5c7b3d01a",
+    "record_index": 83,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f13d06cdb4dd03c2287ba2cf48a4",
+    "record_index": 84,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8519339498268955,
+    "conflated_value": "https://www.boeckmann-mode.de/lingerie.html",
+    "candidates": {
+      "current": "https://www.boeckmann-mode.de/lingerie.html",
+      "base": "http://www.oberschorfheide.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f6d231146cbb8203a6b43c5463e884",
+    "record_index": 85,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fbe184e32632a503fa980d1ab35e1a",
+    "record_index": 86,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "http://www.ecometalrecyclers.com.au",
+    "candidates": {
+      "current": "nan",
+      "base": "http://www.ecometalrecyclers.com.au"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f264622866338c03c99743da67ae23",
+    "record_index": 87,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.mcowiring.com/",
+    "candidates": {
+      "current": "http://www.mcowiring.com/",
+      "base": "http://www.mcowiring.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2661b2228b3990350416b04e58e61",
+    "record_index": 88,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.hollyhockhill.com/",
+    "candidates": {
+      "current": "http://www.hollyhockhill.com/",
+      "base": "http://www.hollyhockhill.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa8186206ab06203b13b1910efb454",
+    "record_index": 89,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e880c6d2a21a03dad9931d6666c6",
+    "record_index": 90,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1ed6c9600e9ac0396545f95a4326e",
+    "record_index": 91,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f28f012d60e6ad03f99abbc4c48bf1",
+    "record_index": 92,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.starbucks.com/",
+    "candidates": {
+      "current": "http://www.starbucks.com/",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f194ac2641827303a8c9d8d0f63cfb",
+    "record_index": 93,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6222072044183615,
+    "conflated_value": "https://locator.pponside.com/store/London%20Road%20Croydon",
+    "candidates": {
+      "current": "http://www.paddypower.com",
+      "base": "https://locator.pponside.com/store/London%20Road%20Croydon"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4995b9d4208a20380224da236338f",
+    "record_index": 94,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8777471910505793,
+    "conflated_value": "https://www.oxxo.com/",
+    "candidates": {
+      "current": "https://www.oxxo.com/",
+      "base": "http://www.oxxo.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f9b089cf330d03b9a3ab6ad274ba",
+    "record_index": 95,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "www.giustizia.it",
+    "candidates": {
+      "current": "www.giustizia.it",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1407374883710721",
+    "record_index": 96,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.redwingrichmond.com/",
+    "candidates": {
+      "current": "http://www.redwingrichmond.com/",
+      "base": "http://www.redwingrichmond.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f83ae545d60603a81502e8f95732",
+    "record_index": 97,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5277176496744278,
+    "conflated_value": "http://www.vogtschreinerei.ch/",
+    "candidates": {
+      "current": "http://www.vogtschreinerei.ch/",
+      "base": "http://www.vogtschreinerei.ch"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e35418b8115d03d75b4f91514ad7",
+    "record_index": 98,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5851323602475651,
+    "conflated_value": "https://www.rossmann.cz",
+    "candidates": {
+      "current": "https://www.rossmann.cz/obsah/prodejny/praha-5",
+      "base": "https://www.rossmann.cz"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44dd545c0313303fc66e60e99f054",
+    "record_index": 99,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5111665198335136,
+    "conflated_value": "https://bankers.firstcitizens.com/sc/greenville/renee-mason",
+    "candidates": {
+      "current": "https://bankers.firstcitizens.com/mortgage/sc/greenville/renee-mason",
+      "base": "https://bankers.firstcitizens.com/sc/greenville/renee-mason"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26eec3634b47603f6d23fb1b12603",
+    "record_index": 100,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.cedarvalelocker.com",
+    "candidates": {
+      "current": "https://www.cedarvalelocker.com",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "2251799819434396",
+    "record_index": 101,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8604621484113398,
+    "conflated_value": "http://www.cliftonlewisins.com/",
+    "candidates": {
+      "current": "http://cliftonlewisins.com/",
+      "base": "http://www.cliftonlewisins.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f0b44e466a0103f39fa87dc0107b",
+    "record_index": 102,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.plus.pl/",
+    "candidates": {
+      "current": "http://www.plus.pl/",
+      "base": "http://www.plus.pl/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f658e764964a7403a88c11cb4e70e4",
+    "record_index": 103,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899912773417",
+    "record_index": 104,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5181505292315767,
+    "conflated_value": "https://www.cellphonerepair.com/lubbock-tx",
+    "candidates": {
+      "current": "https://www.cellphonerepair.com/lubbock-tx",
+      "base": "https://www.cellphonerepair.com/lubbock-tx/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4440c1249b85c03b5b634418623f6",
+    "record_index": 105,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://doctors.ololrmc.com/provider/Carl+Sidney+Luikart/1297368",
+    "candidates": {
+      "current": "https://doctors.ololrmc.com/provider/Carl+Sidney+Luikart/1297368",
+      "base": "https://doctors.ololrmc.com/provider/Carl+Sidney+Luikart/1297368"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f22ba441bd8003c9ac92d5a2e082",
+    "record_index": 106,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://hejoscar.dk/afdelinger/biludlejning-lisbjerg",
+    "candidates": {
+      "current": "nan",
+      "base": "https://hejoscar.dk/afdelinger/biludlejning-lisbjerg"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a9872c50396203af1c0b0e7c8f17",
+    "record_index": 107,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.familydollar.com/locations/ky/lackey/31812/",
+    "candidates": {
+      "current": "https://www.familydollar.com/locations/ky/lackey/31812/",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1970324838624365",
+    "record_index": 108,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5416122242245553,
+    "conflated_value": "http://purocleanvt.com/",
+    "candidates": {
+      "current": "http://purocleanvt.com/",
+      "base": "http://purocleanvt.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899913098456",
+    "record_index": 109,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.nursenextdoor.com/locations/calgary-ab/",
+    "candidates": {
+      "current": "https://www.nursenextdoor.com/locations/calgary-ab/",
+      "base": "https://www.nursenextdoor.com/locations/calgary-ab/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f271a2d0294804035e0f9b5baa38d6",
+    "record_index": 110,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5663809327764655,
+    "conflated_value": "https://www.gatecity.bank/locations/carrington/",
+    "candidates": {
+      "current": "https://www.gatecitybank.com",
+      "base": "https://www.gatecity.bank/locations/carrington/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e82252c1c0ae03c90f2f5d5feef9",
+    "record_index": 111,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f48932e69a12dd03d5671400e23b78",
+    "record_index": 112,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5188194822856484,
+    "conflated_value": "https://www.att.com/stores/texas/columbus/77613",
+    "candidates": {
+      "current": "https://www.att.com/stores/texas/columbus/77613",
+      "base": "https://www.att.com/stores/texas/columbus/198494"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fb25919140d504031466d3d5beb5d2",
+    "record_index": 113,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5183351969908733,
+    "conflated_value": "https://www.mcdonalds.com.ar/",
+    "candidates": {
+      "current": "https://www.mcdonalds.com.ar/",
+      "base": "https://www.mcdonalds.com.ar"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f441ab99d1e40903520592b478eaee",
+    "record_index": 114,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9770596889169656,
+    "conflated_value": "https://www.delicaegourmet.com/",
+    "candidates": {
+      "current": "http://delicaegourmet.com/",
+      "base": "https://www.delicaegourmet.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f446cb626c2d00031ae6ee7a950c05",
+    "record_index": 115,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5181179733055725,
+    "conflated_value": "https://www.houstonmethodist.org/pcg/rosenberg",
+    "candidates": {
+      "current": "https://www.houstonmethodist.org/pcg/rosenberg",
+      "base": "https://www.houstonmethodist.org/pcg/rosenberg/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1fa59513a595d032fdd2acd350b85",
+    "record_index": 116,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5245022743599439,
+    "conflated_value": "http://www.logopaedie-emmerich.de/",
+    "candidates": {
+      "current": "http://www.logopaedie-emmerich.de/",
+      "base": "http://www.logopaedie-niederrhein.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2ad34495a3453030061ea2bb1add4",
+    "record_index": 117,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://primestorage.com/locations/sc/surfside-beach/SC17/",
+    "candidates": {
+      "current": "https://primestorage.com/locations/sc/surfside-beach/SC17/",
+      "base": "https://primestorage.com/locations/sc/surfside-beach/SC17/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2af60c44941950327df46b0384e4b",
+    "record_index": 118,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5505673241437745,
+    "conflated_value": "https://newportnews.townebankmortgage.com/",
+    "candidates": {
+      "current": "https://www.townebank.com/location-and-atms/newport-news-oyster-point?utm_source=fb&utm_medium=Yext&y_source=1_MTU3OTAzMzUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "base": "https://newportnews.townebankmortgage.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a92a8c54d533034329dc2c045529",
+    "record_index": 119,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://www.marathonbrand.com",
+    "candidates": {
+      "current": "nan",
+      "base": "https://www.marathonbrand.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f852314e30580373a86cedf0b53a",
+    "record_index": 120,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8849764895577258,
+    "conflated_value": "https://seltz.bibenligne.fr/",
+    "candidates": {
+      "current": "https://seltz.bibenligne.fr/",
+      "base": "http://mediatheque.seltz.fr"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e8079056036d03df90e7738c96c3",
+    "record_index": 121,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5277567445802345,
+    "conflated_value": "http://www.studiomerolla.it/",
+    "candidates": {
+      "current": "http://www.studiomerolla.it/",
+      "base": "http://www.studiomerolla.it"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f818584926190503301a10eee5fc4a",
+    "record_index": 122,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f194855a68525c032b1c6022501687",
+    "record_index": 123,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.pizzahut.co.uk/",
+    "candidates": {
+      "current": "https://www.pizzahut.co.uk/",
+      "base": "https://www.pizzahut.co.uk/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a13d500ec592038947279db72951",
+    "record_index": 124,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.895469737613717,
+    "conflated_value": "https://www.princetonradiology.com/locations/monroe/",
+    "candidates": {
+      "current": "http://www.princetonradiology.com",
+      "base": "https://www.princetonradiology.com/locations/monroe/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f1253491e08a0355c6b41a4f0509",
+    "record_index": 125,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.pzw-witten.de",
+    "candidates": {
+      "current": "http://www.pzw-witten.de",
+      "base": "http://www.pzw-witten.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "2251799821514825",
+    "record_index": 126,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.gianteagle.com/pharmacy",
+    "candidates": {
+      "current": "https://www.gianteagle.com/pharmacy",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2b9bc466424e403ff1e1ca190b31f",
+    "record_index": 127,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.mutualmatch.ca/",
+    "candidates": {
+      "current": "https://www.mutualmatch.ca/",
+      "base": "https://www.mutualmatch.ca/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a4c74384c8003621001ebd68dce",
+    "record_index": 128,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8663703281929713,
+    "conflated_value": "https://www.koolrestaurante.mx",
+    "candidates": {
+      "current": "https://kool-restaurante.webnode.es",
+      "base": "https://www.koolrestaurante.mx"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f1a8da865c3503b4c552c4c8273e",
+    "record_index": 129,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8613205266747409,
+    "conflated_value": "https://taplink.cc/mobilblitz",
+    "candidates": {
+      "current": "https://taplink.cc/mobilblitz",
+      "base": "http://leipzig-ratzelbogen.mobilblitz.de/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fb91682e4caa2c03239f9cbc07f2c5",
+    "record_index": 130,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8757712938561356,
+    "conflated_value": "http://www.smileymocktail.com.au/",
+    "candidates": {
+      "current": "http://www.smileymocktail.com.au/",
+      "base": "http://smileymocktail.com.au"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f65262686f413303c317cc0b4f574a",
+    "record_index": 131,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44e540c45806d036445fe6c54049d",
+    "record_index": 132,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5126052374962611,
+    "conflated_value": "https://sportclips.com/us-fl-lynnhaven-fl702",
+    "candidates": {
+      "current": "https://haircutmenlynnhavenfl.com/",
+      "base": "https://sportclips.com/us-fl-lynnhaven-fl702"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1688849866257450",
+    "record_index": 133,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.audimarin.com/",
+    "candidates": {
+      "current": "https://www.audimarin.com/",
+      "base": "https://www.audimarin.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899910838791",
+    "record_index": 134,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8304322277980887,
+    "conflated_value": "https://www.minutekey.com/",
+    "candidates": {
+      "current": "https://www.minutekey.com/key-services/california/windsor/locksmith-key-copy-duplication-6280-hembree-ln/33031/",
+      "base": "https://www.minutekey.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e8509086834603d4d09f48b6ba33",
+    "record_index": 135,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5277784638252778,
+    "conflated_value": "http://www.tenutaborgio.it/",
+    "candidates": {
+      "current": "http://www.tenutaborgio.it/",
+      "base": "http://www.tenutaborgio.it"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f88b66880d2e0385b0548cd07ca6",
+    "record_index": 136,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.7377133484860546,
+    "conflated_value": "https://www.rossmann.de/de/filialen/bayern/schaeftlarn/rodelweg-7-b.html",
+    "candidates": {
+      "current": "https://www.rossmann.de/de/filialen/bayern/schaeftlarn/rodelweg-7-b.html",
+      "base": "http://www.rossmann.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f9b08e92a8ed03863143cbe743b8",
+    "record_index": 137,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8583464137062519,
+    "conflated_value": "http://www.silikeristorantecinese.it",
+    "candidates": {
+      "current": "http://silikeristorantecinese.it/",
+      "base": "http://www.silikeristorantecinese.it"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44e38ed4518540380d8904cd5b34a",
+    "record_index": 138,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9498774033723956,
+    "conflated_value": "http://www.earlycountynews.com/news/2015-07-01/Front_Page/County_hires_Spencer_Mueller.html",
+    "candidates": {
+      "current": "http://earlycountysheriff.com/",
+      "base": "http://www.earlycountynews.com/news/2015-07-01/Front_Page/County_hires_Spencer_Mueller.html"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa81eb2e78d11c03804afe6de4128a",
+    "record_index": 139,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.wizardidiomas.com.br",
+    "candidates": {
+      "current": "http://www.wizardidiomas.com.br",
+      "base": "http://www.wizardidiomas.com.br"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f6d35aa62266810393381338e5810f",
+    "record_index": 140,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5190704980308797,
+    "conflated_value": "http://www.hotelmadrid.com.mx/",
+    "candidates": {
+      "current": "http://www.hotelmadrid.com.mx/",
+      "base": "http://www.hotel-madrid.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a115e84c2a403e23dd743811ca2",
+    "record_index": 141,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.martinelli-lawgroup.com/",
+    "candidates": {
+      "current": "http://www.martinelli-lawgroup.com/",
+      "base": "http://www.martinelli-lawgroup.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a19a2971d0003d7cf4ffd837d25",
+    "record_index": 142,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.522873378813203,
+    "conflated_value": "https://www.coin.cloud/bitcoin-atms/ca/los-angeles/exxon-45",
+    "candidates": {
+      "current": "https://www.coin.cloud/dcms?location=mobil-35#map",
+      "base": "https://www.coin.cloud/bitcoin-atms/ca/los-angeles/exxon-45"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f266daddb24aaa03e644de71b831ee",
+    "record_index": 143,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.chisaintjosephhealth.org/hospital-urology?utm_source=LocalSearch&utm_medium=Facility&utm_campaign=CHIStJoseph&utm_term=CHISaintJosephMedicalGroup-UrologyFountainCt&y_source=1_MTczMjI0NTAtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "candidates": {
+      "current": "https://www.chisaintjosephhealth.org/hospital-urology?utm_source=LocalSearch&utm_medium=Facility&utm_campaign=CHIStJoseph&utm_term=CHISaintJosephMedicalGroup-UrologyFountainCt&y_source=1_MTczMjI0NTAtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f481270588895403e4355b3c793f94",
+    "record_index": 144,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "562949958305102",
+    "record_index": 145,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9342139252091445,
+    "conflated_value": "https://www.oxfordseniorliving.com/senior-living/tx/sachse/bunker-hill-road/?utm_source=bingPlaces&utm_medium=organic",
+    "candidates": {
+      "current": "https://oxfordseniorliving.com/senior-living/tx/sachse/oxford-glen-sachse",
+      "base": "https://www.oxfordseniorliving.com/senior-living/tx/sachse/bunker-hill-road/?utm_source=bingPlaces&utm_medium=organic"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f446b259454ad503533f12dc4d0f9c",
+    "record_index": 146,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8751064366731605,
+    "conflated_value": "https://www.camplife.com/campground/Love%2527s+RV+Hookup-Winona+TX+815",
+    "candidates": {
+      "current": "https://www.camplife.com/campground/Love%2527s+RV+Hookup-Winona+TX+815",
+      "base": "http://www.loves.com/en/location-and-fuel-price-search/rv-services"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2626c6660c31803d3a11019338da7",
+    "record_index": 147,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5226397664822986,
+    "conflated_value": "https://libertyx.com/a/buy-bitcoin/locations/hj5sucn4xkv0?y_source=1_MjMyNjE0NDEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "candidates": {
+      "current": "https://libertyx.com/a/buy-bitcoin/locations/hj5sucn4xkv0?y_source=1_MjMyNjE0NDEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "base": "https://libertyx.com/a/buy-bitcoin/locations/hj5sucn4xkv0?y_source=1_MjMyNjE0NDEtNDQwLWxvY2F0aW9uLndlYnNpdGU="
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f0204831024203a8625d51944196",
+    "record_index": 148,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8601362521165956,
+    "conflated_value": "http://www.led-nord.de/",
+    "candidates": {
+      "current": "http://led-nord.de/",
+      "base": "http://www.led-nord.de/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1970324842205440",
+    "record_index": 149,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "https://www.sirwalter.com/",
+    "candidates": {
+      "current": "https://www.sirwalter.com/",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f41695326f2812035673b147fa47f6",
+    "record_index": 150,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f19882108743037aa0e2fefe6fdb",
+    "record_index": 151,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.keramundo.de/frankfurtoder",
+    "candidates": {
+      "current": "http://www.keramundo.de/frankfurtoder",
+      "base": "http://www.keramundo.de/frankfurtoder"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f3922211a9429003d34a89765a66c1",
+    "record_index": 152,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "https://www.fidelidade.pt/PT/particulares/Lojas/Paginas/Loja-Marco-de-Canavezes.aspx",
+    "candidates": {
+      "current": "nan",
+      "base": "https://www.fidelidade.pt/PT/particulares/Lojas/Paginas/Loja-Marco-de-Canavezes.aspx"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f4880d8172067603fa7c012014e336",
+    "record_index": 153,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f275922226a40b03fa3c4693070159",
+    "record_index": 154,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.covehair.com/",
+    "candidates": {
+      "current": "http://www.covehair.com/",
+      "base": "http://www.covehair.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fbe0e35cad5c710328873748ffebb5",
+    "record_index": 155,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.frazerjones.com/",
+    "candidates": {
+      "current": "https://www.frazerjones.com/",
+      "base": "https://www.frazerjones.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899908396217",
+    "record_index": 156,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.bluebellphysio.co.uk/",
+    "candidates": {
+      "current": "http://www.bluebellphysio.co.uk/",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1fb432c6d432b030f6b6a47ed6ec0",
+    "record_index": 157,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.5504582095209571,
+    "conflated_value": "http://www.gares-en-mouvement.com",
+    "candidates": {
+      "current": "https://cuisiniste.darty.com/32-darty-cuisine-creil",
+      "base": "http://www.gares-en-mouvement.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f195e2017138a60344368b12283837",
+    "record_index": 158,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.hanson.co.uk/en/Hanson-Aggregates-Builth-Quarry",
+    "candidates": {
+      "current": "http://www.hanson.co.uk/en/Hanson-Aggregates-Builth-Quarry",
+      "base": "http://www.hanson.co.uk/en/Hanson-Aggregates-Builth-Quarry"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e368a432e2a3036a3229000375cc",
+    "record_index": 159,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5278271145524676,
+    "conflated_value": "http://www.bud-weiden.de/",
+    "candidates": {
+      "current": "http://www.bud-weiden.de/",
+      "base": "http://www.bud-weiden.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1fa5362b859a803ed45df6695e1e3",
+    "record_index": 160,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.rossmann.de/de/filialen/nordrhein-westfalen/gelsenkirchen/markenstr--22-24.html",
+    "candidates": {
+      "current": "https://www.rossmann.de/de/filialen/nordrhein-westfalen/gelsenkirchen/markenstr--22-24.html",
+      "base": "https://www.rossmann.de/de/filialen/nordrhein-westfalen/gelsenkirchen/markenstr--22-24.html"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f27594f32db1000333b7abb88b623c",
+    "record_index": 161,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.8794709490246684,
+    "conflated_value": "https://www.sherwin-williams.com/store-locator/paint-store/rockford/il/703120",
+    "candidates": {
+      "current": "https://www.sherwin-williams.com/store-locator/paint-store/rockford/il/703120",
+      "base": "http://www.sherwin-williams.com/store-locator/paint-store/rockford/il/703120"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44cc2ed92b4ad037ec09a5c0f7c76",
+    "record_index": 162,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.superiorcleaningchattanooga.com/",
+    "candidates": {
+      "current": "https://www.superiorcleaningchattanooga.com/",
+      "base": "https://www.superiorcleaningchattanooga.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aa859dba3af003731e8ef72ef347",
+    "record_index": 163,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://international-bakery-inc-md.hub.biz",
+    "candidates": {
+      "current": "https://international-bakery-inc-md.hub.biz",
+      "base": "https://international-bakery-inc-md.hub.biz"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f912a5b8d896032a277714c8a918",
+    "record_index": 164,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5277365231197049,
+    "conflated_value": "http://www.mysteresdulac.com/",
+    "candidates": {
+      "current": "http://www.mysteresdulac.com/",
+      "base": "http://www.mysteresdulac.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f29a1d69b0b8da034c4f6acaa03eaf",
+    "record_index": 165,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.instyle-nails.com",
+    "candidates": {
+      "current": "http://www.instyle-nails.com",
+      "base": "http://www.instyle-nails.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa8c241822e42503ab5d13ab28882d",
+    "record_index": 166,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2832b85a12b3203fb6b84f25c83de",
+    "record_index": 167,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5181106821135515,
+    "conflated_value": "https://www.windshieldreplacementsacramento.com/",
+    "candidates": {
+      "current": "https://www.windshieldreplacementsacramento.com/",
+      "base": "https://www.windshieldreplacementsacramento.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f28308106929aa0322048f73b8a6a1",
+    "record_index": 168,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6516302089954458,
+    "conflated_value": "https://balancehealth.com/provider/richard-lavigna-dpm/bay-area-foot-care/",
+    "candidates": {
+      "current": "http://www.drrichardlavignadpm.com/",
+      "base": "https://balancehealth.com/provider/richard-lavigna-dpm/bay-area-foot-care/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f49824998a425003760394c03c89c5",
+    "record_index": 169,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.tephe.com.mx/",
+    "candidates": {
+      "current": "http://www.tephe.com.mx/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f64b1b0e401063031c58c4f99da9d7",
+    "record_index": 170,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2f5b88980dcc003698ae140ea2a9a",
+    "record_index": 171,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9105042137007143,
+    "conflated_value": "http://www.itto.jp/schools/kantou/kanagawa/oi.html",
+    "candidates": {
+      "current": "nan",
+      "base": "http://www.itto.jp/schools/kantou/kanagawa/oi.html"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1969045565263037bc7b1b7bf1e37",
+    "record_index": 172,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://www.speyk.nl/",
+    "candidates": {
+      "current": "http://www.speyk.nl/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f3961561d3094c038780c81f579575",
+    "record_index": 173,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5277784638252778,
+    "conflated_value": "http://www.maison-negre.fr/",
+    "candidates": {
+      "current": "http://www.maison-negre.fr/",
+      "base": "http://www.maison-negre.fr"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a9611a26bc4103b7d085f67b5173",
+    "record_index": 174,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://rtsales.org/",
+    "candidates": {
+      "current": "https://rtsales.org/",
+      "base": "https://rtsales.org/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1f810aca9dd4a0338ca3023b18577",
+    "record_index": 175,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.lynara.de",
+    "candidates": {
+      "current": "http://www.lynara.de",
+      "base": "http://www.lynara.de"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f19424ccc1e0820363bbececd4900d",
+    "record_index": 176,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8153506587680546,
+    "conflated_value": "https://www.evri.com/?utm_source=bing&utm_medium=organic-local&utm_campaign=Oldham&utm_content=S23967",
+    "candidates": {
+      "current": "https://www.evri.com/",
+      "base": "https://www.evri.com/?utm_source=bing&utm_medium=organic-local&utm_campaign=Oldham&utm_content=S23967"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f658b4a649caad035bb199a7052b42",
+    "record_index": 177,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "2251799819721663",
+    "record_index": 178,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.pearle.nl/opticien/houten/het-rond-154",
+    "candidates": {
+      "current": "https://www.pearle.nl/opticien/houten/het-rond-154",
+      "base": "https://www.pearle.nl/opticien/houten/het-rond-154"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f499da81376a8e035b83643df59654",
+    "record_index": 179,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1ea559883492c03bf7e33805a4382",
+    "record_index": 180,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://unsognoverde.it/",
+    "candidates": {
+      "current": "http://unsognoverde.it/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2ab66e31767a003eb6104f50a0ad0",
+    "record_index": 181,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.strawberryfieldsdining.com/",
+    "candidates": {
+      "current": "http://www.strawberryfieldsdining.com/",
+      "base": "http://www.strawberryfieldsdining.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2aaab4d4c0d620325d61d2ce778c7",
+    "record_index": 182,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.8363246802965865,
+    "conflated_value": "https://draegerinterlock.com",
+    "candidates": {
+      "current": "https://roadguardinterlock.com/locations/virginia/ignition-interlock-springfield-46030/?utm_source=fb&utm_medium=yext",
+      "base": "https://draegerinterlock.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44ae8010ea034037504a8a664bb97",
+    "record_index": 183,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://lwartleague.org/",
+    "candidates": {
+      "current": "http://lwartleague.org/",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f446c25679a70e03572240a924ba2c",
+    "record_index": 184,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5045255199205643,
+    "conflated_value": "https://www.chick-fil-a.com/play?fbclid=PAZXh0bgNhZW0CMTEAAaZbNaoCmH5cDTpdKxpdTMYQtjGc5i7iaDUTsFjzRYFLDVI2sIcL-qhLm4g_aem_jCxE0LvbAwcBavniJFbWHA",
+    "candidates": {
+      "current": "https://www.chick-fil-a.com/play?fbclid=PAZXh0bgNhZW0CMTEAAaZbNaoCmH5cDTpdKxpdTMYQtjGc5i7iaDUTsFjzRYFLDVI2sIcL-qhLm4g_aem_jCxE0LvbAwcBavniJFbWHA",
+      "base": "http://www.chick-fil-a.com/grandparkwaynorth"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f194ad0131a06b031c2633af407eb2",
+    "record_index": 185,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "",
+    "candidates": {
+      "current": "",
+      "base": ""
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f26cbd2925b00e030b4221ad033046",
+    "record_index": 186,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.7742022877693423,
+    "conflated_value": "https://www.bitcoindepot.com/",
+    "candidates": {
+      "current": "https://www.bitcoindepot.com/",
+      "base": "https://branches.bitcoindepot.com/tx/arlington/bitcoin-atm/9000755378"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f424927109622803649838ac7eb6a2",
+    "record_index": 187,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.6370725057755771,
+    "conflated_value": "https://community.yesbank.in/yes-bank-atm-atm-dharampura-ludhiana-44280/Home",
+    "candidates": {
+      "current": "https://community.yesbank.in/yes-bank-atm-atm-dharampura-ludhiana-44280/Home?utm_source=locator&utm_medium=bing",
+      "base": "https://community.yesbank.in/yes-bank-atm-atm-dharampura-ludhiana-44280/Home"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f441a5a3b7474903f72b79ec32b831",
+    "record_index": 188,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5309729462460836,
+    "conflated_value": "https://prestoatms.publix.com/",
+    "candidates": {
+      "current": "https://prestoatms.publix.com/",
+      "base": "https://ww4.publix.com/presto"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2661b7016194a032ee6510609a5e5",
+    "record_index": 189,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.9410124079678518,
+    "conflated_value": "http://glasrite.com",
+    "candidates": {
+      "current": "http://glasrite.com",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1407374890752553",
+    "record_index": 190,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5228495633209386,
+    "conflated_value": "https://www.rotorooter.com/minneapolis/",
+    "candidates": {
+      "current": "https://www.rotorooter.com/minneapolis/",
+      "base": "https://www.rotorooter.com/minneapolis/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f44137216d105403e8dcb957543e94",
+    "record_index": 191,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "http://www.normanloveconfections.com/",
+    "candidates": {
+      "current": "http://www.normanloveconfections.com/",
+      "base": "http://www.normanloveconfections.com/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f8b221a404320d03b459bdb2275ea1",
+    "record_index": 192,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2b9b36479862e0351baadfa912c6b",
+    "record_index": 193,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9212899773740904,
+    "conflated_value": "https://francospizza.com/locations/payne-ave-north-tonawanda/",
+    "candidates": {
+      "current": "http://francospizza.com/",
+      "base": "https://francospizza.com/locations/payne-ave-north-tonawanda/"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2af62655ad02303c1c002aed33a25",
+    "record_index": 194,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5129767595699558,
+    "conflated_value": "https://www.codeninjas.com/va-virginia-beach-1?utm_campaign=soci_listings&utm_source=soci&utm_medium=listing&utm_content=va-virginia-beach-1&utm_term=fb",
+    "candidates": {
+      "current": "https://www.codeninjas.com/va-virginia-beach-1?utm_campaign=soci_listings&utm_source=soci&utm_medium=listing&utm_content=va-virginia-beach-1&utm_term=fb",
+      "base": "https://www.codeninjas.com/va-virginia-beach-1?utm_campaign=soci_listings&utm_source=soci&utm_medium=listing&utm_content=va-virginia-beach-1&utm_term=bing"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f39040ce78ab8a034e94b26de55c37",
+    "record_index": 195,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9343699123201472,
+    "conflated_value": "https://www.pecas-auto-sofrapa.pt/lojas-de-pecas/pecas-auto-covilha",
+    "candidates": {
+      "current": "http://www.sofrapa.pt/",
+      "base": "https://www.pecas-auto-sofrapa.pt/lojas-de-pecas/pecas-auto-covilha"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08fa96e0d31aaa0003dff57d6d7652d6",
+    "record_index": 196,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5499844477688067,
+    "conflated_value": "nan",
+    "candidates": {
+      "current": "nan",
+      "base": "None"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "1125899912398662",
+    "record_index": 197,
+    "attribute": "website",
+    "selected_source": "current",
+    "model_confidence": 0.5322422916452721,
+    "conflated_value": "https://atpflightschool.com/local/dab",
+    "candidates": {
+      "current": "https://atpflightschool.com/local/dab",
+      "base": "https://atpflightschool.com/local/dab"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f2a104eda56165038129f326d78561",
+    "record_index": 198,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.9931561351561404,
+    "conflated_value": "https://www.lacucinapiccolatogo.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+    "candidates": {
+      "current": "http://lacucinapiccola.com/",
+      "base": "https://www.lacucinapiccolatogo.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  },
+  {
+    "id": "08f1e8439298263003d04efb18ab2497",
+    "record_index": 199,
+    "attribute": "website",
+    "selected_source": "base",
+    "model_confidence": 0.7623428186595171,
+    "conflated_value": "http://www.ristorantecavour-todi.com",
+    "candidates": {
+      "current": "https://book.octotable.com/otb/form/index.xhtml?pubkey=c17fc1ca8f354fc6865b6afd871814fa&property=39933",
+      "base": "http://www.ristorantecavour-todi.com"
+    },
+    "inference_meta": {
+      "duration_seconds": 0.0012421607971191406,
+      "initial_memory_mb": 100.59375,
+      "peak_memory_mb": 134.21875
+    }
+  }
+]

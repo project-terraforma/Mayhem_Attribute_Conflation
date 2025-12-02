@@ -1,21 +1,10 @@
-"""
-Baseline Heuristic Algorithms for Attribute Selection
-
-This module implements simple rule-based algorithms that serve as baselines
-for comparison with ML approaches.
-
-Baselines:
-1. Most Recent: Always select current version (assumes recency = quality)
-2. Confidence-Based: Select version with higher confidence score
-3. Completeness-Based: Select version with more complete data
-4. Hybrid: Combination of above heuristics
-"""
 
 import pandas as pd
 import json
 import numpy as np
 from typing import Dict, Any, Optional, Literal
 from pathlib import Path
+from collections import Counter
 
 
 def parse_json_field(value):
@@ -73,16 +62,24 @@ class MostRecentBaseline:
             current_primary = extract_name_primary(current_val)
             base_primary = extract_name_primary(base_val)
             
-            if current_primary.lower() == base_primary.lower():
+            if current_primary and base_primary and current_primary.lower() == base_primary.lower():
                 return 'same'
             
             # Always prefer current (most recent)
             return 'current'
         
         # For other attributes, similar logic
-        attr_col = attribute + 's' if attribute != 'address' else 'addresses'
-        current_val = row[attr_col]
-        base_val = row[f'base_{attr_col}']
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
+        attr_col_base = 'base_' + attr_col_curr
+        
+        current_val = row.get(attr_col_curr)
+        base_val = row.get(attr_col_base)
         
         if pd.isna(current_val) and pd.isna(base_val):
             return 'unclear'
@@ -91,7 +88,7 @@ class MostRecentBaseline:
         if pd.isna(base_val):
             return 'current'
         
-        # Check if same (simple string comparison)
+        # Check if same (simple string comparison for non-name attributes)
         if str(current_val).strip() == str(base_val).strip():
             return 'same'
         
@@ -118,24 +115,33 @@ class ConfidenceBaseline:
     
     def predict(self, row: pd.Series, attribute: str = 'name') -> Literal['current', 'base', 'same', 'unclear']:
         """Predict based on confidence scores."""
-        current_val = row.get('names' if attribute == 'name' else attribute + 's', None)
-        base_val = row.get('base_names' if attribute == 'name' else 'base_' + attribute + 's', None)
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
+        attr_col_base = 'base_' + attr_col_curr
         
-        if pd.isna(current_val) and pd.isna(base_val):
+        current_data_val = row.get(attr_col_curr)
+        base_data_val = row.get(attr_col_base)
+        
+        if pd.isna(current_data_val) and pd.isna(base_data_val):
             return 'unclear'
-        if pd.isna(current_val):
+        if pd.isna(current_data_val):
             return 'base'
-        if pd.isna(base_val):
+        if pd.isna(base_data_val):
             return 'current'
         
         # Check if same
         if attribute == 'name':
-            current_primary = extract_name_primary(current_val)
-            base_primary = extract_name_primary(base_val)
-            if current_primary.lower() == base_primary.lower():
+            current_primary = extract_name_primary(current_data_val)
+            base_primary = extract_name_primary(base_data_val)
+            if current_primary and base_primary and current_primary.lower() == base_primary.lower():
                 return 'same'
         else:
-            if str(current_val).strip() == str(base_val).strip():
+            if str(current_data_val).strip() == str(base_data_val).strip():
                 return 'same'
         
         # Compare confidence
@@ -163,38 +169,56 @@ class CompletenessBaseline:
     def __init__(self):
         self.name = "Completeness-Based"
     
-    def _calculate_completeness(self, value):
+    def _calculate_completeness(self, value, attribute: str = 'name'):
         """Calculate a completeness score for a value."""
-        if pd.isna(value):
+        if pd.isna(value) or not value:
             return 0.0
         
-        score = 1.0
+        score = 1.0 # Base score for existence
         
-        # For names: check if it has proper structure
         if isinstance(value, str):
             try:
                 parsed = json.loads(value)
                 if isinstance(parsed, dict):
-                    # Check for primary field
-                    if 'primary' in parsed and parsed['primary']:
-                        score += 0.5
-                    # Check for additional fields
-                    if len(parsed) > 1:
-                        score += 0.3
-            except:
-                # If not JSON, just check length
-                if len(value.strip()) > 0:
-                    score = 1.0
-                else:
-                    score = 0.0
+                    if attribute == 'category':
+                        # Category specific scoring
+                        if 'primary' in parsed and parsed['primary']:
+                            score += 2.0 # Higher score for having a primary category
+                            if ' > ' in parsed['primary']:
+                                score += parsed['primary'].count(' > ') * 0.75 # Score for hierarchy depth (more specific)
+                        if 'alternate' in parsed and parsed['alternate'] and len(parsed['alternate']) > 0:
+                            score += len(parsed['alternate']) * 0.5 # Score for multiple alternates (more details)
+                    else: # General JSON handling for other attributes
+                        if 'primary' in parsed and parsed['primary']:
+                            score += 0.5
+                        if len(parsed) > 1: # More complex structure beyond just primary
+                            score += 0.3
+                elif isinstance(parsed, list):
+                    score += len(parsed) * 0.1 # More items in list is more complete
+                else: # Not a dict or list after parsing, e.g. a number or boolean
+                    score += 0.1
+            except json.JSONDecodeError: # Not JSON, treat as a simple string
+                if attribute == 'category' and len(value.strip()) > 0:
+                    # If it's a category and not JSON, but has text, it's a simple flat category
+                    score += 0.5 # Some completeness, but less than structured JSON
+                elif len(value.strip()) > 0:
+                    score += 0.1
         
         return score
     
     def predict(self, row: pd.Series, attribute: str = 'name') -> Literal['current', 'base', 'same', 'unclear']:
         """Predict based on completeness."""
-        attr_col = 'names' if attribute == 'name' else attribute + 's'
-        current_val = row[attr_col]
-        base_val = row[f'base_{attr_col}']
+        attr_map = {
+            'phone': 'phones',
+            'website': 'websites',
+            'address': 'addresses',
+            'category': 'categories'
+        }
+        attr_col_curr = attr_map.get(attribute, attribute + 's')
+        attr_col_base = 'base_' + attr_col_curr
+        
+        current_val = row.get(attr_col_curr)
+        base_val = row.get(attr_col_base)
         
         if pd.isna(current_val) and pd.isna(base_val):
             return 'unclear'
@@ -207,18 +231,18 @@ class CompletenessBaseline:
         if attribute == 'name':
             current_primary = extract_name_primary(current_val)
             base_primary = extract_name_primary(base_val)
-            if current_primary.lower() == base_primary.lower():
+            if current_primary and base_primary and current_primary.lower() == base_primary.lower():
                 return 'same'
-        else:
+        else: # For other attributes, simple string comparison
             if str(current_val).strip() == str(base_val).strip():
                 return 'same'
         
         # Compare completeness
-        current_complete = self._calculate_completeness(current_val)
-        base_complete = self._calculate_completeness(base_val)
+        current_complete = self._calculate_completeness(current_val, attribute)
+        base_complete = self._calculate_completeness(base_val, attribute)
         
-        if abs(current_complete - base_complete) < 0.1:
-            return 'current'  # Default to current if equal
+        if abs(current_complete - base_complete) < 0.01: # Small epsilon for float comparison
+            return 'current' # Default to current if equal or very close
         
         return 'current' if current_complete > base_complete else 'base'
     
@@ -269,7 +293,8 @@ class HybridBaseline:
         elif recency_pred == 'base':
             scores['base'] += self.recency_weight
         elif recency_pred == 'same':
-            scores['same'] += self.recency_weight
+            # If recency says same, it doesn't push current/base, so no score here
+            pass
         
         # Confidence
         if confidence_pred == 'current':
@@ -277,7 +302,9 @@ class HybridBaseline:
         elif confidence_pred == 'base':
             scores['base'] += self.confidence_weight
         elif confidence_pred == 'same':
-            scores['same'] += self.confidence_weight
+            # Split confidence weight if both seem equal based on confidence
+            scores['current'] += self.confidence_weight / 2
+            scores['base'] += self.confidence_weight / 2
         
         # Completeness
         if completeness_pred == 'current':
@@ -285,67 +312,78 @@ class HybridBaseline:
         elif completeness_pred == 'base':
             scores['base'] += self.completeness_weight
         elif completeness_pred == 'same':
-            scores['same'] += self.completeness_weight
+             # Split completeness weight
+            scores['current'] += self.completeness_weight / 2
+            scores['base'] += self.completeness_weight / 2
         
         # Return highest scoring option
-        if scores['same'] > scores['current'] and scores['same'] > scores['base']:
-            return 'same'
+        if abs(scores['current'] - scores['base']) < 0.01: # Epsilon for ties
+             # If scores are very close, try to keep 'same' if any baseline suggested it
+            if recency_pred == 'same' or confidence_pred == 'same' or completeness_pred == 'same':
+                return 'same'
+            return 'current' # Default tie-break to current
         
-        return 'current' if scores['current'] >= scores['base'] else 'base'
+        return 'current' if scores['current'] > scores['base'] else 'base'
     
     def predict_batch(self, df: pd.DataFrame, attribute: str = 'name') -> list:
         """Predict for a batch of records."""
         return [self.predict(row, attribute) for _, row in df.iterrows()]
 
 
-def load_golden_labels(golden_file: str) -> Dict[str, str]:
-    """
-    Load golden labels from JSON file.
+def load_data_for_baselines(data_file: str) -> pd.DataFrame:
+    """Load input data for baselines, handling both parquet and JSON."""
+    data_path = Path(data_file)
+    if data_path.suffix == '.parquet':
+        df = pd.read_parquet(data_path)
+    elif data_path.suffix == '.json':
+        with open(data_path, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+        
+        processed_records = []
+        for record in json_data:
+            row_data = {
+                'id': record['id'],
+                'names': record['data']['current']['names'] if 'current' in record['data'] and 'names' in record['data']['current'] else None,
+                'base_names': record['data']['base']['names'] if 'base' in record['data'] and 'names' in record['data']['base'] else None,
+                'phones': record['data']['current']['phones'] if 'current' in record['data'] and 'phones' in record['data']['current'] else None,
+                'base_phones': record['data']['base']['phones'] if 'base' in record['data'] and 'phones' in record['data']['base'] else None,
+                'websites': record['data']['current']['websites'] if 'current' in record['data'] and 'websites' in record['data']['current'] else None,
+                'base_websites': record['data']['base']['websites'] if 'base' in record['data'] and 'websites' in record['data']['base'] else None,
+                'addresses': record['data']['current']['addresses'] if 'current' in record['data'] and 'addresses' in record['data']['current'] else None,
+                'base_addresses': record['data']['base']['addresses'] if 'base' in record['data'] and 'addresses' in record['data']['base'] else None,
+                'categories': record['data']['current']['categories'] if 'current' in record['data'] and 'categories' in record['data']['current'] else None,
+                'base_categories': record['data']['base']['categories'] if 'base' in record['data'] and 'categories' in record['data']['base'] else None,
+                'confidence': record['data']['current'].get('confidence', 0.0) if 'current' in record['data'] else 0.0,
+                'base_confidence': record['data']['base'].get('confidence', 0.0) if 'base' in record['data'] else 0.0
+            }
+            processed_records.append(row_data)
+        df = pd.DataFrame(processed_records)
+    else:
+        raise ValueError(f"Unsupported file type for {data_file}. Only .parquet and .json are supported.")
     
-    Returns:
-        Dictionary mapping record ID to label for a specific attribute
-    """
-    with open(golden_file, 'r') as f:
-        golden_data = json.load(f)
-    
-    labels = {}
-    for record in golden_data:
-        record_id = record['id']
-        # For now, assume we're looking at 'name' attribute
-        # This can be extended to handle multiple attributes
-        label = record.get('labels', {}).get('name', 'unclear')
-        labels[record_id] = label
-    
-    return labels
+    return df
 
 
 def main():
     """Test baseline heuristics."""
     import argparse
+    from collections import Counter
     
     parser = argparse.ArgumentParser(description='Test baseline heuristics')
-    parser.add_argument('--data', default='data/project_b_samples_2k.parquet',
-                       help='Input data file')
-    parser.add_argument('--golden', default='data/processed/golden_dataset_sample.json',
-                       help='Golden labels file')
+    parser.add_argument('--data', required=True,
+                       help='Input data file (parquet or json)')
     parser.add_argument('--attribute', default='name',
                        choices=['name', 'phone', 'website', 'address', 'category'],
                        help='Attribute to evaluate')
     parser.add_argument('--baseline', default='most_recent',
                        choices=['most_recent', 'confidence', 'completeness', 'hybrid'],
                        help='Baseline algorithm to use')
+    parser.add_argument('--output', help='Output JSON file for predictions (dict: record_id -> prediction)')
     
     args = parser.parse_args()
     
     # Load data
-    print(f"Loading data from {args.data}...")
-    df = pd.read_parquet(args.data)
-    print(f"Loaded {len(df)} records")
-    
-    # Load golden labels
-    print(f"Loading golden labels from {args.golden}...")
-    golden_labels = load_golden_labels(args.golden)
-    print(f"Loaded {len(golden_labels)} labels")
+    df = load_data_for_baselines(args.data)
     
     # Initialize baseline
     if args.baseline == 'most_recent':
@@ -357,47 +395,28 @@ def main():
     else:
         baseline = HybridBaseline()
     
-    print(f"\nUsing baseline: {baseline.name}")
+    print(f"\nUsing baseline: {baseline.name} for attribute: {args.attribute}")
     
     # Make predictions
-    print(f"Making predictions for '{args.attribute}' attribute...")
-    predictions = baseline.predict_batch(df, args.attribute)
+    predictions_list = baseline.predict_batch(df, args.attribute)
     
-    # Evaluate (if golden labels available)
-    if golden_labels:
-        # Match predictions with golden labels
-        correct = 0
-        total = 0
-        
-        for idx, row in df.iterrows():
-            record_id = row['id']
-            if record_id in golden_labels:
-                golden_label = golden_labels[record_id]
-                pred = predictions[idx]
-                
-                # Convert predictions to match golden label format
-                if pred == 'current':
-                    pred_label = 'current'
-                elif pred == 'base':
-                    pred_label = 'base'
-                elif pred == 'same':
-                    pred_label = 'same'
-                else:
-                    pred_label = 'unclear'
-                
-                if pred_label == golden_label:
-                    correct += 1
-                total += 1
-        
-        accuracy = correct / total if total > 0 else 0.0
-        print(f"\nAccuracy: {correct}/{total} = {accuracy:.4f} ({accuracy*100:.2f}%)")
+    # Format predictions for output
+    output_predictions = {}
+    for idx, row in df.iterrows():
+        output_predictions[row['id']] = predictions_list[idx]
     
-    print(f"\nPredictions made: {len(predictions)}")
-    from collections import Counter
-    pred_dist = Counter(predictions)
-    print(f"Prediction distribution: {dict(pred_dist)}")
+    # Save predictions
+    if args.output:
+        output_path = Path(args.output)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(output_predictions, f, indent=2, ensure_ascii=False)
+        print(f"Predictions saved to {args.output}")
+    else:
+        print("\nPredictions made but not saved (no --output specified).")
+    
+    print(f"\nPrediction distribution: {dict(Counter(predictions_list))}")
 
 
 if __name__ == "__main__":
     main()
-

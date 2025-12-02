@@ -16,8 +16,38 @@ def perturb_name(name):
         return name.upper() # Uppercase
     elif choice < 0.7:
         return name.replace("'", "") # Remove punctuation
+    elif choice < 0.9:
+        # Remove suffix
+        return re.sub(r'\b(Inc|LLC|Ltd|Corp)\.?\b', '', name, flags=re.IGNORECASE).strip()
     else:
         return name # No change
+
+def perturb_category(categories_str):
+    """Simulate category quality issues."""
+    if not categories_str: return "{}"
+    
+    # 50% chance to return simple string wrapped in JSON (simulating flat data)
+    if random.random() < 0.5:
+        return json.dumps({"primary": categories_str.split(',')[0]})
+    
+    # 50% chance to return structured but less specific
+    cats = categories_str.split(', ')
+    primary = cats[0]
+    # Simulate hierarchy stripping or loss of detail
+    if random.random() < 0.5:
+        return json.dumps({"primary": primary.lower(), "alternate": []})
+    
+    return json.dumps({"primary": primary, "alternate": []}) # Remove alternates
+
+def perturb_website(website):
+    """Degrade website quality."""
+    if not website: return "[]"
+    web_str = website
+    if "https://" in web_str:
+        web_str = web_str.replace("https://", "http://")
+    if "www." in web_str:
+        web_str = web_str.replace("www.", "")
+    return json.dumps([web_str])
 
 def perturb_phone(phone):
     """Simulate phone formatting issues."""
@@ -39,15 +69,21 @@ def generate_fake_website(name, business_id):
     clean_name = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
     return f"https://www.{clean_name}.com"
 
+import argparse
+
 def create_synthetic_dataset(limit=2000):
-    print(f"Generating {limit} synthetic records from Yelp...")
+    print(f"Generating synthetic records from Yelp (limit={limit})...")
     
     records = []
     with open(YELP_PATH, 'r', encoding='utf-8') as f:
         yelp_data = [json.loads(line) for line in f]
     
-    # Sample random records
-    sampled_yelp = random.sample(yelp_data, min(limit, len(yelp_data)))
+    # Sample records
+    if limit > 0 and limit < len(yelp_data):
+        sampled_yelp = random.sample(yelp_data, limit)
+    else:
+        sampled_yelp = yelp_data
+        print(f"Using all {len(sampled_yelp)} Yelp records.")
     
     for i, y in enumerate(sampled_yelp):
         # Generate fake data if missing (Yelp public dataset often lacks phone/web)
@@ -79,7 +115,7 @@ def create_synthetic_dataset(limit=2000):
         base = {
             "names": json.dumps({"primary": perturb_name(y['name'])}),
             "phones": json.dumps([perturb_phone(phone_val)]),
-            "websites": json.dumps([website_val.replace('https://', 'http://')]) if random.random() < 0.5 else "[]", # Degrade website
+            "websites": perturb_website(website_val) if random.random() < 0.7 else "[]", # Degrade website more often
             "addresses": json.dumps([{
                 "freeform": y['address'],
                 "locality": y['city'],
@@ -87,7 +123,7 @@ def create_synthetic_dataset(limit=2000):
                 # Simulate missing postcode in base
                 "country": "US"
             }]),
-            "categories": "{}" # Simulate missing category
+            "categories": perturb_category(y['categories']) # Use new category perturber
         }
         
         # Randomly swap to balance labels
@@ -120,4 +156,8 @@ def create_synthetic_dataset(limit=2000):
     print(f"✅ Generated {len(records)} synthetic records to {OUTPUT_PATH}")
 
 if __name__ == "__main__":
-    create_synthetic_dataset()
+    parser = argparse.ArgumentParser(description='Generate synthetic golden dataset')
+    parser.add_argument('--limit', type=int, default=2000, help='Number of records to generate (0 for all)')
+    args = parser.parse_args()
+    
+    create_synthetic_dataset(args.limit)

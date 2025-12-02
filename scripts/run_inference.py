@@ -1,4 +1,3 @@
-
 import pandas as pd
 import json
 import joblib
@@ -74,7 +73,38 @@ def run_inference():
 
     # 1. Load Data
     print(f"Loading Overture data from {args.data}...")
-    df = pd.read_parquet(args.data)
+    
+    data_path = Path(args.data)
+    if data_path.suffix == '.parquet':
+        df = pd.read_parquet(data_path)
+    elif data_path.suffix == '.json':
+        with open(data_path, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+        
+        # Transform JSON data to a DataFrame structure similar to parquet
+        processed_records = []
+        for record in json_data:
+            row_data = {
+                'id': record['id'],
+                'names': record['data']['current']['names'] if 'current' in record['data'] and 'names' in record['data']['current'] else None,
+                'base_names': record['data']['base']['names'] if 'base' in record['data'] and 'names' in record['data']['base'] else None,
+                'phones': record['data']['current']['phones'] if 'current' in record['data'] and 'phones' in record['data']['current'] else None,
+                'base_phones': record['data']['base']['phones'] if 'base' in record['data'] and 'phones' in record['data']['base'] else None,
+                'websites': record['data']['current']['websites'] if 'current' in record['data'] and 'websites' in record['data']['current'] else None,
+                'base_websites': record['data']['base']['websites'] if 'base' in record['data'] and 'websites' in record['data']['base'] else None,
+                'addresses': record['data']['current']['addresses'] if 'current' in record['data'] and 'addresses' in record['data']['current'] else None,
+                'base_addresses': record['data']['base']['addresses'] if 'base' in record['data'] and 'addresses' in record['data']['base'] else None,
+                'categories': record['data']['current']['categories'] if 'current' in record['data'] and 'categories' in record['data']['current'] else None,
+                'base_categories': record['data']['base']['categories'] if 'base' in record['data'] and 'categories' in record['data']['base'] else None,
+                'confidence': record['data']['current'].get('confidence', 0.0) if 'current' in record['data'] else 0.0,
+                'base_confidence': record['data']['base'].get('confidence', 0.0) if 'base' in record['data'] else 0.0
+            }
+            processed_records.append(row_data)
+        df = pd.DataFrame(processed_records)
+    else:
+        print(f"Error: Unsupported file type for {args.data}. Only .parquet and .json are supported.")
+        return
+        
     print(f"Loaded {len(df)} records.")
 
     # 2. Load Model
