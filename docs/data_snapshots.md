@@ -132,3 +132,40 @@ _Source: `docs/OKRs.md` + `data/results/ml_evaluation_200_real_*.json`_
 | Platform | Pure Python (Sklearn + custom rules) |
 
 Use any of the above tables/blocks as images for Slide 7.
+
+### D. Concrete Hybrid Voting Example (Name Attribute)
+
+_Extracted from `data/project_b_samples_2k.parquet` using `baseline_heuristics.py`_
+
+```text
+Record ID: 1407374885933937
+Current name: {"primary":"Red Wing - Roswell, GA"}
+Base name:    {"primary":"Red Wing"}
+
+Individual rule outputs (name selector):
+- MostRecentBaseline     → current
+- ConfidenceBaseline     → same
+- CompletenessBaseline   → current
+
+Hybrid weights:
+- recency_weight      = 0.3
+- confidence_weight   = 0.5
+- completeness_weight = 0.2
+
+Hybrid score accumulation:
+- From MostRecentBaseline (current):
+    score_current += 0.3
+- From ConfidenceBaseline (same):
+    score_same    += 0.5
+- From CompletenessBaseline (current):
+    score_current += 0.2
+
+Final scores:
+- score_current = 0.3 + 0.2 = 0.5
+- score_same    = 0.5
+- score_base    = 0.0
+
+Hybrid prediction: SAME (ties current in total weight, but confidence vote pushes it toward equivalence)
+```
+
+You can screenshot this block to illustrate how the hybrid ensemble combines disagreeing rules into a single decision.
