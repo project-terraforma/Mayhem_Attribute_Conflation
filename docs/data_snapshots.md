@@ -169,3 +169,27 @@ Hybrid prediction: SAME (ties current in total weight, but confidence vote pushe
 ```
 
 You can screenshot this block to illustrate how the hybrid ensemble combines disagreeing rules into a single decision.
+
+### ML Feature Vector Example (Name Attribute)
+
+_Extracted via `extract_features_for_record` on the first record of `project_b_samples_2k.parquet`_
+
+```json
+{
+  "confidence_current": 0.9963,
+  "confidence_base": 0.7700,
+  "confidence_diff": 0.2263,
+  "confidence_ratio": 1.2938,
+  "sources_current_count": 24,
+  "sources_base_count": 4,
+  "sources_count_diff": 20,
+  "name_exact_match": 1.0,
+  "name_exact_match_lower": 1.0,
+  "name_length_ratio": 1.0,
+  "name_levenshtein_similarity": 1.0,
+  "name_jaro_winkler_similarity": 1.0
+  // ... ~15 more name-specific features (capitalization flags, punctuation, etc.)
+}
+```
+
+Screenshot this block to show how each (current, base) pair becomes a numeric feature vector for the ML models.
